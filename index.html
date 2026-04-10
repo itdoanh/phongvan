@@ -65,6 +65,9 @@
             font-size: calc(1.25rem * var(--text-scale)) !important;
             line-height: calc(1.6 * var(--text-scale)) !important;
             transition: font-size 0.2s ease, line-height 0.2s ease;
+            white-space: normal;
+            text-wrap: pretty;
+            word-break: break-word;
         }
 
         @media (min-width: 768px) {
@@ -77,12 +80,41 @@
             font-size: calc(1.05rem * var(--text-scale)) !important;
             line-height: calc(1.55 * var(--text-scale)) !important;
             transition: font-size 0.2s ease, line-height 0.2s ease;
+            display: block;
+            white-space: pre-line;
+            text-wrap: pretty;
+            word-break: break-word;
+            flex: 1;
+        }
+
+        .option-badge {
+            margin-top: 0.22rem;
+            align-self: start;
+            line-height: 1;
         }
 
         #q-cat {
             font-size: calc(0.875rem * var(--text-scale));
             line-height: calc(1.25 * var(--text-scale));
             transition: font-size 0.2s ease, line-height 0.2s ease;
+        }
+
+        .q-prefix-tag {
+            display: inline-block;
+            margin-bottom: 0.7rem;
+            padding: 0.22rem 0.6rem;
+            border-radius: 999px;
+            font-size: 0.78em;
+            letter-spacing: 0.02em;
+            border: 1px solid rgba(0, 243, 255, 0.35);
+            background: rgba(0, 243, 255, 0.09);
+            color: #00f3ff;
+        }
+
+        .option-text br {
+            display: block;
+            content: "";
+            margin-top: 0.24rem;
         }
 
         @media (min-width: 768px) {
@@ -175,14 +207,21 @@
         /* Nút Radio tương lai */
         .cyber-radio input[type="radio"] { display: none; }
         .cyber-radio label {
-            display: flex;
-            align-items: center;
+            display: grid;
+            grid-template-columns: 2rem minmax(0, 1fr);
+            column-gap: 1rem;
+            align-items: start;
             padding: 1rem;
             border-radius: 0.5rem;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
             position: relative;
             overflow: hidden;
+        }
+
+        .cyber-radio label:focus-visible {
+            outline: 2px solid rgba(0, 243, 255, 0.8);
+            outline-offset: 2px;
         }
         
         .dark .cyber-radio label {
@@ -195,7 +234,7 @@
         }
 
         .cyber-radio input[type="radio"]:checked + label {
-            transform: translateX(10px);
+            transform: none;
         }
         
         .dark .cyber-radio input[type="radio"]:checked + label {
@@ -565,10 +604,159 @@
             },
 
             chartInstance: null,
+            keyboardBound: false,
+
+            escapeHtml(input) {
+                return String(input)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+            },
+
+            formatReadableText(rawText) {
+                const text = this.escapeHtml(rawText || '')
+                    .replace(/\r\n?/g, '\n')
+                    .replace(/\n{3,}/g, '\n\n')
+                    .trim();
+
+                // Chi format theo newline có sẵn trong JSON, không tự chèn xuống dòng.
+                return text.replace(/\n/g, '<br>');
+            },
+
+            bindKeyboardShortcuts() {
+                if (this.keyboardBound) return;
+
+                document.addEventListener('keydown', (event) => {
+                    this.handleInterviewKeyboard(event);
+                });
+
+                this.keyboardBound = true;
+            },
+
+            isEditableTarget(target) {
+                if (!target) return false;
+                const tag = (target.tagName || '').toLowerCase();
+                return tag === 'input' || tag === 'textarea' || tag === 'select' || !!target.isContentEditable;
+            },
+
+            handleInterviewKeyboard(event) {
+                if (this.state.view !== 'interview') return;
+                if (event.ctrlKey || event.altKey || event.metaKey) return;
+                if (this.isEditableTarget(event.target)) return;
+
+                const inOptionLabel = !!(event.target && event.target.closest && event.target.closest('.cyber-radio label'));
+                if (inOptionLabel && ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Enter', ' '].includes(event.key)) {
+                    return;
+                }
+
+                const key = event.key;
+                const letter = key.length === 1 ? key.toUpperCase() : '';
+
+                if (key === 'ArrowLeft') {
+                    event.preventDefault();
+                    this.prevQuestion();
+                    return;
+                }
+
+                if (key === 'ArrowRight') {
+                    event.preventDefault();
+                    this.nextQuestion();
+                    return;
+                }
+
+                if (key === 'ArrowUp') {
+                    event.preventDefault();
+                    this.selectOptionByStep(-1);
+                    return;
+                }
+
+                if (key === 'ArrowDown') {
+                    event.preventDefault();
+                    this.selectOptionByStep(1);
+                    return;
+                }
+
+                if (['A', 'B', 'C', 'D'].includes(letter)) {
+                    event.preventDefault();
+                    this.selectAnswerByLetter(letter);
+                }
+            },
+
+            selectOptionByStep(step) {
+                const q = this.data.questions[this.state.currentQuestion];
+                if (!q || !Array.isArray(q.options) || q.options.length === 0) return;
+
+                const max = q.options.length;
+                let idx = this.state.answers[this.state.currentQuestion];
+
+                if (idx === null || idx < 0 || idx >= max) {
+                    idx = step > 0 ? -1 : 0;
+                }
+
+                idx += step;
+                if (idx < 0) idx = max - 1;
+                if (idx >= max) idx = 0;
+
+                this.selectAnswer(idx);
+
+                const label = document.querySelector(`label[for="opt-${idx}"]`);
+                if (label) label.focus();
+            },
+
+            selectAnswerByLetter(letter) {
+                const map = { A: 0, B: 1, C: 2, D: 3 };
+                const idx = map[letter];
+                const q = this.data.questions[this.state.currentQuestion];
+                if (!q || idx === undefined || idx >= q.options.length) return;
+
+                this.selectAnswer(idx);
+
+                const label = document.querySelector(`label[for="opt-${idx}"]`);
+                if (label) label.focus();
+            },
+
+            handleOptionKeydown(event, optIdx) {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    this.selectAnswer(optIdx);
+                    return;
+                }
+
+                if (event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    this.selectOptionByStep(-1);
+                    return;
+                }
+
+                if (event.key === 'ArrowDown') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    this.selectOptionByStep(1);
+                    return;
+                }
+
+                if (event.key === 'ArrowLeft') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    this.prevQuestion();
+                    return;
+                }
+
+                if (event.key === 'ArrowRight') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    this.nextQuestion();
+                }
+            },
 
             async init() {
                 await this.loadQuestions();
                 this.checkSystemTheme();
+                this.bindKeyboardShortcuts();
                 this.updateTextSize(this.state.textSize);
                 this.applyResponsiveInterviewLayout();
                 window.addEventListener('resize', () => this.applyResponsiveInterviewLayout());
@@ -757,8 +945,8 @@
                 this.renderGrid();
 
 
-                // Nội dung câu hỏi
-                document.getElementById('q-text').innerText = q.text;
+                // Nội dung câu hỏi với format dễ đọc
+                document.getElementById('q-text').innerHTML = this.formatReadableText(q.text, 'question');
 
                 // Đáp án
                 const optionsContainer = document.getElementById('q-options');
@@ -769,9 +957,9 @@
                     const html = `
                         <div class="cyber-radio">
                             <input type="radio" name="q-option" id="opt-${optIdx}" value="${optIdx}" ${isChecked ? 'checked' : ''} onchange="app.selectAnswer(${optIdx})">
-                            <label for="opt-${optIdx}">
-                                <span class="w-8 h-8 rounded-full border border-current flex items-center justify-center mr-4 flex-shrink-0 text-sm font-bold">${String.fromCharCode(65 + optIdx)}</span>
-                                <span class="option-text">${optText}</span>
+                            <label for="opt-${optIdx}" tabindex="0" onkeydown="app.handleOptionKeydown(event, ${optIdx})">
+                                <span class="option-badge w-8 h-8 rounded-full border border-current flex items-center justify-center text-sm font-bold">${String.fromCharCode(65 + optIdx)}</span>
+                                <span class="option-text">${this.formatReadableText(optText, 'option')}</span>
                             </label>
                         </div>
                     `;
@@ -792,6 +980,10 @@
 
             selectAnswer(optIndex) {
                 this.state.answers[this.state.currentQuestion] = optIndex;
+
+                const radio = document.getElementById(`opt-${optIndex}`);
+                if (radio) radio.checked = true;
+
                 this.renderGrid(); // Update grid state to "Đã làm"
             },
             
@@ -827,6 +1019,7 @@
                 grid.innerHTML = '';
                 for (let i = 0; i < this.data.questions.length; i++) {
                     const btn = document.createElement('button');
+                    btn.tabIndex = 0;
                     
                     btn.className = `w-full aspect-square rounded-md sm:rounded-lg font-tech font-bold text-[10px] sm:text-xs xl:text-sm flex items-center justify-center transition-all duration-200 border relative hover:scale-105 `;
                     
