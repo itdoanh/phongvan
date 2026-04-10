@@ -631,10 +631,10 @@
     "categoryId": "c3",
     "text": "Trong thiết kế cơ sở hạ tầng, sự khác biệt căn bản giữa thuật ngữ Load Balancing (Cân bằng tải) và Failover (Chuyển đổi dự phòng) là gì?",
     "options": [
-      "Load Balancing phân phối lưu lượng mạng đang hoạt động liên tục để tối ưu hóa tài nguyên, trong khi Failover là cơ chế chờ sẵn chỉ kích hoạt để chuyển hướng khi một nút mạng gặp sự cố nghiêm trọng.",
-      "Load Balancing chỉ được áp dụng độc quyền cho các mạng riêng ảo (VPN) theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Failover chịu trách nhiệm nén dữ liệu tĩnh trước khi truyền tải xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Hai thuật ngữ này hoàn toàn đồng nghĩa và có thể hoán đổi cho nhau theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Load Balancing phân phối tải; Failover chỉ kích hoạt khi có sự cố.",
+      "Load Balancing chỉ được áp dụng độc quyền cho các mạng riêng ảo (VPN).",
+      "Failover chịu trách nhiệm nén dữ liệu tĩnh trước khi truyền tải.",
+      "Hai thuật ngữ này hoàn toàn đồng nghĩa và có thể hoán đổi cho nhau."
     ],
     "correct": 0,
     "explanation": "Thiết kế Hệ thống (System Design) và Kiến trúc Vi dịch vụ (Microservices)\n\nĐây là ranh giới phân định năng lực giữa một lập trình viên thông thường và một kiến trúc sư phần mềm. Thiết kế hệ thống đánh giá tư duy vĩ mô, khả năng dự báo điểm mù kỹ thuật, và nghệ thuật đưa ra các quyết định nhượng bộ (trade-offs) giữa hiệu năng, chi phí và độ tin cậy.13"
@@ -647,10 +647,10 @@
     "categoryId": "c3",
     "text": "Mạng Phân phối Nội dung (CDN) là cơ chế bắt buộc để giảm độ trễ (latency) toàn cầu. Nó hoạt động dựa trên nguyên lý kỹ thuật nào?",
     "options": [
-      "Viết lại logic nghiệp vụ trên máy chủ gốc bằng ngôn ngữ lập trình cấp thấp theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Lưu trữ bản sao (cache) của các tài nguyên tĩnh tại nhiều máy chủ biên (edge servers) phân bổ theo vị trí địa lý, đảm bảo nội dung được phục vụ từ điểm gần người dùng nhất.",
-      "Mã hóa toàn bộ dữ liệu cơ sở dữ liệu truyền trực tiếp sang máy khách theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Tự động dịch tài liệu sang ngôn ngữ địa phương theo thời gian thực với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả."
+      "Viết lại logic nghiệp vụ trên máy chủ gốc bằng ngôn ngữ lập trình cấp thấp.",
+      "CDN cache nội dung tĩnh tại các edge server gần người dùng để giảm độ trễ.",
+      "Mã hóa toàn bộ dữ liệu cơ sở dữ liệu truyền trực tiếp sang máy khách.",
+      "Tự động dịch tài liệu sang ngôn ngữ địa phương theo thời gian thực."
     ],
     "correct": 1,
     "explanation": "Thiết kế Hệ thống (System Design) và Kiến trúc Vi dịch vụ (Microservices)\n\nĐây là ranh giới phân định năng lực giữa một lập trình viên thông thường và một kiến trúc sư phần mềm. Thiết kế hệ thống đánh giá tư duy vĩ mô, khả năng dự báo điểm mù kỹ thuật, và nghệ thuật đưa ra các quyết định nhượng bộ (trade-offs) giữa hiệu năng, chi phí và độ tin cậy.13"
@@ -663,10 +663,10 @@
     "categoryId": "c3",
     "text": "Khi đối mặt với việc lựa chọn công nghệ lưu trữ, bối cảnh nào khiến cơ sở dữ liệu NoSQL (như MongoDB, Cassandra) vượt trội hơn CSDL Quan hệ (như PostgreSQL, MySQL)?",
     "options": [
-      "Khi hệ thống yêu cầu cấu trúc dữ liệu đa hình, phát triển tính năng cực nhanh (schema-less) và cần khả năng mở rộng ngang (horizontal scaling) dễ dàng để xử lý dữ liệu phi cấu trúc khối lượng lớn.",
-      "Khi dữ liệu đòi hỏi sự tuân thủ tuyệt đối chuẩn giao dịch ACID cho các quy trình tài chính, kế toán cốt lõi theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Khi hệ thống phân tích cần thực hiện các phép truy vấn JOIN cực kỳ phức tạp qua hàng chục bảng với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Khi xây dựng một trang blog cá nhân có lượng truy cập thấp trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "NoSQL phù hợp dữ liệu linh hoạt, thay đổi nhanh và cần mở rộng ngang ở quy mô lớn.",
+      "Khi dữ liệu đòi hỏi sự tuân thủ tuyệt đối chuẩn giao dịch ACID cho các quy trình tài chính, kế toán cốt lõi.",
+      "Khi hệ thống phân tích cần thực hiện các phép truy vấn JOIN cực kỳ phức tạp qua hàng chục bảng.",
+      "Khi xây dựng một trang blog cá nhân có lượng truy cập thấp."
     ],
     "correct": 0,
     "explanation": "Thiết kế Hệ thống (System Design) và Kiến trúc Vi dịch vụ (Microservices)\n\nĐây là ranh giới phân định năng lực giữa một lập trình viên thông thường và một kiến trúc sư phần mềm. Thiết kế hệ thống đánh giá tư duy vĩ mô, khả năng dự báo điểm mù kỹ thuật, và nghệ thuật đưa ra các quyết định nhượng bộ (trade-offs) giữa hiệu năng, chi phí và độ tin cậy.13"
@@ -679,10 +679,10 @@
     "categoryId": "c3",
     "text": "Việc áp dụng các hệ thống Message Queues (Hàng đợi thông điệp như Apache Kafka, RabbitMQ) mang lại lợi thế chiến lược nào trong các kiến trúc hướng sự kiện?",
     "options": [
-      "Buộc các máy chủ phải đồng bộ hóa đồng hồ hệ thống tuyệt đối theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Tạo sự ngắt kết nối không đồng bộ (asynchronous decoupling) giữa dịch vụ sản xuất (Producer) và dịch vụ tiêu thụ (Consumer), hấp thụ các cú sốc lưu lượng (traffic spikes) hiệu quả.",
-      "Xây dựng một cơ sở dữ liệu đồ thị phức tạp trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Chuyển đổi mã nguồn ngôn ngữ tĩnh thành ngôn ngữ động theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này."
+      "Buộc các máy chủ phải đồng bộ hóa đồng hồ hệ thống tuyệt đối.",
+      "Message Queue tách rời producer-consumer và đệm lưu lượng.",
+      "Xây dựng một cơ sở dữ liệu đồ thị phức tạp.",
+      "Chuyển đổi mã nguồn ngôn ngữ tĩnh thành ngôn ngữ động."
     ],
     "correct": 1,
     "explanation": "Thiết kế Hệ thống (System Design) và Kiến trúc Vi dịch vụ (Microservices)\n\nĐây là ranh giới phân định năng lực giữa một lập trình viên thông thường và một kiến trúc sư phần mềm. Thiết kế hệ thống đánh giá tư duy vĩ mô, khả năng dự báo điểm mù kỹ thuật, và nghệ thuật đưa ra các quyết định nhượng bộ (trade-offs) giữa hiệu năng, chi phí và độ tin cậy.13"
@@ -695,10 +695,10 @@
     "categoryId": "c3",
     "text": "Cơ chế Rate Limiting (Giới hạn tỷ lệ) thường được cấu hình tại API Gateway đóng vai trò phòng vệ nào?",
     "options": [
-      "Tối đa hóa băng thông cho một nhóm người dùng đặc quyền với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Giới hạn nghiêm ngặt số lượng yêu cầu mà một địa chỉ IP hoặc định danh máy khách có thể thực hiện trong một khoảng thời gian (ví dụ: Token Bucket algorithm), nhằm ngăn chặn tấn công DDoS và cạn kiệt tài nguyên.",
-      "Tính toán trực tiếp chi phí máy chủ mạng theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Theo dõi thời gian thực các tệp tin cấu hình bộ định tuyến xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Tối đa hóa băng thông cho một nhóm người dùng đặc quyền.",
+      "Rate limiting giới hạn request theo thời gian.",
+      "Tính toán trực tiếp chi phí máy chủ mạng.",
+      "Theo dõi thời gian thực các tệp tin cấu hình bộ định tuyến."
     ],
     "correct": 1,
     "explanation": "Thiết kế Hệ thống (System Design) và Kiến trúc Vi dịch vụ (Microservices)\n\nĐây là ranh giới phân định năng lực giữa một lập trình viên thông thường và một kiến trúc sư phần mềm. Thiết kế hệ thống đánh giá tư duy vĩ mô, khả năng dự báo điểm mù kỹ thuật, và nghệ thuật đưa ra các quyết định nhượng bộ (trade-offs) giữa hiệu năng, chi phí và độ tin cậy.13"
@@ -711,10 +711,10 @@
     "categoryId": "c3",
     "text": "Kỹ thuật \"Data Partitioning\" (Phân vùng dữ liệu) xử lý nút thắt cổ chai nào trong các hệ thống lưu trữ quy mô lớn?",
     "options": [
-      "Tự động sao chép mã nguồn lưu trữ trên môi trường đám mây độc lập trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Chia nhỏ các bảng cơ sở dữ liệu khổng lồ thành các phần quản lý được (về logic hoặc vật lý), giúp thu hẹp phạm vi quét dữ liệu (table scans) và cải thiện tốc độ truy vấn/bảo trì.",
-      "Thu hồi quyền kiểm soát truy cập từ các ứng dụng lỗi thời xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Áp dụng các thuật toán nén giải thuật phức tạp lên dữ liệu âm thanh theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Tự động sao chép mã nguồn lưu trữ trên môi trường đám mây độc lập.",
+      "Data partitioning chia bảng lớn để tăng tốc truy vấn.",
+      "Thu hồi quyền kiểm soát truy cập từ các ứng dụng lỗi thời.",
+      "Áp dụng các thuật toán nén giải thuật phức tạp lên dữ liệu âm thanh."
     ],
     "correct": 1,
     "explanation": "Thiết kế Hệ thống (System Design) và Kiến trúc Vi dịch vụ (Microservices)\n\nĐây là ranh giới phân định năng lực giữa một lập trình viên thông thường và một kiến trúc sư phần mềm. Thiết kế hệ thống đánh giá tư duy vĩ mô, khả năng dự báo điểm mù kỹ thuật, và nghệ thuật đưa ra các quyết định nhượng bộ (trade-offs) giữa hiệu năng, chi phí và độ tin cậy.13"
@@ -727,10 +727,10 @@
     "categoryId": "c4",
     "text": "Dịch vụ đám mây nào của AWS cung cấp tính năng cốt lõi giúp tự động điều chỉnh số lượng phiên bản máy chủ tính toán (instances) dựa trên sự dao động thực tế của lưu lượng truy cập?",
     "options": [
-      "AWS Lambda.",
-      "Amazon EC2 Auto Scaling.",
-      "AWS Elastic Beanstalk.",
-      "Amazon Route 53."
+      "AWS Lambda (dịch vụ serverless).",
+      "Amazon EC2 Auto Scaling (tự động co giãn instance).",
+      "AWS Elastic Beanstalk (nền tảng triển khai ứng dụng).",
+      "Amazon Route 53 (dịch vụ DNS)."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -743,10 +743,10 @@
     "categoryId": "c4",
     "text": "Mô hình kiến trúc Điện toán Không máy chủ (Serverless Architecture, ví dụ: AWS Lambda) mang lại đặc tính cách mạng nào cho vòng đời phát triển phần mềm?",
     "options": [
-      "Yêu cầu lập trình viên phải trực tiếp giám sát cấu hình bảo mật hạt nhân (kernel) của hệ điều hành ảo hóa xét trong phạm vi tình huống nêu trên.",
-      "Chuyển hoàn toàn gánh nặng cấp phát và bảo trì máy chủ cho nhà cung cấp đám mây; khách hàng chỉ trả chi phí chính xác trên từng phần nghìn giây mã lệnh được thực thi.",
-      "Thời gian phản hồi mạng luôn luôn bằng không do bỏ qua mọi giao thức định tuyến với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Giới hạn môi trường chỉ hỗ trợ biên dịch ngôn ngữ C++ trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Yêu cầu lập trình viên phải trực tiếp giám sát cấu hình bảo mật hạt nhân (kernel) của hệ điều hành ảo hóa.",
+      "Nhà cung cấp cloud quản lý máy chủ, bạn chỉ trả tiền theo thời gian thực thi.",
+      "Thời gian phản hồi mạng luôn luôn bằng không do bỏ qua mọi giao thức định tuyến.",
+      "Giới hạn môi trường chỉ hỗ trợ biên dịch ngôn ngữ C++."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -759,10 +759,10 @@
     "categoryId": "c4",
     "text": "Dịch vụ Amazon S3, xương sống lưu trữ của nhiều tập đoàn lớn, được thiết kế chủ yếu dựa trên mô hình lưu trữ khái niệm nào?",
     "options": [
-      "Block storage (Lưu trữ khối lượng truyền thống) theo tiêu chí đánh giá của câu hỏi này.",
-      "Relational Database (Cơ sở dữ liệu dạng bảng quan hệ) với điều kiện biên được đề bài đặt ra.",
-      "Object storage (Lưu trữ đối tượng, bao gồm dữ liệu, siêu dữ liệu metadata, và mã định danh duy nhất).",
-      "In-memory cache (Bộ đệm trên RAM) theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Block storage (Lưu trữ khối lượng truyền thống).",
+      "Relational Database (Cơ sở dữ liệu dạng bảng quan hệ).",
+      "Object storage (dữ liệu, metadata, định danh).",
+      "In-memory cache (Bộ đệm trên RAM)."
     ],
     "correct": 2,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -775,10 +775,10 @@
     "categoryId": "c4",
     "text": "Khái niệm \"Infrastructure as Code\" (IaC) - Hạ tầng dưới dạng mã - trong triết lý vận hành DevOps định nghĩa quá trình nào?",
     "options": [
-      "Cung cấp và quản lý kiến trúc cơ sở hạ tầng mạng lưới thông qua các tập lệnh định dạng khai báo (ví dụ Terraform) thay vì thao tác cấu hình thủ công qua giao diện người dùng.",
-      "Chế tạo các bộ phận linh kiện phần cứng đặc biệt để biên dịch mã tối ưu trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Sử dụng mã nguồn để tự động tạo ra các bài kiểm thử đơn vị nội bộ theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Mã hóa độc quyền mã nguồn phần mềm tránh dịch ngược xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Quản lý hạ tầng bằng mã khai báo thay cho cấu hình thủ công.",
+      "Chế tạo các bộ phận linh kiện phần cứng đặc biệt để biên dịch mã tối ưu.",
+      "Sử dụng mã nguồn để tự động tạo ra các bài kiểm thử đơn vị nội bộ.",
+      "Mã hóa độc quyền mã nguồn phần mềm tránh dịch ngược."
     ],
     "correct": 0,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -791,10 +791,10 @@
     "categoryId": "c4",
     "text": "Thuật ngữ \"CI\" (Continuous Integration - Tích hợp Liên tục) trong chu trình CI/CD tập trung giải quyết rủi ro kỹ thuật nào?",
     "options": [
-      "Thay thế toàn bộ hệ thống quản trị rủi ro mạng nội bộ trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên trong ngữ cảnh kỹ thuật của đề bài.",
-      "Tự động hóa quá trình tích hợp mã thường xuyên của nhiều lập trình viên vào một kho lưu trữ chung, tự động xây dựng (build) và kiểm thử (test) để phát hiện sớm các xung đột và lỗi hồi quy.",
-      "Phân phối trực tiếp các bản cập nhật đến tay mọi người dùng cuối mà không cần phê duyệt xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này xét trong phạm vi tình huống nêu trên.",
-      "Cập nhật tự động các tài liệu hướng dẫn sử dụng API theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo tiêu chí đánh giá của câu hỏi này."
+      "Thay thế toàn bộ hệ thống quản trị rủi ro mạng nội bộ.",
+      "Tích hợp mã thường xuyên, tự động build và test để phát hiện lỗi sớm.",
+      "Phân phối trực tiếp các bản cập nhật đến tay mọi người dùng cuối mà không cần phê duyệt.",
+      "Cập nhật tự động các tài liệu hướng dẫn sử dụng API."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -807,10 +807,10 @@
     "categoryId": "c4",
     "text": "Sự khác biệt cốt lõi về bản chất kỹ thuật giữa Docker Image và Docker Container là gì?",
     "options": [
-      "Hoàn toàn không có sự khác biệt về mặt cấu trúc hệ thống tệp theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Container bao gồm một hệ điều hành khách (Guest OS) hoàn chỉnh như máy ảo, trong khi Image thì không xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Docker Image là một tập tin khuôn mẫu tĩnh, bất biến bao gồm mã nguồn và các tệp phụ thuộc; trong khi Container là bản thể (instance) động, đang chạy và thực thi của Image đó.",
-      "Kích thước lưu trữ của Container luôn luôn nhẹ hơn dung lượng của Image tương ứng với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Hoàn toàn không có sự khác biệt về mặt cấu trúc hệ thống tệp.",
+      "Container bao gồm một hệ điều hành khách (Guest OS) hoàn chỉnh như máy ảo, trong khi Image thì không.",
+      "Image là khuôn mẫu bất biến; Container là phiên bản đang chạy của Image.",
+      "Kích thước lưu trữ của Container luôn luôn nhẹ hơn dung lượng của Image tương ứng."
     ],
     "correct": 2,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -823,10 +823,10 @@
     "categoryId": "c4",
     "text": "Mục đích thiết kế chính của hệ sinh thái nguồn mở Kubernetes (K8s) là gì?",
     "options": [
-      "Khai thác và phân tích trực quan hóa dữ liệu Big Data thời gian thực xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Cung cấp nền tảng tự động hóa quá trình triển khai, mở rộng quy mô, và điều phối (orchestration) vòng đời hoạt động phức tạp của các ứng dụng được container hóa xuyên suốt các cụm máy chủ vật lý.",
-      "Hoạt động như một trình biên dịch và gỡ lỗi riêng biệt cho ngôn ngữ Java với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Cung cấp công cụ thiết kế giao diện đồ họa cho trình duyệt web trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Khai thác và phân tích trực quan hóa dữ liệu Big Data thời gian thực.",
+      "Điều phối triển khai và mở rộng ứng dụng container trên cụm máy chủ.",
+      "Hoạt động như một trình biên dịch và gỡ lỗi riêng biệt cho ngôn ngữ Java.",
+      "Cung cấp công cụ thiết kế giao diện đồ họa cho trình duyệt web."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -839,10 +839,10 @@
     "categoryId": "c4",
     "text": "Chiến lược triển khai Blue-Green Deployment được ưu tiên áp dụng trong các hệ thống đòi hỏi độ sẵn sàng cao nhằm giải quyết kịch bản nào?",
     "options": [
-      "Tối đa hóa giới hạn băng thông truy xuất dữ liệu trong mạng cục bộ nội bộ theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Đảm bảo quá trình cập nhật phiên bản phần mềm mới diễn ra với mức độ thời gian chết (downtime) bằng 0 bằng cách duy trì hai môi trường song song, đồng thời cung cấp khả năng khôi phục (rollback) ngay lập tức khi phát hiện rủi ro.",
-      "Cân bằng tải tĩnh phân bổ luồng dữ liệu theo bộ đệm địa lý trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Nén dung lượng lưu trữ phân mảnh của các luồng video đa phương tiện theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Tối đa hóa giới hạn băng thông truy xuất dữ liệu trong mạng cục bộ nội bộ.",
+      "Hai môi trường song song cho deploy không downtime và rollback nhanh.",
+      "Cân bằng tải tĩnh phân bổ luồng dữ liệu theo bộ đệm địa lý.",
+      "Nén dung lượng lưu trữ phân mảnh của các luồng video đa phương tiện."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -855,10 +855,10 @@
     "categoryId": "c4",
     "text": "Hệ thống Git thúc đẩy quy trình kiểm soát phiên bản và cộng tác phần mềm thông qua cơ chế phi tập trung nào?",
     "options": [
-      "Lưu trữ mọi phiên bản tạm thời dưới dạng tệp văn bản nháp trên máy chủ cục bộ duy nhất với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Cung cấp hệ thống quản lý phiên bản phân tán (Distributed Version Control) mạnh mẽ với cơ chế phân nhánh (Branching) cô lập, và rà soát mã (Code Review) thông qua các Yêu cầu hợp nhất (Pull Requests).",
-      "Cho phép điều khiển luồng lệnh máy chủ từ xa trực tiếp qua chuẩn giao thức bảo mật SSH theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Quản lý việc soạn thảo văn bản trực tuyến đồng thời xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Lưu trữ mọi phiên bản tạm thời dưới dạng tệp văn bản nháp trên máy chủ cục bộ duy nhất.",
+      "Hệ quản lý phiên bản phân tán hỗ trợ branching và code review qua pull request.",
+      "Cho phép điều khiển luồng lệnh máy chủ từ xa trực tiếp qua chuẩn giao thức bảo mật SSH.",
+      "Quản lý việc soạn thảo văn bản trực tuyến đồng thời."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -871,10 +871,10 @@
     "categoryId": "c4",
     "text": "Công cụ giám sát Prometheus đóng vai trò then chốt nào trong hệ sinh thái hạ tầng Cloud-native hiện đại?",
     "options": [
-      "Cung cấp dịch vụ định tuyến Hàng đợi Thông điệp phân tán trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Chạy các thuật toán học máy phân tích ngôn ngữ mạng lõi theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Cung cấp hệ thống cảnh báo và theo dõi số liệu (Monitoring & Alerting) mạnh mẽ, thu thập dữ liệu theo mô hình kéo (pull model) và lưu trữ bằng cơ sở dữ liệu chuỗi thời gian (time-series database) hiệu năng cao.",
-      "Cấu hình các bộ lọc gói tin phần cứng cho tường lửa ảo theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả."
+      "Cung cấp dịch vụ định tuyến Hàng đợi Thông điệp phân tán.",
+      "Chạy các thuật toán học máy phân tích ngôn ngữ mạng lõi.",
+      "Giám sát metrics và cảnh báo theo pull model.",
+      "Cấu hình các bộ lọc gói tin phần cứng cho tường lửa ảo."
     ],
     "correct": 2,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -887,10 +887,10 @@
     "categoryId": "c4",
     "text": "Tư duy thiết kế \"Hạ tầng Bất biến\" (Immutable Infrastructure) áp đặt nguyên tắc vận hành khắt khe nào?",
     "options": [
-      "Các quản trị viên được phép cấp quyền thay đổi cấu hình mã lệnh trực tiếp tự do trong thời gian máy chủ đang chạy (runtime) theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo giả định hệ thống đang được mô tả.",
-      "Nghiêm cấm mọi hành vi vá lỗi (patching) hoặc cấu hình thủ công trực tiếp trên một máy chủ đang hoạt động; mọi sự thay đổi phải được thực hiện bằng cách thay thế toàn bộ bằng một máy chủ/container mới được xây dựng từ khuôn mẫu chuẩn.",
-      "Máy chủ vật lý bị ngắt kết nối hoàn toàn khỏi mạng lưới internet công cộng để đảm bảo bảo mật theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo tiêu chí đánh giá của câu hỏi này.",
-      "Tuyệt đối không được phép cập nhật bất kỳ phiên bản phần mềm gốc nào với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên với điều kiện biên được đề bài đặt ra."
+      "Các quản trị viên được phép cấp quyền thay đổi cấu hình mã lệnh trực tiếp tự do trong thời gian máy chủ đang chạy (runtime).",
+      "Không vá thủ công trên máy đang chạy; thay thế bằng instance/container mới từ image chuẩn.",
+      "Máy chủ vật lý bị ngắt kết nối hoàn toàn khỏi mạng lưới internet công cộng để đảm bảo bảo mật.",
+      "Tuyệt đối không được phép cập nhật bất kỳ phiên bản phần mềm gốc nào."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -903,10 +903,10 @@
     "categoryId": "c4",
     "text": "Lớp kiến trúc Service Mesh (ví dụ: Istio) giải quyết các bài toán phức tạp nào trong mô hình mạng lưới Microservices?",
     "options": [
-      "Xử lý việc thu thập và phân mảnh các tệp log ứng dụng lỗi thời xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Đảm nhận quá trình tự động hóa xây dựng mã nguồn từ Git theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Tạo ra một lớp cơ sở hạ tầng chuyên biệt, tách biệt khỏi mã ứng dụng, để xử lý vô hình các logic liên lạc phức tạp, mã hóa mTLS, quản lý lưu lượng và khả năng đo lường (observability) giữa các dịch vụ.",
-      "Hoạt động như một cơ sở dữ liệu đồ thị phi tuyến tính trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này."
+      "Xử lý việc thu thập và phân mảnh các tệp log ứng dụng lỗi thời.",
+      "Đảm nhận quá trình tự động hóa xây dựng mã nguồn từ Git.",
+      "Service Mesh xử lý mTLS, routing và observability.",
+      "Hoạt động như một cơ sở dữ liệu đồ thị phi tuyến tính."
     ],
     "correct": 2,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -919,10 +919,10 @@
     "categoryId": "c4",
     "text": "Mô hình dịch vụ điện toán đám mây PaaS (Platform as a Service) giải phóng các nhà phát triển bằng cách cung cấp cấp độ trừu tượng hóa nào?",
     "options": [
-      "Giao toàn quyền quản trị sâu sát ở cấp độ máy ảo và tùy biến hạt nhân hệ điều hành phần cứng theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Cung cấp một môi trường tích hợp sẵn bao gồm hệ điều hành, máy chủ web trung gian và các bộ công cụ phần mềm (runtimes), cho phép lập trình viên tập trung triển khai ứng dụng mà không cần cấu hình hạ tầng mạng.",
-      "Cung cấp các gói ứng dụng phần mềm dịch vụ hoàn chỉnh sẵn sàng sử dụng cho người dùng cuối (như CRM) trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Tạo ra một mạng lưới đám mây cục bộ phi tập trung (edge nodes) theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Giao toàn quyền quản trị sâu sát ở cấp độ máy ảo và tùy biến hạt nhân hệ điều hành phần cứng.",
+      "PaaS cung cấp runtime và nền tảng sẵn có để tập trung phát triển ứng dụng.",
+      "Cung cấp các gói ứng dụng phần mềm dịch vụ hoàn chỉnh sẵn sàng sử dụng cho người dùng cuối (như CRM).",
+      "Tạo ra một mạng lưới đám mây cục bộ phi tập trung (edge nodes)."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -935,10 +935,10 @@
     "categoryId": "c4",
     "text": "Rủi ro an ninh mạng mang tên \"Tấn công Chuỗi Cung ứng\" (Supply Chain Attack) trong đường ống CI/CD ám chỉ kịch bản hiểm họa nào?",
     "options": [
-      "Mất điện diện rộng hoặc thảm họa vật lý tại trung tâm dữ liệu cung cấp máy chủ gốc với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Hành vi xâm nhập tinh vi nơi kẻ tấn công khai thác quyền truy cập thông qua việc chèn lén lút mã độc vào các thư viện mã nguồn mở bên thứ ba hoặc xâm phạm công cụ CI/CD, từ đó lây nhiễm vào toàn bộ mạng lưới doanh nghiệp.",
-      "Sao chép bất hợp pháp bản quyền hình ảnh thiết kế UI của công ty đối thủ theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Xảy ra tình trạng đứt cáp viễn thông làm nghẽn cổ chai băng thông xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Mất điện diện rộng hoặc thảm họa vật lý tại trung tâm dữ liệu cung cấp máy chủ gốc.",
+      "Kẻ tấn công chèn mã độc vào dependency hoặc pipeline CI/CD để lây nhiễm hệ thống.",
+      "Sao chép bất hợp pháp bản quyền hình ảnh thiết kế UI của công ty đối thủ.",
+      "Xảy ra tình trạng đứt cáp viễn thông làm nghẽn cổ chai băng thông."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -951,10 +951,10 @@
     "categoryId": "c4",
     "text": "Triết lý \"Shift Left\" (Dịch trái) trong tư duy quy trình DevSecOps và kiểm thử phần mềm mang hàm ý chiến lược gì?",
     "options": [
-      "Đưa các trung tâm máy chủ vật lý di dời sang các khu vực có chi phí điện năng thấp hơn ở bán cầu Tây trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Chuyển dịch các hoạt động kiểm thử hiệu năng, chất lượng mã và quét lỗ hổng bảo mật diễn ra càng sớm càng tốt (bên trái) trong vòng đời phát triển phần mềm (SDLC), thay vì chờ đến khâu đánh giá cuối cùng trước khi phát hành.",
-      "Phân bổ ngân sách tối đa hóa cho giai đoạn hậu mãi phần mềm xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Thiết kế giao diện quản trị theo luồng từ trái sang phải cho thuận mắt người dùng theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Đưa các trung tâm máy chủ vật lý di dời sang các khu vực có chi phí điện năng thấp hơn ở bán cầu Tây.",
+      "Đưa kiểm thử và quét bảo mật lên sớm trong SDLC thay vì chờ cuối chu trình.",
+      "Phân bổ ngân sách tối đa hóa cho giai đoạn hậu mãi phần mềm.",
+      "Thiết kế giao diện quản trị theo luồng từ trái sang phải cho thuận mắt người dùng."
     ],
     "correct": 1,
     "explanation": "Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD\n\nCác nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16"
@@ -967,10 +967,10 @@
     "categoryId": "c5",
     "text": "Tam giác CIA - mô hình tham chiếu cốt lõi định hình mọi chính sách an toàn thông tin - là chữ viết tắt của ba thành tố nền tảng nào?",
     "options": [
-      "Compliance, Investigation, Access theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Confidentiality (Tính Bảo mật), Integrity (Tính Toàn vẹn), Availability (Tính Khả dụng).",
-      "Control, Isolation, Authentication theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Connectivity, Inspection, Authorization với điều kiện biên được đề bài đặt ra."
+      "Compliance, Investigation, Access (CIA).",
+      "Confidentiality, Integrity, Availability.",
+      "Control, Isolation, Authentication (CIA).",
+      "Connectivity, Inspection, Authorization (CIA)."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -983,10 +983,10 @@
     "categoryId": "c5",
     "text": "Xác thực Đa yếu tố (MFA) được thiết kế và triển khai diện rộng nhằm đạt được mục tiêu bảo mật tối thượng nào?",
     "options": [
-      "Giảm thiểu tối đa thời gian đăng nhập cho người dùng thường xuyên xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Tăng cường rào cản bảo mật chiều sâu bằng cách yêu cầu kết hợp nhiều phương pháp xác minh độc lập (Mật khẩu, Thiết bị sở hữu, Sinh trắc học).",
-      "Đơn giản hóa toàn bộ quá trình cấp phát lại thông tin khôi phục mật khẩu với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Tối ưu hóa băng thông truyền tải gói tin xác thực mạng trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả."
+      "Giảm thiểu tối đa thời gian đăng nhập cho người dùng thường xuyên.",
+      "Yêu cầu nhiều yếu tố xác minh độc lập để giảm rủi ro bị chiếm tài khoản.",
+      "Đơn giản hóa toàn bộ quá trình cấp phát lại thông tin khôi phục mật khẩu.",
+      "Tối ưu hóa băng thông truyền tải gói tin xác thực mạng."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -999,10 +999,10 @@
     "categoryId": "c5",
     "text": "Trong việc bảo vệ các luồng dữ liệu số, chức năng chính yếu của kỹ thuật Mã hóa (Encryption) là gì?",
     "options": [
-      "Nén các tệp tin dữ liệu dung lượng lớn để tiết kiệm không gian lưu trữ đĩa cứng theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Tăng tốc quá trình truyền tải luồng chia sẻ trên các mạng nội bộ với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Biến đổi thông tin rõ (plaintext) thành định dạng bản mã (ciphertext) hoàn toàn không thể đọc hiểu được nếu người truy cập thiếu khóa giải mã tương ứng.",
-      "Xây dựng màng chắn vật lý chống lại các sự cố chập cháy phần cứng theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Nén các tệp tin dữ liệu dung lượng lớn để tiết kiệm không gian lưu trữ đĩa cứng.",
+      "Tăng tốc quá trình truyền tải luồng chia sẻ trên các mạng nội bộ.",
+      "Biến plaintext thành ciphertext, chỉ đọc được khi có khóa giải mã phù hợp.",
+      "Xây dựng màng chắn vật lý chống lại các sự cố chập cháy phần cứng."
     ],
     "correct": 2,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1015,10 +1015,10 @@
     "categoryId": "c5",
     "text": "Thuật toán bảo mật r RSA - xương sống của các giao thức giao dịch điện tử - được phân loại vào nhóm chuẩn mã hóa nào sau đây?",
     "options": [
-      "Hash Functions (Hàm băm một chiều) với điều kiện biên được đề bài đặt ra.",
-      "Symmetric Key Algorithm (Mã hóa khóa đối xứng) trong ngữ cảnh kỹ thuật của đề bài.",
-      "Public Key Encryption Algorithm (Mã hóa khóa công khai / Mã hóa bất đối xứng).",
-      "Khung giao thức Digital Certificates xét trong phạm vi tình huống nêu trên."
+      "Hash Functions (Hàm băm một chiều).",
+      "Symmetric Key Algorithm (Mã hóa khóa đối xứng).",
+      "Mã hóa bất đối xứng (Public Key Encryption).",
+      "Khung giao thức Digital Certificates."
     ],
     "correct": 2,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1031,10 +1031,10 @@
     "categoryId": "c5",
     "text": "Nguyên tắc Đặc quyền Tối thiểu (Principle of Least Privilege - PoLP) thiết lập rào chắn vận hành hệ thống thông qua việc áp dụng quy tắc nào?",
     "options": [
-      "Cấp cho người dùng đặc quyền kiểm soát toàn hệ thống nhưng chỉ trong giới hạn thời gian 24 giờ liên tục trong ngữ cảnh kỹ thuật của đề bài.",
-      "Bắt buộc mọi mật khẩu quản trị phải được mã hóa ba lớp theo chuẩn quân đội theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Giới hạn quyền truy cập tài nguyên của mỗi người dùng/tiến trình ở mức độ tối thiểu vừa đủ để họ thực thi được chức năng công việc hợp lệ của mình.",
-      "Mặc định từ chối toàn bộ kết nối đi ra mạng bên ngoài theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Cấp cho người dùng đặc quyền kiểm soát toàn hệ thống nhưng chỉ trong giới hạn thời gian 24 giờ liên tục.",
+      "Bắt buộc mọi mật khẩu quản trị phải được mã hóa ba lớp theo chuẩn quân đội.",
+      "Chỉ cấp quyền tối thiểu cần thiết để hoàn thành đúng nhiệm vụ.",
+      "Mặc định từ chối toàn bộ kết nối đi ra mạng bên ngoài."
     ],
     "correct": 2,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1047,10 +1047,10 @@
     "categoryId": "c5",
     "text": "Căn cứ theo bảng xếp hạng OWASP Top 10, lỗ hổng định danh Injection (Chèn ép mã, ví dụ SQL Injection) phát sinh từ căn nguyên kỹ thuật nào?",
     "options": [
-      "Khả năng mở rộng bộ nhớ đệm của máy chủ bị giới hạn theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Luồng dữ liệu đầu vào từ người dùng không được kiểm chứng (untrusted data) được gửi trực tiếp đến một bộ thông dịch (interpreter) dưới định dạng một phần của lệnh mã hóa hoặc truy vấn động.",
-      "Độ trễ kết nối mạng vượt quá ngưỡng timeout cho phép theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Chiều dài mật khẩu hệ thống quản trị quá ngắn với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Khả năng mở rộng bộ nhớ đệm của máy chủ bị giới hạn.",
+      "Đưa dữ liệu không tin cậy thẳng vào truy vấn.",
+      "Độ trễ kết nối mạng vượt quá ngưỡng timeout cho phép.",
+      "Chiều dài mật khẩu hệ thống quản trị quá ngắn."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1063,10 +1063,10 @@
     "categoryId": "c5",
     "text": "Nhóm lỗ hổng Broken Authentication (Xác thực kém an toàn) mở ra cơ hội cho tin tặc thực hiện những hành vi tàn phá nào?",
     "options": [
-      "Lén lút thực thi các đoạn mã nhúng quảng cáo độc hại trên trình duyệt người dùng xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Tạo lỗ hổng trên tường lửa vật lý để theo dõi lưu lượng mạng theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Đánh cắp, đoán nhận thông tin xác thực, hoặc xâm phạm phiên hoạt động (session keys/tokens) để chiếm đoạt và giả mạo hoàn toàn danh tính của người dùng hợp lệ.",
-      "Giải mã trực tiếp các tệp tin lưu trữ dữ liệu nội bộ của hệ điều hành trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả."
+      "Lén lút thực thi các đoạn mã nhúng quảng cáo độc hại trên trình duyệt người dùng.",
+      "Tạo lỗ hổng trên tường lửa vật lý để theo dõi lưu lượng mạng.",
+      "Chiếm đoạt thông tin xác thực hoặc session token để mạo danh người dùng.",
+      "Giải mã trực tiếp các tệp tin lưu trữ dữ liệu nội bộ của hệ điều hành."
     ],
     "correct": 2,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1079,10 +1079,10 @@
     "categoryId": "c5",
     "text": "Phương thức khai thác của lỗ hổng Cross-Site Scripting (XSS) đe dọa hệ thống sinh thái người dùng web bằng cách nào?",
     "options": [
-      "Đánh lừa máy chủ thực thi các lệnh truy vấn xóa bảng cơ sở dữ liệu trái phép theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Bơm và thực thi các tệp lệnh độc hại (như JavaScript) thẳng vào giao diện trình duyệt của người dùng hợp lệ nhằm đánh cắp phiên cookie hoặc điều hướng trái phép.",
-      "Tạo hàng triệu kết nối làm quá tải bộ định tuyến mạng biên trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Trực tiếp lây nhiễm vi-rút xóa tệp tin trên phân vùng đĩa cứng máy chủ theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Đánh lừa máy chủ thực thi các lệnh truy vấn xóa bảng cơ sở dữ liệu trái phép.",
+      "Tiêm script độc vào trình duyệt người dùng để chiếm cookie/phiên.",
+      "Tạo hàng triệu kết nối làm quá tải bộ định tuyến mạng biên.",
+      "Trực tiếp lây nhiễm vi-rút xóa tệp tin trên phân vùng đĩa cứng máy chủ."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1095,10 +1095,10 @@
     "categoryId": "c5",
     "text": "Chữ ký số (Digital Signature) đóng vai trò pháp lý và kỹ thuật quan trọng nào trong chu trình bảo mật thông điệp mã hóa?",
     "options": [
-      "Lưu trữ cấu trúc phân tầng các thông tin xác thực bảo mật với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Tự động nén luồng thông điệp để giảm thời gian lan truyền mạng trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Xác thực không thể chối cãi nguồn gốc (Authenticity) của người gửi dữ liệu và đảm bảo tuyệt đối tính toàn vẹn (Integrity) rằng thông điệp chưa bị thay đổi trên đường truyền.",
-      "Thiết lập tường lửa tự động ngăn ngừa sự cố tấn công từ chối dịch vụ xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Lưu trữ cấu trúc phân tầng các thông tin xác thực bảo mật.",
+      "Tự động nén luồng thông điệp để giảm thời gian lan truyền mạng.",
+      "Xác thực nguồn gửi và đảm bảo thông điệp không bị chỉnh sửa.",
+      "Thiết lập tường lửa tự động ngăn ngừa sự cố tấn công từ chối dịch vụ."
     ],
     "correct": 2,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1111,10 +1111,10 @@
     "categoryId": "c5",
     "text": "Khắc phục rủi ro nguy hiểm \"Sử dụng Thành phần với Lỗ hổng đã biết\" (Vulnerable and Outdated Components) yêu cầu quy trình bảo mật khắt khe nào?",
     "options": [
-      "Tắt toàn bộ hệ thống quét tệp nhật ký (log) định kỳ để tránh cảnh báo giả trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Thiết lập chu trình thường xuyên cập nhật, rà soát và tích hợp các công cụ kiểm định tự động (Software Composition Analysis) để vá các lỗ hổng của thư viện mã nguồn mở bên thứ ba.",
-      "Ngừng hoàn toàn mọi nỗ lực sử dụng các thành phần mã nguồn mở trên internet xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Mã hóa thủ công địa chỉ IP tĩnh của cụm máy chủ cơ sở dữ liệu theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài."
+      "Tắt toàn bộ hệ thống quét tệp nhật ký (log) định kỳ để tránh cảnh báo giả.",
+      "Cập nhật dependency định kỳ và vá lỗ hổng bằng công cụ SCA.",
+      "Ngừng hoàn toàn mọi nỗ lực sử dụng các thành phần mã nguồn mở trên internet.",
+      "Mã hóa thủ công địa chỉ IP tĩnh của cụm máy chủ cơ sở dữ liệu."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1127,10 +1127,10 @@
     "categoryId": "c5",
     "text": "Dựa trên bộ quy chuẩn Đạo đức Kỹ sư Phần mềm quốc tế (ACM/IEEE), trong trường hợp có sự xung đột, kỹ sư phải hành động nhất quán với ưu tiên hàng đầu dành cho đối tượng nào?",
     "options": [
-      "Ban giám đốc và cổ đông của công ty đầu tư theo giả định hệ thống đang được mô tả.",
-      "Sự an toàn, sức khỏe và phúc lợi của người sử dụng và công chúng (Public interest).",
-      "Nhu cầu cá nhân về tiến bộ học thuật và bản quyền sáng chế theo tiêu chí đánh giá của câu hỏi này.",
-      "Tập thể đồng nghiệp trong nhóm phát triển dự án công ty với điều kiện biên được đề bài đặt ra."
+      "Ban giám đốc và cổ đông của công ty đầu tư.",
+      "Ưu tiên an toàn, sức khỏe và lợi ích công chúng.",
+      "Nhu cầu cá nhân về tiến bộ học thuật và bản quyền sáng chế.",
+      "Tập thể đồng nghiệp trong nhóm phát triển dự án công ty."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1143,10 +1143,10 @@
     "categoryId": "c5",
     "text": "Hành động nào sau đây bị coi là vi phạm nghiêm trọng các nguyên tắc tính liêm chính chuyên môn của một chuyên gia phần mềm?",
     "options": [
-      "Thúc đẩy và khuyến khích việc cải tiến quy trình kiểm thử phần mềm liên tục xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Đồng thuận và cố tình phát hành một sản phẩm phần mềm (đặc biệt trong lĩnh vực an toàn sinh mạng) dù biết rõ nó vẫn chứa lỗi hệ thống nghiêm trọng hoặc thiếu tính năng bảo mật tối thiểu.",
-      "Từ chối việc làm việc ngoài giờ không lương liên tục nhiều tháng với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Dũng cảm báo cáo hành vi ăn cắp mã nguồn phi đạo đức của đồng nghiệp trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Thúc đẩy và khuyến khích việc cải tiến quy trình kiểm thử phần mềm liên tục.",
+      "Cố tình phát hành phần mềm nguy hiểm là vi phạm đạo đức nghề nghiệp.",
+      "Từ chối việc làm việc ngoài giờ không lương liên tục nhiều tháng.",
+      "Dũng cảm báo cáo hành vi ăn cắp mã nguồn phi đạo đức của đồng nghiệp."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1159,10 +1159,10 @@
     "categoryId": "c5",
     "text": "Định nghĩa chuẩn xác nhất về Xung đột Lợi ích (Conflict of Interest) trong thực hành kỹ thuật chuyên nghiệp?",
     "options": [
-      "Khi nhân viên kỹ thuật phải làm thêm giờ mà không nhận được mức lương tương xứng với năng lực theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Khi kỹ sư sở hữu những lợi ích hoặc khoản đầu tư cá nhân chồng chéo có nguy cơ làm suy yếu tính khách quan, sự minh bạch và khả năng đánh giá công bằng trong phán quyết nghề nghiệp dành cho công ty.",
-      "Khi các nhóm phát triển không thể thống nhất được ngôn ngữ lập trình chung cho dự án hệ thống trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Tình trạng đứt gãy giao tiếp kéo dài giữa ban quản lý cấp cao và nhân sự kỹ thuật theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này."
+      "Khi nhân viên kỹ thuật phải làm thêm giờ mà không nhận được mức lương tương xứng với năng lực.",
+      "Lợi ích cá nhân làm suy giảm tính khách quan trong quyết định chuyên môn.",
+      "Khi các nhóm phát triển không thể thống nhất được ngôn ngữ lập trình chung cho dự án hệ thống.",
+      "Tình trạng đứt gãy giao tiếp kéo dài giữa ban quản lý cấp cao và nhân sự kỹ thuật."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1175,10 +1175,10 @@
     "categoryId": "c5",
     "text": "Khi đối mặt trực diện với tình huống mâu thuẫn khốc liệt giữa An toàn công cộng và mục tiêu cắt giảm Chi phí doanh nghiệp, kỹ sư tuân thủ đạo đức phải ưu tiên hành động nào?",
     "options": [
-      "Luôn luôn tuân theo các chỉ đạo hạ chi phí của ban giám đốc để bảo vệ công việc với điều kiện biên được đề bài đặt ra.",
-      "Xác định sự an toàn của hệ thống và rủi ro sinh mạng con người luôn phải đặt cao hơn các yếu tố lợi nhuận thương mại.",
-      "Phớt lờ mọi cảnh báo an toàn từ các cảm biến và tiếp tục tập trung viết mã để kịp tiến độ theo giả định hệ thống đang được mô tả.",
-      "Đẩy toàn bộ trách nhiệm phân tích rủi ro an toàn cho nhóm chuyên viên kiểm thử xét trong phạm vi tình huống nêu trên."
+      "Luôn luôn tuân theo các chỉ đạo hạ chi phí của ban giám đốc để bảo vệ công việc.",
+      "Đặt an toàn công cộng cao hơn mục tiêu cắt giảm chi phí.",
+      "Phớt lờ mọi cảnh báo an toàn từ các cảm biến và tiếp tục tập trung viết mã để kịp tiến độ.",
+      "Đẩy toàn bộ trách nhiệm phân tích rủi ro an toàn cho nhóm chuyên viên kiểm thử."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1191,10 +1191,10 @@
     "categoryId": "c5",
     "text": "Thuật ngữ Whistleblowing (Thổi còi) trong quy tắc ứng xử nơi làm việc diễn tả hành động có trách nhiệm nào?",
     "options": [
-      "Lãnh đạo phong trào kêu gọi thành lập công đoàn độc lập tại môi trường làm việc trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Việc một nhân viên dũng cảm báo cáo hoặc tiết lộ các bằng chứng về vấn đề đạo đức, rủi ro an toàn hoặc hành vi phi pháp nghiêm trọng nội bộ cho các bộ phận có thẩm quyền để kịp thời đưa ra các biện pháp chấn chỉnh, ngăn ngừa thảm họa.",
-      "Hành vi ẩn danh chỉ trích các phàn nàn của người dùng trên diễn đàn trực tuyến xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Tự ý cấp quyền quản trị viên phụ hệ thống cho bên kiểm toán thứ ba không qua phê duyệt theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả."
+      "Lãnh đạo phong trào kêu gọi thành lập công đoàn độc lập tại môi trường làm việc.",
+      "Báo cáo hành vi phi pháp hoặc phi đạo đức nội bộ cho cơ quan có thẩm quyền.",
+      "Hành vi ẩn danh chỉ trích các phàn nàn của người dùng trên diễn đàn trực tuyến.",
+      "Tự ý cấp quyền quản trị viên phụ hệ thống cho bên kiểm toán thứ ba không qua phê duyệt."
     ],
     "correct": 1,
     "explanation": "An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp\n\nVới các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24"
@@ -1207,10 +1207,10 @@
     "categoryId": "c6",
     "text": "[Amazon LP: Customer Obsession] Khách hàng VIP khiếu nại gay gắt rằng gói cấu hình máy chủ xử lý dữ liệu ưu tiên 24 giờ của họ đã bị chậm trễ 48 giờ. Nguyên nhân hoàn toàn xuất phát từ nền tảng trung gian bảo trì. Bạn xử lý thế nào?",
     "options": [
-      "Đề nghị khách hàng bình tĩnh chờ đợi và liên hệ lại sau khi bạn kết thúc cuộc họp giao ban nội bộ theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Nhanh chóng đổ toàn bộ lỗi và trách nhiệm pháp lý cho nhà cung cấp nền tảng trung gian để bảo vệ uy tín công ty xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Thể hiện sự thấu cảm xin lỗi, chủ động trích xuất mã ID lỗi, cung cấp bản cập nhật trạng thái trong vòng 1 giờ, hoàn trả 100% chi phí ưu tiên, và thiết lập luồng theo dõi tự động để nền tảng trung gian không lặp lại lỗi.",
-      "Ghi chú ticket lỗi trên hệ thống và chuyển thẳng cho đội kỹ thuật phần cứng với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Đề nghị khách hàng bình tĩnh chờ đợi và liên hệ lại sau khi bạn kết thúc cuộc họp giao ban nội bộ.",
+      "Nhanh chóng đổ toàn bộ lỗi và trách nhiệm pháp lý cho nhà cung cấp nền tảng trung gian để bảo vệ uy tín công ty.",
+      "Xin lỗi, cập nhật trạng thái nhanh, hoàn phí hợp lý và triển khai biện pháp ngăn tái diễn.",
+      "Ghi chú ticket lỗi trên hệ thống và chuyển thẳng cho đội kỹ thuật phần cứng."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1223,10 +1223,10 @@
     "categoryId": "c6",
     "text": "[Amazon LP: Frugality] Kiểm tra kiến trúc hệ thống, bạn phát hiện cơ chế cung cấp hạ tầng cloud của nhóm hiện tại cực kỳ lãng phí (thiết lập sai cấp phát tự động), tốn kém hàng ngàn USD chi phí truy xuất nhàn rỗi mỗi tuần.",
     "options": [
-      "Tránh vượt quyền, kiên nhẫn chờ yêu cầu tối ưu hóa cấu trúc từ Giám đốc dự án xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Tự ý can thiệp đóng băng và ngắt kết nối các API mà bạn cho là không quan trọng để tiết kiệm ngân sách lập tức theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Chủ động thu thập các số liệu truy xuất mạng định lượng, soạn thảo đề xuất kiến trúc cắt giảm lãng phí bằng hệ thống lưu trữ cache Redis, và trình bày giải pháp tối ưu dòng tiền với quản lý cấp cao.",
-      "Lờ đi vì tập đoàn lớn có ngân sách hạ tầng dư dả trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này."
+      "Tránh vượt quyền, kiên nhẫn chờ yêu cầu tối ưu hóa cấu trúc từ Giám đốc dự án.",
+      "Tự ý can thiệp đóng băng và ngắt kết nối các API mà bạn cho là không quan trọng để tiết kiệm ngân sách lập tức.",
+      "Thu thập số liệu lãng phí, đề xuất tối ưu và trình bày giải pháp tiết kiệm có kiểm soát.",
+      "Lờ đi vì tập đoàn lớn có ngân sách hạ tầng dư dả."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1239,10 +1239,10 @@
     "categoryId": "c6",
     "text": "Đóng vai trò Quản lý Đội ngũ (Team Lead), một kỹ sư tài năng kiệt xuất mới được bạn đào tạo 6 tháng mong muốn được thăng chức và thuyên chuyển sang một nhóm lõi khác. Điều này sẽ khiến nhóm hiện tại của bạn suy yếu đi đáng kể.",
     "options": [
-      "Viện lý do quy định hợp đồng để từ chối, giữ kỹ sư lại nhằm đảm bảo nhóm của bạn hoàn thành chỉ tiêu KPI cuối năm theo tiêu chí đánh giá của câu hỏi này.",
-      "Hỗ trợ đầy đủ nguyện vọng thăng tiến của nhân viên, tư vấn lộ trình sự nghiệp và giúp họ chuẩn bị các kỹ năng liên chức năng để quá trình chuyển đổi bộ phận thành công nhất.",
-      "Cảnh báo nhân viên rằng họ quá non kinh nghiệm và chưa hiểu rõ tính khắc nghiệt của nhóm lõi trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Tước bỏ dần các trọng trách dự án quan trọng của nhân viên đó để họ tự chán nản theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Viện lý do quy định hợp đồng để từ chối, giữ kỹ sư lại nhằm đảm bảo nhóm của bạn hoàn thành chỉ tiêu KPI cuối năm.",
+      "Hỗ trợ lộ trình thăng tiến và chuẩn bị chuyển nhóm để nhân viên phát triển tốt nhất.",
+      "Cảnh báo nhân viên rằng họ quá non kinh nghiệm và chưa hiểu rõ tính khắc nghiệt của nhóm lõi.",
+      "Tước bỏ dần các trọng trách dự án quan trọng của nhân viên đó để họ tự chán nản."
     ],
     "correct": 1,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1255,10 +1255,10 @@
     "categoryId": "c6",
     "text": "[Google GCA: Prioritization] Bạn nhận thông báo khẩn cấp phải hoàn thành bàn giao song song hai dự án nền tảng có thời hạn hoàn thành (deadlines) trùng lặp hoàn toàn vào thứ Sáu tuần này, nguồn lực kỹ thuật hiện tại là không đủ.",
     "options": [
-      "Chấp nhận đánh đổi sức khỏe, làm việc 24/24 giờ để cố gắng hoàn thành cả hai dự án bằng mọi giá với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Chọn thực hiện dự án có công nghệ thú vị hoặc dễ xử lý hơn và mặc kệ dự án còn lại trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Tự động cắt xén bớt các kịch bản kiểm thử bảo mật (Test Cases) để ép tiến độ mã hóa cho kịp ngày giao hàng theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Lập tức phân tích mức độ tác động kinh doanh (Business Impact), tái thương lượng và phân loại lại ưu tiên phát hành từng phần với các bên liên quan (Stakeholders) dựa trên nguồn lực thực tế, duy trì sự minh bạch tiến độ."
+      "Chấp nhận đánh đổi sức khỏe, làm việc 24/24 giờ để cố gắng hoàn thành cả hai dự án bằng mọi giá.",
+      "Chọn thực hiện dự án có công nghệ thú vị hoặc dễ xử lý hơn và mặc kệ dự án còn lại.",
+      "Tự động cắt xén bớt các kịch bản kiểm thử bảo mật (Test Cases) để ép tiến độ mã hóa cho kịp ngày giao hàng.",
+      "Ưu tiên theo tác động kinh doanh, thương lượng lại phạm vi và minh bạch tiến độ."
     ],
     "correct": 3,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1271,10 +1271,10 @@
     "categoryId": "c6",
     "text": "Bạn vô tình phát hiện ra rằng một đồng nghiệp cấp ngang hàng đã trình bày và nhận vơ toàn bộ ý tưởng cấu trúc thuật toán tối ưu hóa do chính bạn thiết kế trong cuộc họp với ban giám đốc.",
     "options": [
-      "Nổi giận và tố cáo trực diện hành vi đạo văn ngay giữa cuộc họp có ban giám đốc trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên trong ngữ cảnh kỹ thuật của đề bài.",
-      "Im lặng chịu đựng, sinh ra thái độ thù địch thụ động và quyết định không chia sẻ bất kỳ mã nguồn nào với người đó nữa theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo giả định hệ thống đang được mô tả.",
-      "Chủ động tiếp cận đồng nghiệp ở không gian riêng tư, điềm tĩnh bày tỏ sự quan ngại dựa trên các bằng chứng commit mã nguồn khách quan, và yêu cầu thiết lập rõ ràng ranh giới tín nhiệm quyền tác giả cho các dự án tới.",
-      "Bí mật chèn các dòng mã lỗi vào dự án của đồng nghiệp để hạ thấp uy tín của họ theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo tiêu chí đánh giá của câu hỏi này."
+      "Nổi giận và tố cáo trực diện hành vi đạo văn ngay giữa cuộc họp có ban giám đốc.",
+      "Im lặng chịu đựng, sinh ra thái độ thù địch thụ động và quyết định không chia sẻ bất kỳ mã nguồn nào với người đó nữa.",
+      "Trao đổi riêng, nêu bằng chứng rõ ràng và thống nhất nguyên tắc ghi nhận đóng góp.",
+      "Bí mật chèn các dòng mã lỗi vào dự án của đồng nghiệp để hạ thấp uy tín của họ."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1287,10 +1287,10 @@
     "categoryId": "c6",
     "text": "Ngay trước thềm cuộc kiểm toán định kỳ, quản lý trực tiếp gây sức ép yêu cầu bạn phải chỉnh sửa (fudge) một số log báo cáo sự cố nhằm làm đẹp các chỉ số đáp ứng hệ thống (SLA) của bộ phận.",
     "options": [
-      "Tuân thủ thực hiện lệnh cấp trên ngay lập tức để giữ hòa khí và đảm bảo báo cáo đánh giá cuối năm suôn sẻ theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Thực hiện hành vi thao túng dữ liệu nhưng bí mật sao lưu email làm bằng chứng tống tiền quản lý về sau xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Kiên quyết từ chối một cách chuyên nghiệp, giải thích rõ rủi ro tàn phá về mặt minh bạch pháp lý và niềm tin nội bộ dài hạn, đồng thời đề xuất giải pháp cải thiện chỉ số SLA thực tế dựa trên dữ liệu thật ở chu kỳ sau.",
-      "Chuyển hướng yêu cầu phi đạo đức này sang cho một kỹ sư thử việc mới vào làm thực hiện thay với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả."
+      "Tuân thủ thực hiện lệnh cấp trên ngay lập tức để giữ hòa khí và đảm bảo báo cáo đánh giá cuối năm suôn sẻ.",
+      "Thực hiện hành vi thao túng dữ liệu nhưng bí mật sao lưu email làm bằng chứng tống tiền quản lý về sau.",
+      "Từ chối chỉnh log sai sự thật và đề xuất cách cải thiện SLA bằng dữ liệu thật.",
+      "Chuyển hướng yêu cầu phi đạo đức này sang cho một kỹ sư thử việc mới vào làm thực hiện thay."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1303,10 +1303,10 @@
     "categoryId": "c6",
     "text": "[Pressure Management] Ban lãnh đạo đột ngột đẩy sớm lịch trình ra mắt một tính năng tài chính then chốt. Thời gian hoàn thiện chỉ còn vỏn vẹn 24 giờ thay vì một tuần như kế hoạch ban đầu.",
     "options": [
-      "Phản ứng tiêu cực, cho rằng điều này là vô lý và dọa xin nghỉ việc nếu không dời lại thời hạn xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Chia cắt lập tức tính năng thành các mô-đun vi mô nhỏ nhất, ủy quyền trách nhiệm chéo tường minh cho từng thành viên tinh nhuệ, và tập trung tuyệt đối vào mức sản phẩm khả dụng tối thiểu (MVP) thay vì các tính năng râu ria.",
-      "Tự cô lập bản thân, đóng cửa phòng làm việc và ôm trọn toàn bộ khối lượng mã hóa một mình để đảm bảo tốc độ với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Tắt tính năng kiểm tra tự động mã nguồn (Linters) để đẩy nhanh tốc độ gõ phím trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này."
+      "Phản ứng tiêu cực, cho rằng điều này là vô lý và dọa xin nghỉ việc nếu không dời lại thời hạn.",
+      "Chia nhỏ việc, phân công rõ, tập trung MVP để đáp ứng hạn gấp.",
+      "Tự cô lập bản thân, đóng cửa phòng làm việc và ôm trọn toàn bộ khối lượng mã hóa một mình để đảm bảo tốc độ.",
+      "Tắt tính năng kiểm tra tự động mã nguồn (Linters) để đẩy nhanh tốc độ gõ phím."
     ],
     "correct": 1,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1319,10 +1319,10 @@
     "categoryId": "c6",
     "text": "Hai tiếng sau khi hệ thống giao dịch đưa vào sản xuất (Deploy to Prod), bạn phát hiện chính đoạn mã cấu hình mạng của mình chứa một sai sót logic tinh vi khiến một số gói tin bị rớt chập chờn.",
     "options": [
-      "Kín đáo che đậy đi bằng những bản vá tạm bợ và hy vọng không có khách hàng nào tạo khiếu nại theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Đổ lỗi cho tài liệu cấu trúc thư viện mã nguồn mở đã lỗi thời gây hiểu nhầm với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Trực tiếp thừa nhận lỗi (\"Own it\") trên kênh thông tin chung lập tức, thiết lập phiên khôi phục mã (rollback), và soạn thảo bản đánh giá sự cố chi tiết kèm biện pháp kiểm thử tự động ngăn chặn tái diễn lỗi tương tự ở tương lai.",
-      "Gửi email xin lỗi nhưng không có hành động khắc phục cụ thể nào đi kèm theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Kín đáo che đậy đi bằng những bản vá tạm bợ và hy vọng không có khách hàng nào tạo khiếu nại.",
+      "Đổ lỗi cho tài liệu cấu trúc thư viện mã nguồn mở đã lỗi thời gây hiểu nhầm.",
+      "Nhận lỗi công khai, rollback ngay và làm post-mortem kèm biện pháp phòng ngừa.",
+      "Gửi email xin lỗi nhưng không có hành động khắc phục cụ thể nào đi kèm."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1335,10 +1335,10 @@
     "categoryId": "c6",
     "text": "Một lập trình viên cấp dưới thường ngày rất xuất sắc bỗng nhiên sa sút hiệu suất nghiêm trọng, liên tục nộp mã trễ hạn và tỏ ra thờ ơ trong các cuộc họp giao ban Agile hằng ngày (Daily Stand-up).",
     "options": [
-      "Cảnh cáo kỷ luật nghiêm khắc và đe dọa đưa vào danh sách xem xét sa thải (PIP) nếu không cải thiện trong 3 ngày với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Vì áp lực dự án, bạn quyết định thức đêm tự tay lập trình thay luôn các phần công việc được giao của họ cho nhanh trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Thiết lập một buổi trò chuyện 1-1 không phán xét, sử dụng sự thấu cảm sâu sắc để lắng nghe các rào cản cá nhân/công việc hiện tại của họ, và hợp tác định hình một nhịp độ làm việc mới hỗ trợ họ lấy lại phong độ.",
-      "Đưa vấn đề năng suất kém của cá nhân này ra mổ xẻ phê bình công khai trước toàn thể đội ngũ xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Cảnh cáo kỷ luật nghiêm khắc và đe dọa đưa vào danh sách xem xét sa thải (PIP) nếu không cải thiện trong 3 ngày.",
+      "Vì áp lực dự án, bạn quyết định thức đêm tự tay lập trình thay luôn các phần công việc được giao của họ cho nhanh.",
+      "Trao đổi 1-1 để hiểu nguyên nhân và cùng điều chỉnh nhịp làm việc phù hợp.",
+      "Đưa vấn đề năng suất kém của cá nhân này ra mổ xẻ phê bình công khai trước toàn thể đội ngũ."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1351,10 +1351,10 @@
     "categoryId": "c6",
     "text": "[Mental Flexibility] Tập đoàn ra quyết định đột ngột: chuyển đổi triệt để kiến trúc hệ thống hiện tại từ mô hình nguyên khối MVC cổ điển sang nền tảng Microservices hoàn toàn mới ngay giữa lúc dự án cốt lõi của bạn đang ở giai đoạn nước rút.",
     "options": [
-      "Tổ chức các nhóm kháng cự ngầm, liên tục phàn nàn và chê bai quyết định của ban lãnh đạo trên các diễn đàn nội bộ trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Nhanh chóng dập tắt sự phản kháng tự nhiên, chủ động chìm đắm nghiên cứu tài liệu kiến trúc mới, tự đào tạo nâng cao kỹ năng, hỗ trợ ổn định tâm lý các đồng nghiệp bị sốc và tiên phong thiết lập bản phác thảo di chuyển hệ thống (migration roadmap) an toàn.",
-      "Gói gọn mã nguồn hiện tại, từ chối tham gia vào quá trình học hỏi công nghệ mới và tìm kiếm dự án khác xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "Thụ động chờ đợi ban giám đốc cung cấp các khóa đào tạo cầm tay chỉ việc chi tiết từng bước theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả."
+      "Tổ chức các nhóm kháng cự ngầm, liên tục phàn nàn và chê bai quyết định của ban lãnh đạo trên các diễn đàn nội bộ.",
+      "Chủ động học kiến trúc mới, hỗ trợ đồng đội và lập lộ trình migration an toàn.",
+      "Gói gọn mã nguồn hiện tại, từ chối tham gia vào quá trình học hỏi công nghệ mới và tìm kiếm dự án khác.",
+      "Thụ động chờ đợi ban giám đốc cung cấp các khóa đào tạo cầm tay chỉ việc chi tiết từng bước."
     ],
     "correct": 1,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1367,10 +1367,10 @@
     "categoryId": "c6",
     "text": "Do sức ép khủng khiếp của thị trường, có luồng ý kiến hối thúc nhóm bỏ qua toàn bộ công đoạn viết Unit Tests và Integration Tests để đẩy nhanh thời gian phát hành tính năng (Time to Market).",
     "options": [
-      "Nhượng bộ hoàn toàn trước áp lực kinh doanh, bỏ qua khâu kiểm thử và cứ chạy lệnh đẩy mã (Push to Prod) mù quáng theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này theo giả định hệ thống đang được mô tả.",
-      "Ký giấy cam kết suông rằng sẽ bổ sung các bài kiểm thử đầy đủ vào tuần tới để xoa dịu rủi ro đánh giá QA hiện tại xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra xét trong phạm vi tình huống nêu trên.",
-      "Đứng vững truyền đạt bằng chứng khách quan về thảm họa tài chính của Nợ Kỹ thuật (Technical Debt) khi phát hành mã chưa kiểm thử, từ đó thương lượng giảm bớt quy mô (scope) của tính năng để vừa đáp ứng hạn chót vừa bảo vệ tuyệt đối quy chuẩn chất lượng mã.",
-      "Thủ thuật viết các đoạn mã kiểm thử giả (Dummy tests) để đánh lừa hệ thống báo cáo bao phủ mã (Code Coverage) với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả với điều kiện biên được đề bài đặt ra."
+      "Nhượng bộ hoàn toàn trước áp lực kinh doanh, bỏ qua khâu kiểm thử và cứ chạy lệnh đẩy mã (Push to Prod) mù quáng.",
+      "Ký giấy cam kết suông rằng sẽ bổ sung các bài kiểm thử đầy đủ vào tuần tới để xoa dịu rủi ro đánh giá QA hiện tại.",
+      "Bảo vệ tiêu chuẩn test cốt lõi và giảm scope để kịp hạn mà vẫn đảm bảo chất lượng.",
+      "Thủ thuật viết các đoạn mã kiểm thử giả (Dummy tests) để đánh lừa hệ thống báo cáo bao phủ mã (Code Coverage)."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1383,10 +1383,10 @@
     "categoryId": "c6",
     "text": "[Google GCA: Influence without Authority] Bạn xác định được một cấu trúc luồng định tuyến API tốn kém và muốn tái thiết kế nền tảng, nhưng bạn hoàn toàn không có quyền hạn quản lý trực tiếp để ra lệnh cho các kỹ sư cấp cao ở phòng ban khác thực thi sự thay đổi.",
     "options": [
-      "Trình báo vượt cấp lên Giám đốc điều hành để mượn quyền lực ép buộc các kỹ sư kia phải phục tùng mệnh lệnh thiết kế của mình xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "Tự thiết kế một bản Chứng minh Khái niệm (Proof of Concept) thu nhỏ chạy trên dữ liệu thực tế cho thấy sự cải thiện hiệu suất rõ rệt, tổ chức buổi trình bày chia sẻ tầm nhìn kiến trúc chung để thuyết phục họ bằng tính ưu việt của giải pháp thay vì mệnh lệnh hành chính.",
-      "Đề xuất hối lộ tiền thưởng cá nhân cho bất kỳ ai làm theo cấu trúc của mình với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này.",
-      "Liên tục gửi email phàn nàn và spam hệ thống thông báo hằng ngày cho đến khi họ chịu nhượng bộ trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này."
+      "Trình báo vượt cấp lên Giám đốc điều hành để mượn quyền lực ép buộc các kỹ sư kia phải phục tùng mệnh lệnh thiết kế của mình.",
+      "Dùng PoC và dữ liệu thực tế để thuyết phục các bên liên quan thay vì dùng quyền lực.",
+      "Đề xuất hối lộ tiền thưởng cá nhân cho bất kỳ ai làm theo cấu trúc của mình.",
+      "Liên tục gửi email phàn nàn và spam hệ thống thông báo hằng ngày cho đến khi họ chịu nhượng bộ."
     ],
     "correct": 1,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1399,10 +1399,10 @@
     "categoryId": "c6",
     "text": "Một đối tác doanh nghiệp cực kỳ phẫn nộ gọi điện xỉa xói và đe dọa kiện đòi bồi thường hợp đồng phần mềm khổng lồ do hệ thống máy chủ cung cấp bị ngập lụt truy vấn (DDoS) ngừng hoạt động suốt 4 giờ đồng hồ.",
     "options": [
-      "Lập tức ngắt máy dập điện thoại, chuyển số của họ vào danh sách chặn liên lạc của tổng đài để tránh áp lực tinh thần theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả theo tiêu chí đánh giá của câu hỏi này.",
-      "Ứng dụng kỹ năng lắng nghe thấu cảm tĩnh tại, không cắt ngang sự bùng nổ cảm xúc, sau đó chuyên nghiệp xác thực rõ sự cố hệ thống khách quan, tuyệt đối không tham gia vào vòng xoáy leo thang tranh cãi, và nhẹ nhàng điều hướng cuộc gọi sang đề xuất các gói bồi thường/phục hồi thảm họa cụ thể.",
-      "Đấu khẩu lớn tiếng, lập luận sắc bén vạch ra những lỗi vi phạm điều khoản người dùng từ phía chính bản thân khách hàng gây ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này trong ngữ cảnh kỹ thuật của đề bài.",
-      "Sợ hãi và lập tức trả ngay khoản tiền đền bù trực tiếp khổng lồ mà không cần thông qua sự kiểm duyệt pháp lý của công ty theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra theo giả định hệ thống đang được mô tả."
+      "Lập tức ngắt máy dập điện thoại, chuyển số của họ vào danh sách chặn liên lạc của tổng đài để tránh áp lực tinh thần.",
+      "Lắng nghe bình tĩnh, xác thực sự cố và chuyển cuộc trao đổi sang phương án khắc phục cụ thể.",
+      "Đấu khẩu lớn tiếng, lập luận sắc bén vạch ra những lỗi vi phạm điều khoản người dùng từ phía chính bản thân khách hàng gây ra.",
+      "Sợ hãi và lập tức trả ngay khoản tiền đền bù trực tiếp khổng lồ mà không cần thông qua sự kiểm duyệt pháp lý của công ty."
     ],
     "correct": 1,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1415,10 +1415,10 @@
     "categoryId": "c6",
     "text": "Khi bạn xây dựng thành công một nền tảng thuật toán gợi ý tin tức ảnh hưởng tới hành vi của hàng triệu người dùng, nhưng chợt nhận ra qua phân tích chéo rằng nó đang hình thành một hiệu ứng bong bóng lọc (Filter Bubble) và thiên kiến xã hội (Social Bias) cực đoan sau thời gian dài.",
     "options": [
-      "Hoàn toàn không bận tâm, coi như chức năng thuật toán cốt lõi đã đạt KPIs nhấp chuột (Click-through rate) hoàn hảo do giám đốc đề ra với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên với điều kiện biên được đề bài đặt ra.",
-      "Kích hoạt cơ chế dừng hệ thống hoặc giảm trọng số rủi ro khẩn cấp, tiến hành phân tích sâu rộng (Dive Deep) truy nguyên nguồn gốc, mời chuyên gia xã hội học tham vấn đa chiều, và dũng cảm thiết kế lại bộ tham số cân bằng luồng thông tin gợi ý bất chấp việc có thể làm giảm sự chú ý bề mặt của người dùng.",
-      "Bí mật thủ tiêu các báo cáo phân tích rủi ro dài hạn đó để bảo vệ danh tiếng của kiến trúc sư trưởng theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Chỉ tạo ra một vài bản vá lỗi giao diện bề ngoài để lừa dối dư luận xã hội xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên."
+      "Hoàn toàn không bận tâm, coi như chức năng thuật toán cốt lõi đã đạt KPIs nhấp chuột (Click-through rate) hoàn hảo do giám đốc đề ra.",
+      "Giảm rủi ro thiên kiến, điều tra nguyên nhân và điều chỉnh thuật toán dù ảnh hưởng KPI ngắn hạn.",
+      "Bí mật thủ tiêu các báo cáo phân tích rủi ro dài hạn đó để bảo vệ danh tiếng của kiến trúc sư trưởng.",
+      "Chỉ tạo ra một vài bản vá lỗi giao diện bề ngoài để lừa dối dư luận xã hội."
     ],
     "correct": 1,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1431,10 +1431,10 @@
     "categoryId": "c6",
     "text": "[Googliness: Navigating Negative Culture] Bạn mới gia nhập một đội ngũ phát triển dự án di sản (legacy) nơi hầu hết các kỹ sư lâu năm tỏ ra rệu rã, mệt mỏi và liên tục dành thời gian nghỉ trưa để chỉ trích mọi chiến lược của ban lãnh đạo công ty.",
     "options": [
-      "Nhanh chóng hùa theo các lời phàn nàn và nói xấu công ty để nhanh chóng được nhóm \"ma cũ\" chấp nhận và coi là một phần của đội trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này trong ngữ cảnh kỹ thuật của đề bài.",
-      "Tự xây bức tường tâm lý, cô lập bản thân hoàn toàn, cắm tai nghe làm việc một mình để không bị lây nhiễm độc hại theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Đặt các câu hỏi mở sắc bén nhưng mang tính xây dựng nhằm làm rõ căn nguyên sự bất mãn kỹ thuật ẩn sâu, kiên định duy trì thái độ trung lập chuyên nghiệp, và nỗ lực dẫn dắt động lực nhóm dần hướng tới sự tích cực thông qua việc ăn mừng những chiến thắng thiết kế (quick wins) nhỏ nhưng ý nghĩa trong nội bộ mã nguồn.",
-      "Biến mình thành người truyền giáo, hô hào khẩu hiệu và ép buộc mọi người phải vui vẻ tích cực ngay lập tức theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên theo tiêu chí đánh giá của câu hỏi này."
+      "Nhanh chóng hùa theo các lời phàn nàn và nói xấu công ty để nhanh chóng được nhóm \"ma cũ\" chấp nhận và coi là một phần của đội.",
+      "Tự xây bức tường tâm lý, cô lập bản thân hoàn toàn, cắm tai nghe làm việc một mình để không bị lây nhiễm độc hại.",
+      "Giữ thái độ trung lập, làm rõ vấn đề gốc và dẫn nhóm bằng các cải tiến nhỏ có ý nghĩa.",
+      "Biến mình thành người truyền giáo, hô hào khẩu hiệu và ép buộc mọi người phải vui vẻ tích cực ngay lập tức."
     ],
     "correct": 2,
     "explanation": "Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)\n\nPhương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32"
@@ -1480,7 +1480,7 @@
     "text": "Một thuật toán định tuyến robot mô phỏng các mốc di chuyển trên lưới tọa độ: Khởi đầu di chuyển 10 mét thẳng về hướng Đông, rẽ góc 90 độ đi 10 mét về phía Bắc, sau đó lại rẽ góc 90 độ đi 10 mét thẳng về phía Tây. Vị trí cuối cùng của thuật toán robot này so với tọa độ (0,0) điểm khởi đầu là ở đâu?",
     "options": [
       "Quay trở lại đúng tọa độ tại vị trí xuất phát.",
-      "Nằm cách 10 mét chính xác về hướng Bắc so với điểm xuất phát.",
+      "Nằm cách điểm xuất phát 10 mét về hướng Bắc.",
       "Nằm cách 10 mét về phía Đông so với điểm xuất phát.",
       "Ở một tọa độ ngẫu nhiên không thể tính toán."
     ],
@@ -1495,7 +1495,7 @@
     "categoryId": "c7",
     "text": "Diễn giải logic phả hệ mạng lưới sau: Bố của một người đàn ông bí ẩn chính là chú/bác ruột (uncle) của tôi. Phân giải cấu trúc cây phả hệ, vậy tôi có mối quan hệ định danh là gì đối với người đàn ông đó?",
     "options": [
-      "Anh/chị/em họ (Cousin) cùng thế hệ.",
+      "Anh/chị/em họ.",
       "Cháu trai/cháu gái.",
       "Cha ruột.",
       "Bạn bè không chung huyết thống."
@@ -1546,7 +1546,7 @@
       "Chỉ dùng dữ liệu từ Mệnh đề 1 là đủ để chứng minh.",
       "Chỉ dùng dữ liệu từ Mệnh đề 2 là đủ để chứng minh.",
       "Bắt buộc phải kết hợp bộ nhớ cả hai mệnh đề mới đủ để chứng minh.",
-      "Mỗi mệnh đề cung cấp đều tự thỏa mãn chứng minh độc lập bài toán này."
+      "Mỗi mệnh đề riêng lẻ đều đủ để kết luận."
     ],
     "correct": 3,
     "explanation": "Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu\n\nBước cuối cùng để định lượng năng lực trí tuệ thuần túy (Fluid Intelligence) của kỹ sư phần mềm là vượt qua bài kiểm tra năng lực nhận thức trừu tượng (Aptitude & Cognitive Tests). Không liên quan đến một ngôn ngữ lập trình cụ thể nào, các bài test này mô phỏng cường độ xử lý phân loại tập hợp dữ liệu và đánh giá giới hạn tư duy không gian của não bộ.42"
@@ -1559,10 +1559,10 @@
     "categoryId": "c7",
     "text": "[Variable Isolation] Bài toán quản lý phân bổ tài nguyên ẩn: Một nhà quyên góp đưa cho người ăn mày 10 đồng xu vàng. Sau đó, người ăn mày quyết định trả lại 7 đồng xu vàng cho nhà quyên góp. Hỏi người ăn mày hiện tại đang có tổng số chính xác bao nhiêu đồng xu?",
     "options": [
-      "17 đồng theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra.",
-      "3 đồng với điều kiện biên được đề bài đặt ra trong ngữ cảnh kỹ thuật của đề bài.",
-      "10 đồng trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Không thể xác định chính xác bằng toán học do thiếu biến số điều kiện ban đầu."
+      "17 đồng xu.",
+      "3 đồng xu.",
+      "10 đồng xu.",
+      "Không rõ."
     ],
     "correct": 3,
     "explanation": "Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu\n\nBước cuối cùng để định lượng năng lực trí tuệ thuần túy (Fluid Intelligence) của kỹ sư phần mềm là vượt qua bài kiểm tra năng lực nhận thức trừu tượng (Aptitude & Cognitive Tests). Không liên quan đến một ngôn ngữ lập trình cụ thể nào, các bài test này mô phỏng cường độ xử lý phân loại tập hợp dữ liệu và đánh giá giới hạn tư duy không gian của não bộ.42"
@@ -1575,10 +1575,10 @@
     "categoryId": "c7",
     "text": "Đánh giá tính hợp lệ của phân loại tập hợp (Venn Diagrams) bằng Tam đoạn luận: Cho hai tiền đề dữ liệu: (1) Tất cả các con chó đều thuộc phân lớp động vật. (2) Một số loài thuộc phân lớp động vật là thú cưng. Máy tính có thể kết luận rạch ròi mệnh đề \"Tất cả thú cưng là chó\" không?",
     "options": [
-      "Có, suy luận hoàn toàn hợp lệ với điều kiện biên được đề bài đặt ra.",
-      "Không, kết luận sai lệch logic tập hợp giao nhau.",
-      "Chắc chắn đúng phân nửa xác suất theo giả định hệ thống đang được mô tả.",
-      "Không có cơ sở để xử lý lệnh này xét trong phạm vi tình huống nêu trên."
+      "Có, suy luận hoàn toàn hợp lệ.",
+      "Không, suy luận sai.",
+      "Chắc chắn đúng phân nửa xác suất.",
+      "Không có cơ sở để xử lý lệnh này."
     ],
     "correct": 1,
     "explanation": "Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu\n\nBước cuối cùng để định lượng năng lực trí tuệ thuần túy (Fluid Intelligence) của kỹ sư phần mềm là vượt qua bài kiểm tra năng lực nhận thức trừu tượng (Aptitude & Cognitive Tests). Không liên quan đến một ngôn ngữ lập trình cụ thể nào, các bài test này mô phỏng cường độ xử lý phân loại tập hợp dữ liệu và đánh giá giới hạn tư duy không gian của não bộ.42"
@@ -1591,10 +1591,10 @@
     "categoryId": "c7",
     "text": "[Odd One Out / Clustering] Phân loại đối tượng bất thường (Clustering) dựa trên đặc tính: Phần tử dữ liệu nào dưới đây không thuộc cùng chung một nhóm thuộc tính phân loại hệ thống sinh học tự nhiên với ba phần tử còn lại: Apple, Banana, Carrot, Mango?",
     "options": [
-      "Apple trong ngữ cảnh kỹ thuật của đề bài theo giả định hệ thống đang được mô tả.",
-      "Banana theo giả định hệ thống đang được mô tả xét trong phạm vi tình huống nêu trên.",
-      "Carrot (Do là rễ/rau củ, không thuộc bộ phận trái cây mang hạt sinh sản).",
-      "Mango theo tiêu chí đánh giá của câu hỏi này với điều kiện biên được đề bài đặt ra."
+      "Apple (trái cây).",
+      "Banana (trái cây).",
+      "Carrot (rau củ).",
+      "Mango (trái cây)."
     ],
     "correct": 2,
     "explanation": "Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu\n\nBước cuối cùng để định lượng năng lực trí tuệ thuần túy (Fluid Intelligence) của kỹ sư phần mềm là vượt qua bài kiểm tra năng lực nhận thức trừu tượng (Aptitude & Cognitive Tests). Không liên quan đến một ngôn ngữ lập trình cụ thể nào, các bài test này mô phỏng cường độ xử lý phân loại tập hợp dữ liệu và đánh giá giới hạn tư duy không gian của não bộ.42"
