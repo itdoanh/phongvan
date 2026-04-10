@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "Q001",
+    "q_num": 1,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về DevOps Culture?",
+    "options": [
+      "DevOps chỉ dành cho hệ thống lớn, startup không cần áp dụng, khi hệ thống tăng tải.",
+      "DevOps chỉ là đổi tên đội vận hành thành đội CI/CD, theo yêu cầu vận hành dài hạn.",
+      "DevOps là văn hóa cộng tác và tự động hóa xuyên suốt từ phát triển đến vận hành.",
+      "DevOps chủ yếu mua thêm công cụ, không cần thay đổi quy trình phối hợp, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: cốt lõi DevOps là con người, quy trình và phản hồi liên tục, không chỉ toolchain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc hiểu calms và phối hợp dev-ops-sec theo vòng phản hồi nhanh..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu CALMS và phối hợp Dev-Ops-Sec theo vòng phản hồi nhanh.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q002",
+    "q_num": 2,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về DevOps Culture?",
+    "options": [
+      "DevOps chỉ là đổi tên đội vận hành thành đội CI/CD, theo yêu cầu vận hành dài hạn.",
+      "DevOps chủ yếu mua thêm công cụ, không cần thay đổi quy trình phối hợp, khi phối hợp nhiều nhóm kỹ thuật.",
+      "DevOps là văn hóa cộng tác và tự động hóa xuyên suốt từ phát triển đến vận hành.",
+      "DevOps chỉ dành cho hệ thống lớn, startup không cần áp dụng, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: cốt lõi DevOps là con người, quy trình và phản hồi liên tục, không chỉ toolchain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc hiểu calms và phối hợp dev-ops-sec theo vòng phản hồi nhanh..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu CALMS và phối hợp Dev-Ops-Sec theo vòng phản hồi nhanh.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q003",
+    "q_num": 3,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến DevOps Culture. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn devops chỉ là đổi tên đội vận hành thành đội ci/cd. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn devops chủ yếu mua thêm công cụ, không cần thay đổi quy trình phối hợp. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn devops chỉ dành cho hệ thống lớn, startup không cần áp dụng. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên devops là văn hóa cộng tác và tự động hóa xuyên suốt từ phát triển đến vận hành. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: cốt lõi DevOps là con người, quy trình và phản hồi liên tục, không chỉ toolchain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu calms và phối hợp dev-ops-sec theo vòng phản hồi nhanh..\nNăng lực đánh giá: Hiểu CALMS và phối hợp Dev-Ops-Sec theo vòng phản hồi nhanh.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q004",
+    "q_num": 4,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho DevOps Culture, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn devops chỉ dành cho hệ thống lớn, startup không cần áp dụng. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn devops chủ yếu mua thêm công cụ, không cần thay đổi quy trình phối hợp. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn devops chỉ là đổi tên đội vận hành thành đội ci/cd. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên devops là văn hóa cộng tác và tự động hóa xuyên suốt từ phát triển đến vận hành. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: cốt lõi DevOps là con người, quy trình và phản hồi liên tục, không chỉ toolchain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu calms và phối hợp dev-ops-sec theo vòng phản hồi nhanh..\nNăng lực đánh giá: Hiểu CALMS và phối hợp Dev-Ops-Sec theo vòng phản hồi nhanh.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q005",
+    "q_num": 5,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về DevOps Culture trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt devops chủ yếu mua thêm công cụ, không cần thay đổi quy trình phối hợp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt devops chỉ là đổi tên đội vận hành thành đội ci/cd. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt devops chỉ dành cho hệ thống lớn, startup không cần áp dụng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa devops là văn hóa cộng tác và tự động hóa xuyên suốt từ phát triển đến vận hành. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: cốt lõi DevOps là con người, quy trình và phản hồi liên tục, không chỉ toolchain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu calms và phối hợp dev-ops-sec theo vòng phản hồi nhanh..\nNăng lực đánh giá: Hiểu CALMS và phối hợp Dev-Ops-Sec theo vòng phản hồi nhanh.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q006",
+    "q_num": 6,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về CI/CD Fundamentals?",
+    "options": [
+      "CI và CD là một khái niệm, không có khác biệt vận hành, trong điều kiện dữ liệu biến động, ở môi trường production.",
+      "Continuous Deployment luôn bắt buộc phê duyệt thủ công trước production, ở môi trường production.",
+      "CI kiểm tra tích hợp sớm; Delivery sẵn sàng phát hành; Deployment tự động phát hành production.",
+      "Chỉ cần build thành công là đã hoàn tất toàn bộ CI/CD, theo chuẩn quản trị kỹ thuật, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: phân biệt rõ cấp độ tự động hóa giúp thiết kế release process đúng mục tiêu rủi ro.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc phân biệt ci, continuous delivery và continuous deployment..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân biệt CI, Continuous Delivery và Continuous Deployment.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q007",
+    "q_num": 7,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về CI/CD Fundamentals?",
+    "options": [
+      "CI và CD là một khái niệm, không có khác biệt vận hành, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Continuous Deployment luôn bắt buộc phê duyệt thủ công trước production, khi mở rộng quy mô sản phẩm.",
+      "Chỉ cần build thành công là đã hoàn tất toàn bộ CI/CD, theo chuẩn quản trị kỹ thuật, trong bối cảnh dự án thực tế.",
+      "CI kiểm tra tích hợp sớm; Delivery sẵn sàng phát hành; Deployment tự động phát hành production."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: phân biệt rõ cấp độ tự động hóa giúp thiết kế release process đúng mục tiêu rủi ro.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phân biệt ci, continuous delivery và continuous deployment..\nNăng lực đánh giá: Phân biệt CI, Continuous Delivery và Continuous Deployment.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q008",
+    "q_num": 8,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến CI/CD Fundamentals. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn chỉ cần build thành công là đã hoàn tất toàn bộ ci/cd. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm, theo chuẩn quản trị kỹ thuật.",
+      "Chọn continuous deployment luôn bắt buộc phê duyệt thủ công trước production. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn ci và cd là một khái niệm, không có khác biệt vận hành. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên ci kiểm tra tích hợp sớm; delivery sẵn sàng phát hành; deployment tự động phát hành production. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: phân biệt rõ cấp độ tự động hóa giúp thiết kế release process đúng mục tiêu rủi ro.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phân biệt ci, continuous delivery và continuous deployment..\nNăng lực đánh giá: Phân biệt CI, Continuous Delivery và Continuous Deployment.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q009",
+    "q_num": 9,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho CI/CD Fundamentals, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn continuous deployment luôn bắt buộc phê duyệt thủ công trước production. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn ci và cd là một khái niệm, không có khác biệt vận hành. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn chỉ cần build thành công là đã hoàn tất toàn bộ ci/cd. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Ưu tiên ci kiểm tra tích hợp sớm; delivery sẵn sàng phát hành; deployment tự động phát hành production. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: phân biệt rõ cấp độ tự động hóa giúp thiết kế release process đúng mục tiêu rủi ro.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phân biệt ci, continuous delivery và continuous deployment..\nNăng lực đánh giá: Phân biệt CI, Continuous Delivery và Continuous Deployment.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q010",
+    "q_num": 10,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về CI/CD Fundamentals trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt chỉ cần build thành công là đã hoàn tất toàn bộ ci/cd. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế, khi hệ thống tăng tải.",
+      "Đặt ci và cd là một khái niệm, không có khác biệt vận hành. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa ci kiểm tra tích hợp sớm; delivery sẵn sàng phát hành; deployment tự động phát hành production. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt continuous deployment luôn bắt buộc phê duyệt thủ công trước production. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: phân biệt rõ cấp độ tự động hóa giúp thiết kế release process đúng mục tiêu rủi ro.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc phân biệt ci, continuous delivery và continuous deployment..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân biệt CI, Continuous Delivery và Continuous Deployment.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q011",
+    "q_num": 11,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Pipeline Engineering?",
+    "options": [
+      "Gộp toàn bộ bước vào một stage để giảm thời gian cấu hình, khi hệ thống tăng tải.",
+      "Bỏ quality gate để tăng tốc release trong mọi trường hợp, theo yêu cầu vận hành dài hạn.",
+      "Triển khai trực tiếp từ máy cá nhân vì nhanh hơn pipeline tập trung, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Xây pipeline đa stage có test gate, scan bảo mật và phát hành có kiểm soát."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: pipeline chuẩn vừa đảm bảo tốc độ vừa bảo vệ chất lượng và bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế pipeline có quality gate, artifact và rollback rõ ràng..\nNăng lực đánh giá: Thiết kế pipeline có quality gate, artifact và rollback rõ ràng.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q012",
+    "q_num": 12,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Pipeline Engineering?",
+    "options": [
+      "Triển khai trực tiếp từ máy cá nhân vì nhanh hơn pipeline tập trung, theo yêu cầu vận hành dài hạn.",
+      "Bỏ quality gate để tăng tốc release trong mọi trường hợp, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Gộp toàn bộ bước vào một stage để giảm thời gian cấu hình, trong chu kỳ phát hành liên tục.",
+      "Xây pipeline đa stage có test gate, scan bảo mật và phát hành có kiểm soát."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: pipeline chuẩn vừa đảm bảo tốc độ vừa bảo vệ chất lượng và bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế pipeline có quality gate, artifact và rollback rõ ràng..\nNăng lực đánh giá: Thiết kế pipeline có quality gate, artifact và rollback rõ ràng.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q013",
+    "q_num": 13,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Pipeline Engineering. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ quality gate để tăng tốc release trong mọi trường hợp. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn gộp toàn bộ bước vào một stage để giảm thời gian cấu hình. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn triển khai trực tiếp từ máy cá nhân vì nhanh hơn pipeline tập trung. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên xây pipeline đa stage có test gate, scan bảo mật và phát hành có kiểm soát. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: pipeline chuẩn vừa đảm bảo tốc độ vừa bảo vệ chất lượng và bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế pipeline có quality gate, artifact và rollback rõ ràng..\nNăng lực đánh giá: Thiết kế pipeline có quality gate, artifact và rollback rõ ràng.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q014",
+    "q_num": 14,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Pipeline Engineering, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn triển khai trực tiếp từ máy cá nhân vì nhanh hơn pipeline tập trung. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn gộp toàn bộ bước vào một stage để giảm thời gian cấu hình. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên xây pipeline đa stage có test gate, scan bảo mật và phát hành có kiểm soát. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ quality gate để tăng tốc release trong mọi trường hợp. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: pipeline chuẩn vừa đảm bảo tốc độ vừa bảo vệ chất lượng và bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế pipeline có quality gate, artifact và rollback rõ ràng..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế pipeline có quality gate, artifact và rollback rõ ràng.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q015",
+    "q_num": 15,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Pipeline Engineering trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ quality gate để tăng tốc release trong mọi trường hợp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt gộp toàn bộ bước vào một stage để giảm thời gian cấu hình. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Chuẩn hóa xây pipeline đa stage có test gate, scan bảo mật và phát hành có kiểm soát. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt triển khai trực tiếp từ máy cá nhân vì nhanh hơn pipeline tập trung. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: pipeline chuẩn vừa đảm bảo tốc độ vừa bảo vệ chất lượng và bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế pipeline có quality gate, artifact và rollback rõ ràng..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế pipeline có quality gate, artifact và rollback rõ ràng.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q016",
+    "q_num": 16,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Infrastructure as Code?",
+    "options": [
+      "Dùng một file IaC khổng lồ duy nhất cho toàn tổ chức, trong điều kiện dữ liệu biến động.",
+      "Chỉnh sửa trực tiếp tài nguyên production rồi cập nhật IaC sau, ở môi trường production.",
+      "Tạo hạ tầng thủ công trên console để linh hoạt thay đổi tức thời, khi mở rộng quy mô sản phẩm.",
+      "Dùng IaC để khai báo hạ tầng có versioning, review và kiểm soát state nhất quán."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: IaC giúp tái lập môi trường và giảm sự cố do cấu hình không đồng nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc quản trị hạ tầng tái lập bằng code và kiểm soát drift..\nNăng lực đánh giá: Quản trị hạ tầng tái lập bằng code và kiểm soát drift.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q017",
+    "q_num": 17,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Infrastructure as Code?",
+    "options": [
+      "Chỉnh sửa trực tiếp tài nguyên production rồi cập nhật IaC sau, ở môi trường production.",
+      "Tạo hạ tầng thủ công trên console để linh hoạt thay đổi tức thời, khi mở rộng quy mô sản phẩm.",
+      "Dùng một file IaC khổng lồ duy nhất cho toàn tổ chức, theo chuẩn quản trị kỹ thuật.",
+      "Dùng IaC để khai báo hạ tầng có versioning, review và kiểm soát state nhất quán."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: IaC giúp tái lập môi trường và giảm sự cố do cấu hình không đồng nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc quản trị hạ tầng tái lập bằng code và kiểm soát drift..\nNăng lực đánh giá: Quản trị hạ tầng tái lập bằng code và kiểm soát drift.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q018",
+    "q_num": 18,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Infrastructure as Code. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn dùng một file iac khổng lồ duy nhất cho toàn tổ chức. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn tạo hạ tầng thủ công trên console để linh hoạt thay đổi tức thời. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên dùng iac để khai báo hạ tầng có versioning, review và kiểm soát state nhất quán. và xác nhận bằng chỉ số thực tế.",
+      "Chọn chỉnh sửa trực tiếp tài nguyên production rồi cập nhật iac sau. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: IaC giúp tái lập môi trường và giảm sự cố do cấu hình không đồng nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị hạ tầng tái lập bằng code và kiểm soát drift..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị hạ tầng tái lập bằng code và kiểm soát drift.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q019",
+    "q_num": 19,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Infrastructure as Code, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn chỉnh sửa trực tiếp tài nguyên production rồi cập nhật iac sau. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn tạo hạ tầng thủ công trên console để linh hoạt thay đổi tức thời. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên dùng iac để khai báo hạ tầng có versioning, review và kiểm soát state nhất quán. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng một file iac khổng lồ duy nhất cho toàn tổ chức. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: IaC giúp tái lập môi trường và giảm sự cố do cấu hình không đồng nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị hạ tầng tái lập bằng code và kiểm soát drift..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị hạ tầng tái lập bằng code và kiểm soát drift.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q020",
+    "q_num": 20,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Infrastructure as Code trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt dùng một file iac khổng lồ duy nhất cho toàn tổ chức. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt chỉnh sửa trực tiếp tài nguyên production rồi cập nhật iac sau. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt tạo hạ tầng thủ công trên console để linh hoạt thay đổi tức thời. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa dùng iac để khai báo hạ tầng có versioning, review và kiểm soát state nhất quán. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: IaC giúp tái lập môi trường và giảm sự cố do cấu hình không đồng nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc quản trị hạ tầng tái lập bằng code và kiểm soát drift..\nNăng lực đánh giá: Quản trị hạ tầng tái lập bằng code và kiểm soát drift.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q021",
+    "q_num": 21,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Docker Best Practices?",
+    "options": [
+      "Nhúng secrets trực tiếp vào image để giảm phụ thuộc runtime, khi hệ thống tăng tải.",
+      "Dùng root user trong container để tránh lỗi quyền truy cập, theo yêu cầu vận hành dài hạn.",
+      "Giữ image cũ vô thời hạn vì rollback sẽ luôn an toàn hơn, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Dùng base image phù hợp, multi-stage build và quét lỗ hổng image định kỳ."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: container an toàn và gọn nhẹ là nền tảng cho triển khai ổn định quy mô lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tối ưu image, bảo mật container và vòng đời build..\nNăng lực đánh giá: Tối ưu image, bảo mật container và vòng đời build.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q022",
+    "q_num": 22,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Docker Best Practices?",
+    "options": [
+      "Giữ image cũ vô thời hạn vì rollback sẽ luôn an toàn hơn, theo yêu cầu vận hành dài hạn.",
+      "Dùng root user trong container để tránh lỗi quyền truy cập, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Dùng base image phù hợp, multi-stage build và quét lỗ hổng image định kỳ.",
+      "Nhúng secrets trực tiếp vào image để giảm phụ thuộc runtime, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: container an toàn và gọn nhẹ là nền tảng cho triển khai ổn định quy mô lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tối ưu image, bảo mật container và vòng đời build..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu image, bảo mật container và vòng đời build.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q023",
+    "q_num": 23,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Docker Best Practices. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn nhúng secrets trực tiếp vào image để giảm phụ thuộc runtime. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn dùng root user trong container để tránh lỗi quyền truy cập. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên dùng base image phù hợp, multi-stage build và quét lỗ hổng image định kỳ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn giữ image cũ vô thời hạn vì rollback sẽ luôn an toàn hơn. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: container an toàn và gọn nhẹ là nền tảng cho triển khai ổn định quy mô lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tối ưu image, bảo mật container và vòng đời build..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu image, bảo mật container và vòng đời build.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q024",
+    "q_num": 24,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Docker Best Practices, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn giữ image cũ vô thời hạn vì rollback sẽ luôn an toàn hơn. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn nhúng secrets trực tiếp vào image để giảm phụ thuộc runtime. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn dùng root user trong container để tránh lỗi quyền truy cập. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên dùng base image phù hợp, multi-stage build và quét lỗ hổng image định kỳ. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: container an toàn và gọn nhẹ là nền tảng cho triển khai ổn định quy mô lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tối ưu image, bảo mật container và vòng đời build..\nNăng lực đánh giá: Tối ưu image, bảo mật container và vòng đời build.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q025",
+    "q_num": 25,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Docker Best Practices trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt nhúng secrets trực tiếp vào image để giảm phụ thuộc runtime. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa dùng base image phù hợp, multi-stage build và quét lỗ hổng image định kỳ. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt dùng root user trong container để tránh lỗi quyền truy cập. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt giữ image cũ vô thời hạn vì rollback sẽ luôn an toàn hơn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: container an toàn và gọn nhẹ là nền tảng cho triển khai ổn định quy mô lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tối ưu image, bảo mật container và vòng đời build..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu image, bảo mật container và vòng đời build.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q026",
+    "q_num": 26,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Kubernetes Core?",
+    "options": [
+      "Tắt readiness probe để traffic vào Pod ngay sau khi khởi động, trong điều kiện dữ liệu biến động.",
+      "Triển khai trực tiếp Pod đơn lẻ cho production để giảm độ phức tạp, ở môi trường production.",
+      "Quản lý workload bằng Deployment và truy cập qua Service với cấu hình health check rõ.",
+      "Dùng NodePort mặc định cho mọi dịch vụ nội bộ và internet-facing, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: k8s vận hành ổn định cần abstraction đúng và health signal đáng tin cậy.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc hiểu pod, deployment, service và mô hình triển khai cloud-native..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu pod, deployment, service và mô hình triển khai cloud-native.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q027",
+    "q_num": 27,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Kubernetes Core?",
+    "options": [
+      "Dùng NodePort mặc định cho mọi dịch vụ nội bộ và internet-facing, ở môi trường production.",
+      "Triển khai trực tiếp Pod đơn lẻ cho production để giảm độ phức tạp, khi mở rộng quy mô sản phẩm.",
+      "Quản lý workload bằng Deployment và truy cập qua Service với cấu hình health check rõ.",
+      "Tắt readiness probe để traffic vào Pod ngay sau khi khởi động, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: k8s vận hành ổn định cần abstraction đúng và health signal đáng tin cậy.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc hiểu pod, deployment, service và mô hình triển khai cloud-native..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu pod, deployment, service và mô hình triển khai cloud-native.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q028",
+    "q_num": 28,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Kubernetes Core. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn tắt readiness probe để traffic vào pod ngay sau khi khởi động. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn dùng nodeport mặc định cho mọi dịch vụ nội bộ và internet-facing. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn triển khai trực tiếp pod đơn lẻ cho production để giảm độ phức tạp. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên quản lý workload bằng deployment và truy cập qua service với cấu hình health check rõ. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: k8s vận hành ổn định cần abstraction đúng và health signal đáng tin cậy.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu pod, deployment, service và mô hình triển khai cloud-native..\nNăng lực đánh giá: Hiểu pod, deployment, service và mô hình triển khai cloud-native.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q029",
+    "q_num": 29,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Kubernetes Core, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn dùng nodeport mặc định cho mọi dịch vụ nội bộ và internet-facing. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên quản lý workload bằng deployment và truy cập qua service với cấu hình health check rõ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn triển khai trực tiếp pod đơn lẻ cho production để giảm độ phức tạp. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn tắt readiness probe để traffic vào pod ngay sau khi khởi động. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: k8s vận hành ổn định cần abstraction đúng và health signal đáng tin cậy.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc hiểu pod, deployment, service và mô hình triển khai cloud-native..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu pod, deployment, service và mô hình triển khai cloud-native.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q030",
+    "q_num": 30,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Kubernetes Core trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt triển khai trực tiếp pod đơn lẻ cho production để giảm độ phức tạp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Chuẩn hóa quản lý workload bằng deployment và truy cập qua service với cấu hình health check rõ. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt tắt readiness probe để traffic vào pod ngay sau khi khởi động. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt dùng nodeport mặc định cho mọi dịch vụ nội bộ và internet-facing. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: k8s vận hành ổn định cần abstraction đúng và health signal đáng tin cậy.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc hiểu pod, deployment, service và mô hình triển khai cloud-native..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu pod, deployment, service và mô hình triển khai cloud-native.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q031",
+    "q_num": 31,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về K8s Autoscaling?",
+    "options": [
+      "Bỏ resource request-limit để scheduler tự cân bằng linh hoạt, khi hệ thống tăng tải.",
+      "Scale theo CPU duy nhất cho mọi dịch vụ dù tải phụ thuộc I/O, theo yêu cầu vận hành dài hạn.",
+      "Thiết lập autoscaling dựa trên metric phù hợp và baseline capacity an toàn.",
+      "Tăng replica thủ công mỗi lần có traffic tăng đột biến, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: autoscaling đúng giúp tối ưu chi phí và giữ ổn định trải nghiệm dưới tải biến động.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc mở rộng tự động theo tải và hạn mức tài nguyên thực..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Mở rộng tự động theo tải và hạn mức tài nguyên thực.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q032",
+    "q_num": 32,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về K8s Autoscaling?",
+    "options": [
+      "Tăng replica thủ công mỗi lần có traffic tăng đột biến, theo yêu cầu vận hành dài hạn.",
+      "Bỏ resource request-limit để scheduler tự cân bằng linh hoạt, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Scale theo CPU duy nhất cho mọi dịch vụ dù tải phụ thuộc I/O, trong chu kỳ phát hành liên tục.",
+      "Thiết lập autoscaling dựa trên metric phù hợp và baseline capacity an toàn."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: autoscaling đúng giúp tối ưu chi phí và giữ ổn định trải nghiệm dưới tải biến động.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc mở rộng tự động theo tải và hạn mức tài nguyên thực..\nNăng lực đánh giá: Mở rộng tự động theo tải và hạn mức tài nguyên thực.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q033",
+    "q_num": 33,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến K8s Autoscaling. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ resource request-limit để scheduler tự cân bằng linh hoạt. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Ưu tiên thiết lập autoscaling dựa trên metric phù hợp và baseline capacity an toàn. và xác nhận bằng chỉ số thực tế.",
+      "Chọn scale theo cpu duy nhất cho mọi dịch vụ dù tải phụ thuộc i/o. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn tăng replica thủ công mỗi lần có traffic tăng đột biến. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: autoscaling đúng giúp tối ưu chi phí và giữ ổn định trải nghiệm dưới tải biến động.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc mở rộng tự động theo tải và hạn mức tài nguyên thực..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Mở rộng tự động theo tải và hạn mức tài nguyên thực.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q034",
+    "q_num": 34,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho K8s Autoscaling, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn scale theo cpu duy nhất cho mọi dịch vụ dù tải phụ thuộc i/o. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên thiết lập autoscaling dựa trên metric phù hợp và baseline capacity an toàn. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tăng replica thủ công mỗi lần có traffic tăng đột biến. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn bỏ resource request-limit để scheduler tự cân bằng linh hoạt. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: autoscaling đúng giúp tối ưu chi phí và giữ ổn định trải nghiệm dưới tải biến động.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc mở rộng tự động theo tải và hạn mức tài nguyên thực..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Mở rộng tự động theo tải và hạn mức tài nguyên thực.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q035",
+    "q_num": 35,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về K8s Autoscaling trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tăng replica thủ công mỗi lần có traffic tăng đột biến. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt scale theo cpu duy nhất cho mọi dịch vụ dù tải phụ thuộc i/o. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Chuẩn hóa thiết lập autoscaling dựa trên metric phù hợp và baseline capacity an toàn. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt bỏ resource request-limit để scheduler tự cân bằng linh hoạt. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: autoscaling đúng giúp tối ưu chi phí và giữ ổn định trải nghiệm dưới tải biến động.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc mở rộng tự động theo tải và hạn mức tài nguyên thực..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Mở rộng tự động theo tải và hạn mức tài nguyên thực.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q036",
+    "q_num": 36,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Service Mesh?",
+    "options": [
+      "Bật toàn bộ tính năng mesh ngay ngày đầu cho mọi namespace, trong điều kiện dữ liệu biến động.",
+      "Triển khai service mesh mà không cần phân tích overhead vận hành, ở môi trường production.",
+      "Nhúng toàn bộ logic retry, timeout, mTLS vào từng service riêng lẻ, khi mở rộng quy mô sản phẩm.",
+      "Dùng service mesh để chuẩn hóa traffic policy, mTLS và telemetry liên dịch vụ."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: service mesh có giá trị khi giải quyết bài toán giao tiếp liên dịch vụ có quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc quản trị traffic, mtls và observability giữa microservices..\nNăng lực đánh giá: Quản trị traffic, mTLS và observability giữa microservices.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q037",
+    "q_num": 37,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Service Mesh?",
+    "options": [
+      "Triển khai service mesh mà không cần phân tích overhead vận hành, ở môi trường production.",
+      "Dùng service mesh để chuẩn hóa traffic policy, mTLS và telemetry liên dịch vụ.",
+      "Nhúng toàn bộ logic retry, timeout, mTLS vào từng service riêng lẻ, theo chuẩn quản trị kỹ thuật.",
+      "Bật toàn bộ tính năng mesh ngay ngày đầu cho mọi namespace, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: service mesh có giá trị khi giải quyết bài toán giao tiếp liên dịch vụ có quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc quản trị traffic, mtls và observability giữa microservices..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị traffic, mTLS và observability giữa microservices.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q038",
+    "q_num": 38,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Service Mesh. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn nhúng toàn bộ logic retry, timeout, mtls vào từng service riêng lẻ. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Ưu tiên dùng service mesh để chuẩn hóa traffic policy, mtls và telemetry liên dịch vụ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bật toàn bộ tính năng mesh ngay ngày đầu cho mọi namespace. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn triển khai service mesh mà không cần phân tích overhead vận hành. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: service mesh có giá trị khi giải quyết bài toán giao tiếp liên dịch vụ có quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc quản trị traffic, mtls và observability giữa microservices..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị traffic, mTLS và observability giữa microservices.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q039",
+    "q_num": 39,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Service Mesh, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bật toàn bộ tính năng mesh ngay ngày đầu cho mọi namespace. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn nhúng toàn bộ logic retry, timeout, mtls vào từng service riêng lẻ. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên dùng service mesh để chuẩn hóa traffic policy, mtls và telemetry liên dịch vụ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn triển khai service mesh mà không cần phân tích overhead vận hành. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: service mesh có giá trị khi giải quyết bài toán giao tiếp liên dịch vụ có quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị traffic, mtls và observability giữa microservices..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị traffic, mTLS và observability giữa microservices.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q040",
+    "q_num": 40,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Service Mesh trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bật toàn bộ tính năng mesh ngay ngày đầu cho mọi namespace. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt nhúng toàn bộ logic retry, timeout, mtls vào từng service riêng lẻ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Chuẩn hóa dùng service mesh để chuẩn hóa traffic policy, mtls và telemetry liên dịch vụ. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt triển khai service mesh mà không cần phân tích overhead vận hành. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: service mesh có giá trị khi giải quyết bài toán giao tiếp liên dịch vụ có quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị traffic, mtls và observability giữa microservices..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị traffic, mTLS và observability giữa microservices.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q041",
+    "q_num": 41,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Cloud Networking?",
+    "options": [
+      "Dùng một security group mở rộng 0.0.0.0/0 cho mọi cổng dịch vụ, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Thiết kế mạng phân lớp public-private, route rõ ràng và kiểm soát lưu lượng theo nguyên tắc tối thiểu.",
+      "Đặt toàn bộ tài nguyên vào public subnet để dễ truy cập và vận hành, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Bỏ phân tách môi trường dev-staging-prod ở tầng mạng để giảm chi phí, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: kiến trúc mạng chuẩn là lớp phòng thủ nền cho bảo mật cloud.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế vpc/vnet, subnet và tuyến mạng an toàn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế VPC/VNet, subnet và tuyến mạng an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q042",
+    "q_num": 42,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Cloud Networking?",
+    "options": [
+      "Đặt toàn bộ tài nguyên vào public subnet để dễ truy cập và vận hành, theo yêu cầu vận hành dài hạn.",
+      "Thiết kế mạng phân lớp public-private, route rõ ràng và kiểm soát lưu lượng theo nguyên tắc tối thiểu.",
+      "Bỏ phân tách môi trường dev-staging-prod ở tầng mạng để giảm chi phí, trong chu kỳ phát hành liên tục.",
+      "Dùng một security group mở rộng 0.0.0.0/0 cho mọi cổng dịch vụ, theo tiêu chí độ tin cậy dịch vụ, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: kiến trúc mạng chuẩn là lớp phòng thủ nền cho bảo mật cloud.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế vpc/vnet, subnet và tuyến mạng an toàn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế VPC/VNet, subnet và tuyến mạng an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q043",
+    "q_num": 43,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Cloud Networking. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ phân tách môi trường dev-staging-prod ở tầng mạng để giảm chi phí. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn đặt toàn bộ tài nguyên vào public subnet để dễ truy cập và vận hành. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên thiết kế mạng phân lớp public-private, route rõ ràng và kiểm soát lưu lượng theo nguyên tắc tối thiểu. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng một security group mở rộng 0.0.0.0/0 cho mọi cổng dịch vụ. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: kiến trúc mạng chuẩn là lớp phòng thủ nền cho bảo mật cloud.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế vpc/vnet, subnet và tuyến mạng an toàn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế VPC/VNet, subnet và tuyến mạng an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q044",
+    "q_num": 44,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Cloud Networking, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bỏ phân tách môi trường dev-staging-prod ở tầng mạng để giảm chi phí. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn đặt toàn bộ tài nguyên vào public subnet để dễ truy cập và vận hành. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên thiết kế mạng phân lớp public-private, route rõ ràng và kiểm soát lưu lượng theo nguyên tắc tối thiểu. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng một security group mở rộng 0.0.0.0/0 cho mọi cổng dịch vụ. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: kiến trúc mạng chuẩn là lớp phòng thủ nền cho bảo mật cloud.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế vpc/vnet, subnet và tuyến mạng an toàn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế VPC/VNet, subnet và tuyến mạng an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q045",
+    "q_num": 45,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Cloud Networking trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ phân tách môi trường dev-staging-prod ở tầng mạng để giảm chi phí. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt dùng một security group mở rộng 0.0.0.0/0 cho mọi cổng dịch vụ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động, ở môi trường production.",
+      "Chuẩn hóa thiết kế mạng phân lớp public-private, route rõ ràng và kiểm soát lưu lượng theo nguyên tắc tối thiểu. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt đặt toàn bộ tài nguyên vào public subnet để dễ truy cập và vận hành. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: kiến trúc mạng chuẩn là lớp phòng thủ nền cho bảo mật cloud.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế vpc/vnet, subnet và tuyến mạng an toàn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế VPC/VNet, subnet và tuyến mạng an toàn.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q046",
+    "q_num": 46,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về IAM Governance?",
+    "options": [
+      "Gán quyền admin mặc định cho pipeline để tránh lỗi cấp quyền, trong điều kiện dữ liệu biến động.",
+      "Thiết kế IAM role theo nhiệm vụ, cấp quyền tối thiểu và audit định kỳ.",
+      "Bỏ MFA với tài khoản đặc quyền nội bộ vì đã ở mạng công ty, khi mở rộng quy mô sản phẩm.",
+      "Dùng shared account cho nhiều hệ thống để thuận tiện vận hành, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: IAM chuẩn giảm nguy cơ leo thang đặc quyền và lan truyền sự cố bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc quản trị định danh và quyền hạn theo least privilege..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị định danh và quyền hạn theo least privilege.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q047",
+    "q_num": 47,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về IAM Governance?",
+    "options": [
+      "Bỏ MFA với tài khoản đặc quyền nội bộ vì đã ở mạng công ty, ở môi trường production.",
+      "Gán quyền admin mặc định cho pipeline để tránh lỗi cấp quyền, khi mở rộng quy mô sản phẩm.",
+      "Thiết kế IAM role theo nhiệm vụ, cấp quyền tối thiểu và audit định kỳ.",
+      "Dùng shared account cho nhiều hệ thống để thuận tiện vận hành, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: IAM chuẩn giảm nguy cơ leo thang đặc quyền và lan truyền sự cố bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị định danh và quyền hạn theo least privilege..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị định danh và quyền hạn theo least privilege.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q048",
+    "q_num": 48,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến IAM Governance. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ mfa với tài khoản đặc quyền nội bộ vì đã ở mạng công ty. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn gán quyền admin mặc định cho pipeline để tránh lỗi cấp quyền. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên thiết kế iam role theo nhiệm vụ, cấp quyền tối thiểu và audit định kỳ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng shared account cho nhiều hệ thống để thuận tiện vận hành. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: IAM chuẩn giảm nguy cơ leo thang đặc quyền và lan truyền sự cố bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị định danh và quyền hạn theo least privilege..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị định danh và quyền hạn theo least privilege.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q049",
+    "q_num": 49,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho IAM Governance, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bỏ mfa với tài khoản đặc quyền nội bộ vì đã ở mạng công ty. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn dùng shared account cho nhiều hệ thống để thuận tiện vận hành. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên thiết kế iam role theo nhiệm vụ, cấp quyền tối thiểu và audit định kỳ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn gán quyền admin mặc định cho pipeline để tránh lỗi cấp quyền. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: IAM chuẩn giảm nguy cơ leo thang đặc quyền và lan truyền sự cố bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị định danh và quyền hạn theo least privilege..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị định danh và quyền hạn theo least privilege.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q050",
+    "q_num": 50,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về IAM Governance trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt dùng shared account cho nhiều hệ thống để thuận tiện vận hành. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt gán quyền admin mặc định cho pipeline để tránh lỗi cấp quyền. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Chuẩn hóa thiết kế iam role theo nhiệm vụ, cấp quyền tối thiểu và audit định kỳ. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt bỏ mfa với tài khoản đặc quyền nội bộ vì đã ở mạng công ty. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: IAM chuẩn giảm nguy cơ leo thang đặc quyền và lan truyền sự cố bảo mật.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản trị định danh và quyền hạn theo least privilege..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản trị định danh và quyền hạn theo least privilege.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q051",
+    "q_num": 51,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Observability Stack?",
+    "options": [
+      "Lưu dữ liệu quan sát vô hạn mà không có chính sách retention, khi hệ thống tăng tải.",
+      "Chỉ thu thập logs vì metrics và trace tạo thêm chi phí, theo yêu cầu vận hành dài hạn.",
+      "Xây observability stack thống nhất với correlation id và dashboard theo luồng nghiệp vụ.",
+      "Tạo dashboard theo dịch vụ đơn lẻ, không gắn chỉ tiêu nghiệp vụ, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: quan sát tốt cần liên kết dữ liệu kỹ thuật với tác động người dùng và kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc kết hợp metrics, logs, traces để quan sát hệ thống toàn diện..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kết hợp metrics, logs, traces để quan sát hệ thống toàn diện.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q052",
+    "q_num": 52,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Observability Stack?",
+    "options": [
+      "Lưu dữ liệu quan sát vô hạn mà không có chính sách retention, theo yêu cầu vận hành dài hạn.",
+      "Chỉ thu thập logs vì metrics và trace tạo thêm chi phí, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Xây observability stack thống nhất với correlation id và dashboard theo luồng nghiệp vụ.",
+      "Tạo dashboard theo dịch vụ đơn lẻ, không gắn chỉ tiêu nghiệp vụ, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: quan sát tốt cần liên kết dữ liệu kỹ thuật với tác động người dùng và kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc kết hợp metrics, logs, traces để quan sát hệ thống toàn diện..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kết hợp metrics, logs, traces để quan sát hệ thống toàn diện.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q053",
+    "q_num": 53,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Observability Stack. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn lưu dữ liệu quan sát vô hạn mà không có chính sách retention. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn tạo dashboard theo dịch vụ đơn lẻ, không gắn chỉ tiêu nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên xây observability stack thống nhất với correlation id và dashboard theo luồng nghiệp vụ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn chỉ thu thập logs vì metrics và trace tạo thêm chi phí. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: quan sát tốt cần liên kết dữ liệu kỹ thuật với tác động người dùng và kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc kết hợp metrics, logs, traces để quan sát hệ thống toàn diện..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kết hợp metrics, logs, traces để quan sát hệ thống toàn diện.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q054",
+    "q_num": 54,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Observability Stack, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn tạo dashboard theo dịch vụ đơn lẻ, không gắn chỉ tiêu nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn chỉ thu thập logs vì metrics và trace tạo thêm chi phí. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên xây observability stack thống nhất với correlation id và dashboard theo luồng nghiệp vụ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn lưu dữ liệu quan sát vô hạn mà không có chính sách retention. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: quan sát tốt cần liên kết dữ liệu kỹ thuật với tác động người dùng và kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc kết hợp metrics, logs, traces để quan sát hệ thống toàn diện..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kết hợp metrics, logs, traces để quan sát hệ thống toàn diện.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q055",
+    "q_num": 55,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Observability Stack trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt chỉ thu thập logs vì metrics và trace tạo thêm chi phí. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa xây observability stack thống nhất với correlation id và dashboard theo luồng nghiệp vụ. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt lưu dữ liệu quan sát vô hạn mà không có chính sách retention. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt tạo dashboard theo dịch vụ đơn lẻ, không gắn chỉ tiêu nghiệp vụ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: quan sát tốt cần liên kết dữ liệu kỹ thuật với tác động người dùng và kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc kết hợp metrics, logs, traces để quan sát hệ thống toàn diện..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kết hợp metrics, logs, traces để quan sát hệ thống toàn diện.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q056",
+    "q_num": 56,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về SLO & Error Budget?",
+    "options": [
+      "Bỏ qua error budget vì làm chậm tốc độ triển khai tính năng, trong điều kiện dữ liệu biến động.",
+      "Đặt mục tiêu 100% uptime cho mọi hệ thống để thể hiện chất lượng cao nhất, ở môi trường production.",
+      "Định nghĩa SLI/SLO theo hành vi người dùng và dùng error budget để điều tiết release.",
+      "Chỉ dùng CPU và RAM làm SLI chính cho toàn bộ sản phẩm, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: SRE hiệu quả cần cân bằng reliability và innovation bằng chỉ số đo được.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q057",
+    "q_num": 57,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về SLO & Error Budget?",
+    "options": [
+      "Bỏ qua error budget vì làm chậm tốc độ triển khai tính năng, ở môi trường production.",
+      "Chỉ dùng CPU và RAM làm SLI chính cho toàn bộ sản phẩm, khi mở rộng quy mô sản phẩm.",
+      "Định nghĩa SLI/SLO theo hành vi người dùng và dùng error budget để điều tiết release.",
+      "Đặt mục tiêu 100% uptime cho mọi hệ thống để thể hiện chất lượng cao nhất, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: SRE hiệu quả cần cân bằng reliability và innovation bằng chỉ số đo được.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q058",
+    "q_num": 58,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến SLO & Error Budget. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn chỉ dùng cpu và ram làm sli chính cho toàn bộ sản phẩm. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn đặt mục tiêu 100% uptime cho mọi hệ thống để thể hiện chất lượng cao nhất. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên định nghĩa sli/slo theo hành vi người dùng và dùng error budget để điều tiết release. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ qua error budget vì làm chậm tốc độ triển khai tính năng. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: SRE hiệu quả cần cân bằng reliability và innovation bằng chỉ số đo được.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q059",
+    "q_num": 59,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho SLO & Error Budget, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn đặt mục tiêu 100% uptime cho mọi hệ thống để thể hiện chất lượng cao nhất. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên định nghĩa sli/slo theo hành vi người dùng và dùng error budget để điều tiết release. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ qua error budget vì làm chậm tốc độ triển khai tính năng. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn chỉ dùng cpu và ram làm sli chính cho toàn bộ sản phẩm. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: SRE hiệu quả cần cân bằng reliability và innovation bằng chỉ số đo được.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q060",
+    "q_num": 60,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về SLO & Error Budget trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt đặt mục tiêu 100% uptime cho mọi hệ thống để thể hiện chất lượng cao nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt chỉ dùng cpu và ram làm sli chính cho toàn bộ sản phẩm. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Đặt bỏ qua error budget vì làm chậm tốc độ triển khai tính năng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa định nghĩa sli/slo theo hành vi người dùng và dùng error budget để điều tiết release. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: SRE hiệu quả cần cân bằng reliability và innovation bằng chỉ số đo được.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành..\nNăng lực đánh giá: Thiết lập mục tiêu tin cậy và quản trị tốc độ phát hành.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q061",
+    "q_num": 61,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Incident Response?",
+    "options": [
+      "Kết thúc incident là xong, không cần theo dõi action item sau đó, khi hệ thống tăng tải.",
+      "Ẩn thông tin sự cố nội bộ để tránh ảnh hưởng tinh thần đội ngũ, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa incident process với on-call, runbook, communication và postmortem không đổ lỗi.",
+      "Xử lý sự cố ad-hoc theo kinh nghiệm cá nhân của người trực ca, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: quy trình sự cố chuẩn giúp giảm MTTR và ngăn lỗi lặp lại.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q062",
+    "q_num": 62,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Incident Response?",
+    "options": [
+      "Ẩn thông tin sự cố nội bộ để tránh ảnh hưởng tinh thần đội ngũ, theo yêu cầu vận hành dài hạn.",
+      "Xử lý sự cố ad-hoc theo kinh nghiệm cá nhân của người trực ca, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chuẩn hóa incident process với on-call, runbook, communication và postmortem không đổ lỗi.",
+      "Kết thúc incident là xong, không cần theo dõi action item sau đó, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: quy trình sự cố chuẩn giúp giảm MTTR và ngăn lỗi lặp lại.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q063",
+    "q_num": 63,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Incident Response. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn xử lý sự cố ad-hoc theo kinh nghiệm cá nhân của người trực ca. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Ưu tiên chuẩn hóa incident process với on-call, runbook, communication và postmortem không đổ lỗi. và xác nhận bằng chỉ số thực tế.",
+      "Chọn kết thúc incident là xong, không cần theo dõi action item sau đó. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn ẩn thông tin sự cố nội bộ để tránh ảnh hưởng tinh thần đội ngũ. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: quy trình sự cố chuẩn giúp giảm MTTR và ngăn lỗi lặp lại.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q064",
+    "q_num": 64,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Incident Response, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn xử lý sự cố ad-hoc theo kinh nghiệm cá nhân của người trực ca. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn ẩn thông tin sự cố nội bộ để tránh ảnh hưởng tinh thần đội ngũ. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn kết thúc incident là xong, không cần theo dõi action item sau đó. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên chuẩn hóa incident process với on-call, runbook, communication và postmortem không đổ lỗi. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: quy trình sự cố chuẩn giúp giảm MTTR và ngăn lỗi lặp lại.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố..\nNăng lực đánh giá: Tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q065",
+    "q_num": 65,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Incident Response trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt xử lý sự cố ad-hoc theo kinh nghiệm cá nhân của người trực ca. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa chuẩn hóa incident process với on-call, runbook, communication và postmortem không đổ lỗi. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt ẩn thông tin sự cố nội bộ để tránh ảnh hưởng tinh thần đội ngũ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt kết thúc incident là xong, không cần theo dõi action item sau đó. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: quy trình sự cố chuẩn giúp giảm MTTR và ngăn lỗi lặp lại.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức ứng cứu sự cố nhanh, rõ vai trò và học sau sự cố.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q066",
+    "q_num": 66,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Deployment Strategy?",
+    "options": [
+      "Dùng canary nhưng không theo dõi metric so sánh với phiên bản cũ, trong điều kiện dữ liệu biến động.",
+      "Deploy toàn bộ 100% traffic ngay lập tức để rút ngắn thời gian release, ở môi trường production.",
+      "Chọn chiến lược canary hoặc blue-green theo mức rủi ro, khả năng rollback và quan sát.",
+      "Rollback thủ công không có kế hoạch kiểm thử sau rollback, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: release an toàn cần cơ chế chuyển lưu lượng có kiểm chứng định lượng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc giảm rủi ro phát hành bằng canary hoặc blue-green..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm rủi ro phát hành bằng canary hoặc blue-green.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q067",
+    "q_num": 67,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Deployment Strategy?",
+    "options": [
+      "Deploy toàn bộ 100% traffic ngay lập tức để rút ngắn thời gian release, ở môi trường production.",
+      "Chọn chiến lược canary hoặc blue-green theo mức rủi ro, khả năng rollback và quan sát.",
+      "Rollback thủ công không có kế hoạch kiểm thử sau rollback, theo chuẩn quản trị kỹ thuật.",
+      "Dùng canary nhưng không theo dõi metric so sánh với phiên bản cũ, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: release an toàn cần cơ chế chuyển lưu lượng có kiểm chứng định lượng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc giảm rủi ro phát hành bằng canary hoặc blue-green..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm rủi ro phát hành bằng canary hoặc blue-green.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q068",
+    "q_num": 68,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Deployment Strategy. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn deploy toàn bộ 100% traffic ngay lập tức để rút ngắn thời gian release. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn dùng canary nhưng không theo dõi metric so sánh với phiên bản cũ. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn rollback thủ công không có kế hoạch kiểm thử sau rollback. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên chọn chiến lược canary hoặc blue-green theo mức rủi ro, khả năng rollback và quan sát. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: release an toàn cần cơ chế chuyển lưu lượng có kiểm chứng định lượng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc giảm rủi ro phát hành bằng canary hoặc blue-green..\nNăng lực đánh giá: Giảm rủi ro phát hành bằng canary hoặc blue-green.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q069",
+    "q_num": 69,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Deployment Strategy, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn deploy toàn bộ 100% traffic ngay lập tức để rút ngắn thời gian release. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên chọn chiến lược canary hoặc blue-green theo mức rủi ro, khả năng rollback và quan sát. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng canary nhưng không theo dõi metric so sánh với phiên bản cũ. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn rollback thủ công không có kế hoạch kiểm thử sau rollback. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: release an toàn cần cơ chế chuyển lưu lượng có kiểm chứng định lượng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc giảm rủi ro phát hành bằng canary hoặc blue-green..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm rủi ro phát hành bằng canary hoặc blue-green.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q070",
+    "q_num": 70,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Deployment Strategy trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt rollback thủ công không có kế hoạch kiểm thử sau rollback. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Chuẩn hóa chọn chiến lược canary hoặc blue-green theo mức rủi ro, khả năng rollback và quan sát. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt dùng canary nhưng không theo dõi metric so sánh với phiên bản cũ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt deploy toàn bộ 100% traffic ngay lập tức để rút ngắn thời gian release. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: release an toàn cần cơ chế chuyển lưu lượng có kiểm chứng định lượng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc giảm rủi ro phát hành bằng canary hoặc blue-green..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm rủi ro phát hành bằng canary hoặc blue-green.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q071",
+    "q_num": 71,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Disaster Recovery?",
+    "options": [
+      "Đặt cùng một RPO/RTO cho mọi hệ thống để đơn giản kế hoạch, khi hệ thống tăng tải.",
+      "Xác định RPO/RTO theo tier dịch vụ và kiểm thử DR định kỳ bằng kịch bản thực.",
+      "Bỏ DR test vì môi trường production đang hoạt động ổn định, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chỉ sao lưu dữ liệu mà không kiểm tra khả năng phục hồi thực tế, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: DR chỉ có giá trị khi phục hồi được trong giới hạn cam kết kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế dr theo rpo/rto phù hợp ưu tiên nghiệp vụ..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế DR theo RPO/RTO phù hợp ưu tiên nghiệp vụ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q072",
+    "q_num": 72,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Disaster Recovery?",
+    "options": [
+      "Đặt cùng một RPO/RTO cho mọi hệ thống để đơn giản kế hoạch, theo yêu cầu vận hành dài hạn.",
+      "Chỉ sao lưu dữ liệu mà không kiểm tra khả năng phục hồi thực tế, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Bỏ DR test vì môi trường production đang hoạt động ổn định, trong chu kỳ phát hành liên tục.",
+      "Xác định RPO/RTO theo tier dịch vụ và kiểm thử DR định kỳ bằng kịch bản thực."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: DR chỉ có giá trị khi phục hồi được trong giới hạn cam kết kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế dr theo rpo/rto phù hợp ưu tiên nghiệp vụ..\nNăng lực đánh giá: Thiết kế DR theo RPO/RTO phù hợp ưu tiên nghiệp vụ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q073",
+    "q_num": 73,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Disaster Recovery. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn đặt cùng một rpo/rto cho mọi hệ thống để đơn giản kế hoạch. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Ưu tiên xác định rpo/rto theo tier dịch vụ và kiểm thử dr định kỳ bằng kịch bản thực. và xác nhận bằng chỉ số thực tế.",
+      "Chọn chỉ sao lưu dữ liệu mà không kiểm tra khả năng phục hồi thực tế. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn bỏ dr test vì môi trường production đang hoạt động ổn định. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: DR chỉ có giá trị khi phục hồi được trong giới hạn cam kết kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế dr theo rpo/rto phù hợp ưu tiên nghiệp vụ..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế DR theo RPO/RTO phù hợp ưu tiên nghiệp vụ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q074",
+    "q_num": 74,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Disaster Recovery, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bỏ dr test vì môi trường production đang hoạt động ổn định. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên xác định rpo/rto theo tier dịch vụ và kiểm thử dr định kỳ bằng kịch bản thực. và xác nhận bằng chỉ số thực tế.",
+      "Chọn chỉ sao lưu dữ liệu mà không kiểm tra khả năng phục hồi thực tế. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn đặt cùng một rpo/rto cho mọi hệ thống để đơn giản kế hoạch. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: DR chỉ có giá trị khi phục hồi được trong giới hạn cam kết kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế dr theo rpo/rto phù hợp ưu tiên nghiệp vụ..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế DR theo RPO/RTO phù hợp ưu tiên nghiệp vụ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q075",
+    "q_num": 75,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Disaster Recovery trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ dr test vì môi trường production đang hoạt động ổn định. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt chỉ sao lưu dữ liệu mà không kiểm tra khả năng phục hồi thực tế. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt đặt cùng một rpo/rto cho mọi hệ thống để đơn giản kế hoạch. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa xác định rpo/rto theo tier dịch vụ và kiểm thử dr định kỳ bằng kịch bản thực. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: DR chỉ có giá trị khi phục hồi được trong giới hạn cam kết kinh doanh.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế dr theo rpo/rto phù hợp ưu tiên nghiệp vụ..\nNăng lực đánh giá: Thiết kế DR theo RPO/RTO phù hợp ưu tiên nghiệp vụ.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q076",
+    "q_num": 76,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về FinOps Optimization?",
+    "options": [
+      "Cắt giảm tài nguyên đồng loạt theo phần trăm để đạt mục tiêu ngân sách, trong điều kiện dữ liệu biến động.",
+      "Bỏ observability vì đây là chi phí không tạo giá trị trực tiếp, ở môi trường production.",
+      "Ưu tiên tiết kiệm tối đa ngay lập tức dù chưa đánh giá rủi ro SLA, khi mở rộng quy mô sản phẩm.",
+      "Theo dõi cost theo dịch vụ, tối ưu right-sizing và loại bỏ tài nguyên nhàn rỗi có kiểm soát."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: FinOps tốt là tối ưu thông minh dựa trên dữ liệu, không phải cắt giảm mù quáng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi..\nNăng lực đánh giá: Tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q077",
+    "q_num": 77,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về FinOps Optimization?",
+    "options": [
+      "Cắt giảm tài nguyên đồng loạt theo phần trăm để đạt mục tiêu ngân sách, ở môi trường production.",
+      "Theo dõi cost theo dịch vụ, tối ưu right-sizing và loại bỏ tài nguyên nhàn rỗi có kiểm soát.",
+      "Bỏ observability vì đây là chi phí không tạo giá trị trực tiếp, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên tiết kiệm tối đa ngay lập tức dù chưa đánh giá rủi ro SLA, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: FinOps tốt là tối ưu thông minh dựa trên dữ liệu, không phải cắt giảm mù quáng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q078",
+    "q_num": 78,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến FinOps Optimization. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn ưu tiên tiết kiệm tối đa ngay lập tức dù chưa đánh giá rủi ro sla. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Ưu tiên theo dõi cost theo dịch vụ, tối ưu right-sizing và loại bỏ tài nguyên nhàn rỗi có kiểm soát. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ observability vì đây là chi phí không tạo giá trị trực tiếp. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn cắt giảm tài nguyên đồng loạt theo phần trăm để đạt mục tiêu ngân sách. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: FinOps tốt là tối ưu thông minh dựa trên dữ liệu, không phải cắt giảm mù quáng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q079",
+    "q_num": 79,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho FinOps Optimization, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn ưu tiên tiết kiệm tối đa ngay lập tức dù chưa đánh giá rủi ro sla. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn bỏ observability vì đây là chi phí không tạo giá trị trực tiếp. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn cắt giảm tài nguyên đồng loạt theo phần trăm để đạt mục tiêu ngân sách. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Ưu tiên theo dõi cost theo dịch vụ, tối ưu right-sizing và loại bỏ tài nguyên nhàn rỗi có kiểm soát. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: FinOps tốt là tối ưu thông minh dựa trên dữ liệu, không phải cắt giảm mù quáng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi..\nNăng lực đánh giá: Tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q080",
+    "q_num": 80,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về FinOps Optimization trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt ưu tiên tiết kiệm tối đa ngay lập tức dù chưa đánh giá rủi ro sla. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt bỏ observability vì đây là chi phí không tạo giá trị trực tiếp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa theo dõi cost theo dịch vụ, tối ưu right-sizing và loại bỏ tài nguyên nhàn rỗi có kiểm soát. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt cắt giảm tài nguyên đồng loạt theo phần trăm để đạt mục tiêu ngân sách. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: FinOps tốt là tối ưu thông minh dựa trên dữ liệu, không phải cắt giảm mù quáng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu chi phí cloud mà không làm suy giảm độ tin cậy cốt lõi.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q081",
+    "q_num": 81,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Secrets Management?",
+    "options": [
+      "Lưu secret trong file cấu hình git riêng tư để tiện chia sẻ nội bộ, khi hệ thống tăng tải.",
+      "Dùng secret manager, rotation định kỳ và không hardcode secrets trong code hay image.",
+      "Dùng cùng một secret cho tất cả môi trường để tránh nhầm lẫn, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Gửi secret qua chat nhóm tạm thời khi cần xử lý incident khẩn, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: quản trị secrets nghiêm ngặt là bắt buộc để giảm rủi ro rò rỉ và tấn công chuỗi cung ứng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q082",
+    "q_num": 82,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Secrets Management?",
+    "options": [
+      "Gửi secret qua chat nhóm tạm thời khi cần xử lý incident khẩn, theo yêu cầu vận hành dài hạn.",
+      "Dùng secret manager, rotation định kỳ và không hardcode secrets trong code hay image.",
+      "Dùng cùng một secret cho tất cả môi trường để tránh nhầm lẫn, trong chu kỳ phát hành liên tục.",
+      "Lưu secret trong file cấu hình git riêng tư để tiện chia sẻ nội bộ, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: quản trị secrets nghiêm ngặt là bắt buộc để giảm rủi ro rò rỉ và tấn công chuỗi cung ứng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q083",
+    "q_num": 83,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Secrets Management. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn gửi secret qua chat nhóm tạm thời khi cần xử lý incident khẩn. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn dùng cùng một secret cho tất cả môi trường để tránh nhầm lẫn. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn lưu secret trong file cấu hình git riêng tư để tiện chia sẻ nội bộ. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên dùng secret manager, rotation định kỳ và không hardcode secrets trong code hay image. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: quản trị secrets nghiêm ngặt là bắt buộc để giảm rủi ro rò rỉ và tấn công chuỗi cung ứng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime..\nNăng lực đánh giá: Bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q084",
+    "q_num": 84,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Secrets Management, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn gửi secret qua chat nhóm tạm thời khi cần xử lý incident khẩn. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn dùng cùng một secret cho tất cả môi trường để tránh nhầm lẫn. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên dùng secret manager, rotation định kỳ và không hardcode secrets trong code hay image. và xác nhận bằng chỉ số thực tế.",
+      "Chọn lưu secret trong file cấu hình git riêng tư để tiện chia sẻ nội bộ. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: quản trị secrets nghiêm ngặt là bắt buộc để giảm rủi ro rò rỉ và tấn công chuỗi cung ứng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q085",
+    "q_num": 85,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Secrets Management trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa dùng secret manager, rotation định kỳ và không hardcode secrets trong code hay image. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt gửi secret qua chat nhóm tạm thời khi cần xử lý incident khẩn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt lưu secret trong file cấu hình git riêng tư để tiện chia sẻ nội bộ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt dùng cùng một secret cho tất cả môi trường để tránh nhầm lẫn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: A.\nLý do cốt lõi: quản trị secrets nghiêm ngặt là bắt buộc để giảm rủi ro rò rỉ và tấn công chuỗi cung ứng.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ bí mật hạ tầng và khóa truy cập trong pipeline-runtime.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q086",
+    "q_num": 86,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Supply Chain Security?",
+    "options": [
+      "Chỉ quét bảo mật trước release lớn, bỏ qua release nhỏ hằng ngày, trong điều kiện dữ liệu biến động.",
+      "Áp dụng kiểm soát dependency, ký artifact, SBOM và policy scan trong pipeline.",
+      "Bỏ kiểm tra chữ ký artifact để rút ngắn thời gian build, khi mở rộng quy mô sản phẩm.",
+      "Tin tưởng toàn bộ package public vì cộng đồng đã kiểm thử rộng rãi, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: B.\nLý do cốt lõi: chuỗi cung ứng phần mềm là điểm tấn công phổ biến và cần kiểm soát liên tục.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q087",
+    "q_num": 87,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Supply Chain Security?",
+    "options": [
+      "Chỉ quét bảo mật trước release lớn, bỏ qua release nhỏ hằng ngày, ở môi trường production.",
+      "Bỏ kiểm tra chữ ký artifact để rút ngắn thời gian build, khi mở rộng quy mô sản phẩm.",
+      "Tin tưởng toàn bộ package public vì cộng đồng đã kiểm thử rộng rãi, theo chuẩn quản trị kỹ thuật.",
+      "Áp dụng kiểm soát dependency, ký artifact, SBOM và policy scan trong pipeline."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: chuỗi cung ứng phần mềm là điểm tấn công phổ biến và cần kiểm soát liên tục.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy..\nNăng lực đánh giá: Bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q088",
+    "q_num": 88,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Supply Chain Security. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn chỉ quét bảo mật trước release lớn, bỏ qua release nhỏ hằng ngày. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn bỏ kiểm tra chữ ký artifact để rút ngắn thời gian build. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên áp dụng kiểm soát dependency, ký artifact, sbom và policy scan trong pipeline. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tin tưởng toàn bộ package public vì cộng đồng đã kiểm thử rộng rãi. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: chuỗi cung ứng phần mềm là điểm tấn công phổ biến và cần kiểm soát liên tục.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q089",
+    "q_num": 89,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Supply Chain Security, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên áp dụng kiểm soát dependency, ký artifact, sbom và policy scan trong pipeline. và xác nhận bằng chỉ số thực tế.",
+      "Chọn chỉ quét bảo mật trước release lớn, bỏ qua release nhỏ hằng ngày. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn tin tưởng toàn bộ package public vì cộng đồng đã kiểm thử rộng rãi. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn bỏ kiểm tra chữ ký artifact để rút ngắn thời gian build. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: A.\nLý do cốt lõi: chuỗi cung ứng phần mềm là điểm tấn công phổ biến và cần kiểm soát liên tục.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q090",
+    "q_num": 90,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Supply Chain Security trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ kiểm tra chữ ký artifact để rút ngắn thời gian build. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt tin tưởng toàn bộ package public vì cộng đồng đã kiểm thử rộng rãi. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Chuẩn hóa áp dụng kiểm soát dependency, ký artifact, sbom và policy scan trong pipeline. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt chỉ quét bảo mật trước release lớn, bỏ qua release nhỏ hằng ngày. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: chuỗi cung ứng phần mềm là điểm tấn công phổ biến và cần kiểm soát liên tục.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Bảo vệ pipeline khỏi phụ thuộc độc hại và artifact không tin cậy.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q091",
+    "q_num": 91,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Platform Engineering?",
+    "options": [
+      "Xây platform quá tổng quát mà không bám pain point của đội sản phẩm, khi hệ thống tăng tải.",
+      "Tập trung toàn quyền triển khai vào một nhóm trung tâm duy nhất, theo yêu cầu vận hành dài hạn.",
+      "Bắt mọi team tự dựng pipeline và hạ tầng riêng để tăng tính tự chủ tuyệt đối.",
+      "Thiết kế internal platform theo self-service có guardrail và golden path rõ ràng."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: platform hiệu quả phải cân bằng tự chủ đội ngũ với chuẩn vận hành chung.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc xây nền tảng nội bộ tăng năng suất đội phát triển..\nNăng lực đánh giá: Xây nền tảng nội bộ tăng năng suất đội phát triển.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q092",
+    "q_num": 92,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Platform Engineering?",
+    "options": [
+      "Xây platform quá tổng quát mà không bám pain point của đội sản phẩm, theo yêu cầu vận hành dài hạn.",
+      "Tập trung toàn quyền triển khai vào một nhóm trung tâm duy nhất, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Thiết kế internal platform theo self-service có guardrail và golden path rõ ràng.",
+      "Bắt mọi team tự dựng pipeline và hạ tầng riêng để tăng tính tự chủ tuyệt đối."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: platform hiệu quả phải cân bằng tự chủ đội ngũ với chuẩn vận hành chung.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc xây nền tảng nội bộ tăng năng suất đội phát triển..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây nền tảng nội bộ tăng năng suất đội phát triển.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q093",
+    "q_num": 93,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến Platform Engineering. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên thiết kế internal platform theo self-service có guardrail và golden path rõ ràng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn xây platform quá tổng quát mà không bám pain point của đội sản phẩm. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn bắt mọi team tự dựng pipeline và hạ tầng riêng để tăng tính tự chủ tuyệt đối. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn tập trung toàn quyền triển khai vào một nhóm trung tâm duy nhất. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: A.\nLý do cốt lõi: platform hiệu quả phải cân bằng tự chủ đội ngũ với chuẩn vận hành chung.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc xây nền tảng nội bộ tăng năng suất đội phát triển..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây nền tảng nội bộ tăng năng suất đội phát triển.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q094",
+    "q_num": 94,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Platform Engineering, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn tập trung toàn quyền triển khai vào một nhóm trung tâm duy nhất. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn bắt mọi team tự dựng pipeline và hạ tầng riêng để tăng tính tự chủ tuyệt đối. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên thiết kế internal platform theo self-service có guardrail và golden path rõ ràng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn xây platform quá tổng quát mà không bám pain point của đội sản phẩm. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: platform hiệu quả phải cân bằng tự chủ đội ngũ với chuẩn vận hành chung.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc xây nền tảng nội bộ tăng năng suất đội phát triển..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây nền tảng nội bộ tăng năng suất đội phát triển.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q095",
+    "q_num": 95,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Platform Engineering trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tập trung toàn quyền triển khai vào một nhóm trung tâm duy nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt xây platform quá tổng quát mà không bám pain point của đội sản phẩm. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Chuẩn hóa thiết kế internal platform theo self-service có guardrail và golden path rõ ràng. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt bắt mọi team tự dựng pipeline và hạ tầng riêng để tăng tính tự chủ tuyệt đối. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: platform hiệu quả phải cân bằng tự chủ đội ngũ với chuẩn vận hành chung.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc xây nền tảng nội bộ tăng năng suất đội phát triển..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây nền tảng nội bộ tăng năng suất đội phát triển.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q096",
+    "q_num": 96,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Trong lĩnh vực DevOps/SRE, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về AIOps/MLOps Runtime?",
+    "options": [
+      "Dùng chung một cấu hình serving cho mọi mô hình bất kể đặc tính tải, trong điều kiện dữ liệu biến động.",
+      "Deploy model mới trực tiếp production không cần canary hoặc shadow test, ở môi trường production.",
+      "Giám sát latency, throughput, chất lượng mô hình và chi phí inference theo môi trường.",
+      "Chỉ theo dõi GPU usage, bỏ qua chất lượng đầu ra mô hình theo thời gian, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: AIOps cần đồng thời quản trị hiệu năng hệ thống và chất lượng mô hình phục vụ nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q097",
+    "q_num": 97,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Junior] Khi ứng tuyển vị trí DevOps/SRE tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về AIOps/MLOps Runtime?",
+    "options": [
+      "Giám sát latency, throughput, chất lượng mô hình và chi phí inference theo môi trường.",
+      "Dùng chung một cấu hình serving cho mọi mô hình bất kể đặc tính tải, khi mở rộng quy mô sản phẩm.",
+      "Chỉ theo dõi GPU usage, bỏ qua chất lượng đầu ra mô hình theo thời gian, theo chuẩn quản trị kỹ thuật.",
+      "Deploy model mới trực tiếp production không cần canary hoặc shadow test, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: A.\nLý do cốt lõi: AIOps cần đồng thời quản trị hiệu năng hệ thống và chất lượng mô hình phục vụ nghiệp vụ.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q098",
+    "q_num": 98,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Dự án DevOps/SRE của bạn đang gặp vấn đề liên quan đến AIOps/MLOps Runtime. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn deploy model mới trực tiếp production không cần canary hoặc shadow test. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn chỉ theo dõi gpu usage, bỏ qua chất lượng đầu ra mô hình theo thời gian. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên giám sát latency, throughput, chất lượng mô hình và chi phí inference theo môi trường. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng chung một cấu hình serving cho mọi mô hình bất kể đặc tính tải. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: AIOps cần đồng thời quản trị hiệu năng hệ thống và chất lượng mô hình phục vụ nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q099",
+    "q_num": 99,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho AIOps/MLOps Runtime, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn deploy model mới trực tiếp production không cần canary hoặc shadow test. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn dùng chung một cấu hình serving cho mọi mô hình bất kể đặc tính tải. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên giám sát latency, throughput, chất lượng mô hình và chi phí inference theo môi trường. và xác nhận bằng chỉ số thực tế.",
+      "Chọn chỉ theo dõi gpu usage, bỏ qua chất lượng đầu ra mô hình theo thời gian. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: C.\nLý do cốt lõi: AIOps cần đồng thời quản trị hiệu năng hệ thống và chất lượng mô hình phục vụ nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  },
+  {
+    "id": "Q100",
+    "q_num": 100,
+    "job_role": "devops-sre",
+    "location": "vn_2026",
+    "categoryId": "c4",
+    "text": "[Senior] Ở vai trò lead DevOps/SRE, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về AIOps/MLOps Runtime trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt chỉ theo dõi gpu usage, bỏ qua chất lượng đầu ra mô hình theo thời gian. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt dùng chung một cấu hình serving cho mọi mô hình bất kể đặc tính tải. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt deploy model mới trực tiếp production không cần canary hoặc shadow test. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa giám sát latency, throughput, chất lượng mô hình và chi phí inference theo môi trường. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 thiếu hụt DevOps/SRE có kinh nghiệm cloud, Kubernetes, CI/CD và vận hành tin cậy ở quy mô lớn.\nĐáp án đúng: D.\nLý do cốt lõi: AIOps cần đồng thời quản trị hiệu năng hệ thống và chất lượng mô hình phục vụ nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên..\nNăng lực đánh giá: Vận hành inference service ổn định, theo dõi drift và chi phí tài nguyên.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nắm được khái niệm DevOps, cloud, container và pipeline nền tảng.\n- Mid: Thiết kế được pipeline và hạ tầng tự động, biết giám sát và xử lý sự cố chuẩn.\n- Senior: Dẫn dắt vận hành tin cậy theo SLO, tối ưu chi phí-rủi ro và xây chuẩn kỹ thuật liên tổ chức."
+  }
+]

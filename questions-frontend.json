@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "Q001",
+    "q_num": 1,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về HTML Semantic?",
+    "options": [
+      "Chỉ cần nhồi meta keywords, không cần quan tâm cấu trúc semantic, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Dùng toàn bộ div để dễ style vì semantic gần như không ảnh hưởng SEO, theo yêu cầu vận hành dài hạn.",
+      "Dùng thẻ semantic như header, main, article để tăng khả năng đọc hiểu của máy tìm kiếm và screen reader.",
+      "Ưu tiên animation trước, semantic có thể bổ sung sau khi go-live, trong chu kỳ phát hành liên tục, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: cách tiếp cận này vừa cải thiện SEO kỹ thuật vừa tăng khả năng truy cập cho người dùng thực.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc xây dựng cấu trúc tài liệu chuẩn semantic cho seo và accessibility..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây dựng cấu trúc tài liệu chuẩn semantic cho SEO và accessibility.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q002",
+    "q_num": 2,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về HTML Semantic?",
+    "options": [
+      "Dùng thẻ semantic như header, main, article để tăng khả năng đọc hiểu của máy tìm kiếm và screen reader.",
+      "Chỉ cần nhồi meta keywords, không cần quan tâm cấu trúc semantic, khi phối hợp nhiều nhóm kỹ thuật, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên animation trước, semantic có thể bổ sung sau khi go-live, trong chu kỳ phát hành liên tục, theo tiêu chí độ tin cậy dịch vụ.",
+      "Dùng toàn bộ div để dễ style vì semantic gần như không ảnh hưởng SEO, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: cách tiếp cận này vừa cải thiện SEO kỹ thuật vừa tăng khả năng truy cập cho người dùng thực.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc xây dựng cấu trúc tài liệu chuẩn semantic cho seo và accessibility..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây dựng cấu trúc tài liệu chuẩn semantic cho SEO và accessibility.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q003",
+    "q_num": 3,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến HTML Semantic. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn dùng toàn bộ div để dễ style vì semantic gần như không ảnh hưởng seo. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn ưu tiên animation trước, semantic có thể bổ sung sau khi go-live. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên dùng thẻ semantic như header, main, article để tăng khả năng đọc hiểu của máy tìm kiếm và screen reader. và xác nhận bằng chỉ số thực tế.",
+      "Chọn chỉ cần nhồi meta keywords, không cần quan tâm cấu trúc semantic. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: cách tiếp cận này vừa cải thiện SEO kỹ thuật vừa tăng khả năng truy cập cho người dùng thực.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc xây dựng cấu trúc tài liệu chuẩn semantic cho seo và accessibility..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây dựng cấu trúc tài liệu chuẩn semantic cho SEO và accessibility.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q004",
+    "q_num": 4,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho HTML Semantic, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn ưu tiên animation trước, semantic có thể bổ sung sau khi go-live. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn chỉ cần nhồi meta keywords, không cần quan tâm cấu trúc semantic. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn dùng toàn bộ div để dễ style vì semantic gần như không ảnh hưởng seo. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên dùng thẻ semantic như header, main, article để tăng khả năng đọc hiểu của máy tìm kiếm và screen reader. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: cách tiếp cận này vừa cải thiện SEO kỹ thuật vừa tăng khả năng truy cập cho người dùng thực.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc xây dựng cấu trúc tài liệu chuẩn semantic cho seo và accessibility..\nNăng lực đánh giá: Xây dựng cấu trúc tài liệu chuẩn semantic cho SEO và accessibility.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q005",
+    "q_num": 5,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về HTML Semantic trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt ưu tiên animation trước, semantic có thể bổ sung sau khi go-live. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ, trong điều kiện dữ liệu biến động.",
+      "Đặt chỉ cần nhồi meta keywords, không cần quan tâm cấu trúc semantic. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động, ở môi trường production.",
+      "Đặt dùng toàn bộ div để dễ style vì semantic gần như không ảnh hưởng seo. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Chuẩn hóa dùng thẻ semantic như header, main, article để tăng khả năng đọc hiểu của máy tìm kiếm và screen reader. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: cách tiếp cận này vừa cải thiện SEO kỹ thuật vừa tăng khả năng truy cập cho người dùng thực.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc xây dựng cấu trúc tài liệu chuẩn semantic cho seo và accessibility..\nNăng lực đánh giá: Xây dựng cấu trúc tài liệu chuẩn semantic cho SEO và accessibility.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q006",
+    "q_num": 6,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Meta SEO?",
+    "options": [
+      "Thiết lập title, meta description, Open Graph và canonical nhất quán theo từng trang.",
+      "Chỉ quan tâm meta keywords vì đây là tín hiệu xếp hạng mạnh nhất hiện nay, ở môi trường production.",
+      "Bỏ qua canonical vì công cụ tìm kiếm sẽ tự xử lý toàn bộ nội dung trùng lặp, khi mở rộng quy mô sản phẩm.",
+      "Để mọi trang dùng chung một title và description nhằm giảm chi phí vận hành, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: metadata chuẩn giúp CTR tốt hơn, tránh trùng lặp nội dung và hỗ trợ index chính xác.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q007",
+    "q_num": 7,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Meta SEO?",
+    "options": [
+      "Để mọi trang dùng chung một title và description nhằm giảm chi phí vận hành, ở môi trường production.",
+      "Bỏ qua canonical vì công cụ tìm kiếm sẽ tự xử lý toàn bộ nội dung trùng lặp, khi mở rộng quy mô sản phẩm.",
+      "Thiết lập title, meta description, Open Graph và canonical nhất quán theo từng trang.",
+      "Chỉ quan tâm meta keywords vì đây là tín hiệu xếp hạng mạnh nhất hiện nay, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: metadata chuẩn giúp CTR tốt hơn, tránh trùng lặp nội dung và hỗ trợ index chính xác.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q008",
+    "q_num": 8,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Meta SEO. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ qua canonical vì công cụ tìm kiếm sẽ tự xử lý toàn bộ nội dung trùng lặp. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn chỉ quan tâm meta keywords vì đây là tín hiệu xếp hạng mạnh nhất hiện nay. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn để mọi trang dùng chung một title và description nhằm giảm chi phí vận hành. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên thiết lập title, meta description, open graph và canonical nhất quán theo từng trang. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: metadata chuẩn giúp CTR tốt hơn, tránh trùng lặp nội dung và hỗ trợ index chính xác.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội..\nNăng lực đánh giá: Thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q009",
+    "q_num": 9,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Meta SEO, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bỏ qua canonical vì công cụ tìm kiếm sẽ tự xử lý toàn bộ nội dung trùng lặp. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn chỉ quan tâm meta keywords vì đây là tín hiệu xếp hạng mạnh nhất hiện nay. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn để mọi trang dùng chung một title và description nhằm giảm chi phí vận hành. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên thiết lập title, meta description, open graph và canonical nhất quán theo từng trang. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: metadata chuẩn giúp CTR tốt hơn, tránh trùng lặp nội dung và hỗ trợ index chính xác.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội..\nNăng lực đánh giá: Thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q010",
+    "q_num": 10,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Meta SEO trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ qua canonical vì công cụ tìm kiếm sẽ tự xử lý toàn bộ nội dung trùng lặp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt để mọi trang dùng chung một title và description nhằm giảm chi phí vận hành. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt chỉ quan tâm meta keywords vì đây là tín hiệu xếp hạng mạnh nhất hiện nay. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa thiết lập title, meta description, open graph và canonical nhất quán theo từng trang. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: metadata chuẩn giúp CTR tốt hơn, tránh trùng lặp nội dung và hỗ trợ index chính xác.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội..\nNăng lực đánh giá: Thiết lập metadata chuẩn để tối ưu hiển thị tìm kiếm và chia sẻ xã hội.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q011",
+    "q_num": 11,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Accessibility?",
+    "options": [
+      "Chỉ cần màu đẹp và font lớn là đủ cho mọi yêu cầu accessibility, khi hệ thống tăng tải.",
+      "Chặn tab navigation để người dùng không rời khỏi khu vực chính của trang, theo yêu cầu vận hành dài hạn.",
+      "Kết hợp semantic HTML, ARIA đúng ngữ cảnh, focus order rõ ràng và kiểm tra bằng bàn phím.",
+      "Gắn ARIA càng nhiều càng tốt kể cả khi thẻ semantic đã mô tả đúng, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: accessibility hiệu quả cần đúng ngữ nghĩa, đúng vai trò và kiểm thử thực tế, không chỉ trang trí.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q012",
+    "q_num": 12,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Accessibility?",
+    "options": [
+      "Chặn tab navigation để người dùng không rời khỏi khu vực chính của trang, theo yêu cầu vận hành dài hạn.",
+      "Gắn ARIA càng nhiều càng tốt kể cả khi thẻ semantic đã mô tả đúng, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chỉ cần màu đẹp và font lớn là đủ cho mọi yêu cầu accessibility, trong chu kỳ phát hành liên tục.",
+      "Kết hợp semantic HTML, ARIA đúng ngữ cảnh, focus order rõ ràng và kiểm tra bằng bàn phím."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: accessibility hiệu quả cần đúng ngữ nghĩa, đúng vai trò và kiểm thử thực tế, không chỉ trang trí.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ..\nNăng lực đánh giá: Thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q013",
+    "q_num": 13,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Accessibility. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn chặn tab navigation để người dùng không rời khỏi khu vực chính của trang. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn gắn aria càng nhiều càng tốt kể cả khi thẻ semantic đã mô tả đúng. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn chỉ cần màu đẹp và font lớn là đủ cho mọi yêu cầu accessibility. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên kết hợp semantic html, aria đúng ngữ cảnh, focus order rõ ràng và kiểm tra bằng bàn phím. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: accessibility hiệu quả cần đúng ngữ nghĩa, đúng vai trò và kiểm thử thực tế, không chỉ trang trí.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ..\nNăng lực đánh giá: Thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q014",
+    "q_num": 14,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Accessibility, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn chặn tab navigation để người dùng không rời khỏi khu vực chính của trang. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn chỉ cần màu đẹp và font lớn là đủ cho mọi yêu cầu accessibility. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn gắn aria càng nhiều càng tốt kể cả khi thẻ semantic đã mô tả đúng. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên kết hợp semantic html, aria đúng ngữ cảnh, focus order rõ ràng và kiểm tra bằng bàn phím. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: accessibility hiệu quả cần đúng ngữ nghĩa, đúng vai trò và kiểm thử thực tế, không chỉ trang trí.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ..\nNăng lực đánh giá: Thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q015",
+    "q_num": 15,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Accessibility trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt chặn tab navigation để người dùng không rời khỏi khu vực chính của trang. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt chỉ cần màu đẹp và font lớn là đủ cho mọi yêu cầu accessibility. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Chuẩn hóa kết hợp semantic html, aria đúng ngữ cảnh, focus order rõ ràng và kiểm tra bằng bàn phím. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt gắn aria càng nhiều càng tốt kể cả khi thẻ semantic đã mô tả đúng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: accessibility hiệu quả cần đúng ngữ nghĩa, đúng vai trò và kiểm thử thực tế, không chỉ trang trí.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế giao diện có thể sử dụng bởi đa dạng người dùng và công cụ hỗ trợ.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q016",
+    "q_num": 16,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về CSS Cascade?",
+    "options": [
+      "Đặt toàn bộ CSS ở inline style để tránh rủi ro cascade, trong điều kiện dữ liệu biến động.",
+      "Dùng selector lồng quá sâu vì như vậy code sẽ dễ đọc hơn, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Dùng !important đại trà để đảm bảo style luôn thắng mọi rule khác, khi mở rộng quy mô sản phẩm.",
+      "Ưu tiên kiến trúc class rõ ràng, hạn chế !important và quản lý specificity theo quy ước."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: quản trị specificity tốt giúp code CSS ổn định, dễ refactor và giảm bug hiển thị.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc kiểm soát specificity và cascade để tránh xung đột style quy mô lớn..\nNăng lực đánh giá: Kiểm soát specificity và cascade để tránh xung đột style quy mô lớn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q017",
+    "q_num": 17,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về CSS Cascade?",
+    "options": [
+      "Đặt toàn bộ CSS ở inline style để tránh rủi ro cascade, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Dùng selector lồng quá sâu vì như vậy code sẽ dễ đọc hơn, khi mở rộng quy mô sản phẩm.",
+      "Dùng !important đại trà để đảm bảo style luôn thắng mọi rule khác, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên kiến trúc class rõ ràng, hạn chế !important và quản lý specificity theo quy ước."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: quản trị specificity tốt giúp code CSS ổn định, dễ refactor và giảm bug hiển thị.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc kiểm soát specificity và cascade để tránh xung đột style quy mô lớn..\nNăng lực đánh giá: Kiểm soát specificity và cascade để tránh xung đột style quy mô lớn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q018",
+    "q_num": 18,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến CSS Cascade. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn đặt toàn bộ css ở inline style để tránh rủi ro cascade. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn dùng !important đại trà để đảm bảo style luôn thắng mọi rule khác. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn dùng selector lồng quá sâu vì như vậy code sẽ dễ đọc hơn. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên ưu tiên kiến trúc class rõ ràng, hạn chế !important và quản lý specificity theo quy ước. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: quản trị specificity tốt giúp code CSS ổn định, dễ refactor và giảm bug hiển thị.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc kiểm soát specificity và cascade để tránh xung đột style quy mô lớn..\nNăng lực đánh giá: Kiểm soát specificity và cascade để tránh xung đột style quy mô lớn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q019",
+    "q_num": 19,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho CSS Cascade, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn đặt toàn bộ css ở inline style để tránh rủi ro cascade. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn dùng !important đại trà để đảm bảo style luôn thắng mọi rule khác. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên ưu tiên kiến trúc class rõ ràng, hạn chế !important và quản lý specificity theo quy ước. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng selector lồng quá sâu vì như vậy code sẽ dễ đọc hơn. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: quản trị specificity tốt giúp code CSS ổn định, dễ refactor và giảm bug hiển thị.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc kiểm soát specificity và cascade để tránh xung đột style quy mô lớn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kiểm soát specificity và cascade để tránh xung đột style quy mô lớn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q020",
+    "q_num": 20,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về CSS Cascade trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt đặt toàn bộ css ở inline style để tránh rủi ro cascade. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế, khi hệ thống tăng tải.",
+      "Đặt dùng !important đại trà để đảm bảo style luôn thắng mọi rule khác. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt dùng selector lồng quá sâu vì như vậy code sẽ dễ đọc hơn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa ưu tiên kiến trúc class rõ ràng, hạn chế !important và quản lý specificity theo quy ước. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: quản trị specificity tốt giúp code CSS ổn định, dễ refactor và giảm bug hiển thị.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc kiểm soát specificity và cascade để tránh xung đột style quy mô lớn..\nNăng lực đánh giá: Kiểm soát specificity và cascade để tránh xung đột style quy mô lớn.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q021",
+    "q_num": 21,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về BEM Naming?",
+    "options": [
+      "Đổi tên class liên tục theo sprint để thể hiện tiến độ cải tiến UI, khi hệ thống tăng tải.",
+      "Đặt class theo cảm hứng từng màn hình để tăng tốc phát triển ngắn hạn, theo yêu cầu vận hành dài hạn.",
+      "Đặt tên class ngắn tối đa để giảm kích thước file là ưu tiên số một, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Áp dụng BEM để tách block, element, modifier rõ trách nhiệm và phạm vi ảnh hưởng."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: BEM tạo tính nhất quán, giảm va chạm style và tăng tốc review code trong team lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chuẩn hóa naming css cho dự án nhiều thành viên..\nNăng lực đánh giá: Chuẩn hóa naming CSS cho dự án nhiều thành viên.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q022",
+    "q_num": 22,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về BEM Naming?",
+    "options": [
+      "Đổi tên class liên tục theo sprint để thể hiện tiến độ cải tiến UI, theo yêu cầu vận hành dài hạn.",
+      "Đặt tên class ngắn tối đa để giảm kích thước file là ưu tiên số một, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Đặt class theo cảm hứng từng màn hình để tăng tốc phát triển ngắn hạn, trong chu kỳ phát hành liên tục.",
+      "Áp dụng BEM để tách block, element, modifier rõ trách nhiệm và phạm vi ảnh hưởng."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: BEM tạo tính nhất quán, giảm va chạm style và tăng tốc review code trong team lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chuẩn hóa naming css cho dự án nhiều thành viên..\nNăng lực đánh giá: Chuẩn hóa naming CSS cho dự án nhiều thành viên.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q023",
+    "q_num": 23,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến BEM Naming. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn đổi tên class liên tục theo sprint để thể hiện tiến độ cải tiến ui. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn đặt tên class ngắn tối đa để giảm kích thước file là ưu tiên số một. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên áp dụng bem để tách block, element, modifier rõ trách nhiệm và phạm vi ảnh hưởng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn đặt class theo cảm hứng từng màn hình để tăng tốc phát triển ngắn hạn. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: BEM tạo tính nhất quán, giảm va chạm style và tăng tốc review code trong team lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc chuẩn hóa naming css cho dự án nhiều thành viên..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chuẩn hóa naming CSS cho dự án nhiều thành viên.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q024",
+    "q_num": 24,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho BEM Naming, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn đổi tên class liên tục theo sprint để thể hiện tiến độ cải tiến ui. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn đặt tên class ngắn tối đa để giảm kích thước file là ưu tiên số một. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn đặt class theo cảm hứng từng màn hình để tăng tốc phát triển ngắn hạn. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên áp dụng bem để tách block, element, modifier rõ trách nhiệm và phạm vi ảnh hưởng. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: BEM tạo tính nhất quán, giảm va chạm style và tăng tốc review code trong team lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chuẩn hóa naming css cho dự án nhiều thành viên..\nNăng lực đánh giá: Chuẩn hóa naming CSS cho dự án nhiều thành viên.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q025",
+    "q_num": 25,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về BEM Naming trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt đặt tên class ngắn tối đa để giảm kích thước file là ưu tiên số một. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt đổi tên class liên tục theo sprint để thể hiện tiến độ cải tiến ui. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt đặt class theo cảm hứng từng màn hình để tăng tốc phát triển ngắn hạn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa áp dụng bem để tách block, element, modifier rõ trách nhiệm và phạm vi ảnh hưởng. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: BEM tạo tính nhất quán, giảm va chạm style và tăng tốc review code trong team lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chuẩn hóa naming css cho dự án nhiều thành viên..\nNăng lực đánh giá: Chuẩn hóa naming CSS cho dự án nhiều thành viên.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q026",
+    "q_num": 26,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Layout Strategy?",
+    "options": [
+      "Tránh cả Flexbox và Grid, chỉ dùng float để tương thích tối đa, trong điều kiện dữ liệu biến động.",
+      "Luôn dùng Grid cho mọi trường hợp vì Grid hiện đại hơn Flexbox, ở môi trường production.",
+      "Luôn dùng Flexbox cho mọi trường hợp vì code ngắn hơn Grid, khi mở rộng quy mô sản phẩm.",
+      "Dùng Flexbox cho luồng một chiều và Grid cho bố cục hai chiều có quan hệ hàng-cột."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: chọn đúng công cụ layout giúp UI ổn định và dễ mở rộng theo responsive design.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chọn flexbox hoặc grid phù hợp theo bài toán bố cục..\nNăng lực đánh giá: Chọn Flexbox hoặc Grid phù hợp theo bài toán bố cục.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q027",
+    "q_num": 27,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Layout Strategy?",
+    "options": [
+      "Tránh cả Flexbox và Grid, chỉ dùng float để tương thích tối đa, ở môi trường production.",
+      "Luôn dùng Grid cho mọi trường hợp vì Grid hiện đại hơn Flexbox, khi mở rộng quy mô sản phẩm.",
+      "Dùng Flexbox cho luồng một chiều và Grid cho bố cục hai chiều có quan hệ hàng-cột.",
+      "Luôn dùng Flexbox cho mọi trường hợp vì code ngắn hơn Grid, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: chọn đúng công cụ layout giúp UI ổn định và dễ mở rộng theo responsive design.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc chọn flexbox hoặc grid phù hợp theo bài toán bố cục..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn Flexbox hoặc Grid phù hợp theo bài toán bố cục.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q028",
+    "q_num": 28,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Layout Strategy. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn tránh cả flexbox và grid, chỉ dùng float để tương thích tối đa. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn luôn dùng grid cho mọi trường hợp vì grid hiện đại hơn flexbox. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn luôn dùng flexbox cho mọi trường hợp vì code ngắn hơn grid. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên dùng flexbox cho luồng một chiều và grid cho bố cục hai chiều có quan hệ hàng-cột. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: chọn đúng công cụ layout giúp UI ổn định và dễ mở rộng theo responsive design.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chọn flexbox hoặc grid phù hợp theo bài toán bố cục..\nNăng lực đánh giá: Chọn Flexbox hoặc Grid phù hợp theo bài toán bố cục.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q029",
+    "q_num": 29,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Layout Strategy, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn luôn dùng grid cho mọi trường hợp vì grid hiện đại hơn flexbox. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn tránh cả flexbox và grid, chỉ dùng float để tương thích tối đa. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn luôn dùng flexbox cho mọi trường hợp vì code ngắn hơn grid. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Ưu tiên dùng flexbox cho luồng một chiều và grid cho bố cục hai chiều có quan hệ hàng-cột. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: chọn đúng công cụ layout giúp UI ổn định và dễ mở rộng theo responsive design.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chọn flexbox hoặc grid phù hợp theo bài toán bố cục..\nNăng lực đánh giá: Chọn Flexbox hoặc Grid phù hợp theo bài toán bố cục.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q030",
+    "q_num": 30,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Layout Strategy trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa dùng flexbox cho luồng một chiều và grid cho bố cục hai chiều có quan hệ hàng-cột. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt tránh cả flexbox và grid, chỉ dùng float để tương thích tối đa. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt luôn dùng flexbox cho mọi trường hợp vì code ngắn hơn grid. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt luôn dùng grid cho mọi trường hợp vì grid hiện đại hơn flexbox. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: chọn đúng công cụ layout giúp UI ổn định và dễ mở rộng theo responsive design.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc chọn flexbox hoặc grid phù hợp theo bài toán bố cục..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn Flexbox hoặc Grid phù hợp theo bài toán bố cục.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q031",
+    "q_num": 31,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Responsive Mobile-First?",
+    "options": [
+      "Khóa layout cố định 1440px để đảm bảo giao diện đồng nhất, khi hệ thống tăng tải.",
+      "Thiết kế desktop trước rồi thu nhỏ lại vì cách này luôn nhanh hơn, theo yêu cầu vận hành dài hạn.",
+      "Thiết kế mobile-first, dùng breakpoint tăng dần và kiểm soát nội dung theo ưu tiên.",
+      "Tạo một bộ CSS riêng cho từng thiết bị mà không cần hệ breakpoint, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: mobile-first phù hợp hành vi người dùng tại VN và giảm nợ giao diện khi mở rộng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q032",
+    "q_num": 32,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Responsive Mobile-First?",
+    "options": [
+      "Khóa layout cố định 1440px để đảm bảo giao diện đồng nhất, theo yêu cầu vận hành dài hạn.",
+      "Thiết kế desktop trước rồi thu nhỏ lại vì cách này luôn nhanh hơn, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Tạo một bộ CSS riêng cho từng thiết bị mà không cần hệ breakpoint, trong chu kỳ phát hành liên tục.",
+      "Thiết kế mobile-first, dùng breakpoint tăng dần và kiểm soát nội dung theo ưu tiên."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: mobile-first phù hợp hành vi người dùng tại VN và giảm nợ giao diện khi mở rộng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop..\nNăng lực đánh giá: Thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q033",
+    "q_num": 33,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Responsive Mobile-First. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn thiết kế desktop trước rồi thu nhỏ lại vì cách này luôn nhanh hơn. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn khóa layout cố định 1440px để đảm bảo giao diện đồng nhất. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn tạo một bộ css riêng cho từng thiết bị mà không cần hệ breakpoint. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên thiết kế mobile-first, dùng breakpoint tăng dần và kiểm soát nội dung theo ưu tiên. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: mobile-first phù hợp hành vi người dùng tại VN và giảm nợ giao diện khi mở rộng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop..\nNăng lực đánh giá: Thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q034",
+    "q_num": 34,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Responsive Mobile-First, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên thiết kế mobile-first, dùng breakpoint tăng dần và kiểm soát nội dung theo ưu tiên. và xác nhận bằng chỉ số thực tế.",
+      "Chọn khóa layout cố định 1440px để đảm bảo giao diện đồng nhất. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn tạo một bộ css riêng cho từng thiết bị mà không cần hệ breakpoint. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn thiết kế desktop trước rồi thu nhỏ lại vì cách này luôn nhanh hơn. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: mobile-first phù hợp hành vi người dùng tại VN và giảm nợ giao diện khi mở rộng.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q035",
+    "q_num": 35,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Responsive Mobile-First trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tạo một bộ css riêng cho từng thiết bị mà không cần hệ breakpoint. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt thiết kế desktop trước rồi thu nhỏ lại vì cách này luôn nhanh hơn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Chuẩn hóa thiết kế mobile-first, dùng breakpoint tăng dần và kiểm soát nội dung theo ưu tiên. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt khóa layout cố định 1440px để đảm bảo giao diện đồng nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: mobile-first phù hợp hành vi người dùng tại VN và giảm nợ giao diện khi mở rộng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế giao diện ưu tiên thiết bị nhỏ trước rồi mở rộng lên desktop.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q036",
+    "q_num": 36,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về JS Scope?",
+    "options": [
+      "Tin rằng hoisting chỉ xảy ra với function expression và không liên quan biến.",
+      "Dùng var cho toàn bộ dự án để dễ truy cập biến ở mọi nơi, ở môi trường production.",
+      "Đổi toàn bộ biến sang const kể cả khi cần gán lại giá trị, khi mở rộng quy mô sản phẩm.",
+      "Phân biệt var, let, const và block scope để kiểm soát vòng đời biến chính xác."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: kiểm soát scope tốt giúp giảm bug khó truy vết trong ứng dụng front-end phức tạp.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu phạm vi biến, hoisting và tránh lỗi logic runtime..\nNăng lực đánh giá: Hiểu phạm vi biến, hoisting và tránh lỗi logic runtime.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q037",
+    "q_num": 37,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về JS Scope?",
+    "options": [
+      "Dùng var cho toàn bộ dự án để dễ truy cập biến ở mọi nơi, ở môi trường production.",
+      "Tin rằng hoisting chỉ xảy ra với function expression và không liên quan biến.",
+      "Đổi toàn bộ biến sang const kể cả khi cần gán lại giá trị, theo chuẩn quản trị kỹ thuật.",
+      "Phân biệt var, let, const và block scope để kiểm soát vòng đời biến chính xác."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: kiểm soát scope tốt giúp giảm bug khó truy vết trong ứng dụng front-end phức tạp.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu phạm vi biến, hoisting và tránh lỗi logic runtime..\nNăng lực đánh giá: Hiểu phạm vi biến, hoisting và tránh lỗi logic runtime.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q038",
+    "q_num": 38,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến JS Scope. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên phân biệt var, let, const và block scope để kiểm soát vòng đời biến chính xác. và xác nhận bằng chỉ số thực tế, khi mở rộng quy mô sản phẩm.",
+      "Chọn tin rằng hoisting chỉ xảy ra với function expression và không liên quan biến. như giải pháp chính cho toàn bộ hệ thống, trong môi trường production.",
+      "Chọn đổi toàn bộ biến sang const kể cả khi cần gán lại giá trị. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế, trong môi trường production.",
+      "Chọn dùng var cho toàn bộ dự án để dễ truy cập biến ở mọi nơi. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải, trong vận hành thực tế, trong vận hành thực tế."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: kiểm soát scope tốt giúp giảm bug khó truy vết trong ứng dụng front-end phức tạp.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc hiểu phạm vi biến, hoisting và tránh lỗi logic runtime..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu phạm vi biến, hoisting và tránh lỗi logic runtime.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q039",
+    "q_num": 39,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho JS Scope, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn đổi toàn bộ biến sang const kể cả khi cần gán lại giá trị. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật, theo chuẩn triển khai.",
+      "Chọn dùng var cho toàn bộ dự án để dễ truy cập biến ở mọi nơi. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế, theo chuẩn triển khai, khi hệ thống mở rộng.",
+      "Ưu tiên phân biệt var, let, const và block scope để kiểm soát vòng đời biến chính xác. và xác nhận bằng chỉ số thực tế, khi hệ thống tăng tải.",
+      "Chọn tin rằng hoisting chỉ xảy ra với function expression và không liên quan biến. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn triển khai, khi hệ thống mở rộng, trong môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: kiểm soát scope tốt giúp giảm bug khó truy vết trong ứng dụng front-end phức tạp.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc hiểu phạm vi biến, hoisting và tránh lỗi logic runtime..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu phạm vi biến, hoisting và tránh lỗi logic runtime.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q040",
+    "q_num": 40,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về JS Scope trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa phân biệt var, let, const và block scope để kiểm soát vòng đời biến chính xác. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt dùng var cho toàn bộ dự án để dễ truy cập biến ở mọi nơi. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt đổi toàn bộ biến sang const kể cả khi cần gán lại giá trị. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt tin rằng hoisting chỉ xảy ra với function expression và không liên quan biến. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: kiểm soát scope tốt giúp giảm bug khó truy vết trong ứng dụng front-end phức tạp.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc hiểu phạm vi biến, hoisting và tránh lỗi logic runtime..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu phạm vi biến, hoisting và tránh lỗi logic runtime.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q041",
+    "q_num": 41,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Closure & Memory?",
+    "options": [
+      "Giữ mọi biến trong global scope để tiện debug về sau, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Bỏ qua cleanup listener vì trình duyệt sẽ thu gom toàn bộ ngay lập tức, theo yêu cầu vận hành dài hạn.",
+      "Tạo closure lồng sâu không giới hạn vì JavaScript tự tối ưu tuyệt đối, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Dùng closure để đóng gói trạng thái cần thiết và giải phóng reference không còn sử dụng."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: closure hiệu quả cần kiểm soát vòng đời reference để tránh memory leak lâu dài.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client..\nNăng lực đánh giá: Tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q042",
+    "q_num": 42,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Closure & Memory?",
+    "options": [
+      "Dùng closure để đóng gói trạng thái cần thiết và giải phóng reference không còn sử dụng.",
+      "Bỏ qua cleanup listener vì trình duyệt sẽ thu gom toàn bộ ngay lập tức, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Tạo closure lồng sâu không giới hạn vì JavaScript tự tối ưu tuyệt đối, trong chu kỳ phát hành liên tục.",
+      "Giữ mọi biến trong global scope để tiện debug về sau, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: closure hiệu quả cần kiểm soát vòng đời reference để tránh memory leak lâu dài.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q043",
+    "q_num": 43,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Closure & Memory. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn tạo closure lồng sâu không giới hạn vì javascript tự tối ưu tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn giữ mọi biến trong global scope để tiện debug về sau. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên dùng closure để đóng gói trạng thái cần thiết và giải phóng reference không còn sử dụng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ qua cleanup listener vì trình duyệt sẽ thu gom toàn bộ ngay lập tức. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: closure hiệu quả cần kiểm soát vòng đời reference để tránh memory leak lâu dài.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q044",
+    "q_num": 44,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Closure & Memory, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên dùng closure để đóng gói trạng thái cần thiết và giải phóng reference không còn sử dụng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn giữ mọi biến trong global scope để tiện debug về sau. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn tạo closure lồng sâu không giới hạn vì javascript tự tối ưu tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn bỏ qua cleanup listener vì trình duyệt sẽ thu gom toàn bộ ngay lập tức. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: closure hiệu quả cần kiểm soát vòng đời reference để tránh memory leak lâu dài.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q045",
+    "q_num": 45,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Closure & Memory trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tạo closure lồng sâu không giới hạn vì javascript tự tối ưu tuyệt đối. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt bỏ qua cleanup listener vì trình duyệt sẽ thu gom toàn bộ ngay lập tức. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt giữ mọi biến trong global scope để tiện debug về sau. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Chuẩn hóa dùng closure để đóng gói trạng thái cần thiết và giải phóng reference không còn sử dụng. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: closure hiệu quả cần kiểm soát vòng đời reference để tránh memory leak lâu dài.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client..\nNăng lực đánh giá: Tận dụng closure đúng cách và hạn chế rò rỉ bộ nhớ phía client.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q046",
+    "q_num": 46,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Event Loop?",
+    "options": [
+      "Hiểu rõ event loop, ưu tiên microtask và tác động của async code tới trải nghiệm người dùng.",
+      "Xem async await như cơ chế làm code chạy song song tự động, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Cho rằng JavaScript browser chạy đa luồng hoàn toàn cho mọi đoạn code, khi mở rộng quy mô sản phẩm.",
+      "Tin rằng setTimeout luôn chạy trước Promise callback, theo chuẩn quản trị kỹ thuật, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: nắm event loop giúp xử lý race condition và UI lag trong ứng dụng lớn.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc phân tích thứ tự thực thi async task, microtask và macrotask..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân tích thứ tự thực thi async task, microtask và macrotask.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q047",
+    "q_num": 47,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Event Loop?",
+    "options": [
+      "Cho rằng JavaScript browser chạy đa luồng hoàn toàn cho mọi đoạn code, ở môi trường production.",
+      "Tin rằng setTimeout luôn chạy trước Promise callback, khi mở rộng quy mô sản phẩm, theo chuẩn quản trị kỹ thuật.",
+      "Hiểu rõ event loop, ưu tiên microtask và tác động của async code tới trải nghiệm người dùng.",
+      "Xem async await như cơ chế làm code chạy song song tự động, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: nắm event loop giúp xử lý race condition và UI lag trong ứng dụng lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc phân tích thứ tự thực thi async task, microtask và macrotask..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân tích thứ tự thực thi async task, microtask và macrotask.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q048",
+    "q_num": 48,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Event Loop. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên hiểu rõ event loop, ưu tiên microtask và tác động của async code tới trải nghiệm người dùng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tin rằng settimeout luôn chạy trước promise callback. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn cho rằng javascript browser chạy đa luồng hoàn toàn cho mọi đoạn code. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn xem async await như cơ chế làm code chạy song song tự động. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: nắm event loop giúp xử lý race condition và UI lag trong ứng dụng lớn.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc phân tích thứ tự thực thi async task, microtask và macrotask..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân tích thứ tự thực thi async task, microtask và macrotask.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q049",
+    "q_num": 49,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Event Loop, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn cho rằng javascript browser chạy đa luồng hoàn toàn cho mọi đoạn code. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn xem async await như cơ chế làm code chạy song song tự động. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn tin rằng settimeout luôn chạy trước promise callback. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Ưu tiên hiểu rõ event loop, ưu tiên microtask và tác động của async code tới trải nghiệm người dùng. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: nắm event loop giúp xử lý race condition và UI lag trong ứng dụng lớn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phân tích thứ tự thực thi async task, microtask và macrotask..\nNăng lực đánh giá: Phân tích thứ tự thực thi async task, microtask và macrotask.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q050",
+    "q_num": 50,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Event Loop trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa hiểu rõ event loop, ưu tiên microtask và tác động của async code tới trải nghiệm người dùng. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt xem async await như cơ chế làm code chạy song song tự động. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Đặt cho rằng javascript browser chạy đa luồng hoàn toàn cho mọi đoạn code. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt tin rằng settimeout luôn chạy trước promise callback. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: nắm event loop giúp xử lý race condition và UI lag trong ứng dụng lớn.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc phân tích thứ tự thực thi async task, microtask và macrotask..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân tích thứ tự thực thi async task, microtask và macrotask.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q051",
+    "q_num": 51,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về React State?",
+    "options": [
+      "Đưa toàn bộ state vào một object duy nhất để dễ truyền props, khi hệ thống tăng tải.",
+      "Sửa trực tiếp object state để giảm chi phí tạo object mới, theo yêu cầu vận hành dài hạn.",
+      "Cập nhật state theo nguyên tắc immutable và tách state theo miền trách nhiệm rõ ràng.",
+      "Dùng setState liên tục trong vòng lặp render để đảm bảo dữ liệu mới nhất, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: state bất biến giúp React nhận diện thay đổi chính xác và giảm side effect.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc quản lý state bất biến và tránh re-render lỗi..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản lý state bất biến và tránh re-render lỗi.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q052",
+    "q_num": 52,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về React State?",
+    "options": [
+      "Cập nhật state theo nguyên tắc immutable và tách state theo miền trách nhiệm rõ ràng.",
+      "Sửa trực tiếp object state để giảm chi phí tạo object mới, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Đưa toàn bộ state vào một object duy nhất để dễ truyền props, trong chu kỳ phát hành liên tục.",
+      "Dùng setState liên tục trong vòng lặp render để đảm bảo dữ liệu mới nhất, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: state bất biến giúp React nhận diện thay đổi chính xác và giảm side effect.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc quản lý state bất biến và tránh re-render lỗi..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản lý state bất biến và tránh re-render lỗi.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q053",
+    "q_num": 53,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến React State. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn đưa toàn bộ state vào một object duy nhất để dễ truyền props. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn dùng setstate liên tục trong vòng lặp render để đảm bảo dữ liệu mới nhất. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn sửa trực tiếp object state để giảm chi phí tạo object mới. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên cập nhật state theo nguyên tắc immutable và tách state theo miền trách nhiệm rõ ràng. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: state bất biến giúp React nhận diện thay đổi chính xác và giảm side effect.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc quản lý state bất biến và tránh re-render lỗi..\nNăng lực đánh giá: Quản lý state bất biến và tránh re-render lỗi.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q054",
+    "q_num": 54,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho React State, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên cập nhật state theo nguyên tắc immutable và tách state theo miền trách nhiệm rõ ràng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dùng setstate liên tục trong vòng lặp render để đảm bảo dữ liệu mới nhất. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn đưa toàn bộ state vào một object duy nhất để dễ truyền props. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn sửa trực tiếp object state để giảm chi phí tạo object mới. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: state bất biến giúp React nhận diện thay đổi chính xác và giảm side effect.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc quản lý state bất biến và tránh re-render lỗi..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản lý state bất biến và tránh re-render lỗi.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q055",
+    "q_num": 55,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về React State trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt đưa toàn bộ state vào một object duy nhất để dễ truyền props. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa cập nhật state theo nguyên tắc immutable và tách state theo miền trách nhiệm rõ ràng. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt sửa trực tiếp object state để giảm chi phí tạo object mới. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt dùng setstate liên tục trong vòng lặp render để đảm bảo dữ liệu mới nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: state bất biến giúp React nhận diện thay đổi chính xác và giảm side effect.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc quản lý state bất biến và tránh re-render lỗi..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Quản lý state bất biến và tránh re-render lỗi.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q056",
+    "q_num": 56,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về React Rendering?",
+    "options": [
+      "Dùng memoization có chọn lọc và đo thực nghiệm trước khi tối ưu render.",
+      "Bọc mọi component bằng memo để tăng tốc tuyệt đối, ở môi trường production.",
+      "Bỏ qua profiling vì cảm nhận bằng mắt là đủ để kết luận hiệu năng, khi mở rộng quy mô sản phẩm.",
+      "Dồn toàn bộ logic vào component cha để giảm số lượng component con."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: tối ưu render phải dựa trên đo lường, không dựa vào giả định cảm tính.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tối ưu re-render bằng memoization và cấu trúc component hợp lý..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu re-render bằng memoization và cấu trúc component hợp lý.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q057",
+    "q_num": 57,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về React Rendering?",
+    "options": [
+      "Bỏ qua profiling vì cảm nhận bằng mắt là đủ để kết luận hiệu năng, ở môi trường production.",
+      "Dồn toàn bộ logic vào component cha để giảm số lượng component con.",
+      "Bọc mọi component bằng memo để tăng tốc tuyệt đối, theo chuẩn quản trị kỹ thuật.",
+      "Dùng memoization có chọn lọc và đo thực nghiệm trước khi tối ưu render."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: tối ưu render phải dựa trên đo lường, không dựa vào giả định cảm tính.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tối ưu re-render bằng memoization và cấu trúc component hợp lý..\nNăng lực đánh giá: Tối ưu re-render bằng memoization và cấu trúc component hợp lý.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q058",
+    "q_num": 58,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến React Rendering. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên dùng memoization có chọn lọc và đo thực nghiệm trước khi tối ưu render. và xác nhận bằng chỉ số thực tế.",
+      "Chọn dồn toàn bộ logic vào component cha để giảm số lượng component con. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn bỏ qua profiling vì cảm nhận bằng mắt là đủ để kết luận hiệu năng. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn bọc mọi component bằng memo để tăng tốc tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: tối ưu render phải dựa trên đo lường, không dựa vào giả định cảm tính.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tối ưu re-render bằng memoization và cấu trúc component hợp lý..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu re-render bằng memoization và cấu trúc component hợp lý.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q059",
+    "q_num": 59,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho React Rendering, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bỏ qua profiling vì cảm nhận bằng mắt là đủ để kết luận hiệu năng. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên dùng memoization có chọn lọc và đo thực nghiệm trước khi tối ưu render. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bọc mọi component bằng memo để tăng tốc tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn dồn toàn bộ logic vào component cha để giảm số lượng component con. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: tối ưu render phải dựa trên đo lường, không dựa vào giả định cảm tính.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tối ưu re-render bằng memoization và cấu trúc component hợp lý..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu re-render bằng memoization và cấu trúc component hợp lý.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q060",
+    "q_num": 60,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về React Rendering trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa dùng memoization có chọn lọc và đo thực nghiệm trước khi tối ưu render. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt bọc mọi component bằng memo để tăng tốc tuyệt đối. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt bỏ qua profiling vì cảm nhận bằng mắt là đủ để kết luận hiệu năng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt dồn toàn bộ logic vào component cha để giảm số lượng component con. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: tối ưu render phải dựa trên đo lường, không dựa vào giả định cảm tính.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tối ưu re-render bằng memoization và cấu trúc component hợp lý..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu re-render bằng memoization và cấu trúc component hợp lý.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q061",
+    "q_num": 61,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Next.js Rendering?",
+    "options": [
+      "Luôn dùng SSG cho mọi trang kể cả dữ liệu thay đổi theo phút, khi hệ thống tăng tải.",
+      "Không cần cache khi dùng ISR vì framework tự xử lý toàn bộ tình huống, theo yêu cầu vận hành dài hạn.",
+      "Luôn dùng SSR cho mọi trang vì SEO luôn tốt nhất, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn SSR, SSG hoặc ISR theo đặc tính dữ liệu, tần suất cập nhật và yêu cầu SEO."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: chọn đúng mode render giúp cân bằng tốc độ, chi phí và độ mới của dữ liệu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chọn ssr, ssg, isr đúng bối cảnh sản phẩm..\nNăng lực đánh giá: Chọn SSR, SSG, ISR đúng bối cảnh sản phẩm.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q062",
+    "q_num": 62,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Next.js Rendering?",
+    "options": [
+      "Chọn SSR, SSG hoặc ISR theo đặc tính dữ liệu, tần suất cập nhật và yêu cầu SEO.",
+      "Không cần cache khi dùng ISR vì framework tự xử lý toàn bộ tình huống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Luôn dùng SSG cho mọi trang kể cả dữ liệu thay đổi theo phút, trong chu kỳ phát hành liên tục.",
+      "Luôn dùng SSR cho mọi trang vì SEO luôn tốt nhất, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: chọn đúng mode render giúp cân bằng tốc độ, chi phí và độ mới của dữ liệu.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc chọn ssr, ssg, isr đúng bối cảnh sản phẩm..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn SSR, SSG, ISR đúng bối cảnh sản phẩm.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q063",
+    "q_num": 63,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Next.js Rendering. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn luôn dùng ssg cho mọi trang kể cả dữ liệu thay đổi theo phút. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Ưu tiên chọn ssr, ssg hoặc isr theo đặc tính dữ liệu, tần suất cập nhật và yêu cầu seo. và xác nhận bằng chỉ số thực tế.",
+      "Chọn luôn dùng ssr cho mọi trang vì seo luôn tốt nhất. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn không cần cache khi dùng isr vì framework tự xử lý toàn bộ tình huống. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: chọn đúng mode render giúp cân bằng tốc độ, chi phí và độ mới của dữ liệu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc chọn ssr, ssg, isr đúng bối cảnh sản phẩm..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn SSR, SSG, ISR đúng bối cảnh sản phẩm.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q064",
+    "q_num": 64,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Next.js Rendering, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên chọn ssr, ssg hoặc isr theo đặc tính dữ liệu, tần suất cập nhật và yêu cầu seo. và xác nhận bằng chỉ số thực tế.",
+      "Chọn luôn dùng ssr cho mọi trang vì seo luôn tốt nhất. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn luôn dùng ssg cho mọi trang kể cả dữ liệu thay đổi theo phút. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn không cần cache khi dùng isr vì framework tự xử lý toàn bộ tình huống. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: chọn đúng mode render giúp cân bằng tốc độ, chi phí và độ mới của dữ liệu.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc chọn ssr, ssg, isr đúng bối cảnh sản phẩm..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn SSR, SSG, ISR đúng bối cảnh sản phẩm.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q065",
+    "q_num": 65,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Next.js Rendering trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt không cần cache khi dùng isr vì framework tự xử lý toàn bộ tình huống. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt luôn dùng ssr cho mọi trang vì seo luôn tốt nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Chuẩn hóa chọn ssr, ssg hoặc isr theo đặc tính dữ liệu, tần suất cập nhật và yêu cầu seo. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt luôn dùng ssg cho mọi trang kể cả dữ liệu thay đổi theo phút. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: chọn đúng mode render giúp cân bằng tốc độ, chi phí và độ mới của dữ liệu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc chọn ssr, ssg, isr đúng bối cảnh sản phẩm..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn SSR, SSG, ISR đúng bối cảnh sản phẩm.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q066",
+    "q_num": 66,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Data Fetching?",
+    "options": [
+      "Chuẩn hóa data fetching với cache key, retry policy và xử lý loading/error tường minh.",
+      "Ẩn toàn bộ lỗi API khỏi UI để người dùng không bị phân tâm, ở môi trường production.",
+      "Tắt retry hoàn toàn để tránh request lặp lại dù backend không ổn định, khi mở rộng quy mô sản phẩm.",
+      "Gọi API trực tiếp trong mọi component mà không cần chiến lược cache, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: quy trình fetch rõ ràng giúp ứng dụng ổn định dưới mạng di động và tải cao.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tổ chức gọi api, cache và retry hợp lý..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức gọi API, cache và retry hợp lý.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q067",
+    "q_num": 67,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Data Fetching?",
+    "options": [
+      "Tắt retry hoàn toàn để tránh request lặp lại dù backend không ổn định, ở môi trường production.",
+      "Chuẩn hóa data fetching với cache key, retry policy và xử lý loading/error tường minh.",
+      "Gọi API trực tiếp trong mọi component mà không cần chiến lược cache, theo chuẩn quản trị kỹ thuật.",
+      "Ẩn toàn bộ lỗi API khỏi UI để người dùng không bị phân tâm, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: quy trình fetch rõ ràng giúp ứng dụng ổn định dưới mạng di động và tải cao.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tổ chức gọi api, cache và retry hợp lý..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức gọi API, cache và retry hợp lý.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q068",
+    "q_num": 68,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Data Fetching. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên chuẩn hóa data fetching với cache key, retry policy và xử lý loading/error tường minh. và xác nhận bằng chỉ số thực tế.",
+      "Chọn gọi api trực tiếp trong mọi component mà không cần chiến lược cache. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn tắt retry hoàn toàn để tránh request lặp lại dù backend không ổn định. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn ẩn toàn bộ lỗi api khỏi ui để người dùng không bị phân tâm. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: quy trình fetch rõ ràng giúp ứng dụng ổn định dưới mạng di động và tải cao.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tổ chức gọi api, cache và retry hợp lý..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức gọi API, cache và retry hợp lý.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q069",
+    "q_num": 69,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Data Fetching, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn ẩn toàn bộ lỗi api khỏi ui để người dùng không bị phân tâm. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn gọi api trực tiếp trong mọi component mà không cần chiến lược cache. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên chuẩn hóa data fetching với cache key, retry policy và xử lý loading/error tường minh. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tắt retry hoàn toàn để tránh request lặp lại dù backend không ổn định. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: quy trình fetch rõ ràng giúp ứng dụng ổn định dưới mạng di động và tải cao.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tổ chức gọi api, cache và retry hợp lý..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức gọi API, cache và retry hợp lý.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q070",
+    "q_num": 70,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Data Fetching trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt gọi api trực tiếp trong mọi component mà không cần chiến lược cache. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Chuẩn hóa chuẩn hóa data fetching với cache key, retry policy và xử lý loading/error tường minh. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt ẩn toàn bộ lỗi api khỏi ui để người dùng không bị phân tâm. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt tắt retry hoàn toàn để tránh request lặp lại dù backend không ổn định. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: quy trình fetch rõ ràng giúp ứng dụng ổn định dưới mạng di động và tải cao.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tổ chức gọi api, cache và retry hợp lý..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức gọi API, cache và retry hợp lý.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q071",
+    "q_num": 71,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về TypeScript Strictness?",
+    "options": [
+      "Tắt strict vì compile chậm và không tác động chất lượng runtime.",
+      "Bật strict mode, dùng type rõ ràng và tránh any không kiểm soát.",
+      "Dùng any rộng rãi để code nhanh, sau này sửa dần, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Dùng type assertion cưỡng ép thay cho việc mô hình hóa dữ liệu đúng."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: TypeScript phát huy hiệu quả khi kiểm soát type từ biên API đến UI component.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc khai thác typescript để giảm bug runtime..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Khai thác TypeScript để giảm bug runtime.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q072",
+    "q_num": 72,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về TypeScript Strictness?",
+    "options": [
+      "Bật strict mode, dùng type rõ ràng và tránh any không kiểm soát.",
+      "Dùng any rộng rãi để code nhanh, sau này sửa dần, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Tắt strict vì compile chậm và không tác động chất lượng runtime.",
+      "Dùng type assertion cưỡng ép thay cho việc mô hình hóa dữ liệu đúng."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: TypeScript phát huy hiệu quả khi kiểm soát type từ biên API đến UI component.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc khai thác typescript để giảm bug runtime..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Khai thác TypeScript để giảm bug runtime.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q073",
+    "q_num": 73,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến TypeScript Strictness. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn dùng type assertion cưỡng ép thay cho việc mô hình hóa dữ liệu đúng. như giải pháp chính cho toàn bộ hệ thống, trong vận hành thực tế.",
+      "Chọn dùng any rộng rãi để code nhanh, sau này sửa dần. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục, trong môi trường production.",
+      "Ưu tiên bật strict mode, dùng type rõ ràng và tránh any không kiểm soát. và xác nhận bằng chỉ số thực tế, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn tắt strict vì compile chậm và không tác động chất lượng runtime. như giải pháp chính cho toàn bộ hệ thống, trong môi trường production, trong vận hành thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: TypeScript phát huy hiệu quả khi kiểm soát type từ biên API đến UI component.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc khai thác typescript để giảm bug runtime..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Khai thác TypeScript để giảm bug runtime.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q074",
+    "q_num": 74,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho TypeScript Strictness, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn dùng any rộng rãi để code nhanh, sau này sửa dần. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục, trong môi trường production.",
+      "Ưu tiên bật strict mode, dùng type rõ ràng và tránh any không kiểm soát. và xác nhận bằng chỉ số thực tế, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn dùng type assertion cưỡng ép thay cho việc mô hình hóa dữ liệu đúng. như giải pháp chính cho toàn bộ hệ thống, trong môi trường production, trong vận hành thực tế.",
+      "Chọn tắt strict vì compile chậm và không tác động chất lượng runtime. như giải pháp chính cho toàn bộ hệ thống, trong vận hành thực tế, trong vận hành thực tế, trong vận hành thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: TypeScript phát huy hiệu quả khi kiểm soát type từ biên API đến UI component.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc khai thác typescript để giảm bug runtime..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Khai thác TypeScript để giảm bug runtime.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q075",
+    "q_num": 75,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về TypeScript Strictness trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt dùng any rộng rãi để code nhanh, sau này sửa dần. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt tắt strict vì compile chậm và không tác động chất lượng runtime. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung.",
+      "Chuẩn hóa bật strict mode, dùng type rõ ràng và tránh any không kiểm soát. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt dùng type assertion cưỡng ép thay cho việc mô hình hóa dữ liệu đúng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: TypeScript phát huy hiệu quả khi kiểm soát type từ biên API đến UI component.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc khai thác typescript để giảm bug runtime..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Khai thác TypeScript để giảm bug runtime.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q076",
+    "q_num": 76,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Web Vitals?",
+    "options": [
+      "Tối ưu tài nguyên quan trọng, giảm layout shift và đo Web Vitals theo user journey.",
+      "Chỉ cần tăng điểm Lighthouse local là đủ cho toàn bộ người dùng production, ở môi trường production.",
+      "Tập trung animation mượt và bỏ qua các chỉ số phản hồi tương tác, khi mở rộng quy mô sản phẩm.",
+      "Giảm toàn bộ script bằng mọi giá kể cả phá vỡ chức năng nghiệp vụ, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: A.\nLý do cốt lõi: Web Vitals phản ánh trải nghiệm thực tế, ảnh hưởng trực tiếp SEO và chuyển đổi.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc theo dõi và cải thiện lcp, cls, inp theo mục tiêu sản phẩm..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Theo dõi và cải thiện LCP, CLS, INP theo mục tiêu sản phẩm.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q077",
+    "q_num": 77,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Web Vitals?",
+    "options": [
+      "Giảm toàn bộ script bằng mọi giá kể cả phá vỡ chức năng nghiệp vụ, ở môi trường production.",
+      "Chỉ cần tăng điểm Lighthouse local là đủ cho toàn bộ người dùng production, khi mở rộng quy mô sản phẩm.",
+      "Tối ưu tài nguyên quan trọng, giảm layout shift và đo Web Vitals theo user journey.",
+      "Tập trung animation mượt và bỏ qua các chỉ số phản hồi tương tác, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: Web Vitals phản ánh trải nghiệm thực tế, ảnh hưởng trực tiếp SEO và chuyển đổi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc theo dõi và cải thiện lcp, cls, inp theo mục tiêu sản phẩm..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Theo dõi và cải thiện LCP, CLS, INP theo mục tiêu sản phẩm.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q078",
+    "q_num": 78,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Web Vitals. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn chỉ cần tăng điểm lighthouse local là đủ cho toàn bộ người dùng production. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên tối ưu tài nguyên quan trọng, giảm layout shift và đo web vitals theo user journey. và xác nhận bằng chỉ số thực tế.",
+      "Chọn giảm toàn bộ script bằng mọi giá kể cả phá vỡ chức năng nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn tập trung animation mượt và bỏ qua các chỉ số phản hồi tương tác. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: Web Vitals phản ánh trải nghiệm thực tế, ảnh hưởng trực tiếp SEO và chuyển đổi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc theo dõi và cải thiện lcp, cls, inp theo mục tiêu sản phẩm..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Theo dõi và cải thiện LCP, CLS, INP theo mục tiêu sản phẩm.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q079",
+    "q_num": 79,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Web Vitals, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn chỉ cần tăng điểm lighthouse local là đủ cho toàn bộ người dùng production. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn tập trung animation mượt và bỏ qua các chỉ số phản hồi tương tác. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên tối ưu tài nguyên quan trọng, giảm layout shift và đo web vitals theo user journey. và xác nhận bằng chỉ số thực tế.",
+      "Chọn giảm toàn bộ script bằng mọi giá kể cả phá vỡ chức năng nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: Web Vitals phản ánh trải nghiệm thực tế, ảnh hưởng trực tiếp SEO và chuyển đổi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc theo dõi và cải thiện lcp, cls, inp theo mục tiêu sản phẩm..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Theo dõi và cải thiện LCP, CLS, INP theo mục tiêu sản phẩm.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q080",
+    "q_num": 80,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Web Vitals trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt chỉ cần tăng điểm lighthouse local là đủ cho toàn bộ người dùng production. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt tập trung animation mượt và bỏ qua các chỉ số phản hồi tương tác. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt giảm toàn bộ script bằng mọi giá kể cả phá vỡ chức năng nghiệp vụ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa tối ưu tài nguyên quan trọng, giảm layout shift và đo web vitals theo user journey. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: Web Vitals phản ánh trải nghiệm thực tế, ảnh hưởng trực tiếp SEO và chuyển đổi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc theo dõi và cải thiện lcp, cls, inp theo mục tiêu sản phẩm..\nNăng lực đánh giá: Theo dõi và cải thiện LCP, CLS, INP theo mục tiêu sản phẩm.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q081",
+    "q_num": 81,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Bundle Optimization?",
+    "options": [
+      "Không cần phân tích bundle nếu ứng dụng chạy ổn trên máy dev, khi hệ thống tăng tải.",
+      "Gộp toàn bộ thư viện vào bundle chính để giảm số request, theo yêu cầu vận hành dài hạn.",
+      "Áp dụng code splitting, lazy loading và phân tích bundle định kỳ theo route.",
+      "Lazy load toàn bộ thành phần kể cả phần above-the-fold quan trọng, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: tối ưu bundle đúng cách giúp giảm TTI và cải thiện retention ở mạng yếu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc giảm kích thước bundle và thời gian tải trang đầu..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm kích thước bundle và thời gian tải trang đầu.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q082",
+    "q_num": 82,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Bundle Optimization?",
+    "options": [
+      "Gộp toàn bộ thư viện vào bundle chính để giảm số request, theo yêu cầu vận hành dài hạn.",
+      "Áp dụng code splitting, lazy loading và phân tích bundle định kỳ theo route.",
+      "Không cần phân tích bundle nếu ứng dụng chạy ổn trên máy dev, trong chu kỳ phát hành liên tục.",
+      "Lazy load toàn bộ thành phần kể cả phần above-the-fold quan trọng, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: tối ưu bundle đúng cách giúp giảm TTI và cải thiện retention ở mạng yếu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc giảm kích thước bundle và thời gian tải trang đầu..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm kích thước bundle và thời gian tải trang đầu.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q083",
+    "q_num": 83,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Bundle Optimization. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn gộp toàn bộ thư viện vào bundle chính để giảm số request. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn lazy load toàn bộ thành phần kể cả phần above-the-fold quan trọng. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên áp dụng code splitting, lazy loading và phân tích bundle định kỳ theo route. và xác nhận bằng chỉ số thực tế.",
+      "Chọn không cần phân tích bundle nếu ứng dụng chạy ổn trên máy dev. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: tối ưu bundle đúng cách giúp giảm TTI và cải thiện retention ở mạng yếu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc giảm kích thước bundle và thời gian tải trang đầu..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm kích thước bundle và thời gian tải trang đầu.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q084",
+    "q_num": 84,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Bundle Optimization, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn gộp toàn bộ thư viện vào bundle chính để giảm số request. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn lazy load toàn bộ thành phần kể cả phần above-the-fold quan trọng. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn không cần phân tích bundle nếu ứng dụng chạy ổn trên máy dev. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên áp dụng code splitting, lazy loading và phân tích bundle định kỳ theo route. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: tối ưu bundle đúng cách giúp giảm TTI và cải thiện retention ở mạng yếu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc giảm kích thước bundle và thời gian tải trang đầu..\nNăng lực đánh giá: Giảm kích thước bundle và thời gian tải trang đầu.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q085",
+    "q_num": 85,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Bundle Optimization trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt lazy load toàn bộ thành phần kể cả phần above-the-fold quan trọng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt gộp toàn bộ thư viện vào bundle chính để giảm số request. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt không cần phân tích bundle nếu ứng dụng chạy ổn trên máy dev. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa áp dụng code splitting, lazy loading và phân tích bundle định kỳ theo route. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: tối ưu bundle đúng cách giúp giảm TTI và cải thiện retention ở mạng yếu.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc giảm kích thước bundle và thời gian tải trang đầu..\nNăng lực đánh giá: Giảm kích thước bundle và thời gian tải trang đầu.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q086",
+    "q_num": 86,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Testing Pyramid?",
+    "options": [
+      "Chỉ viết e2e test vì mô phỏng gần nhất hành vi người dùng, trong điều kiện dữ liệu biến động.",
+      "Kết hợp unit, integration, e2e theo test pyramid và ưu tiên luồng nghiệp vụ trọng yếu.",
+      "Đặt mục tiêu 100% coverage rồi xem đó là chất lượng tuyệt đối, khi mở rộng quy mô sản phẩm.",
+      "Chỉ viết unit test và bỏ toàn bộ kiểm thử tích hợp, theo chuẩn quản trị kỹ thuật, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: chiến lược test cân bằng giúp bắt lỗi sớm với chi phí bảo trì hợp lý.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc phân bổ unit, integration, e2e test theo giá trị rủi ro..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân bổ unit, integration, e2e test theo giá trị rủi ro.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q087",
+    "q_num": 87,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Testing Pyramid?",
+    "options": [
+      "Chỉ viết e2e test vì mô phỏng gần nhất hành vi người dùng, ở môi trường production.",
+      "Chỉ viết unit test và bỏ toàn bộ kiểm thử tích hợp, khi mở rộng quy mô sản phẩm, theo chuẩn quản trị kỹ thuật.",
+      "Kết hợp unit, integration, e2e theo test pyramid và ưu tiên luồng nghiệp vụ trọng yếu.",
+      "Đặt mục tiêu 100% coverage rồi xem đó là chất lượng tuyệt đối, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: chiến lược test cân bằng giúp bắt lỗi sớm với chi phí bảo trì hợp lý.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc phân bổ unit, integration, e2e test theo giá trị rủi ro..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân bổ unit, integration, e2e test theo giá trị rủi ro.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q088",
+    "q_num": 88,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Testing Pyramid. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn chỉ viết e2e test vì mô phỏng gần nhất hành vi người dùng. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn chỉ viết unit test và bỏ toàn bộ kiểm thử tích hợp. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn đặt mục tiêu 100% coverage rồi xem đó là chất lượng tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên kết hợp unit, integration, e2e theo test pyramid và ưu tiên luồng nghiệp vụ trọng yếu. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: chiến lược test cân bằng giúp bắt lỗi sớm với chi phí bảo trì hợp lý.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phân bổ unit, integration, e2e test theo giá trị rủi ro..\nNăng lực đánh giá: Phân bổ unit, integration, e2e test theo giá trị rủi ro.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q089",
+    "q_num": 89,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Testing Pyramid, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn chỉ viết unit test và bỏ toàn bộ kiểm thử tích hợp. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn chỉ viết e2e test vì mô phỏng gần nhất hành vi người dùng. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn đặt mục tiêu 100% coverage rồi xem đó là chất lượng tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Ưu tiên kết hợp unit, integration, e2e theo test pyramid và ưu tiên luồng nghiệp vụ trọng yếu. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: chiến lược test cân bằng giúp bắt lỗi sớm với chi phí bảo trì hợp lý.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phân bổ unit, integration, e2e test theo giá trị rủi ro..\nNăng lực đánh giá: Phân bổ unit, integration, e2e test theo giá trị rủi ro.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q090",
+    "q_num": 90,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Testing Pyramid trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt chỉ viết e2e test vì mô phỏng gần nhất hành vi người dùng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt chỉ viết unit test và bỏ toàn bộ kiểm thử tích hợp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa kết hợp unit, integration, e2e theo test pyramid và ưu tiên luồng nghiệp vụ trọng yếu. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt đặt mục tiêu 100% coverage rồi xem đó là chất lượng tuyệt đối. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: chiến lược test cân bằng giúp bắt lỗi sớm với chi phí bảo trì hợp lý.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc phân bổ unit, integration, e2e test theo giá trị rủi ro..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phân bổ unit, integration, e2e test theo giá trị rủi ro.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q091",
+    "q_num": 91,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Frontend Security?",
+    "options": [
+      "Lưu token nhạy cảm cố định trong localStorage mà không có lớp bảo vệ, khi hệ thống tăng tải.",
+      "Tin rằng chỉ backend mới chịu trách nhiệm toàn bộ về XSS, theo yêu cầu vận hành dài hạn.",
+      "Kiểm soát input/output, áp dụng CSP phù hợp và quản lý token theo nguyên tắc an toàn.",
+      "Render trực tiếp HTML người dùng gửi lên để giữ nguyên định dạng, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: bề mặt tấn công phía client rất lớn và cần phòng vệ ngay từ lớp giao diện.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc giảm thiểu rủi ro xss, token leak và cấu hình trình duyệt không an toàn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm thiểu rủi ro XSS, token leak và cấu hình trình duyệt không an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q092",
+    "q_num": 92,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Frontend Security?",
+    "options": [
+      "Lưu token nhạy cảm cố định trong localStorage mà không có lớp bảo vệ, theo yêu cầu vận hành dài hạn.",
+      "Tin rằng chỉ backend mới chịu trách nhiệm toàn bộ về XSS, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Render trực tiếp HTML người dùng gửi lên để giữ nguyên định dạng, trong chu kỳ phát hành liên tục.",
+      "Kiểm soát input/output, áp dụng CSP phù hợp và quản lý token theo nguyên tắc an toàn."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: bề mặt tấn công phía client rất lớn và cần phòng vệ ngay từ lớp giao diện.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc giảm thiểu rủi ro xss, token leak và cấu hình trình duyệt không an toàn..\nNăng lực đánh giá: Giảm thiểu rủi ro XSS, token leak và cấu hình trình duyệt không an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q093",
+    "q_num": 93,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Frontend Security. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn tin rằng chỉ backend mới chịu trách nhiệm toàn bộ về xss. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn lưu token nhạy cảm cố định trong localstorage mà không có lớp bảo vệ. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn render trực tiếp html người dùng gửi lên để giữ nguyên định dạng. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên kiểm soát input/output, áp dụng csp phù hợp và quản lý token theo nguyên tắc an toàn. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: bề mặt tấn công phía client rất lớn và cần phòng vệ ngay từ lớp giao diện.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc giảm thiểu rủi ro xss, token leak và cấu hình trình duyệt không an toàn..\nNăng lực đánh giá: Giảm thiểu rủi ro XSS, token leak và cấu hình trình duyệt không an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q094",
+    "q_num": 94,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Frontend Security, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn lưu token nhạy cảm cố định trong localstorage mà không có lớp bảo vệ. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn tin rằng chỉ backend mới chịu trách nhiệm toàn bộ về xss. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên kiểm soát input/output, áp dụng csp phù hợp và quản lý token theo nguyên tắc an toàn. và xác nhận bằng chỉ số thực tế.",
+      "Chọn render trực tiếp html người dùng gửi lên để giữ nguyên định dạng. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: bề mặt tấn công phía client rất lớn và cần phòng vệ ngay từ lớp giao diện.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc giảm thiểu rủi ro xss, token leak và cấu hình trình duyệt không an toàn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm thiểu rủi ro XSS, token leak và cấu hình trình duyệt không an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q095",
+    "q_num": 95,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Frontend Security trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt render trực tiếp html người dùng gửi lên để giữ nguyên định dạng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa kiểm soát input/output, áp dụng csp phù hợp và quản lý token theo nguyên tắc an toàn. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt lưu token nhạy cảm cố định trong localstorage mà không có lớp bảo vệ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt tin rằng chỉ backend mới chịu trách nhiệm toàn bộ về xss. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: bề mặt tấn công phía client rất lớn và cần phòng vệ ngay từ lớp giao diện.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc giảm thiểu rủi ro xss, token leak và cấu hình trình duyệt không an toàn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Giảm thiểu rủi ro XSS, token leak và cấu hình trình duyệt không an toàn.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q096",
+    "q_num": 96,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Trong lĩnh vực Front-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Design System?",
+    "options": [
+      "Cho mỗi team tự tạo component riêng không cần tiêu chuẩn chung, trong điều kiện dữ liệu biến động.",
+      "Đồng nhất UI bằng cách copy-paste code giữa các dự án, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Cấm thay đổi component để tránh phát sinh chi phí phối hợp, khi mở rộng quy mô sản phẩm.",
+      "Thiết kế design system có token, guideline, versioning và quy trình review component."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: design system tốt giúp tăng tốc phát triển và giảm sai lệch trải nghiệm đa sản phẩm.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc xây dựng thư viện component có tính tái sử dụng và governance..\nNăng lực đánh giá: Xây dựng thư viện component có tính tái sử dụng và governance.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q097",
+    "q_num": 97,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Junior] Khi ứng tuyển vị trí Front-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Design System?",
+    "options": [
+      "Đồng nhất UI bằng cách copy-paste code giữa các dự án, ở môi trường production, khi mở rộng quy mô sản phẩm.",
+      "Cho mỗi team tự tạo component riêng không cần tiêu chuẩn chung, khi mở rộng quy mô sản phẩm.",
+      "Cấm thay đổi component để tránh phát sinh chi phí phối hợp, theo chuẩn quản trị kỹ thuật.",
+      "Thiết kế design system có token, guideline, versioning và quy trình review component."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: D.\nLý do cốt lõi: design system tốt giúp tăng tốc phát triển và giảm sai lệch trải nghiệm đa sản phẩm.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc xây dựng thư viện component có tính tái sử dụng và governance..\nNăng lực đánh giá: Xây dựng thư viện component có tính tái sử dụng và governance.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q098",
+    "q_num": 98,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Dự án Front-End của bạn đang gặp vấn đề liên quan đến Design System. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn cho mỗi team tự tạo component riêng không cần tiêu chuẩn chung. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn đồng nhất ui bằng cách copy-paste code giữa các dự án. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên thiết kế design system có token, guideline, versioning và quy trình review component. và xác nhận bằng chỉ số thực tế.",
+      "Chọn cấm thay đổi component để tránh phát sinh chi phí phối hợp. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: design system tốt giúp tăng tốc phát triển và giảm sai lệch trải nghiệm đa sản phẩm.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc xây dựng thư viện component có tính tái sử dụng và governance..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây dựng thư viện component có tính tái sử dụng và governance.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q099",
+    "q_num": 99,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Design System, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn cấm thay đổi component để tránh phát sinh chi phí phối hợp. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên thiết kế design system có token, guideline, versioning và quy trình review component. và xác nhận bằng chỉ số thực tế.",
+      "Chọn cho mỗi team tự tạo component riêng không cần tiêu chuẩn chung. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn đồng nhất ui bằng cách copy-paste code giữa các dự án. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: B.\nLý do cốt lõi: design system tốt giúp tăng tốc phát triển và giảm sai lệch trải nghiệm đa sản phẩm.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc xây dựng thư viện component có tính tái sử dụng và governance..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây dựng thư viện component có tính tái sử dụng và governance.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  },
+  {
+    "id": "Q100",
+    "q_num": 100,
+    "job_role": "frontend",
+    "location": "vn_2026",
+    "categoryId": "c1",
+    "text": "[Senior] Ở vai trò lead Front-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Design System trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt cấm thay đổi component để tránh phát sinh chi phí phối hợp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt đồng nhất ui bằng cách copy-paste code giữa các dự án. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa thiết kế design system có token, guideline, versioning và quy trình review component. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt cho mỗi team tự tạo component riêng không cần tiêu chuẩn chung. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ghi nhận nhu cầu cao cho React/Next.js, TypeScript, tối ưu hiệu năng và accessibility ở nhóm Front-End.\nĐáp án đúng: C.\nLý do cốt lõi: design system tốt giúp tăng tốc phát triển và giảm sai lệch trải nghiệm đa sản phẩm.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc xây dựng thư viện component có tính tái sử dụng và governance..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xây dựng thư viện component có tính tái sử dụng và governance.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Nhận diện đúng khái niệm nền tảng, thuật ngữ và công cụ cơ bản.\n- Mid: Áp dụng đúng vào tình huống thực tế, giải thích trade-off và chỉ số kiểm chứng.\n- Senior: Đề xuất chuẩn kiến trúc hoặc quy trình có thể mở rộng, có quản trị rủi ro và chất lượng dài hạn."
+  }
+]

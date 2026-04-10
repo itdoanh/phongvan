@@ -336,14 +336,15 @@
                 <h2 class="text-2xl font-display font-bold mb-6 border-b border-gray-700 pb-2 dark:text-white">Thiết lập giao thức</h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                    <!-- Placeholder cho mở rộng sau này -->
                     <div>
-                        <label class="block text-sm font-medium mb-2 text-gray-600 dark:text-gray-300">Vị trí ứng tuyển (Sắp ra mắt)</label>
-                        <select disabled class="w-full bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded p-3 text-gray-500 cursor-not-allowed">
-                            <option>Fullstack Developer (Mặc định)</option>
-                            <option>Frontend Developer</option>
-                            <option>Backend Developer</option>
+                        <label class="block text-sm font-medium mb-2 text-gray-600 dark:text-gray-300">Lĩnh vực bài test</label>
+                        <select id="dataset-select" onchange="app.handleDatasetChange(this.value)" class="w-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded p-3 text-gray-700 dark:text-gray-100">
+                            <option value="fullstack">Full-stack tổng hợp (100 câu gốc)</option>
+                            <option value="frontend">Front-End chuyên sâu (100 câu)</option>
+                            <option value="backend">Back-End chuyên sâu (100 câu)</option>
+                            <option value="devops">DevOps/SRE chuyên sâu (100 câu)</option>
                         </select>
+                        <p id="dataset-hint" class="mt-2 text-xs text-gray-500 dark:text-gray-400"></p>
                     </div>
                     <div>
                         <label class="block text-sm font-medium mb-2 text-gray-600 dark:text-gray-300">Thị trường (Sắp ra mắt)</label>
@@ -356,9 +357,7 @@
                 </div>
 
                 <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-neon-blue p-4 mb-8 rounded">
-                    <p class="text-sm dark:text-gray-300">
-                        <strong class="dark:text-white">Thông tin bài kiểm tra:</strong> Bộ dữ liệu bao gồm 100 câu hỏi chuyên sâu được phân bổ qua 5 hạng mục: Cấu trúc dữ liệu & Giải thuật, Kiến trúc hệ thống, Frontend, Backend, và Cơ sở dữ liệu.
-                    </p>
+                    <p id="home-test-info" class="text-sm dark:text-gray-300"></p>
                 </div>
 
                 <div class="text-center">
@@ -479,7 +478,7 @@
         <div id="view-results" class="view-section hide animate-fade-in">
             <div class="text-center mb-10">
                 <h2 class="font-display text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neon-blue to-neon-purple mb-2">BÁO CÁO PHÂN TÍCH NĂNG LỰC</h2>
-                <p class="font-tech text-gray-500 dark:text-gray-400 text-lg">Dựa trên cơ sở dữ liệu 100 câu hỏi đánh giá chuyên sâu</p>
+                <p id="res-subtitle" class="font-tech text-gray-500 dark:text-gray-400 text-lg">Dựa trên cơ sở dữ liệu câu hỏi đánh giá chuyên sâu</p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
@@ -543,7 +542,7 @@
             <!-- Review Section -->
             <div class="glass-panel p-6 mt-8">
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 pb-4 mb-6">
-                    <h3 class="text-2xl font-display font-bold dark:text-white mb-4 md:mb-0">Hồ sơ chi tiết (100 câu hỏi)</h3>
+                    <h3 id="review-title" class="text-2xl font-display font-bold dark:text-white mb-4 md:mb-0">Hồ sơ chi tiết</h3>
                     
                     <div class="flex bg-gray-200 dark:bg-gray-800 rounded p-1" id="review-filters">
                         <button onclick="app.filterReview('all')" class="review-tab active px-4 py-1 rounded text-sm font-medium bg-white dark:bg-gray-600 shadow transition">Tất cả</button>
@@ -577,14 +576,15 @@
             state: {
                 view: 'home', // home, interview, results
                 theme: 'dark',
+                selectedDataset: localStorage.getItem('selectedDataset') || 'fullstack',
                 textSize: (() => {
                     const n = Number(localStorage.getItem('textSize'));
                     if (!Number.isFinite(n)) return 0;
                     return Math.max(-2, Math.min(5, n));
                 })(),
                 currentQuestion: 0,
-                answers: new Array(100).fill(null), // Lưu index đáp án người dùng chọn
-                flags: new Array(100).fill(false), // Flag trạng thái phân vân
+                answers: [], // Lưu index đáp án người dùng chọn
+                flags: [], // Flag trạng thái phân vân
                 timeStart: null,
                 timerInterval: null,
                 filterMode: 'all'
@@ -600,6 +600,46 @@
                     { id: 'c6', name: 'Đánh giá Hành vi và Xử lý Tình huống (SJT)', color: '#ffff00' },
                     { id: 'c7', name: 'Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu', color: '#ff00ff' }
                 ],
+                datasetConfigs: {
+                    fullstack: {
+                        label: 'Full-stack tổng hợp (100 câu gốc)',
+                        file: './questions.json',
+                        categories: [
+                            { id: 'c1', name: 'Kiến trúc Frontend, Trình duyệt và Hệ sinh thái React', color: '#00f3ff' },
+                            { id: 'c2', name: 'Lập trình Backend, Môi trường Node.js và Tối ưu hóa API', color: '#bc13fe' },
+                            { id: 'c3', name: 'Thiết kế Hệ thống và Kiến trúc Vi dịch vụ (Microservices)', color: '#00ff66' },
+                            { id: 'c4', name: 'Điện toán Đám mây và Tự động hóa CI/CD', color: '#ff003c' },
+                            { id: 'c5', name: 'An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp', color: '#ffa500' },
+                            { id: 'c6', name: 'Đánh giá Hành vi và Xử lý Tình huống (SJT)', color: '#ffff00' },
+                            { id: 'c7', name: 'Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu', color: '#ff00ff' }
+                        ],
+                        summary: 'Bộ dữ liệu gốc dành cho Full-stack, phủ rộng nhiều mảng năng lực để đánh giá tổng quát.'
+                    },
+                    frontend: {
+                        label: 'Front-End chuyên sâu (100 câu)',
+                        file: './questions-frontend.json',
+                        categories: [
+                            { id: 'c1', name: 'Front-End chuyên sâu', color: '#00f3ff' }
+                        ],
+                        summary: 'Tập trung vào HTML/CSS/JS, React-Next.js, hiệu năng giao diện và trải nghiệm người dùng.'
+                    },
+                    backend: {
+                        label: 'Back-End chuyên sâu (100 câu)',
+                        file: './questions-backend.json',
+                        categories: [
+                            { id: 'c2', name: 'Back-End chuyên sâu', color: '#bc13fe' }
+                        ],
+                        summary: 'Tập trung vào Java/Golang/NodeJS, API, dữ liệu, tối ưu và thiết kế hệ thống backend.'
+                    },
+                    devops: {
+                        label: 'DevOps/SRE chuyên sâu (100 câu)',
+                        file: './questions-devops.json',
+                        categories: [
+                            { id: 'c4', name: 'DevOps/SRE chuyên sâu', color: '#ff003c' }
+                        ],
+                        summary: 'Tập trung vào CI/CD, cloud, Kubernetes, observability, độ tin cậy và vận hành an toàn.'
+                    }
+                },
                 questions: [] // Sẽ được sinh tự động 100 câu ở hàm init
             },
 
@@ -754,7 +794,7 @@
             },
 
             async init() {
-                await this.loadQuestions();
+                await this.loadQuestions(this.state.selectedDataset);
                 this.checkSystemTheme();
                 this.bindKeyboardShortcuts();
                 this.updateTextSize(this.state.textSize);
@@ -764,6 +804,34 @@
                     window.visualViewport.addEventListener('resize', () => this.applyResponsiveInterviewLayout());
                 }
                 this.updateView();
+            },
+
+            getCurrentDatasetConfig() {
+                return this.data.datasetConfigs[this.state.selectedDataset] || this.data.datasetConfigs.fullstack;
+            },
+
+            updateHomeDatasetInfo() {
+                const cfg = this.getCurrentDatasetConfig();
+                const total = this.data.questions.length;
+                const select = document.getElementById('dataset-select');
+                if (select) select.value = this.state.selectedDataset;
+
+                const hint = document.getElementById('dataset-hint');
+                if (hint) {
+                    hint.innerText = `Đang chọn: ${cfg.label}`;
+                }
+
+                const info = document.getElementById('home-test-info');
+                if (info) {
+                    info.innerHTML = `<strong class="dark:text-white">Thông tin bài kiểm tra:</strong> ${cfg.summary} Hiện có <b>${total}</b> câu hỏi trong bộ dữ liệu này.`;
+                }
+            },
+
+            async handleDatasetChange(datasetKey) {
+                await this.loadQuestions(datasetKey);
+                this.state.currentQuestion = 0;
+                this.state.answers = new Array(this.data.questions.length).fill(null);
+                this.state.flags = new Array(this.data.questions.length).fill(false);
             },
 
             // --- NAVIGATION & THEME ---
@@ -898,6 +966,7 @@
             startInterview() {
                 this.state.currentQuestion = 0;
                 this.state.answers = new Array(this.data.questions.length).fill(null);
+                this.state.flags = new Array(this.data.questions.length).fill(false);
                 this.state.timeStart = Date.now();
                 this.updateTextSize(this.state.textSize);
                 this.applyResponsiveInterviewLayout();
@@ -917,7 +986,8 @@
                 const idx = this.state.currentQuestion;
                 const total = this.data.questions.length;
                 const q = this.data.questions[idx];
-                const catName = this.data.categories.find(c => c.id === q.categoryId).name;
+                const cat = this.data.categories.find(c => c.id === q.categoryId);
+                const catName = cat ? cat.name : q.categoryId;
 
                 this.applyResponsiveInterviewLayout(q);
 
@@ -1164,6 +1234,7 @@
             // --- RENDER RESULTS ---
             renderResultsDashboard() {
                 const data = this.analysisData;
+                const cfg = this.getCurrentDatasetConfig();
 
                 // 1. Render Text Data
                 document.getElementById('res-score-number').innerText = `${data.overallPercent}%`;
@@ -1173,6 +1244,16 @@
                 document.getElementById('res-level-desc').innerHTML = data.levelDesc;
                 
                 document.getElementById('res-salary').innerText = `${data.salaryRange} `;
+
+                const subtitle = document.getElementById('res-subtitle');
+                if (subtitle) {
+                    subtitle.innerText = `Dựa trên cơ sở dữ liệu ${data.totalQ} câu hỏi - ${cfg.label}`;
+                }
+
+                const reviewTitle = document.getElementById('review-title');
+                if (reviewTitle) {
+                    reviewTitle.innerText = `Hồ sơ chi tiết (${data.totalQ} câu hỏi)`;
+                }
                 
                 const ulCompanies = document.getElementById('res-companies');
                 ulCompanies.innerHTML = data.companies.map(c => `<li>${c}</li>`).join('');
@@ -1343,7 +1424,7 @@
                             <div class="mt-3 text-sm">
                                 ${optionsHtml}
                             </div>
-                            ${!isCorrect && !isUnanswered ? `<div class="mt-3 text-sm text-blue-600 dark:text-neon-blue bg-blue-50 dark:bg-blue-900/20 p-2 rounded"><b>Giải thích:</b> Đáp án đúng là <b>${q.options[q.correct]}</b>. Hãy ôn tập lại mảng <i>${this.data.categories.find(c=>c.id===q.categoryId).name}</i>.</div>` : ''}
+                            ${!isCorrect && !isUnanswered ? `<div class="mt-3 text-sm text-blue-600 dark:text-neon-blue bg-blue-50 dark:bg-blue-900/20 p-2 rounded"><b>Giải thích:</b> Đáp án đúng là <b>${q.options[q.correct]}</b>. Hãy ôn tập lại mảng <i>${(this.data.categories.find(c=>c.id===q.categoryId) || { name: q.categoryId }).name}</i>.</div>` : ''}
                         </div>
                     `;
                     container.insertAdjacentHTML('beforeend', html);
@@ -1355,9 +1436,14 @@
             },
 
             // --- DATA GENERATION (Tạo 100 câu hỏi mẫu) ---
-            async loadQuestions() {
+            async loadQuestions(datasetKey = this.state.selectedDataset) {
                 try {
-                    const response = await fetch('./questions.json');
+                    const cfg = this.data.datasetConfigs[datasetKey] || this.data.datasetConfigs.fullstack;
+                    this.state.selectedDataset = datasetKey in this.data.datasetConfigs ? datasetKey : 'fullstack';
+                    localStorage.setItem('selectedDataset', this.state.selectedDataset);
+                    this.data.categories = cfg.categories.map(c => ({ ...c }));
+
+                    const response = await fetch(cfg.file);
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
@@ -1367,12 +1453,18 @@
                     // const selectedRole = document.getElementById('role-select')?.value || 'all';
                     // this.data.questions = questionDatabase.filter(q => q.job_role === selectedRole || q.job_role === 'all');
                     
-                    // Hiện tại: Gán toàn bộ 100 câu hỏi vào data
+                    // Hiện tại: Gán toàn bộ câu hỏi theo bộ dữ liệu được chọn
                     this.data.questions = questionDatabase;
+                    this.state.answers = new Array(this.data.questions.length).fill(null);
+                    this.state.flags = new Array(this.data.questions.length).fill(false);
+                    this.updateHomeDatasetInfo();
                 } catch (error) {
                     console.error("Lỗi khi tải câu hỏi:", error);
                     // Có thể xử lý khi lỗi tải JSON hoặc render mock data fallback ở đây
                     this.data.questions = [];
+                    this.state.answers = [];
+                    this.state.flags = [];
+                    this.updateHomeDatasetInfo();
                 }
             }
         };

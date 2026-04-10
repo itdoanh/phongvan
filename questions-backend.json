@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "Q001",
+    "q_num": 1,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về SOLID & OOP?",
+    "options": [
+      "Gộp toàn bộ nghiệp vụ vào một service lớn để dễ theo dõi logic, khi hệ thống tăng tải.",
+      "Ưu tiên kế thừa sâu nhiều tầng để tái sử dụng tối đa mọi đoạn code, theo yêu cầu vận hành dài hạn.",
+      "Đặt static helper toàn cục cho mọi tác vụ để tiết kiệm thời gian thiết kế.",
+      "Áp dụng SOLID để tách trách nhiệm rõ ràng và giảm rủi ro thay đổi dây chuyền."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: SOLID giúp code dễ test, dễ mở rộng và giảm chi phí bảo trì khi hệ thống tăng quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc áp dụng solid để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ..\nNăng lực đánh giá: Áp dụng SOLID để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q002",
+    "q_num": 2,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về SOLID & OOP?",
+    "options": [
+      "Ưu tiên kế thừa sâu nhiều tầng để tái sử dụng tối đa mọi đoạn code, theo yêu cầu vận hành dài hạn.",
+      "Áp dụng SOLID để tách trách nhiệm rõ ràng và giảm rủi ro thay đổi dây chuyền.",
+      "Gộp toàn bộ nghiệp vụ vào một service lớn để dễ theo dõi logic, trong chu kỳ phát hành liên tục.",
+      "Đặt static helper toàn cục cho mọi tác vụ để tiết kiệm thời gian thiết kế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: SOLID giúp code dễ test, dễ mở rộng và giảm chi phí bảo trì khi hệ thống tăng quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc áp dụng solid để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Áp dụng SOLID để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q003",
+    "q_num": 3,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến SOLID & OOP. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn ưu tiên kế thừa sâu nhiều tầng để tái sử dụng tối đa mọi đoạn code. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn đặt static helper toàn cục cho mọi tác vụ để tiết kiệm thời gian thiết kế. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên áp dụng solid để tách trách nhiệm rõ ràng và giảm rủi ro thay đổi dây chuyền. và xác nhận bằng chỉ số thực tế.",
+      "Chọn gộp toàn bộ nghiệp vụ vào một service lớn để dễ theo dõi logic. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: SOLID giúp code dễ test, dễ mở rộng và giảm chi phí bảo trì khi hệ thống tăng quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc áp dụng solid để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Áp dụng SOLID để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q004",
+    "q_num": 4,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho SOLID & OOP, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn ưu tiên kế thừa sâu nhiều tầng để tái sử dụng tối đa mọi đoạn code. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn gộp toàn bộ nghiệp vụ vào một service lớn để dễ theo dõi logic. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn đặt static helper toàn cục cho mọi tác vụ để tiết kiệm thời gian thiết kế. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên áp dụng solid để tách trách nhiệm rõ ràng và giảm rủi ro thay đổi dây chuyền. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: SOLID giúp code dễ test, dễ mở rộng và giảm chi phí bảo trì khi hệ thống tăng quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc áp dụng solid để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ..\nNăng lực đánh giá: Áp dụng SOLID để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q005",
+    "q_num": 5,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về SOLID & OOP trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt đặt static helper toàn cục cho mọi tác vụ để tiết kiệm thời gian thiết kế. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt gộp toàn bộ nghiệp vụ vào một service lớn để dễ theo dõi logic. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt ưu tiên kế thừa sâu nhiều tầng để tái sử dụng tối đa mọi đoạn code. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa áp dụng solid để tách trách nhiệm rõ ràng và giảm rủi ro thay đổi dây chuyền. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: SOLID giúp code dễ test, dễ mở rộng và giảm chi phí bảo trì khi hệ thống tăng quy mô.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc áp dụng solid để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ..\nNăng lực đánh giá: Áp dụng SOLID để giảm phụ thuộc chặt và tăng khả năng bảo trì dịch vụ.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q006",
+    "q_num": 6,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về JVM & GC?",
+    "options": [
+      "Bỏ qua GC log vì chỉ cần nhìn CPU trung bình là đủ đánh giá, trong điều kiện dữ liệu biến động.",
+      "Theo dõi heap, GC pause và cấu hình JVM dựa trên tải thực tế của ứng dụng.",
+      "Tăng heap tối đa cho mọi service vì càng nhiều RAM càng luôn nhanh, khi mở rộng quy mô sản phẩm.",
+      "Giữ object sống lâu không giới hạn để tránh tạo mới, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: tối ưu JVM cần dữ liệu đo lường để tránh pause dài và suy giảm latency.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc hiểu mô hình bộ nhớ jvm và tác động của gc tới hiệu năng dịch vụ java..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu mô hình bộ nhớ JVM và tác động của GC tới hiệu năng dịch vụ Java.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q007",
+    "q_num": 7,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về JVM & GC?",
+    "options": [
+      "Bỏ qua GC log vì chỉ cần nhìn CPU trung bình là đủ đánh giá, ở môi trường production.",
+      "Giữ object sống lâu không giới hạn để tránh tạo mới, khi mở rộng quy mô sản phẩm.",
+      "Theo dõi heap, GC pause và cấu hình JVM dựa trên tải thực tế của ứng dụng.",
+      "Tăng heap tối đa cho mọi service vì càng nhiều RAM càng luôn nhanh, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: tối ưu JVM cần dữ liệu đo lường để tránh pause dài và suy giảm latency.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc hiểu mô hình bộ nhớ jvm và tác động của gc tới hiệu năng dịch vụ java..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu mô hình bộ nhớ JVM và tác động của GC tới hiệu năng dịch vụ Java.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q008",
+    "q_num": 8,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến JVM & GC. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ qua gc log vì chỉ cần nhìn cpu trung bình là đủ đánh giá. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn tăng heap tối đa cho mọi service vì càng nhiều ram càng luôn nhanh. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn giữ object sống lâu không giới hạn để tránh tạo mới. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên theo dõi heap, gc pause và cấu hình jvm dựa trên tải thực tế của ứng dụng. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: tối ưu JVM cần dữ liệu đo lường để tránh pause dài và suy giảm latency.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu mô hình bộ nhớ jvm và tác động của gc tới hiệu năng dịch vụ java..\nNăng lực đánh giá: Hiểu mô hình bộ nhớ JVM và tác động của GC tới hiệu năng dịch vụ Java.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q009",
+    "q_num": 9,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho JVM & GC, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn giữ object sống lâu không giới hạn để tránh tạo mới. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn tăng heap tối đa cho mọi service vì càng nhiều ram càng luôn nhanh. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn bỏ qua gc log vì chỉ cần nhìn cpu trung bình là đủ đánh giá. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Ưu tiên theo dõi heap, gc pause và cấu hình jvm dựa trên tải thực tế của ứng dụng. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: tối ưu JVM cần dữ liệu đo lường để tránh pause dài và suy giảm latency.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc hiểu mô hình bộ nhớ jvm và tác động của gc tới hiệu năng dịch vụ java..\nNăng lực đánh giá: Hiểu mô hình bộ nhớ JVM và tác động của GC tới hiệu năng dịch vụ Java.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q010",
+    "q_num": 10,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về JVM & GC trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tăng heap tối đa cho mọi service vì càng nhiều ram càng luôn nhanh. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt bỏ qua gc log vì chỉ cần nhìn cpu trung bình là đủ đánh giá. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Chuẩn hóa theo dõi heap, gc pause và cấu hình jvm dựa trên tải thực tế của ứng dụng. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt giữ object sống lâu không giới hạn để tránh tạo mới. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: tối ưu JVM cần dữ liệu đo lường để tránh pause dài và suy giảm latency.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc hiểu mô hình bộ nhớ jvm và tác động của gc tới hiệu năng dịch vụ java..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Hiểu mô hình bộ nhớ JVM và tác động của GC tới hiệu năng dịch vụ Java.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q011",
+    "q_num": 11,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Golang Concurrency?",
+    "options": [
+      "Dùng channel chung cho mọi loại dữ liệu để giảm số cấu trúc cần quản lý, khi hệ thống tăng tải.",
+      "Bỏ qua context cancellation vì request nào cũng sẽ tự hoàn tất, theo yêu cầu vận hành dài hạn.",
+      "Thiết kế goroutine có giới hạn, channel có mục đích và kiểm soát hủy tác vụ bằng context.",
+      "Tạo goroutine vô hạn vì runtime Go tự quản lý toàn bộ mà không cần giới hạn, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: concurrency hiệu quả phụ thuộc kiểm soát tài nguyên và vòng đời tác vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc dùng goroutine và channel đúng cách để xử lý đồng thời an toàn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Dùng goroutine và channel đúng cách để xử lý đồng thời an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q012",
+    "q_num": 12,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Golang Concurrency?",
+    "options": [
+      "Dùng channel chung cho mọi loại dữ liệu để giảm số cấu trúc cần quản lý, theo yêu cầu vận hành dài hạn.",
+      "Tạo goroutine vô hạn vì runtime Go tự quản lý toàn bộ mà không cần giới hạn, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Bỏ qua context cancellation vì request nào cũng sẽ tự hoàn tất, trong chu kỳ phát hành liên tục.",
+      "Thiết kế goroutine có giới hạn, channel có mục đích và kiểm soát hủy tác vụ bằng context."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: concurrency hiệu quả phụ thuộc kiểm soát tài nguyên và vòng đời tác vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc dùng goroutine và channel đúng cách để xử lý đồng thời an toàn..\nNăng lực đánh giá: Dùng goroutine và channel đúng cách để xử lý đồng thời an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q013",
+    "q_num": 13,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Golang Concurrency. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ qua context cancellation vì request nào cũng sẽ tự hoàn tất. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn tạo goroutine vô hạn vì runtime go tự quản lý toàn bộ mà không cần giới hạn. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn dùng channel chung cho mọi loại dữ liệu để giảm số cấu trúc cần quản lý. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên thiết kế goroutine có giới hạn, channel có mục đích và kiểm soát hủy tác vụ bằng context. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: concurrency hiệu quả phụ thuộc kiểm soát tài nguyên và vòng đời tác vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc dùng goroutine và channel đúng cách để xử lý đồng thời an toàn..\nNăng lực đánh giá: Dùng goroutine và channel đúng cách để xử lý đồng thời an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q014",
+    "q_num": 14,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Golang Concurrency, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn tạo goroutine vô hạn vì runtime go tự quản lý toàn bộ mà không cần giới hạn. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn dùng channel chung cho mọi loại dữ liệu để giảm số cấu trúc cần quản lý. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên thiết kế goroutine có giới hạn, channel có mục đích và kiểm soát hủy tác vụ bằng context. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ qua context cancellation vì request nào cũng sẽ tự hoàn tất. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: concurrency hiệu quả phụ thuộc kiểm soát tài nguyên và vòng đời tác vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc dùng goroutine và channel đúng cách để xử lý đồng thời an toàn..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Dùng goroutine và channel đúng cách để xử lý đồng thời an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q015",
+    "q_num": 15,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Golang Concurrency trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tạo goroutine vô hạn vì runtime go tự quản lý toàn bộ mà không cần giới hạn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa thiết kế goroutine có giới hạn, channel có mục đích và kiểm soát hủy tác vụ bằng context. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt bỏ qua context cancellation vì request nào cũng sẽ tự hoàn tất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt dùng channel chung cho mọi loại dữ liệu để giảm số cấu trúc cần quản lý. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: concurrency hiệu quả phụ thuộc kiểm soát tài nguyên và vòng đời tác vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc dùng goroutine và channel đúng cách để xử lý đồng thời an toàn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Dùng goroutine và channel đúng cách để xử lý đồng thời an toàn.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q016",
+    "q_num": 16,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về NodeJS Event-Driven?",
+    "options": [
+      "Giả định NodeJS xử lý tốt mọi tác vụ mà không cần worker thread, trong điều kiện dữ liệu biến động.",
+      "Đưa tác vụ CPU nặng trực tiếp vào request handler để giảm độ phức tạp, ở môi trường production.",
+      "Tắt logging lỗi để event loop chạy mượt hơn dưới tải cao, khi mở rộng quy mô sản phẩm.",
+      "Tách tác vụ nặng khỏi event loop, dùng async I/O và giám sát độ trễ vòng lặp."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: node backend cần giữ event loop thông thoáng để bảo toàn thông lượng và độ phản hồi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc vận hành backend nodejs non-blocking và tránh nghẽn event loop..\nNăng lực đánh giá: Vận hành backend NodeJS non-blocking và tránh nghẽn event loop.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q017",
+    "q_num": 17,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về NodeJS Event-Driven?",
+    "options": [
+      "Tắt logging lỗi để event loop chạy mượt hơn dưới tải cao, ở môi trường production.",
+      "Đưa tác vụ CPU nặng trực tiếp vào request handler để giảm độ phức tạp, khi mở rộng quy mô sản phẩm.",
+      "Giả định NodeJS xử lý tốt mọi tác vụ mà không cần worker thread, theo chuẩn quản trị kỹ thuật.",
+      "Tách tác vụ nặng khỏi event loop, dùng async I/O và giám sát độ trễ vòng lặp."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: node backend cần giữ event loop thông thoáng để bảo toàn thông lượng và độ phản hồi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc vận hành backend nodejs non-blocking và tránh nghẽn event loop..\nNăng lực đánh giá: Vận hành backend NodeJS non-blocking và tránh nghẽn event loop.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q018",
+    "q_num": 18,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến NodeJS Event-Driven. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn đưa tác vụ cpu nặng trực tiếp vào request handler để giảm độ phức tạp. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn giả định nodejs xử lý tốt mọi tác vụ mà không cần worker thread. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên tách tác vụ nặng khỏi event loop, dùng async i/o và giám sát độ trễ vòng lặp. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tắt logging lỗi để event loop chạy mượt hơn dưới tải cao. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: node backend cần giữ event loop thông thoáng để bảo toàn thông lượng và độ phản hồi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc vận hành backend nodejs non-blocking và tránh nghẽn event loop..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Vận hành backend NodeJS non-blocking và tránh nghẽn event loop.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q019",
+    "q_num": 19,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho NodeJS Event-Driven, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn đưa tác vụ cpu nặng trực tiếp vào request handler để giảm độ phức tạp. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên tách tác vụ nặng khỏi event loop, dùng async i/o và giám sát độ trễ vòng lặp. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tắt logging lỗi để event loop chạy mượt hơn dưới tải cao. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn giả định nodejs xử lý tốt mọi tác vụ mà không cần worker thread. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: node backend cần giữ event loop thông thoáng để bảo toàn thông lượng và độ phản hồi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc vận hành backend nodejs non-blocking và tránh nghẽn event loop..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Vận hành backend NodeJS non-blocking và tránh nghẽn event loop.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q020",
+    "q_num": 20,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về NodeJS Event-Driven trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa tách tác vụ nặng khỏi event loop, dùng async i/o và giám sát độ trễ vòng lặp. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt đưa tác vụ cpu nặng trực tiếp vào request handler để giảm độ phức tạp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt tắt logging lỗi để event loop chạy mượt hơn dưới tải cao. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt giả định nodejs xử lý tốt mọi tác vụ mà không cần worker thread. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: node backend cần giữ event loop thông thoáng để bảo toàn thông lượng và độ phản hồi.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc vận hành backend nodejs non-blocking và tránh nghẽn event loop..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Vận hành backend NodeJS non-blocking và tránh nghẽn event loop.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q021",
+    "q_num": 21,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về REST API Design?",
+    "options": [
+      "Gộp nhiều nghiệp vụ không liên quan vào một endpoint tổng hợp duy nhất.",
+      "Đặt toàn bộ API theo động từ tùy ý để linh hoạt cho đội phát triển, theo yêu cầu vận hành dài hạn.",
+      "Trả mã 200 cho mọi trường hợp để frontend xử lý logic trạng thái, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Thiết kế REST rõ tài nguyên, dùng HTTP semantics đúng và mã lỗi nhất quán."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: API chuẩn giúp giảm coupling giữa service và client, dễ bảo trì theo thời gian.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client..\nNăng lực đánh giá: Thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q022",
+    "q_num": 22,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về REST API Design?",
+    "options": [
+      "Đặt toàn bộ API theo động từ tùy ý để linh hoạt cho đội phát triển, theo yêu cầu vận hành dài hạn.",
+      "Trả mã 200 cho mọi trường hợp để frontend xử lý logic trạng thái, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Thiết kế REST rõ tài nguyên, dùng HTTP semantics đúng và mã lỗi nhất quán.",
+      "Gộp nhiều nghiệp vụ không liên quan vào một endpoint tổng hợp duy nhất."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: API chuẩn giúp giảm coupling giữa service và client, dễ bảo trì theo thời gian.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q023",
+    "q_num": 23,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến REST API Design. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn đặt toàn bộ api theo động từ tùy ý để linh hoạt cho đội phát triển. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên thiết kế rest rõ tài nguyên, dùng http semantics đúng và mã lỗi nhất quán. và xác nhận bằng chỉ số thực tế.",
+      "Chọn gộp nhiều nghiệp vụ không liên quan vào một endpoint tổng hợp duy nhất. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn trả mã 200 cho mọi trường hợp để frontend xử lý logic trạng thái. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: API chuẩn giúp giảm coupling giữa service và client, dễ bảo trì theo thời gian.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q024",
+    "q_num": 24,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho REST API Design, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên thiết kế rest rõ tài nguyên, dùng http semantics đúng và mã lỗi nhất quán. và xác nhận bằng chỉ số thực tế.",
+      "Chọn đặt toàn bộ api theo động từ tùy ý để linh hoạt cho đội phát triển. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn gộp nhiều nghiệp vụ không liên quan vào một endpoint tổng hợp duy nhất. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn trả mã 200 cho mọi trường hợp để frontend xử lý logic trạng thái. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: API chuẩn giúp giảm coupling giữa service và client, dễ bảo trì theo thời gian.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q025",
+    "q_num": 25,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về REST API Design trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa thiết kế rest rõ tài nguyên, dùng http semantics đúng và mã lỗi nhất quán. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt trả mã 200 cho mọi trường hợp để frontend xử lý logic trạng thái. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt gộp nhiều nghiệp vụ không liên quan vào một endpoint tổng hợp duy nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt đặt toàn bộ api theo động từ tùy ý để linh hoạt cho đội phát triển. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: API chuẩn giúp giảm coupling giữa service và client, dễ bảo trì theo thời gian.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế endpoint chuẩn, dễ tiến hóa và dễ tích hợp đa client.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q026",
+    "q_num": 26,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về API Versioning?",
+    "options": [
+      "Sửa trực tiếp response contract cũ vì client có thể tự cập nhật nhanh, trong điều kiện dữ liệu biến động.",
+      "Tạo version mới cho mọi thay đổi nhỏ kể cả thay đổi không breaking, ở môi trường production.",
+      "Áp dụng chiến lược versioning rõ ràng và lộ trình deprecation có thông báo sớm.",
+      "Không cần tài liệu migration khi bỏ endpoint cũ, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: versioning kỷ luật giúp giảm outage tích hợp và bảo vệ đối tác downstream.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tiến hóa api không phá vỡ tích hợp hiện hữu..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tiến hóa API không phá vỡ tích hợp hiện hữu.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q027",
+    "q_num": 27,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về API Versioning?",
+    "options": [
+      "Sửa trực tiếp response contract cũ vì client có thể tự cập nhật nhanh, ở môi trường production.",
+      "Áp dụng chiến lược versioning rõ ràng và lộ trình deprecation có thông báo sớm.",
+      "Không cần tài liệu migration khi bỏ endpoint cũ, theo chuẩn quản trị kỹ thuật.",
+      "Tạo version mới cho mọi thay đổi nhỏ kể cả thay đổi không breaking, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: versioning kỷ luật giúp giảm outage tích hợp và bảo vệ đối tác downstream.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tiến hóa api không phá vỡ tích hợp hiện hữu..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tiến hóa API không phá vỡ tích hợp hiện hữu.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q028",
+    "q_num": 28,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến API Versioning. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên áp dụng chiến lược versioning rõ ràng và lộ trình deprecation có thông báo sớm. và xác nhận bằng chỉ số thực tế.",
+      "Chọn sửa trực tiếp response contract cũ vì client có thể tự cập nhật nhanh. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn không cần tài liệu migration khi bỏ endpoint cũ. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn tạo version mới cho mọi thay đổi nhỏ kể cả thay đổi không breaking. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: versioning kỷ luật giúp giảm outage tích hợp và bảo vệ đối tác downstream.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tiến hóa api không phá vỡ tích hợp hiện hữu..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tiến hóa API không phá vỡ tích hợp hiện hữu.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q029",
+    "q_num": 29,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho API Versioning, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên áp dụng chiến lược versioning rõ ràng và lộ trình deprecation có thông báo sớm. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tạo version mới cho mọi thay đổi nhỏ kể cả thay đổi không breaking. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn không cần tài liệu migration khi bỏ endpoint cũ. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn sửa trực tiếp response contract cũ vì client có thể tự cập nhật nhanh. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: versioning kỷ luật giúp giảm outage tích hợp và bảo vệ đối tác downstream.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tiến hóa api không phá vỡ tích hợp hiện hữu..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tiến hóa API không phá vỡ tích hợp hiện hữu.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q030",
+    "q_num": 30,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về API Versioning trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa áp dụng chiến lược versioning rõ ràng và lộ trình deprecation có thông báo sớm. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt không cần tài liệu migration khi bỏ endpoint cũ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Đặt tạo version mới cho mọi thay đổi nhỏ kể cả thay đổi không breaking. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt sửa trực tiếp response contract cũ vì client có thể tự cập nhật nhanh. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: versioning kỷ luật giúp giảm outage tích hợp và bảo vệ đối tác downstream.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tiến hóa api không phá vỡ tích hợp hiện hữu..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tiến hóa API không phá vỡ tích hợp hiện hữu.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q031",
+    "q_num": 31,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Authentication & Authorization?",
+    "options": [
+      "Dùng một token cố định dài hạn cho toàn bộ người dùng để đơn giản hệ thống, khi hệ thống tăng tải.",
+      "Tách rõ authentication và authorization, quản lý token lifecycle cùng quyền truy cập tối thiểu.",
+      "Bỏ qua refresh token vì tăng thêm độ phức tạp không cần thiết, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Gộp toàn bộ role vào phía client rồi tin tưởng hoàn toàn dữ liệu gửi lên, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: kiến trúc auth chuẩn giảm rủi ro chiếm quyền và lạm dụng quyền truy cập.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q032",
+    "q_num": 32,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Authentication & Authorization?",
+    "options": [
+      "Tách rõ authentication và authorization, quản lý token lifecycle cùng quyền truy cập tối thiểu.",
+      "Dùng một token cố định dài hạn cho toàn bộ người dùng để đơn giản hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Bỏ qua refresh token vì tăng thêm độ phức tạp không cần thiết, trong chu kỳ phát hành liên tục.",
+      "Gộp toàn bộ role vào phía client rồi tin tưởng hoàn toàn dữ liệu gửi lên, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: kiến trúc auth chuẩn giảm rủi ro chiếm quyền và lạm dụng quyền truy cập.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q033",
+    "q_num": 33,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Authentication & Authorization. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên tách rõ authentication và authorization, quản lý token lifecycle cùng quyền truy cập tối thiểu. và xác nhận bằng chỉ số thực tế.",
+      "Chọn gộp toàn bộ role vào phía client rồi tin tưởng hoàn toàn dữ liệu gửi lên. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn bỏ qua refresh token vì tăng thêm độ phức tạp không cần thiết. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn dùng một token cố định dài hạn cho toàn bộ người dùng để đơn giản hệ thống. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: kiến trúc auth chuẩn giảm rủi ro chiếm quyền và lạm dụng quyền truy cập.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q034",
+    "q_num": 34,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Authentication & Authorization, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên tách rõ authentication và authorization, quản lý token lifecycle cùng quyền truy cập tối thiểu. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ qua refresh token vì tăng thêm độ phức tạp không cần thiết. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn gộp toàn bộ role vào phía client rồi tin tưởng hoàn toàn dữ liệu gửi lên. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn dùng một token cố định dài hạn cho toàn bộ người dùng để đơn giản hệ thống. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: kiến trúc auth chuẩn giảm rủi ro chiếm quyền và lạm dụng quyền truy cập.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q035",
+    "q_num": 35,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Authentication & Authorization trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt dùng một token cố định dài hạn cho toàn bộ người dùng để đơn giản hệ thống. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa tách rõ authentication và authorization, quản lý token lifecycle cùng quyền truy cập tối thiểu. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt gộp toàn bộ role vào phía client rồi tin tưởng hoàn toàn dữ liệu gửi lên. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt bỏ qua refresh token vì tăng thêm độ phức tạp không cần thiết. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: kiến trúc auth chuẩn giảm rủi ro chiếm quyền và lạm dụng quyền truy cập.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế cơ chế xác thực, phân quyền và quản trị phiên an toàn.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q036",
+    "q_num": 36,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về SQL Indexing?",
+    "options": [
+      "Thiết kế index theo pattern truy vấn thực tế và xác nhận bằng execution plan.",
+      "Tạo index cho mọi cột để đảm bảo truy vấn nào cũng nhanh, ở môi trường production.",
+      "Bỏ qua thống kê query vì ORM đã xử lý toàn bộ hiệu năng, khi mở rộng quy mô sản phẩm.",
+      "Tối ưu SQL bằng cách chỉ tăng cấu hình phần cứng database, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: index hiệu quả cần bám workload thực, cân bằng đọc-ghi và chi phí lưu trữ.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tối ưu truy vấn bằng chỉ mục và phân tích execution plan..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu truy vấn bằng chỉ mục và phân tích execution plan.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q037",
+    "q_num": 37,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về SQL Indexing?",
+    "options": [
+      "Thiết kế index theo pattern truy vấn thực tế và xác nhận bằng execution plan.",
+      "Tối ưu SQL bằng cách chỉ tăng cấu hình phần cứng database, khi mở rộng quy mô sản phẩm.",
+      "Bỏ qua thống kê query vì ORM đã xử lý toàn bộ hiệu năng, theo chuẩn quản trị kỹ thuật.",
+      "Tạo index cho mọi cột để đảm bảo truy vấn nào cũng nhanh, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: index hiệu quả cần bám workload thực, cân bằng đọc-ghi và chi phí lưu trữ.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tối ưu truy vấn bằng chỉ mục và phân tích execution plan..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu truy vấn bằng chỉ mục và phân tích execution plan.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q038",
+    "q_num": 38,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến SQL Indexing. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên thiết kế index theo pattern truy vấn thực tế và xác nhận bằng execution plan. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ qua thống kê query vì orm đã xử lý toàn bộ hiệu năng. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn tối ưu sql bằng cách chỉ tăng cấu hình phần cứng database. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn tạo index cho mọi cột để đảm bảo truy vấn nào cũng nhanh. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: index hiệu quả cần bám workload thực, cân bằng đọc-ghi và chi phí lưu trữ.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tối ưu truy vấn bằng chỉ mục và phân tích execution plan..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu truy vấn bằng chỉ mục và phân tích execution plan.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q039",
+    "q_num": 39,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho SQL Indexing, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn tạo index cho mọi cột để đảm bảo truy vấn nào cũng nhanh. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên thiết kế index theo pattern truy vấn thực tế và xác nhận bằng execution plan. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tối ưu sql bằng cách chỉ tăng cấu hình phần cứng database. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn bỏ qua thống kê query vì orm đã xử lý toàn bộ hiệu năng. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: index hiệu quả cần bám workload thực, cân bằng đọc-ghi và chi phí lưu trữ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tối ưu truy vấn bằng chỉ mục và phân tích execution plan..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tối ưu truy vấn bằng chỉ mục và phân tích execution plan.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q040",
+    "q_num": 40,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về SQL Indexing trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tạo index cho mọi cột để đảm bảo truy vấn nào cũng nhanh. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt tối ưu sql bằng cách chỉ tăng cấu hình phần cứng database. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt bỏ qua thống kê query vì orm đã xử lý toàn bộ hiệu năng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa thiết kế index theo pattern truy vấn thực tế và xác nhận bằng execution plan. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: index hiệu quả cần bám workload thực, cân bằng đọc-ghi và chi phí lưu trữ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tối ưu truy vấn bằng chỉ mục và phân tích execution plan..\nNăng lực đánh giá: Tối ưu truy vấn bằng chỉ mục và phân tích execution plan.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q041",
+    "q_num": 41,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Transaction Isolation?",
+    "options": [
+      "Chọn mức isolation phù hợp và thiết kế transaction ngắn để giảm lock contention.",
+      "Bỏ transaction để tăng hiệu năng vì lỗi dữ liệu có thể sửa thủ công, theo yêu cầu vận hành dài hạn.",
+      "Giữ transaction mở lâu để gom nhiều thao tác nghiệp vụ vào một lượt, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Dùng isolation cao nhất cho mọi thao tác vì luôn an toàn nhất, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: quản trị transaction tốt giúp cân bằng nhất quán dữ liệu và thông lượng hệ thống.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q042",
+    "q_num": 42,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Transaction Isolation?",
+    "options": [
+      "Chọn mức isolation phù hợp và thiết kế transaction ngắn để giảm lock contention.",
+      "Giữ transaction mở lâu để gom nhiều thao tác nghiệp vụ vào một lượt, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Bỏ transaction để tăng hiệu năng vì lỗi dữ liệu có thể sửa thủ công, trong chu kỳ phát hành liên tục.",
+      "Dùng isolation cao nhất cho mọi thao tác vì luôn an toàn nhất, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: quản trị transaction tốt giúp cân bằng nhất quán dữ liệu và thông lượng hệ thống.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q043",
+    "q_num": 43,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Transaction Isolation. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn dùng isolation cao nhất cho mọi thao tác vì luôn an toàn nhất. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Ưu tiên chọn mức isolation phù hợp và thiết kế transaction ngắn để giảm lock contention. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bỏ transaction để tăng hiệu năng vì lỗi dữ liệu có thể sửa thủ công. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn giữ transaction mở lâu để gom nhiều thao tác nghiệp vụ vào một lượt. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: quản trị transaction tốt giúp cân bằng nhất quán dữ liệu và thông lượng hệ thống.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q044",
+    "q_num": 44,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Transaction Isolation, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn dùng isolation cao nhất cho mọi thao tác vì luôn an toàn nhất. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn bỏ transaction để tăng hiệu năng vì lỗi dữ liệu có thể sửa thủ công. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn giữ transaction mở lâu để gom nhiều thao tác nghiệp vụ vào một lượt. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên chọn mức isolation phù hợp và thiết kế transaction ngắn để giảm lock contention. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: quản trị transaction tốt giúp cân bằng nhất quán dữ liệu và thông lượng hệ thống.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời..\nNăng lực đánh giá: Kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q045",
+    "q_num": 45,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Transaction Isolation trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt dùng isolation cao nhất cho mọi thao tác vì luôn an toàn nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt bỏ transaction để tăng hiệu năng vì lỗi dữ liệu có thể sửa thủ công. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt giữ transaction mở lâu để gom nhiều thao tác nghiệp vụ vào một lượt. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa chọn mức isolation phù hợp và thiết kế transaction ngắn để giảm lock contention. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: quản trị transaction tốt giúp cân bằng nhất quán dữ liệu và thông lượng hệ thống.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời..\nNăng lực đánh giá: Kiểm soát tính nhất quán dữ liệu dưới truy cập đồng thời.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q046",
+    "q_num": 46,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về NoSQL Decision?",
+    "options": [
+      "Chọn NoSQL khi dữ liệu linh hoạt và mở rộng ngang là ưu tiên chính.",
+      "Chọn database theo xu hướng tuyển dụng thay vì nhu cầu nghiệp vụ, trong vận hành thực tế.",
+      "Bỏ qua yêu cầu truy vấn và join trước khi chọn công nghệ lưu trữ, khi hệ thống mở rộng, trong môi trường production.",
+      "Dùng NoSQL cho mọi bài toán vì không cần schema sẽ luôn nhanh hơn, trong môi trường production, trong vận hành thực tế."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: quyết định đúng công nghệ dữ liệu là nền tảng cho hiệu năng và chi phí dài hạn.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc lựa chọn nosql hay sql theo đặc tính dữ liệu và truy vấn..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Lựa chọn NoSQL hay SQL theo đặc tính dữ liệu và truy vấn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q047",
+    "q_num": 47,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về NoSQL Decision?",
+    "options": [
+      "Dùng NoSQL cho mọi bài toán vì không cần schema sẽ luôn nhanh hơn, khi hệ thống mở rộng.",
+      "Chọn NoSQL khi dữ liệu linh hoạt và mở rộng ngang là ưu tiên chính.",
+      "Bỏ qua yêu cầu truy vấn và join trước khi chọn công nghệ lưu trữ, theo chuẩn triển khai.",
+      "Chọn database theo xu hướng tuyển dụng thay vì nhu cầu nghiệp vụ, trong môi trường production."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: quyết định đúng công nghệ dữ liệu là nền tảng cho hiệu năng và chi phí dài hạn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc lựa chọn nosql hay sql theo đặc tính dữ liệu và truy vấn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Lựa chọn NoSQL hay SQL theo đặc tính dữ liệu và truy vấn.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q048",
+    "q_num": 48,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến NoSQL Decision. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn dùng nosql cho mọi bài toán vì không cần schema sẽ luôn nhanh hơn. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống mở rộng.",
+      "Chọn bỏ qua yêu cầu truy vấn và join trước khi chọn công nghệ lưu trữ. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống mở rộng, trong môi trường production.",
+      "Chọn chọn database theo xu hướng tuyển dụng thay vì nhu cầu nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn triển khai, khi hệ thống mở rộng, trong môi trường production.",
+      "Ưu tiên chọn nosql khi dữ liệu linh hoạt và mở rộng ngang là ưu tiên chính. và xác nhận bằng chỉ số thực tế, khi hệ thống tăng tải."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: quyết định đúng công nghệ dữ liệu là nền tảng cho hiệu năng và chi phí dài hạn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc lựa chọn nosql hay sql theo đặc tính dữ liệu và truy vấn..\nNăng lực đánh giá: Lựa chọn NoSQL hay SQL theo đặc tính dữ liệu và truy vấn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q049",
+    "q_num": 49,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho NoSQL Decision, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn dùng nosql cho mọi bài toán vì không cần schema sẽ luôn nhanh hơn. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn triển khai, khi hệ thống mở rộng.",
+      "Chọn bỏ qua yêu cầu truy vấn và join trước khi chọn công nghệ lưu trữ. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn triển khai, khi hệ thống mở rộng, trong môi trường production.",
+      "Chọn chọn database theo xu hướng tuyển dụng thay vì nhu cầu nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, trong môi trường production, trong vận hành thực tế, trong vận hành thực tế.",
+      "Ưu tiên chọn nosql khi dữ liệu linh hoạt và mở rộng ngang là ưu tiên chính. và xác nhận bằng chỉ số thực tế, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: quyết định đúng công nghệ dữ liệu là nền tảng cho hiệu năng và chi phí dài hạn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc lựa chọn nosql hay sql theo đặc tính dữ liệu và truy vấn..\nNăng lực đánh giá: Lựa chọn NoSQL hay SQL theo đặc tính dữ liệu và truy vấn.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q050",
+    "q_num": 50,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về NoSQL Decision trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ qua yêu cầu truy vấn và join trước khi chọn công nghệ lưu trữ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong môi trường production.",
+      "Chuẩn hóa chọn nosql khi dữ liệu linh hoạt và mở rộng ngang là ưu tiên chính. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt dùng nosql cho mọi bài toán vì không cần schema sẽ luôn nhanh hơn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo chuẩn triển khai, khi hệ thống mở rộng.",
+      "Đặt chọn database theo xu hướng tuyển dụng thay vì nhu cầu nghiệp vụ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo chuẩn triển khai, khi hệ thống mở rộng, trong môi trường production."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: quyết định đúng công nghệ dữ liệu là nền tảng cho hiệu năng và chi phí dài hạn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc lựa chọn nosql hay sql theo đặc tính dữ liệu và truy vấn..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Lựa chọn NoSQL hay SQL theo đặc tính dữ liệu và truy vấn.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q051",
+    "q_num": 51,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Redis Caching?",
+    "options": [
+      "Cache vô thời hạn để giảm tải database tối đa, khi hệ thống tăng tải.",
+      "Xác định cache key, TTL và cơ chế invalidation theo event nghiệp vụ.",
+      "Dùng một key chung cho nhiều loại dữ liệu để đơn giản vận hành, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Bỏ qua đồng bộ cache khi dữ liệu nguồn thay đổi, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: caching chỉ hiệu quả khi dữ liệu mới và tính đúng đắn được bảo toàn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế caching chiến lược với invalidation đáng tin cậy..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế caching chiến lược với invalidation đáng tin cậy.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q052",
+    "q_num": 52,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Redis Caching?",
+    "options": [
+      "Cache vô thời hạn để giảm tải database tối đa, theo yêu cầu vận hành dài hạn.",
+      "Dùng một key chung cho nhiều loại dữ liệu để đơn giản vận hành, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Bỏ qua đồng bộ cache khi dữ liệu nguồn thay đổi, trong chu kỳ phát hành liên tục.",
+      "Xác định cache key, TTL và cơ chế invalidation theo event nghiệp vụ."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: caching chỉ hiệu quả khi dữ liệu mới và tính đúng đắn được bảo toàn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế caching chiến lược với invalidation đáng tin cậy..\nNăng lực đánh giá: Thiết kế caching chiến lược với invalidation đáng tin cậy.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q053",
+    "q_num": 53,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Redis Caching. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn cache vô thời hạn để giảm tải database tối đa. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn dùng một key chung cho nhiều loại dữ liệu để đơn giản vận hành. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn bỏ qua đồng bộ cache khi dữ liệu nguồn thay đổi. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên xác định cache key, ttl và cơ chế invalidation theo event nghiệp vụ. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: caching chỉ hiệu quả khi dữ liệu mới và tính đúng đắn được bảo toàn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế caching chiến lược với invalidation đáng tin cậy..\nNăng lực đánh giá: Thiết kế caching chiến lược với invalidation đáng tin cậy.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q054",
+    "q_num": 54,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Redis Caching, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn dùng một key chung cho nhiều loại dữ liệu để đơn giản vận hành. như giải pháp chính cho toàn bộ hệ thống.",
+      "Ưu tiên xác định cache key, ttl và cơ chế invalidation theo event nghiệp vụ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn cache vô thời hạn để giảm tải database tối đa. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn bỏ qua đồng bộ cache khi dữ liệu nguồn thay đổi. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: caching chỉ hiệu quả khi dữ liệu mới và tính đúng đắn được bảo toàn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế caching chiến lược với invalidation đáng tin cậy..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế caching chiến lược với invalidation đáng tin cậy.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q055",
+    "q_num": 55,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Redis Caching trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt cache vô thời hạn để giảm tải database tối đa. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt dùng một key chung cho nhiều loại dữ liệu để đơn giản vận hành. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt bỏ qua đồng bộ cache khi dữ liệu nguồn thay đổi. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa xác định cache key, ttl và cơ chế invalidation theo event nghiệp vụ. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: caching chỉ hiệu quả khi dữ liệu mới và tính đúng đắn được bảo toàn.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế caching chiến lược với invalidation đáng tin cậy..\nNăng lực đánh giá: Thiết kế caching chiến lược với invalidation đáng tin cậy.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q056",
+    "q_num": 56,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Message Queue?",
+    "options": [
+      "Gọi đồng bộ chuỗi dịch vụ dài để đảm bảo theo dõi end-to-end dễ hơn.",
+      "Retry vô hạn không có dead-letter queue để tránh mất dữ liệu, ở môi trường production.",
+      "Bỏ qua idempotency vì message broker đã đảm bảo đúng một lần tuyệt đối.",
+      "Dùng queue để tách producer-consumer, có retry policy và idempotency."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: hệ thống queue an toàn cần xử lý trùng lặp, lỗi tạm thời và cơ chế cách ly lỗi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tách xử lý bất đồng bộ và hấp thụ traffic spike..\nNăng lực đánh giá: Tách xử lý bất đồng bộ và hấp thụ traffic spike.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q057",
+    "q_num": 57,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Message Queue?",
+    "options": [
+      "Gọi đồng bộ chuỗi dịch vụ dài để đảm bảo theo dõi end-to-end dễ hơn.",
+      "Retry vô hạn không có dead-letter queue để tránh mất dữ liệu, khi mở rộng quy mô sản phẩm.",
+      "Bỏ qua idempotency vì message broker đã đảm bảo đúng một lần tuyệt đối.",
+      "Dùng queue để tách producer-consumer, có retry policy và idempotency."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: hệ thống queue an toàn cần xử lý trùng lặp, lỗi tạm thời và cơ chế cách ly lỗi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tách xử lý bất đồng bộ và hấp thụ traffic spike..\nNăng lực đánh giá: Tách xử lý bất đồng bộ và hấp thụ traffic spike.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q058",
+    "q_num": 58,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Message Queue. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn retry vô hạn không có dead-letter queue để tránh mất dữ liệu. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm, trong môi trường production.",
+      "Ưu tiên dùng queue để tách producer-consumer, có retry policy và idempotency. và xác nhận bằng chỉ số thực tế, theo chuẩn quản trị kỹ thuật.",
+      "Chọn gọi đồng bộ chuỗi dịch vụ dài để đảm bảo theo dõi end-to-end dễ hơn. như giải pháp chính cho toàn bộ hệ thống, trong môi trường production, trong vận hành thực tế.",
+      "Chọn bỏ qua idempotency vì message broker đã đảm bảo đúng một lần tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, trong môi trường production, trong vận hành thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: hệ thống queue an toàn cần xử lý trùng lặp, lỗi tạm thời và cơ chế cách ly lỗi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tách xử lý bất đồng bộ và hấp thụ traffic spike..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tách xử lý bất đồng bộ và hấp thụ traffic spike.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q059",
+    "q_num": 59,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Message Queue, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn gọi đồng bộ chuỗi dịch vụ dài để đảm bảo theo dõi end-to-end dễ hơn. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn triển khai, khi hệ thống mở rộng.",
+      "Chọn retry vô hạn không có dead-letter queue để tránh mất dữ liệu. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế, theo chuẩn triển khai.",
+      "Chọn bỏ qua idempotency vì message broker đã đảm bảo đúng một lần tuyệt đối. như giải pháp chính cho toàn bộ hệ thống, trong môi trường production, trong vận hành thực tế.",
+      "Ưu tiên dùng queue để tách producer-consumer, có retry policy và idempotency. và xác nhận bằng chỉ số thực tế, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: hệ thống queue an toàn cần xử lý trùng lặp, lỗi tạm thời và cơ chế cách ly lỗi.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tách xử lý bất đồng bộ và hấp thụ traffic spike..\nNăng lực đánh giá: Tách xử lý bất đồng bộ và hấp thụ traffic spike.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q060",
+    "q_num": 60,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Message Queue trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa dùng queue để tách producer-consumer, có retry policy và idempotency. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt retry vô hạn không có dead-letter queue để tránh mất dữ liệu. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt bỏ qua idempotency vì message broker đã đảm bảo đúng một lần tuyệt đối. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung.",
+      "Đặt gọi đồng bộ chuỗi dịch vụ dài để đảm bảo theo dõi end-to-end dễ hơn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: hệ thống queue an toàn cần xử lý trùng lặp, lỗi tạm thời và cơ chế cách ly lỗi.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc tách xử lý bất đồng bộ và hấp thụ traffic spike..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tách xử lý bất đồng bộ và hấp thụ traffic spike.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q061",
+    "q_num": 61,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Microservice Boundary?",
+    "options": [
+      "Chia microservice theo từng bảng database để triển khai nhanh, khi hệ thống tăng tải.",
+      "Tách service quá nhỏ theo từng hàm để đạt mức micro tối đa, theo yêu cầu vận hành dài hạn.",
+      "Dùng chung database write giữa mọi service để đồng bộ thuận tiện, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chia dịch vụ theo bounded context nghiệp vụ và quyền sở hữu dữ liệu rõ ràng."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: boundary chuẩn giảm coupling và hỗ trợ team scale độc lập theo domain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc xác định boundary dịch vụ theo domain và ownership..\nNăng lực đánh giá: Xác định boundary dịch vụ theo domain và ownership.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q062",
+    "q_num": 62,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Microservice Boundary?",
+    "options": [
+      "Tách service quá nhỏ theo từng hàm để đạt mức micro tối đa, theo yêu cầu vận hành dài hạn.",
+      "Chia dịch vụ theo bounded context nghiệp vụ và quyền sở hữu dữ liệu rõ ràng.",
+      "Chia microservice theo từng bảng database để triển khai nhanh, trong chu kỳ phát hành liên tục.",
+      "Dùng chung database write giữa mọi service để đồng bộ thuận tiện, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: boundary chuẩn giảm coupling và hỗ trợ team scale độc lập theo domain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc xác định boundary dịch vụ theo domain và ownership..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xác định boundary dịch vụ theo domain và ownership.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q063",
+    "q_num": 63,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Microservice Boundary. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn chia microservice theo từng bảng database để triển khai nhanh. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chọn tách service quá nhỏ theo từng hàm để đạt mức micro tối đa. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn dùng chung database write giữa mọi service để đồng bộ thuận tiện. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên chia dịch vụ theo bounded context nghiệp vụ và quyền sở hữu dữ liệu rõ ràng. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: boundary chuẩn giảm coupling và hỗ trợ team scale độc lập theo domain.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc xác định boundary dịch vụ theo domain và ownership..\nNăng lực đánh giá: Xác định boundary dịch vụ theo domain và ownership.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q064",
+    "q_num": 64,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Microservice Boundary, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên chia dịch vụ theo bounded context nghiệp vụ và quyền sở hữu dữ liệu rõ ràng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn tách service quá nhỏ theo từng hàm để đạt mức micro tối đa. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn dùng chung database write giữa mọi service để đồng bộ thuận tiện. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn chia microservice theo từng bảng database để triển khai nhanh. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: boundary chuẩn giảm coupling và hỗ trợ team scale độc lập theo domain.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc xác định boundary dịch vụ theo domain và ownership..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xác định boundary dịch vụ theo domain và ownership.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q065",
+    "q_num": 65,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Microservice Boundary trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa chia dịch vụ theo bounded context nghiệp vụ và quyền sở hữu dữ liệu rõ ràng. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt dùng chung database write giữa mọi service để đồng bộ thuận tiện. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt chia microservice theo từng bảng database để triển khai nhanh. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt tách service quá nhỏ theo từng hàm để đạt mức micro tối đa. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: boundary chuẩn giảm coupling và hỗ trợ team scale độc lập theo domain.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc xác định boundary dịch vụ theo domain và ownership..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Xác định boundary dịch vụ theo domain và ownership.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q066",
+    "q_num": 66,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Monolith vs Microservices?",
+    "options": [
+      "Giữ monolith vĩnh viễn dù đã có điểm nghẽn phối hợp rõ ràng, trong điều kiện dữ liệu biến động.",
+      "Đánh giá quy mô team, tốc độ thay đổi và năng lực vận hành trước khi tách microservices.",
+      "Mặc định chọn microservices ngay từ MVP để thể hiện hiện đại, khi mở rộng quy mô sản phẩm.",
+      "Quyết định kiến trúc chỉ theo yêu cầu công nghệ hot trên thị trường, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: kiến trúc đúng là bài toán bối cảnh, không phải cuộc thi dùng công nghệ mới.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q067",
+    "q_num": 67,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Monolith vs Microservices?",
+    "options": [
+      "Mặc định chọn microservices ngay từ MVP để thể hiện hiện đại, ở môi trường production.",
+      "Giữ monolith vĩnh viễn dù đã có điểm nghẽn phối hợp rõ ràng, khi mở rộng quy mô sản phẩm.",
+      "Quyết định kiến trúc chỉ theo yêu cầu công nghệ hot trên thị trường, theo chuẩn quản trị kỹ thuật.",
+      "Đánh giá quy mô team, tốc độ thay đổi và năng lực vận hành trước khi tách microservices."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: kiến trúc đúng là bài toán bối cảnh, không phải cuộc thi dùng công nghệ mới.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ..\nNăng lực đánh giá: Chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q068",
+    "q_num": 68,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Monolith vs Microservices. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên đánh giá quy mô team, tốc độ thay đổi và năng lực vận hành trước khi tách microservices. và xác nhận bằng chỉ số thực tế.",
+      "Chọn giữ monolith vĩnh viễn dù đã có điểm nghẽn phối hợp rõ ràng. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn quyết định kiến trúc chỉ theo yêu cầu công nghệ hot trên thị trường. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn mặc định chọn microservices ngay từ mvp để thể hiện hiện đại. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: kiến trúc đúng là bài toán bối cảnh, không phải cuộc thi dùng công nghệ mới.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q069",
+    "q_num": 69,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Monolith vs Microservices, phương án nào nên được ưu tiên?",
+    "options": [
+      "Ưu tiên đánh giá quy mô team, tốc độ thay đổi và năng lực vận hành trước khi tách microservices. và xác nhận bằng chỉ số thực tế.",
+      "Chọn quyết định kiến trúc chỉ theo yêu cầu công nghệ hot trên thị trường. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn mặc định chọn microservices ngay từ mvp để thể hiện hiện đại. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Chọn giữ monolith vĩnh viễn dù đã có điểm nghẽn phối hợp rõ ràng. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: kiến trúc đúng là bài toán bối cảnh, không phải cuộc thi dùng công nghệ mới.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q070",
+    "q_num": 70,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Monolith vs Microservices trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt mặc định chọn microservices ngay từ mvp để thể hiện hiện đại. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt giữ monolith vĩnh viễn dù đã có điểm nghẽn phối hợp rõ ràng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa đánh giá quy mô team, tốc độ thay đổi và năng lực vận hành trước khi tách microservices. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt quyết định kiến trúc chỉ theo yêu cầu công nghệ hot trên thị trường. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: kiến trúc đúng là bài toán bối cảnh, không phải cuộc thi dùng công nghệ mới.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Chọn kiến trúc phù hợp giai đoạn sản phẩm và năng lực đội ngũ.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q071",
+    "q_num": 71,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Observability Backend?",
+    "options": [
+      "Chỉ cần log text thuần là đủ để điều tra mọi lỗi production, khi hệ thống tăng tải.",
+      "Tắt metrics để giảm overhead và dựa vào cảm nhận của đội vận hành, theo yêu cầu vận hành dài hạn.",
+      "Lưu trace cục bộ từng service, không cần correlation id liên dịch vụ, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Chuẩn hóa logging có ngữ cảnh, metrics dịch vụ và distributed tracing xuyên luồng."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: observability đầy đủ giúp giảm MTTR và tăng độ tin cậy hệ thống.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết lập log, metrics, trace để chẩn đoán sự cố nhanh..\nNăng lực đánh giá: Thiết lập log, metrics, trace để chẩn đoán sự cố nhanh.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q072",
+    "q_num": 72,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Observability Backend?",
+    "options": [
+      "Chuẩn hóa logging có ngữ cảnh, metrics dịch vụ và distributed tracing xuyên luồng.",
+      "Tắt metrics để giảm overhead và dựa vào cảm nhận của đội vận hành, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Lưu trace cục bộ từng service, không cần correlation id liên dịch vụ, trong chu kỳ phát hành liên tục.",
+      "Chỉ cần log text thuần là đủ để điều tra mọi lỗi production, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: observability đầy đủ giúp giảm MTTR và tăng độ tin cậy hệ thống.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết lập log, metrics, trace để chẩn đoán sự cố nhanh..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập log, metrics, trace để chẩn đoán sự cố nhanh.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q073",
+    "q_num": 73,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Observability Backend. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Ưu tiên chuẩn hóa logging có ngữ cảnh, metrics dịch vụ và distributed tracing xuyên luồng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn lưu trace cục bộ từng service, không cần correlation id liên dịch vụ. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn chỉ cần log text thuần là đủ để điều tra mọi lỗi production. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn tắt metrics để giảm overhead và dựa vào cảm nhận của đội vận hành. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: observability đầy đủ giúp giảm MTTR và tăng độ tin cậy hệ thống.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết lập log, metrics, trace để chẩn đoán sự cố nhanh..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập log, metrics, trace để chẩn đoán sự cố nhanh.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q074",
+    "q_num": 74,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Observability Backend, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn chỉ cần log text thuần là đủ để điều tra mọi lỗi production. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Chọn tắt metrics để giảm overhead và dựa vào cảm nhận của đội vận hành. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Ưu tiên chuẩn hóa logging có ngữ cảnh, metrics dịch vụ và distributed tracing xuyên luồng. và xác nhận bằng chỉ số thực tế.",
+      "Chọn lưu trace cục bộ từng service, không cần correlation id liên dịch vụ. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: observability đầy đủ giúp giảm MTTR và tăng độ tin cậy hệ thống.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết lập log, metrics, trace để chẩn đoán sự cố nhanh..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập log, metrics, trace để chẩn đoán sự cố nhanh.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q075",
+    "q_num": 75,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Observability Backend trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt tắt metrics để giảm overhead và dựa vào cảm nhận của đội vận hành. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt chỉ cần log text thuần là đủ để điều tra mọi lỗi production. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Chuẩn hóa chuẩn hóa logging có ngữ cảnh, metrics dịch vụ và distributed tracing xuyên luồng. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt lưu trace cục bộ từng service, không cần correlation id liên dịch vụ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: observability đầy đủ giúp giảm MTTR và tăng độ tin cậy hệ thống.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc thiết lập log, metrics, trace để chẩn đoán sự cố nhanh..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết lập log, metrics, trace để chẩn đoán sự cố nhanh.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q076",
+    "q_num": 76,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Resilience Patterns?",
+    "options": [
+      "Thiết kế timeout, retry có backoff và circuit breaker theo từng dependency.",
+      "Bỏ timeout để request chờ đến khi dependency phục hồi hoàn toàn, ở môi trường production.",
+      "Đặt circuit breaker toàn cục cho mọi dịch vụ mà không phân loại rủi ro.",
+      "Retry vô điều kiện với tần suất cao để tăng xác suất thành công, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: resilience đúng giảm lỗi dây chuyền và bảo vệ trải nghiệm người dùng cuối.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc ứng dụng retry, timeout, circuit breaker để cô lập lỗi..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ứng dụng retry, timeout, circuit breaker để cô lập lỗi.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q077",
+    "q_num": 77,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Resilience Patterns?",
+    "options": [
+      "Thiết kế timeout, retry có backoff và circuit breaker theo từng dependency.",
+      "Đặt circuit breaker toàn cục cho mọi dịch vụ mà không phân loại rủi ro.",
+      "Retry vô điều kiện với tần suất cao để tăng xác suất thành công, theo chuẩn quản trị kỹ thuật.",
+      "Bỏ timeout để request chờ đến khi dependency phục hồi hoàn toàn, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: resilience đúng giảm lỗi dây chuyền và bảo vệ trải nghiệm người dùng cuối.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc ứng dụng retry, timeout, circuit breaker để cô lập lỗi..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ứng dụng retry, timeout, circuit breaker để cô lập lỗi.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q078",
+    "q_num": 78,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Resilience Patterns. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn retry vô điều kiện với tần suất cao để tăng xác suất thành công. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Chọn bỏ timeout để request chờ đến khi dependency phục hồi hoàn toàn. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên thiết kế timeout, retry có backoff và circuit breaker theo từng dependency. và xác nhận bằng chỉ số thực tế.",
+      "Chọn đặt circuit breaker toàn cục cho mọi dịch vụ mà không phân loại rủi ro. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: resilience đúng giảm lỗi dây chuyền và bảo vệ trải nghiệm người dùng cuối.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc ứng dụng retry, timeout, circuit breaker để cô lập lỗi..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ứng dụng retry, timeout, circuit breaker để cô lập lỗi.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q079",
+    "q_num": 79,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Resilience Patterns, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bỏ timeout để request chờ đến khi dependency phục hồi hoàn toàn. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn retry vô điều kiện với tần suất cao để tăng xác suất thành công. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên thiết kế timeout, retry có backoff và circuit breaker theo từng dependency. và xác nhận bằng chỉ số thực tế.",
+      "Chọn đặt circuit breaker toàn cục cho mọi dịch vụ mà không phân loại rủi ro. như giải pháp chính cho toàn bộ hệ thống."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: resilience đúng giảm lỗi dây chuyền và bảo vệ trải nghiệm người dùng cuối.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc ứng dụng retry, timeout, circuit breaker để cô lập lỗi..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ứng dụng retry, timeout, circuit breaker để cô lập lỗi.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q080",
+    "q_num": 80,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Resilience Patterns trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ timeout để request chờ đến khi dependency phục hồi hoàn toàn. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Đặt retry vô điều kiện với tần suất cao để tăng xác suất thành công. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt đặt circuit breaker toàn cục cho mọi dịch vụ mà không phân loại rủi ro. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Chuẩn hóa thiết kế timeout, retry có backoff và circuit breaker theo từng dependency. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: resilience đúng giảm lỗi dây chuyền và bảo vệ trải nghiệm người dùng cuối.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc ứng dụng retry, timeout, circuit breaker để cô lập lỗi..\nNăng lực đánh giá: Ứng dụng retry, timeout, circuit breaker để cô lập lỗi.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q081",
+    "q_num": 81,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Concurrency Control?",
+    "options": [
+      "Kết hợp optimistic hoặc pessimistic locking theo đặc điểm xung đột dữ liệu.",
+      "Giải quyết xung đột bằng cách ghi đè bản cập nhật mới nhất, theo yêu cầu vận hành dài hạn.",
+      "Bỏ khóa hoàn toàn để đạt throughput tối đa ở mọi nghiệp vụ, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Dùng khóa cứng toàn bảng cho mọi thao tác cập nhật để an toàn tuyệt đối."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: kiểm soát đồng thời hợp lý bảo toàn tính đúng đắn mà vẫn giữ hiệu năng.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc ngăn lost update và race condition trên dữ liệu quan trọng..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ngăn lost update và race condition trên dữ liệu quan trọng.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q082",
+    "q_num": 82,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Concurrency Control?",
+    "options": [
+      "Bỏ khóa hoàn toàn để đạt throughput tối đa ở mọi nghiệp vụ, theo yêu cầu vận hành dài hạn.",
+      "Dùng khóa cứng toàn bảng cho mọi thao tác cập nhật để an toàn tuyệt đối.",
+      "Kết hợp optimistic hoặc pessimistic locking theo đặc điểm xung đột dữ liệu.",
+      "Giải quyết xung đột bằng cách ghi đè bản cập nhật mới nhất, theo tiêu chí độ tin cậy dịch vụ."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: kiểm soát đồng thời hợp lý bảo toàn tính đúng đắn mà vẫn giữ hiệu năng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc ngăn lost update và race condition trên dữ liệu quan trọng..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ngăn lost update và race condition trên dữ liệu quan trọng.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q083",
+    "q_num": 83,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Concurrency Control. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn dùng khóa cứng toàn bảng cho mọi thao tác cập nhật để an toàn tuyệt đối. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn bỏ khóa hoàn toàn để đạt throughput tối đa ở mọi nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên kết hợp optimistic hoặc pessimistic locking theo đặc điểm xung đột dữ liệu. và xác nhận bằng chỉ số thực tế.",
+      "Chọn giải quyết xung đột bằng cách ghi đè bản cập nhật mới nhất. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: kiểm soát đồng thời hợp lý bảo toàn tính đúng đắn mà vẫn giữ hiệu năng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc ngăn lost update và race condition trên dữ liệu quan trọng..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ngăn lost update và race condition trên dữ liệu quan trọng.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q084",
+    "q_num": 84,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Concurrency Control, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn dùng khóa cứng toàn bảng cho mọi thao tác cập nhật để an toàn tuyệt đối. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn bỏ khóa hoàn toàn để đạt throughput tối đa ở mọi nghiệp vụ. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn giải quyết xung đột bằng cách ghi đè bản cập nhật mới nhất. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Ưu tiên kết hợp optimistic hoặc pessimistic locking theo đặc điểm xung đột dữ liệu. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: kiểm soát đồng thời hợp lý bảo toàn tính đúng đắn mà vẫn giữ hiệu năng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc ngăn lost update và race condition trên dữ liệu quan trọng..\nNăng lực đánh giá: Ngăn lost update và race condition trên dữ liệu quan trọng.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q085",
+    "q_num": 85,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Concurrency Control trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt bỏ khóa hoàn toàn để đạt throughput tối đa ở mọi nghiệp vụ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chuẩn hóa kết hợp optimistic hoặc pessimistic locking theo đặc điểm xung đột dữ liệu. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt dùng khóa cứng toàn bảng cho mọi thao tác cập nhật để an toàn tuyệt đối. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Đặt giải quyết xung đột bằng cách ghi đè bản cập nhật mới nhất. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi mở rộng quy mô sản phẩm."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: kiểm soát đồng thời hợp lý bảo toàn tính đúng đắn mà vẫn giữ hiệu năng.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc ngăn lost update và race condition trên dữ liệu quan trọng..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Ngăn lost update và race condition trên dữ liệu quan trọng.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q086",
+    "q_num": 86,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Clean Architecture?",
+    "options": [
+      "Đưa truy vấn database trực tiếp vào controller để giảm số lớp code, trong điều kiện dữ liệu biến động.",
+      "Cho phép entity domain phụ thuộc thư viện hạ tầng để tiết kiệm thời gian.",
+      "Tách domain, application, infrastructure rõ ràng để giảm phụ thuộc framework.",
+      "Gộp test integration vào domain layer để dễ chạy chung, theo chuẩn quản trị kỹ thuật."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: kiến trúc sạch giúp hệ thống dễ test, dễ thay đổi công nghệ và giảm regression.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tổ chức code backend theo ranh giới phụ thuộc ổn định..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức code backend theo ranh giới phụ thuộc ổn định.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q087",
+    "q_num": 87,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Clean Architecture?",
+    "options": [
+      "Cho phép entity domain phụ thuộc thư viện hạ tầng để tiết kiệm thời gian.",
+      "Đưa truy vấn database trực tiếp vào controller để giảm số lớp code, khi mở rộng quy mô sản phẩm.",
+      "Tách domain, application, infrastructure rõ ràng để giảm phụ thuộc framework.",
+      "Gộp test integration vào domain layer để dễ chạy chung, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: kiến trúc sạch giúp hệ thống dễ test, dễ thay đổi công nghệ và giảm regression.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc tổ chức code backend theo ranh giới phụ thuộc ổn định..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức code backend theo ranh giới phụ thuộc ổn định.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q088",
+    "q_num": 88,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Clean Architecture. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn cho phép entity domain phụ thuộc thư viện hạ tầng để tiết kiệm thời gian. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn đưa truy vấn database trực tiếp vào controller để giảm số lớp code. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn gộp test integration vào domain layer để dễ chạy chung. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Ưu tiên tách domain, application, infrastructure rõ ràng để giảm phụ thuộc framework. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: kiến trúc sạch giúp hệ thống dễ test, dễ thay đổi công nghệ và giảm regression.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc tổ chức code backend theo ranh giới phụ thuộc ổn định..\nNăng lực đánh giá: Tổ chức code backend theo ranh giới phụ thuộc ổn định.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q089",
+    "q_num": 89,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Clean Architecture, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn đưa truy vấn database trực tiếp vào controller để giảm số lớp code. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Ưu tiên tách domain, application, infrastructure rõ ràng để giảm phụ thuộc framework. và xác nhận bằng chỉ số thực tế.",
+      "Chọn cho phép entity domain phụ thuộc thư viện hạ tầng để tiết kiệm thời gian. như giải pháp chính cho toàn bộ hệ thống.",
+      "Chọn gộp test integration vào domain layer để dễ chạy chung. như giải pháp chính cho toàn bộ hệ thống, theo yêu cầu vận hành dài hạn."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: kiến trúc sạch giúp hệ thống dễ test, dễ thay đổi công nghệ và giảm regression.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tổ chức code backend theo ranh giới phụ thuộc ổn định..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức code backend theo ranh giới phụ thuộc ổn định.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q090",
+    "q_num": 90,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Clean Architecture trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt gộp test integration vào domain layer để dễ chạy chung. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong bối cảnh dự án thực tế.",
+      "Chuẩn hóa tách domain, application, infrastructure rõ ràng để giảm phụ thuộc framework. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt cho phép entity domain phụ thuộc thư viện hạ tầng để tiết kiệm thời gian. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt đưa truy vấn database trực tiếp vào controller để giảm số lớp code. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: kiến trúc sạch giúp hệ thống dễ test, dễ thay đổi công nghệ và giảm regression.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc tổ chức code backend theo ranh giới phụ thuộc ổn định..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Tổ chức code backend theo ranh giới phụ thuộc ổn định.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q091",
+    "q_num": 91,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Backend Security?",
+    "options": [
+      "Bật quyền admin mặc định cho service account để giảm lỗi truy cập, khi hệ thống tăng tải.",
+      "Tin rằng firewall là đủ nên không cần validation ở tầng ứng dụng, theo yêu cầu vận hành dài hạn.",
+      "Áp dụng input validation, output encoding, least privilege và audit bảo mật định kỳ.",
+      "Ẩn lỗi bảo mật nội bộ và bỏ qua quy trình rà soát định kỳ, trong chu kỳ phát hành liên tục."
+    ],
+    "correct": 2,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: C.\nLý do cốt lõi: an toàn backend cần defense in depth chứ không phụ thuộc một lớp duy nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Đúng vì bám sát nguyên tắc phòng ngừa lỗi owasp phổ biến trong api và dịch vụ nội bộ..\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phòng ngừa lỗi OWASP phổ biến trong API và dịch vụ nội bộ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q092",
+    "q_num": 92,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Backend Security?",
+    "options": [
+      "Bật quyền admin mặc định cho service account để giảm lỗi truy cập, theo yêu cầu vận hành dài hạn.",
+      "Tin rằng firewall là đủ nên không cần validation ở tầng ứng dụng, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Ẩn lỗi bảo mật nội bộ và bỏ qua quy trình rà soát định kỳ, trong chu kỳ phát hành liên tục.",
+      "Áp dụng input validation, output encoding, least privilege và audit bảo mật định kỳ."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: an toàn backend cần defense in depth chứ không phụ thuộc một lớp duy nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phòng ngừa lỗi owasp phổ biến trong api và dịch vụ nội bộ..\nNăng lực đánh giá: Phòng ngừa lỗi OWASP phổ biến trong API và dịch vụ nội bộ.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q093",
+    "q_num": 93,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Backend Security. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn tin rằng firewall là đủ nên không cần validation ở tầng ứng dụng. như giải pháp chính cho toàn bộ hệ thống, khi phối hợp nhiều nhóm kỹ thuật.",
+      "Ưu tiên áp dụng input validation, output encoding, least privilege và audit bảo mật định kỳ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bật quyền admin mặc định cho service account để giảm lỗi truy cập. như giải pháp chính cho toàn bộ hệ thống, theo tiêu chí độ tin cậy dịch vụ.",
+      "Chọn ẩn lỗi bảo mật nội bộ và bỏ qua quy trình rà soát định kỳ. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: an toàn backend cần defense in depth chứ không phụ thuộc một lớp duy nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc phòng ngừa lỗi owasp phổ biến trong api và dịch vụ nội bộ..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phòng ngừa lỗi OWASP phổ biến trong API và dịch vụ nội bộ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q094",
+    "q_num": 94,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Backend Security, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn ẩn lỗi bảo mật nội bộ và bỏ qua quy trình rà soát định kỳ. như giải pháp chính cho toàn bộ hệ thống, trong chu kỳ phát hành liên tục.",
+      "Ưu tiên áp dụng input validation, output encoding, least privilege và audit bảo mật định kỳ. và xác nhận bằng chỉ số thực tế.",
+      "Chọn bật quyền admin mặc định cho service account để giảm lỗi truy cập. như giải pháp chính cho toàn bộ hệ thống, trong điều kiện dữ liệu biến động.",
+      "Chọn tin rằng firewall là đủ nên không cần validation ở tầng ứng dụng. như giải pháp chính cho toàn bộ hệ thống, ở môi trường production."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: an toàn backend cần defense in depth chứ không phụ thuộc một lớp duy nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc phòng ngừa lỗi owasp phổ biến trong api và dịch vụ nội bộ..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Phòng ngừa lỗi OWASP phổ biến trong API và dịch vụ nội bộ.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q095",
+    "q_num": 95,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Backend Security trong hệ thống quy mô lớn?",
+    "options": [
+      "Đặt ẩn lỗi bảo mật nội bộ và bỏ qua quy trình rà soát định kỳ. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo tiêu chí độ tin cậy dịch vụ.",
+      "Đặt bật quyền admin mặc định cho service account để giảm lỗi truy cập. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, trong điều kiện dữ liệu biến động.",
+      "Đặt tin rằng firewall là đủ nên không cần validation ở tầng ứng dụng. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, ở môi trường production.",
+      "Chuẩn hóa áp dụng input validation, output encoding, least privilege và audit bảo mật định kỳ. thành tiêu chuẩn triển khai có đo lường rủi ro."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: an toàn backend cần defense in depth chứ không phụ thuộc một lớp duy nhất.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc phòng ngừa lỗi owasp phổ biến trong api và dịch vụ nội bộ..\nNăng lực đánh giá: Phòng ngừa lỗi OWASP phổ biến trong API và dịch vụ nội bộ.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q096",
+    "q_num": 96,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Trong lĩnh vực Back-End, phát biểu nào phản ánh đúng nguyên tắc cốt lõi về Scalable System Design?",
+    "options": [
+      "Sharding ngay từ đầu mà chưa xác định access pattern thực tế, trong điều kiện dữ liệu biến động.",
+      "Scale dọc tối đa trước rồi giữ nguyên kiến trúc để giảm phức tạp, ở môi trường production.",
+      "Bỏ capacity planning vì cloud có thể tự xử lý mọi đột biến, khi mở rộng quy mô sản phẩm.",
+      "Ước lượng tải, xác định bottleneck và chọn chiến lược scale đọc-ghi theo dữ liệu."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: system design tốt dựa trên dự báo tải, ràng buộc chi phí và mức độ rủi ro nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực..\nNăng lực đánh giá: Thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q097",
+    "q_num": 97,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Junior] Khi ứng tuyển vị trí Back-End tại Việt Nam 2026, lựa chọn nào thể hiện hiểu biết nền tảng đúng về Scalable System Design?",
+    "options": [
+      "Scale dọc tối đa trước rồi giữ nguyên kiến trúc để giảm phức tạp, ở môi trường production.",
+      "Ước lượng tải, xác định bottleneck và chọn chiến lược scale đọc-ghi theo dữ liệu.",
+      "Sharding ngay từ đầu mà chưa xác định access pattern thực tế, theo chuẩn quản trị kỹ thuật.",
+      "Bỏ capacity planning vì cloud có thể tự xử lý mọi đột biến, trong bối cảnh dự án thực tế."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: system design tốt dựa trên dự báo tải, ràng buộc chi phí và mức độ rủi ro nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực.\nMức độ câu hỏi: Junior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q098",
+    "q_num": 98,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Dự án Back-End của bạn đang gặp vấn đề liên quan đến Scalable System Design. Hướng xử lý nào phù hợp nhất để cải thiện bền vững?",
+    "options": [
+      "Chọn bỏ capacity planning vì cloud có thể tự xử lý mọi đột biến. như giải pháp chính cho toàn bộ hệ thống, khi mở rộng quy mô sản phẩm.",
+      "Ưu tiên ước lượng tải, xác định bottleneck và chọn chiến lược scale đọc-ghi theo dữ liệu. và xác nhận bằng chỉ số thực tế.",
+      "Chọn sharding ngay từ đầu mà chưa xác định access pattern thực tế. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn scale dọc tối đa trước rồi giữ nguyên kiến trúc để giảm phức tạp. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải."
+    ],
+    "correct": 1,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: B.\nLý do cốt lõi: system design tốt dựa trên dự báo tải, ràng buộc chi phí và mức độ rủi ro nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Đúng vì bám sát nguyên tắc thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực..\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q099",
+    "q_num": 99,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Mid] Khi cần cân bằng tốc độ triển khai và độ ổn định cho Scalable System Design, phương án nào nên được ưu tiên?",
+    "options": [
+      "Chọn bỏ capacity planning vì cloud có thể tự xử lý mọi đột biến. như giải pháp chính cho toàn bộ hệ thống, theo chuẩn quản trị kỹ thuật.",
+      "Chọn sharding ngay từ đầu mà chưa xác định access pattern thực tế. như giải pháp chính cho toàn bộ hệ thống, trong bối cảnh dự án thực tế.",
+      "Chọn scale dọc tối đa trước rồi giữ nguyên kiến trúc để giảm phức tạp. như giải pháp chính cho toàn bộ hệ thống, khi hệ thống tăng tải.",
+      "Ưu tiên ước lượng tải, xác định bottleneck và chọn chiến lược scale đọc-ghi theo dữ liệu. và xác nhận bằng chỉ số thực tế."
+    ],
+    "correct": 3,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: D.\nLý do cốt lõi: system design tốt dựa trên dự báo tải, ràng buộc chi phí và mức độ rủi ro nghiệp vụ.\nPhân tích từng phương án:\n- A: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Đúng vì bám sát nguyên tắc thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực..\nNăng lực đánh giá: Thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực.\nMức độ câu hỏi: Mid\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  },
+  {
+    "id": "Q100",
+    "q_num": 100,
+    "job_role": "backend",
+    "location": "vn_2026",
+    "categoryId": "c2",
+    "text": "[Senior] Ở vai trò lead Back-End, quyết định nào cho thấy năng lực kiến trúc/vận hành vững về Scalable System Design trong hệ thống quy mô lớn?",
+    "options": [
+      "Chuẩn hóa ước lượng tải, xác định bottleneck và chọn chiến lược scale đọc-ghi theo dữ liệu. thành tiêu chuẩn triển khai có đo lường rủi ro.",
+      "Đặt scale dọc tối đa trước rồi giữ nguyên kiến trúc để giảm phức tạp. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi hệ thống tăng tải.",
+      "Đặt bỏ capacity planning vì cloud có thể tự xử lý mọi đột biến. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, theo yêu cầu vận hành dài hạn.",
+      "Đặt sharding ngay từ đầu mà chưa xác định access pattern thực tế. làm chiến lược dài hạn và bỏ qua kiểm soát bổ sung, khi phối hợp nhiều nhóm kỹ thuật."
+    ],
+    "correct": 0,
+    "explanation": "Bối cảnh thị trường VN 2026: VN 2026 ưu tiên Back-End ở Java, Golang, NodeJS với nhu cầu cao về system design, API và dữ liệu.\nĐáp án đúng: A.\nLý do cốt lõi: system design tốt dựa trên dự báo tải, ràng buộc chi phí và mức độ rủi ro nghiệp vụ.\nPhân tích từng phương án:\n- A: Đúng vì bám sát nguyên tắc thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực..\n- B: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- C: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\n- D: Sai vì đây là hiểu nhầm phổ biến, dễ tạo rủi ro về chất lượng, hiệu năng hoặc khả năng mở rộng.\nNăng lực đánh giá: Thiết kế đọc/ghi, phân mảnh và mở rộng theo tải thực.\nMức độ câu hỏi: Senior\nRubric chấm điểm Junior/Mid/Senior:\n- Junior: Hiểu đúng nguyên lý ngôn ngữ, API, cơ sở dữ liệu và bảo mật nền tảng.\n- Mid: Thiết kế được luồng xử lý ổn định, xử lý lỗi tốt và tối ưu hiệu năng theo dữ liệu thực.\n- Senior: Ra quyết định kiến trúc có trade-off rõ ràng, đảm bảo khả năng mở rộng và vận hành dài hạn."
+  }
+]
