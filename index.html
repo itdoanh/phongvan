@@ -52,7 +52,71 @@
         }
     </script>
 
+    
     <style>
+        :root {
+            --text-scale: 1;
+            --interview-main-width: 70%;
+            --interview-nav-width: 30%;
+        }
+
+        /* Scale only interview reading content */
+        #q-text {
+            font-size: calc(1.25rem * var(--text-scale)) !important;
+            line-height: calc(1.6 * var(--text-scale)) !important;
+            transition: font-size 0.2s ease, line-height 0.2s ease;
+        }
+
+        @media (min-width: 768px) {
+            #q-text {
+                font-size: calc(1.5rem * var(--text-scale)) !important;
+            }
+        }
+
+        .option-text {
+            font-size: calc(1.05rem * var(--text-scale)) !important;
+            line-height: calc(1.55 * var(--text-scale)) !important;
+            transition: font-size 0.2s ease, line-height 0.2s ease;
+        }
+
+        #q-cat {
+            font-size: calc(0.875rem * var(--text-scale));
+            line-height: calc(1.25 * var(--text-scale));
+            transition: font-size 0.2s ease, line-height 0.2s ease;
+        }
+
+        @media (min-width: 768px) {
+            #interview-main-panel {
+                flex: 0 1 var(--interview-main-width, 68%);
+                width: var(--interview-main-width, 68%);
+                min-width: 0;
+            }
+
+            #interview-nav-panel {
+                flex: 0 0 var(--interview-nav-width, 32%);
+                width: var(--interview-nav-width, 32%);
+                min-width: 0;
+            }
+        }
+
+        #interview-controls {
+            gap: 0.8rem;
+        }
+
+        @media (min-width: 1024px) {
+            #interview-controls {
+                display: grid;
+                grid-template-columns: minmax(140px, 1fr) minmax(180px, 1.2fr) minmax(180px, 1.3fr);
+                align-items: stretch;
+            }
+
+            #interview-controls > button,
+            #interview-controls-actions > button {
+                width: 100%;
+            }
+        }
+
+
         /* CSS tuỳ chỉnh cho hiệu ứng tương lai */
         body {
             transition: background-color 0.3s, color 0.3s;
@@ -196,15 +260,23 @@
 <body class="antialiased min-h-screen flex flex-col font-sans">
 
     <!-- Navigation -->
-    <nav class="glass-panel sticky top-0 z-50 rounded-none border-t-0 border-l-0 border-r-0 border-b border-opacity-20 px-6 py-4 flex justify-between items-center">
-        <div class="flex items-center gap-2 cursor-pointer" onclick="app.navigate('home')">
-            <div class="w-8 h-8 rounded bg-gradient-to-br from-neon-blue to-neon-purple flex items-center justify-center text-white font-display font-bold text-xl">N</div>
+    <nav class="bg-gray-50/80 dark:bg-[#14141e]/80 backdrop-blur-xl sticky top-0 z-[100] border-b border-gray-200 dark:border-white/10 px-6 py-4 flex justify-between items-center transition-colors">
+        <div class="flex items-center gap-2 cursor-pointer group" onclick="app.navigate('home')">
+            <div class="w-8 h-8 rounded bg-gradient-to-br from-neon-blue to-neon-purple flex items-center justify-center text-white font-display font-bold text-xl shadow-md group-hover:scale-105 transition-transform">N</div>
             <span class="font-display font-bold text-xl tracking-widest hidden sm:block dark:text-white">NEXUS</span>
         </div>
         
-        <div class="flex items-center gap-4">
-            <div id="nav-timer" class="hide font-tech text-neon-blue font-bold tracking-widest">00:00</div>
-            <button id="theme-toggle" class="p-2 rounded-full glass-panel hover:scale-110 transition-transform" onclick="app.toggleTheme()">
+        <div class="flex items-center gap-2 sm:gap-4">
+            <div id="nav-timer" class="hide font-tech text-neon-blue font-bold tracking-widest text-sm sm:text-base mr-2">00:00</div>
+            
+            <!-- Text Size Selector -->
+            <div id="nav-text-size" class="hide flex items-center bg-white/50 dark:bg-black/30 rounded-full border border-gray-200 dark:border-gray-700 shadow-sm">
+                <button onclick="app.changeTextSize(-1)" class="w-8 h-8 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-neon-blue transition-colors font-bold text-sm" title="Giảm cỡ chữ">A-</button>
+                <div class="w-[1px] h-4 bg-gray-300 dark:bg-gray-600"></div>
+                <button onclick="app.changeTextSize(1)" class="w-8 h-8 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-neon-purple transition-colors font-bold text-lg" title="Tăng cỡ chữ">A+</button>
+            </div>
+
+            <button id="theme-toggle" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/50 dark:bg-black/30 border border-gray-200 dark:border-gray-700 shadow-sm hover:scale-110 transition-transform" onclick="app.toggleTheme()">
                 <span class="dark:hidden text-xl">🌙</span>
                 <span class="hidden dark:inline text-xl text-yellow-300">☀️</span>
             </button>
@@ -212,7 +284,7 @@
     </nav>
 
     <!-- MAIN CONTENT AREA -->
-    <main class="flex-grow container mx-auto px-4 py-8 max-w-6xl relative">
+    <main id="app-main" class="flex-grow container mx-auto px-4 py-8 max-w-6xl relative">
 
         <!-- ==================== VIEW 1: HOME ==================== -->
         <div id="view-home" class="view-section flex flex-col items-center justify-center min-h-[70vh] animate-fade-in">
@@ -262,14 +334,14 @@
 
 
         <!-- ==================== VIEW 2: INTERVIEW ROOM ==================== -->
-        <div id="view-interview" class="view-section hide flex flex-col xl:flex-row gap-6 min-h-[70vh]">
+        <div id="view-interview" class="view-section hide flex flex-col md:flex-row gap-6 min-h-[70vh] items-start">
             
             <!-- Left Panel: Main Question Area -->
-            <div class="flex-grow flex flex-col w-full xl:w-[75%] max-w-4xl relative">
+            <div id="interview-main-panel" class="flex flex-col w-full md:w-auto relative flex-shrink-0 h-auto">
                 <!-- Header bài test -->
                 <div class="mb-6 flex flex-col sm:flex-row sm:justify-between items-start sm:items-end gap-2">
                     <span class="font-tech text-sm text-gray-500 dark:text-gray-400 uppercase tracking-widest" id="q-category">Hạng mục: ...</span>
-                    <span class="font-display font-bold text-lg text-neon-purple xl:hidden self-end" id="q-counter-mobile">1 / 100</span>
+                    <span class="font-display font-bold text-lg text-neon-purple md:hidden self-end" id="q-counter-mobile">1 / 100</span>
                 </div>
                 <!-- Progress Bar -->
                 <div class="w-full bg-gray-200 dark:bg-gray-800 h-2.5 rounded-full overflow-hidden mb-6 shadow-inner">
@@ -277,22 +349,22 @@
                 </div>
 
                 <!-- Question Area -->
-                <div class="glass-panel flex-grow p-6 md:p-8 lg:p-10 flex flex-col relative rounded-2xl shadow-lg border border-gray-200/50 dark:border-white/10 backdrop-blur-md">
+                <div id="q-card" class="glass-panel p-6 md:p-8 lg:p-10 mb-6 flex flex-col relative rounded-2xl shadow-lg border border-gray-200/50 dark:border-white/10 backdrop-blur-md transition-all duration-300">
                     <!-- Flag Badge in Corner -->
                     <div id="q-flag-badge" class="absolute top-4 right-4 hidden bg-yellow-100 dark:bg-yellow-400/20 text-yellow-700 dark:text-yellow-400 border border-yellow-400/30 px-3 py-1.5 rounded-full text-xs font-bold flex items-center gap-1.5 shadow-sm transform transition-all duration-300">
                         <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"></path></svg>
                         Đang phân vân
                     </div>
                     
-                    <h2 id="q-text" class="text-xl md:text-2xl lg:text-3xl lg:leading-[1.6] font-medium leading-relaxed mb-8 dark:text-white mt-4 xl:mt-2 text-gray-800 transition-colors duration-300">Đang tải dữ liệu...</h2>
+                    <h2 id="q-text" class="font-medium mb-8 dark:text-white mt-4 xl:mt-2 text-gray-800 transition-colors duration-300">Đang tải dữ liệu...</h2>
                     
-                    <div id="q-options" class="grid grid-cols-1 gap-3 md:gap-4 flex-grow mb-6">
+                    <div id="q-options" class="grid grid-cols-1 gap-3 md:gap-4 mb-6">
                         <!-- Render options here via JS -->
                     </div>
                 </div>
 
                 <!-- Controls -->
-                <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-between items-center bg-white/40 dark:bg-black/20 p-4 rounded-xl border border-gray-200/50 dark:border-white/5 backdrop-blur-sm shadow-sm">
+                <div id="interview-controls" class="mt-4 flex-shrink-0 flex flex-col sm:flex-row gap-3 justify-between items-stretch sm:items-center bg-white/40 dark:bg-black/20 p-3 md:p-4 rounded-xl border border-gray-200/50 dark:border-white/5 backdrop-blur-sm shadow-sm">
                     <button id="btn-prev" onclick="app.prevQuestion()" class="w-full sm:w-auto px-6 py-3 rounded-xl border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 shadow-sm transition-all font-medium disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center gap-2 group">
                         <svg class="w-4 h-4 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                         Quay lại
@@ -303,7 +375,7 @@
                         <span id="btn-flag-text">Đánh dấu Phân vân</span>
                     </button>
                     
-                    <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                    <div id="interview-controls-actions" class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
                         <button id="btn-next" onclick="app.nextQuestion()" class="w-full sm:w-auto px-8 py-3 rounded-xl bg-gradient-to-r from-neon-blue to-neon-purple text-white font-bold shadow-lg hover:shadow-[0_0_20px_rgba(0,243,255,0.4)] transition-all hover:-translate-y-0.5 active:translate-y-0 flex justify-center items-center gap-2 group">
                             Tiếp tục
                             <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
@@ -318,25 +390,27 @@
 
             <!-- Right Panel: Navigator Grid -->
             <!-- Mobile: Toggleable drawer; Desktop: Sticky Sidebar -->
-            <div class="w-full xl:w-[25%] flex flex-col">
-                <div class="glass-panel p-4 flex flex-col xl:sticky xl:top-24 xl:h-[calc(100vh-8rem)] rounded-2xl shadow-lg border border-gray-200/50 dark:border-white/10 z-10 transition-all duration-300">
-                    <div class="flex justify-between items-center mb-4 border-b border-gray-200/60 dark:border-gray-700/60 pb-3 cursor-pointer xl:cursor-default" onclick="if(window.innerWidth < 1280) app.toggleGridMobile()">
+            <div id="interview-nav-panel" class="w-full md:w-auto flex-shrink-0 relative">
+                <div class="glass-panel p-4 flex flex-col sticky top-20 md:top-24 max-h-[85vh] md:max-h-[calc(100vh-6rem)] rounded-xl md:rounded-2xl shadow-lg border border-gray-200/50 dark:border-white/10 z-[80] transition-all duration-300 overflow-hidden">
+                    <div class="flex justify-between items-center mb-0 md:mb-3 pb-0 md:pb-3 border-b-0 md:border-b border-gray-200/60 dark:border-gray-700/60 cursor-pointer md:cursor-default" onclick="if(window.innerWidth < 768) app.toggleGridMobile()">
                         <h3 class="font-display font-bold text-gray-800 dark:text-white flex items-center gap-2">
                             <svg class="w-5 h-5 text-neon-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
                             Danh Sách 100 Câu
                         </h3>
-                        <span class="font-display font-bold text-lg text-neon-purple hidden xl:block" id="q-counter-desktop">1 / 100</span>
+                        <span class="font-display font-bold text-lg text-neon-purple hidden md:block" id="q-counter-desktop">1 / 100</span>
                         
                         <!-- Mobile Toggle Button -->
-                        <button id="btn-toggle-grid" class="xl:hidden p-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 transition-colors flex items-center">
+                        <button id="btn-toggle-grid" class="md:hidden p-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 transition-colors flex items-center">
                             <span class="font-bold text-sm mr-2 text-neon-purple" id="q-counter-mobile-toggle">1/100</span>
                             <svg class="w-5 h-5 transition-transform duration-300" id="icon-toggle-grid" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </button>
                     </div>
                     
-                    <div id="grid-content" class="flex flex-col xl:flex-grow flex-grow-0 overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 xl:!max-h-[1000px] xl:!opacity-100">
+                    <div id="grid-content" class="flex flex-col flex-grow overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 md:!max-h-[1200px] md:!opacity-100">
+                        <!-- Spacer to allow safe collapse without jumping -->
+                        <div class="h-3 md:h-0"></div>
                         <!-- Legend -->
-                        <div class="flex flex-wrap gap-x-3 gap-y-2 mb-4 text-[11px] sm:text-xs font-tech text-gray-600 dark:text-gray-400 justify-center xl:justify-start">
+                        <div class="flex flex-wrap gap-x-3 gap-y-2 mb-3 text-[11px] sm:text-xs font-tech text-gray-600 dark:text-gray-400 justify-center md:justify-start">
                             <div class="flex items-center gap-1.5"><div class="w-3 h-3 rounded-sm bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-600"></div> Chưa làm</div>
                             <div class="flex items-center gap-1.5"><div class="w-3 h-3 rounded-sm bg-green-500/20 border border-green-500 text-green-500 flex items-center justify-center"><svg class="w-2 h-2 opacity-80" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg></div> Đã làm</div>
                             <div class="flex items-center gap-1.5"><div class="w-3 h-3 rounded-sm bg-neon-blue border border-neon-blue shadow-[0_0_5px_rgba(0,243,255,0.6)]"></div> Đang chọn</div>
@@ -352,7 +426,7 @@
                         
                         <!-- Grid Matrix -->
                         <div class="flex-grow overflow-y-auto pr-2 pb-4 custom-scrollbar">
-                            <div id="q-nav-grid" class="grid grid-cols-5 sm:grid-cols-10 xl:grid-cols-5 gap-1.5 auto-rows-max pb-2">
+                            <div id="q-nav-grid" class="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-1.5 gap-1 sm:gap-1.5 auto-rows-max pb-2">
                                 <!-- JS generates buttons here -->
                             </div>
                         </div>
@@ -464,6 +538,11 @@
             state: {
                 view: 'home', // home, interview, results
                 theme: 'dark',
+                textSize: (() => {
+                    const n = Number(localStorage.getItem('textSize'));
+                    if (!Number.isFinite(n)) return 0;
+                    return Math.max(-2, Math.min(5, n));
+                })(),
                 currentQuestion: 0,
                 answers: new Array(100).fill(null), // Lưu index đáp án người dùng chọn
                 flags: new Array(100).fill(false), // Flag trạng thái phân vân
@@ -490,6 +569,12 @@
             async init() {
                 await this.loadQuestions();
                 this.checkSystemTheme();
+                this.updateTextSize(this.state.textSize);
+                this.applyResponsiveInterviewLayout();
+                window.addEventListener('resize', () => this.applyResponsiveInterviewLayout());
+                if (window.visualViewport) {
+                    window.visualViewport.addEventListener('resize', () => this.applyResponsiveInterviewLayout());
+                }
                 this.updateView();
             },
 
@@ -506,9 +591,12 @@
 
                 if (this.state.view === 'interview') {
                     document.getElementById('nav-timer').classList.remove('hide');
+                    if (document.getElementById('nav-text-size')) document.getElementById('nav-text-size').classList.remove('hide');
+                    this.applyResponsiveInterviewLayout();
                     this.renderQuestion();
                 } else {
                     document.getElementById('nav-timer').classList.add('hide');
+                    if (document.getElementById('nav-text-size')) document.getElementById('nav-text-size').classList.add('hide');
                     clearInterval(this.state.timerInterval);
                 }
             },
@@ -527,6 +615,90 @@
                 if (this.chartInstance) this.renderChart(); // Redraw chart for theme colors
             },
 
+            changeTextSize(step) {
+                let next = this.state.textSize + step;
+                if (next > 5) next = 5;
+                if (next < -2) next = -2;
+
+                this.state.textSize = next;
+                localStorage.setItem('textSize', String(next));
+                this.updateTextSize(next);
+            },
+
+            updateTextSize(size) {
+                const scale = 1 + size * 0.2;
+                document.documentElement.style.setProperty('--text-scale', String(scale));
+                this.applyResponsiveInterviewLayout();
+            },
+
+            applyResponsiveInterviewLayout(activeQuestion = null) {
+                const root = document.documentElement;
+                const mainPanel = document.getElementById('interview-main-panel');
+                const navPanel = document.getElementById('interview-nav-panel');
+                const appMain = document.getElementById('app-main');
+
+                if (!mainPanel || !navPanel || !appMain) return;
+
+                const viewport = window.visualViewport;
+                const vw = viewport ? viewport.width : window.innerWidth;
+                const vh = viewport ? viewport.height : window.innerHeight;
+                const textStep = this.state.textSize;
+                const q = activeQuestion || this.data.questions[this.state.currentQuestion] || null;
+                const longestOption = q && Array.isArray(q.options) && q.options.length
+                    ? q.options.reduce((max, opt) => Math.max(max, String(opt).length), 0)
+                    : 0;
+                const questionWeight = q ? (String(q.text || '').length + Math.round(longestOption * 1.25)) : 0;
+                const textRatio = (textStep + 2) / 7;
+                const contentRatio = questionWeight / (questionWeight + 320);
+                const widthRatio = vw / (vw + 1200);
+
+                if (vw < 768) {
+                    root.style.setProperty('--interview-main-width', '100%');
+                    root.style.setProperty('--interview-nav-width', '100%');
+                    appMain.style.width = '';
+                    appMain.style.maxWidth = '';
+                    const cardMobile = document.getElementById('q-card');
+                    if (cardMobile) {
+                        cardMobile.style.padding = '';
+                        cardMobile.style.minHeight = '';
+                    }
+                    const controlsMobile = document.getElementById('interview-controls');
+                    if (controlsMobile) controlsMobile.style.gridTemplateColumns = '';
+                    return;
+                }
+
+                appMain.style.width = `${Math.floor(vw - 24)}px`;
+                appMain.style.maxWidth = `${Math.floor(vw - 24)}px`;
+
+                const mainPercent = 56 + (contentRatio * 18) + (textRatio * 14) + (widthRatio * 8);
+
+                const navPercent = 100 - mainPercent;
+
+                root.style.setProperty('--interview-main-width', `${mainPercent}%`);
+                root.style.setProperty('--interview-nav-width', `${navPercent}%`);
+
+                const card = document.getElementById('q-card');
+                if (card) {
+                    const denseAdjust = contentRatio * 3;
+                    const padY = 12 + (vh * 0.015) + (textStep * 1.9) - denseAdjust;
+                    const padX = 14 + (vw * 0.0095) + (textStep * 1.7);
+                    card.style.padding = `${padY}px ${padX}px`;
+                    card.style.minHeight = `${220 + (vh * 0.2) + (contentRatio * 110)}px`;
+                }
+
+                const controls = document.getElementById('interview-controls');
+                if (controls) {
+                    if (vw >= 1280) {
+                        const leftFr = 1 + (widthRatio * 0.25);
+                        const midFr = 1.1 + (textRatio * 0.35);
+                        const rightFr = 1.25 + (contentRatio * 0.65);
+                        controls.style.gridTemplateColumns = `${leftFr.toFixed(2)}fr ${midFr.toFixed(2)}fr ${rightFr.toFixed(2)}fr`;
+                    } else {
+                        controls.style.gridTemplateColumns = '';
+                    }
+                }
+            },
+
             checkSystemTheme() {
                 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
                     // Để giữ đúng phong cách Futuristic, mặc định luôn force dark trừ khi user bấm đổi.
@@ -539,6 +711,8 @@
                 this.state.currentQuestion = 0;
                 this.state.answers = new Array(this.data.questions.length).fill(null);
                 this.state.timeStart = Date.now();
+                this.updateTextSize(this.state.textSize);
+                this.applyResponsiveInterviewLayout();
                 
                 this.navigate('interview');
                 
@@ -556,6 +730,8 @@
                 const total = this.data.questions.length;
                 const q = this.data.questions[idx];
                 const catName = this.data.categories.find(c => c.id === q.categoryId).name;
+
+                this.applyResponsiveInterviewLayout(q);
 
                 // Cập nhật Header
                 document.getElementById('q-counter-desktop').innerText = `${idx + 1} / ${total}`;
@@ -595,7 +771,7 @@
                             <input type="radio" name="q-option" id="opt-${optIdx}" value="${optIdx}" ${isChecked ? 'checked' : ''} onchange="app.selectAnswer(${optIdx})">
                             <label for="opt-${optIdx}">
                                 <span class="w-8 h-8 rounded-full border border-current flex items-center justify-center mr-4 flex-shrink-0 text-sm font-bold">${String.fromCharCode(65 + optIdx)}</span>
-                                <span class="text-lg">${optText}</span>
+                                <span class="option-text">${optText}</span>
                             </label>
                         </div>
                     `;
@@ -679,7 +855,7 @@
                     btn.innerHTML += (i + 1);
                     btn.onclick = () => {
                         this.jumpToQuestion(i);
-                        if(window.innerWidth < 1280) {
+                        if(window.innerWidth < 768) {
                             this.toggleGridMobile(); // auto close on mobile
                         }
                     };
@@ -753,22 +929,22 @@
                 if (overallPercent < 40) {
                     level = "Thực tập sinh / Fresher (Cần nỗ lực)";
                     levelDesc = "Kiến thức nền tảng chưa vững. Cần ôn tập lại các khái niệm cơ bản về cấu trúc dữ liệu và cách hệ thống hoạt động.";
-                    salaryRange = "3,000,000 - 8,000,000";
+                    salaryRange = "Không lương (Tối đa 6.000.000đ)";
                     companies = ["Startup nhỏ", "Công ty Outsourcing quy mô nhỏ (Cần đào tạo thêm)"];
                 } else if (overallPercent >= 40 && overallPercent < 65) {
                     level = "Junior Developer";
                     levelDesc = "Có kiến thức nền, có thể tham gia vào dự án thực tế nhưng cần sự hướng dẫn của Senior. Cần đào sâu hơn về kiến trúc và tối ưu hóa.";
-                    salaryRange = "10,000,000 - 18,000,000";
+                    salaryRange = "8.000.000đ - 15.000.000đ";
                     companies = ["FPT Software", "TMA Solutions", "Các công ty Product nội địa vừa"];
                 } else if (overallPercent >= 65 && overallPercent < 85) {
                     level = "Middle Developer";
                     levelDesc = "Nắm vững chuyên môn, có khả năng làm việc độc lập và giải quyết các bài toán kỹ thuật phức tạp. Có thể tối ưu hóa code ở mức cơ bản.";
-                    salaryRange = "25,000,000 - 45,000,000";
+                    salaryRange = "18.000.000đ - 35.000.000đ";
                     companies = ["VNG", "Shopee", "Grab (Vị trí thường)", "KMS Technology"];
                 } else {
                     level = "Senior / Expert";
                     levelDesc = "Kiến thức sâu rộng, hiểu rõ bản chất hệ thống. Đủ khả năng thiết kế kiến trúc, giải quyết các bài toán scale lớn và dẫn dắt đội ngũ.";
-                    salaryRange = "50,000,000 - 100,000,000+";
+                    salaryRange = "40.000.000đ - 80.000.000đ+";
                     companies = ["Google", "Tiktok", "Shopee (Core Team)", "Grab (Core Team)", "Kỳ lân công nghệ"];
                 }
 
@@ -803,7 +979,7 @@
                 document.getElementById('res-level').innerText = data.level;
                 document.getElementById('res-level-desc').innerHTML = data.levelDesc;
                 
-                document.getElementById('res-salary').innerText = `${data.salaryRange} VNĐ`;
+                document.getElementById('res-salary').innerText = `${data.salaryRange} `;
                 
                 const ulCompanies = document.getElementById('res-companies');
                 ulCompanies.innerHTML = data.companies.map(c => `<li>${c}</li>`).join('');
