@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS - Nền Tảng Mô Phỏng Phỏng Vấn Tương Lai</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Configuration & Custom Styles -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Orbitron', 'sans-serif'],
+                        tech: ['Rajdhani', 'sans-serif'],
+                    },
+                    colors: {
+                        neon: {
+                            blue: '#00f3ff',
+                            purple: '#bc13fe',
+                            green: '#00ff66',
+                            red: '#ff003c'
+                        },
+                        dark: {
+                            bg: '#0a0a0f',
+                            panel: 'rgba(20, 20, 30, 0.7)',
+                            border: '#1f1f2e'
+                        },
+                        light: {
+                            bg: '#f0f4f8',
+                            panel: 'rgba(255, 255, 255, 0.9)',
+                            border: '#e2e8f0'
+                        }
+                    },
+                    boxShadow: {
+                        'neon-blue': '0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(0, 243, 255, 0.3)',
+                        'neon-purple': '0 0 10px rgba(188, 19, 254, 0.5), 0 0 20px rgba(188, 19, 254, 0.3)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* CSS tuỳ chỉnh cho hiệu ứng tương lai */
+        body {
+            transition: background-color 0.3s, color 0.3s;
+            overflow-x: hidden;
+        }
+
+        /* Nền tối (Mặc định) */
+        .dark body {
+            background-color: #0a0a0f;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(0, 243, 255, 0.05), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(188, 19, 254, 0.05), transparent 25%);
+            color: #e0e0e0;
+        }
+
+        /* Nền sáng */
+        .light body {
+            background-color: #f0f4f8;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(0, 150, 255, 0.05), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(150, 0, 255, 0.05), transparent 25%);
+            color: #333;
+        }
+
+        /* Glassmorphism Panel */
+        .glass-panel {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .dark .glass-panel {
+            background: rgba(20, 20, 30, 0.6);
+            border: 1px solid rgba(0, 243, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .light .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+        }
+
+        .glass-panel:hover {
+            border-color: rgba(0, 243, 255, 0.3);
+        }
+
+        /* Tùy chỉnh thanh cuộn */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        .dark ::-webkit-scrollbar-thumb { background: rgba(0, 243, 255, 0.2); border-radius: 10px; }
+        .light ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.2); border-radius: 10px; }
+        .dark ::-webkit-scrollbar-thumb:hover { background: rgba(0, 243, 255, 0.5); }
+
+        /* Nút Radio tương lai */
+        .cyber-radio input[type="radio"] { display: none; }
+        .cyber-radio label {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .dark .cyber-radio label {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .light .cyber-radio label {
+            background: rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .cyber-radio input[type="radio"]:checked + label {
+            transform: translateX(10px);
+        }
+        
+        .dark .cyber-radio input[type="radio"]:checked + label {
+            background: rgba(0, 243, 255, 0.1);
+            border-color: #00f3ff;
+            box-shadow: inset 4px 0 0 #00f3ff;
+            color: #fff;
+        }
+        .light .cyber-radio input[type="radio"]:checked + label {
+            background: rgba(0, 118, 255, 0.1);
+            border-color: #0076ff;
+            box-shadow: inset 4px 0 0 #0076ff;
+            color: #000;
+        }
+
+        /* Container biểu đồ chuẩn yêu cầu */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (max-width: 640px) {
+            .chart-container { height: 250px; }
+        }
+
+        /* Cắt chữ */
+        .text-glow { text-shadow: 0 0 10px rgba(0, 243, 255, 0.5); }
+        .dark .text-glow-purple { text-shadow: 0 0 10px rgba(188, 19, 254, 0.5); }
+        
+        /* Hiệu ứng loading bar */
+        .progress-bar-inner {
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            background: linear-gradient(90deg, #00f3ff, #bc13fe);
+        }
+
+        .hide { display: none !important; }
+    </style>
+
+    <!--
+    <!-- Chosen Palette: Cyberpunk Minimalist (Neon Blue #00f3ff, Neon Purple #bc13fe, Dark Void #0a0a0f, Light Contrast #f0f4f8) -->
+    <!-- Application Structure Plan: 
+         Hệ thống được thiết kế theo dạng Web App Đơn trang (SPA) với 3 trạng thái chính:
+         1. Dashboard/Home: Giới thiệu, cấu hình bài test (nền móng cho việc chọn Frontend/Backend sau này).
+         2. Trình giả lập phỏng vấn (Interview Room): Tập trung cao độ, hiển thị từng câu hỏi, có thanh tiến trình. Giao diện tối giản để tránh phân tâm.
+         3. Trung tâm phân tích (Analysis Hub): Báo cáo chi tiết dạng Dashboard. 
+            - Trực quan hoá bằng Biểu đồ Radar (Đánh giá năng lực các mảng).
+            - Trích xuất dữ liệu: Trình độ (Junior/Senior...), Mức lương ước tính (dựa trên điểm tổng và điểm mảng trọng yếu), Gợi ý công ty.
+            - Review chi tiết: Bộ lọc (Sai, Đúng, Tất cả) để người dùng học từ lỗi sai.
+         Kiến trúc này giúp người dùng đi từ việc hiểu mục đích -> thực hành -> nhận kết quả phân tích sâu mà không cần tải lại trang. -->
+    <!-- Visualization & Content Choices: 
+         - Đánh giá năng lực tổng quát -> Mục tiêu: So sánh các mảng kỹ năng -> Phương thức: Biểu đồ Radar (Chart.js/Canvas) -> Justification: Radar chart là công cụ tối ưu nhất để thể hiện hồ sơ năng lực (skill profile) của ứng viên trên nhiều khía cạnh.
+         - Phân tích chi tiết (Lương, Trình độ) -> Mục tiêu: Thông tin định lượng & định tính -> Phương thức: Khối văn bản động (JS update) có CSS nổi bật -> Justification: Hiển thị trực tiếp kết quả phân tích logic.
+         - Đánh giá từng câu hỏi -> Mục tiêu: Học tập -> Phương thức: Danh sách tương tác (HTML + JS filter) -> Justification: Cho phép người dùng chủ động xem lại những điểm yếu.
+         - Thống kê tổng -> Mục tiêu: Thông tin -> Phương thức: Vòng tròn tiến độ bằng CSS/HTML -> Justification: Trực quan, nhẹ nhàng. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. Sử dụng HTML/Tailwind styling và ký tự Unicode cho các biểu tượng. -->
+    -->
+</head>
+<body class="antialiased min-h-screen flex flex-col font-sans">
+
+    <!-- Navigation -->
+    <nav class="glass-panel sticky top-0 z-50 rounded-none border-t-0 border-l-0 border-r-0 border-b border-opacity-20 px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-2 cursor-pointer" onclick="app.navigate('home')">
+            <div class="w-8 h-8 rounded bg-gradient-to-br from-neon-blue to-neon-purple flex items-center justify-center text-white font-display font-bold text-xl">N</div>
+            <span class="font-display font-bold text-xl tracking-widest hidden sm:block dark:text-white">NEXUS</span>
+        </div>
+        
+        <div class="flex items-center gap-4">
+            <div id="nav-timer" class="hide font-tech text-neon-blue font-bold tracking-widest">00:00</div>
+            <button id="theme-toggle" class="p-2 rounded-full glass-panel hover:scale-110 transition-transform" onclick="app.toggleTheme()">
+                <span class="dark:hidden text-xl">🌙</span>
+                <span class="hidden dark:inline text-xl text-yellow-300">☀️</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="flex-grow container mx-auto px-4 py-8 max-w-6xl relative">
+
+        <!-- ==================== VIEW 1: HOME ==================== -->
+        <div id="view-home" class="view-section flex flex-col items-center justify-center min-h-[70vh] animate-fade-in">
+            <div class="text-center mb-12">
+                <h1 class="font-display text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-neon-blue to-neon-purple pb-2">NEXUS PROTOCOL</h1>
+                <p class="font-tech text-xl md:text-2xl text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">Hệ thống phân tích & mô phỏng phỏng vấn chuyên sâu. Đánh giá năng lực, dự đoán mức lương và định hướng sự nghiệp.</p>
+            </div>
+
+            <div class="glass-panel p-8 w-full max-w-3xl">
+                <h2 class="text-2xl font-display font-bold mb-6 border-b border-gray-700 pb-2 dark:text-white">Thiết lập giao thức</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <!-- Placeholder cho mở rộng sau này -->
+                    <div>
+                        <label class="block text-sm font-medium mb-2 text-gray-600 dark:text-gray-300">Vị trí ứng tuyển (Sắp ra mắt)</label>
+                        <select disabled class="w-full bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded p-3 text-gray-500 cursor-not-allowed">
+                            <option>Fullstack Developer (Mặc định)</option>
+                            <option>Frontend Developer</option>
+                            <option>Backend Developer</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2 text-gray-600 dark:text-gray-300">Thị trường (Sắp ra mắt)</label>
+                        <select disabled class="w-full bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded p-3 text-gray-500 cursor-not-allowed">
+                            <option>Toàn quốc (Mặc định)</option>
+                            <option>Hà Nội</option>
+                            <option>TP. Hồ Chí Minh</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-neon-blue p-4 mb-8 rounded">
+                    <p class="text-sm dark:text-gray-300">
+                        <strong class="dark:text-white">Thông tin bài kiểm tra:</strong> Bộ dữ liệu bao gồm 100 câu hỏi chuyên sâu được phân bổ qua 5 hạng mục: Cấu trúc dữ liệu & Giải thuật, Kiến trúc hệ thống, Frontend, Backend, và Cơ sở dữ liệu.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <button onclick="app.startInterview()" class="relative group inline-block py-3 px-8 font-display font-bold text-lg uppercase tracking-wider text-white">
+                        <span class="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-lg shadow-neon-blue group-hover:blur-sm transition-all duration-300"></span>
+                        <span class="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-lg"></span>
+                        <span class="relative z-10 flex items-center gap-2">Khởi động hệ thống <span class="text-2xl">⚡</span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ==================== VIEW 2: INTERVIEW ROOM ==================== -->
+        <div id="view-interview" class="view-section hide flex flex-col min-h-[70vh]">
+            <!-- Header bài test -->
+            <div class="mb-6">
+                <div class="flex justify-between items-end mb-2">
+                    <span class="font-tech text-sm text-gray-500 dark:text-gray-400 uppercase tracking-widest" id="q-category">Hạng mục: ...</span>
+                    <span class="font-display font-bold text-xl text-neon-purple" id="q-counter">1 / 100</span>
+                </div>
+                <!-- Progress Bar -->
+                <div class="w-full bg-gray-200 dark:bg-gray-800 h-2 rounded-full overflow-hidden">
+                    <div id="q-progress" class="progress-bar-inner h-full w-0"></div>
+                </div>
+            </div>
+
+            <!-- Question Area -->
+            <div class="glass-panel flex-grow p-6 md:p-10 flex flex-col justify-center">
+                <h2 id="q-text" class="text-2xl md:text-4xl font-medium leading-relaxed mb-10 dark:text-white">Đang tải dữ liệu...</h2>
+                
+                <div id="q-options" class="grid grid-cols-1 gap-4">
+                    <!-- Render options here via JS -->
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="mt-8 flex justify-between items-center">
+                <button id="btn-prev" onclick="app.prevQuestion()" class="px-6 py-2 rounded border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition disabled:opacity-50 disabled:cursor-not-allowed">
+                    &#8592; Quay lại
+                </button>
+                <button id="btn-next" onclick="app.nextQuestion()" class="px-8 py-3 rounded bg-gradient-to-r from-neon-blue to-neon-purple text-white font-bold hover:shadow-neon-blue transition">
+                    Tiếp tục &#8594;
+                </button>
+                <button id="btn-finish" onclick="app.finishInterview()" class="hide px-8 py-3 rounded bg-red-600 hover:bg-red-500 text-white font-bold shadow-[0_0_15px_rgba(255,0,0,0.5)] transition">
+                    Hoàn thành & Phân tích
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ==================== VIEW 3: RESULTS & ANALYSIS ==================== -->
+        <div id="view-results" class="view-section hide animate-fade-in">
+            <div class="text-center mb-10">
+                <h2 class="font-display text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neon-blue to-neon-purple mb-2">BÁO CÁO PHÂN TÍCH NĂNG LỰC</h2>
+                <p class="font-tech text-gray-500 dark:text-gray-400 text-lg">Dựa trên cơ sở dữ liệu 100 câu hỏi đánh giá chuyên sâu</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+                
+                <!-- Cột trái: Điểm số & Chuyên môn -->
+                <div class="lg:col-span-1 flex flex-col gap-8">
+                    <!-- Điểm tổng -->
+                    <div class="glass-panel p-6 flex flex-col items-center justify-center relative overflow-hidden">
+                        <div class="absolute -right-10 -top-10 w-32 h-32 bg-neon-blue rounded-full mix-blend-multiply filter blur-2xl opacity-20"></div>
+                        <h3 class="text-sm uppercase tracking-widest text-gray-500 dark:text-gray-400 mb-2">Điểm tổng hợp</h3>
+                        <div class="text-7xl font-display font-bold text-neon-blue" id="res-score-number">0%</div>
+                        <p class="mt-4 text-center text-sm dark:text-gray-300" id="res-score-text">...</p>
+                    </div>
+
+                    <!-- Đánh giá level -->
+                    <div class="glass-panel p-6">
+                        <h3 class="text-lg font-bold border-b border-gray-700 pb-2 mb-4 dark:text-white flex items-center gap-2">
+                            <span>🎯</span> Cấp độ chuyên môn
+                        </h3>
+                        <div class="text-2xl font-display font-bold text-neon-purple mb-2" id="res-level">Đang phân tích...</div>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed" id="res-level-desc">...</p>
+                    </div>
+
+                    <!-- Dự đoán lương -->
+                    <div class="glass-panel p-6 bg-gradient-to-br from-[rgba(0,243,255,0.05)] to-[rgba(188,19,254,0.05)] border-neon-blue border-opacity-30">
+                        <h3 class="text-lg font-bold pb-2 mb-2 dark:text-white flex items-center gap-2">
+                            <span>💰</span> Định giá thị trường
+                        </h3>
+                        <div class="text-3xl font-tech font-bold text-green-500 dark:text-green-400 mb-1" id="res-salary">0 - 0 VND</div>
+                        <p class="text-xs text-gray-500 uppercase tracking-wide">Mức lương đề xuất (Gross/Tháng)</p>
+                        
+                        <div class="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                            <h4 class="text-sm font-bold mb-2 dark:text-white">Môi trường phù hợp:</h4>
+                            <ul id="res-companies" class="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc list-inside">
+                                <!-- Điền bằng JS -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cột phải: Biểu đồ & Chi tiết hạng mục -->
+                <div class="lg:col-span-2 flex flex-col gap-8">
+                    <!-- Biểu đồ Radar -->
+                    <div class="glass-panel p-6 flex flex-col items-center">
+                        <h3 class="text-lg font-bold border-b border-gray-700 pb-2 w-full mb-4 dark:text-white">Phân tích đa chiều</h3>
+                        <div class="chart-container w-full flex justify-center">
+                            <canvas id="radarChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Breakdown hạng mục -->
+                    <div class="glass-panel p-6">
+                        <h3 class="text-lg font-bold border-b border-gray-700 pb-2 mb-4 dark:text-white">Chi tiết năng lực lõi</h3>
+                        <div id="res-categories-breakdown" class="space-y-4">
+                            <!-- Render bằng JS: Tên mảng, Progress bar %, Text nhận xét -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review Section -->
+            <div class="glass-panel p-6 mt-8">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 pb-4 mb-6">
+                    <h3 class="text-2xl font-display font-bold dark:text-white mb-4 md:mb-0">Hồ sơ chi tiết (100 câu hỏi)</h3>
+                    
+                    <div class="flex bg-gray-200 dark:bg-gray-800 rounded p-1" id="review-filters">
+                        <button onclick="app.filterReview('all')" class="review-tab active px-4 py-1 rounded text-sm font-medium bg-white dark:bg-gray-600 shadow transition">Tất cả</button>
+                        <button onclick="app.filterReview('wrong')" class="review-tab px-4 py-1 rounded text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition">Câu sai</button>
+                        <button onclick="app.filterReview('correct')" class="review-tab px-4 py-1 rounded text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition">Câu đúng</button>
+                    </div>
+                </div>
+
+                <div id="review-list" class="space-y-6 max-h-[800px] overflow-y-auto pr-2">
+                    <!-- Render list câu hỏi bằng JS -->
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 mb-8">
+                <button onclick="app.navigate('home')" class="px-8 py-3 rounded border border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-dark-bg font-bold transition">
+                    &#8634; Thực hiện lại đánh giá
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Scripts -->
+    <script>
+        /**
+         * LÕI HỆ THỐNG NEXUS
+         * Sử dụng Vanilla JS thuần túy để quản lý trạng thái, xử lý 100 câu hỏi và kết xuất UI.
+         */
+
+        const app = {
+            state: {
+                view: 'home', // home, interview, results
+                theme: 'dark',
+                currentQuestion: 0,
+                answers: new Array(100).fill(null), // Lưu index đáp án người dùng chọn
+                timeStart: null,
+                timerInterval: null,
+                filterMode: 'all'
+            },
+            
+            data: {
+                categories: [
+                    { id: 'algo', name: 'Thuật toán & CTDL', color: '#00f3ff' },
+                    { id: 'arch', name: 'Kiến trúc & System Design', color: '#bc13fe' },
+                    { id: 'front', name: 'Frontend (Trình duyệt, JS lõi, UI)', color: '#00ff66' },
+                    { id: 'back', name: 'Backend (Network, Server, API)', color: '#ff003c' },
+                    { id: 'db', name: 'Cơ sở dữ liệu (SQL/NoSQL)', color: '#ffa500' }
+                ],
+                questions: [] // Sẽ được sinh tự động 100 câu ở hàm init
+            },
+
+            chartInstance: null,
+
+            init() {
+                this.generateMockQuestions(100);
+                this.checkSystemTheme();
+                this.updateView();
+            },
+
+            // --- NAVIGATION & THEME ---
+            navigate(viewName) {
+                this.state.view = viewName;
+                this.updateView();
+                window.scrollTo(0,0);
+            },
+
+            updateView() {
+                document.querySelectorAll('.view-section').forEach(el => el.classList.add('hide'));
+                document.getElementById(`view-${this.state.view}`).classList.remove('hide');
+
+                if (this.state.view === 'interview') {
+                    document.getElementById('nav-timer').classList.remove('hide');
+                    this.renderQuestion();
+                } else {
+                    document.getElementById('nav-timer').classList.add('hide');
+                    clearInterval(this.state.timerInterval);
+                }
+            },
+
+            toggleTheme() {
+                const html = document.documentElement;
+                if (html.classList.contains('dark')) {
+                    html.classList.remove('dark');
+                    html.classList.add('light');
+                    this.state.theme = 'light';
+                } else {
+                    html.classList.remove('light');
+                    html.classList.add('dark');
+                    this.state.theme = 'dark';
+                }
+                if (this.chartInstance) this.renderChart(); // Redraw chart for theme colors
+            },
+
+            checkSystemTheme() {
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+                    // Để giữ đúng phong cách Futuristic, mặc định luôn force dark trừ khi user bấm đổi.
+                    // Hàm này để sẵn cho việc mở rộng sau. Hiện tại class="dark" đã hardcode ở thẻ html.
+                }
+            },
+
+            // --- INTERVIEW LOGIC ---
+            startInterview() {
+                this.state.currentQuestion = 0;
+                this.state.answers = new Array(this.data.questions.length).fill(null);
+                this.state.timeStart = Date.now();
+                
+                this.navigate('interview');
+                
+                let seconds = 0;
+                this.state.timerInterval = setInterval(() => {
+                    seconds++;
+                    const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+                    const s = (seconds % 60).toString().padStart(2, '0');
+                    document.getElementById('nav-timer').innerText = `${m}:${s}`;
+                }, 1000);
+            },
+
+            renderQuestion() {
+                const idx = this.state.currentQuestion;
+                const total = this.data.questions.length;
+                const q = this.data.questions[idx];
+                const catName = this.data.categories.find(c => c.id === q.categoryId).name;
+
+                // Cập nhật Header
+                document.getElementById('q-counter').innerText = `${idx + 1} / ${total}`;
+                document.getElementById('q-category').innerText = `Hạng mục: ${catName}`;
+                document.getElementById('q-progress').style.width = `${((idx + 1) / total) * 100}%`;
+
+                // Nội dung câu hỏi
+                document.getElementById('q-text').innerText = q.text;
+
+                // Đáp án
+                const optionsContainer = document.getElementById('q-options');
+                optionsContainer.innerHTML = '';
+                
+                q.options.forEach((optText, optIdx) => {
+                    const isChecked = this.state.answers[idx] === optIdx;
+                    const html = `
+                        <div class="cyber-radio">
+                            <input type="radio" name="q-option" id="opt-${optIdx}" value="${optIdx}" ${isChecked ? 'checked' : ''} onchange="app.selectAnswer(${optIdx})">
+                            <label for="opt-${optIdx}">
+                                <span class="w-8 h-8 rounded-full border border-current flex items-center justify-center mr-4 flex-shrink-0 text-sm font-bold">${String.fromCharCode(65 + optIdx)}</span>
+                                <span class="text-lg">${optText}</span>
+                            </label>
+                        </div>
+                    `;
+                    optionsContainer.insertAdjacentHTML('beforeend', html);
+                });
+
+                // Controls
+                document.getElementById('btn-prev').disabled = (idx === 0);
+                
+                if (idx === total - 1) {
+                    document.getElementById('btn-next').classList.add('hide');
+                    document.getElementById('btn-finish').classList.remove('hide');
+                } else {
+                    document.getElementById('btn-next').classList.remove('hide');
+                    document.getElementById('btn-finish').classList.add('hide');
+                }
+            },
+
+            selectAnswer(optIndex) {
+                this.state.answers[this.state.currentQuestion] = optIndex;
+            },
+
+            nextQuestion() {
+                if (this.state.currentQuestion < this.data.questions.length - 1) {
+                    this.state.currentQuestion++;
+                    this.renderQuestion();
+                }
+            },
+
+            prevQuestion() {
+                if (this.state.currentQuestion > 0) {
+                    this.state.currentQuestion--;
+                    this.renderQuestion();
+                }
+            },
+
+            finishInterview() {
+                // Tự động điền random cho các câu chưa làm (để test logic 100 câu nhanh, thực tế không nên)
+                // this.state.answers = this.state.answers.map(a => a === null ? Math.floor(Math.random() * 4) : a);
+                
+                clearInterval(this.state.timerInterval);
+                this.calculateResults();
+                this.navigate('results');
+                this.renderResultsDashboard();
+            },
+
+            // --- DATA ANALYSIS (Lõi phân tích) ---
+            analysisData: {},
+
+            calculateResults() {
+                const totalQ = this.data.questions.length;
+                let totalCorrect = 0;
+                
+                // Khởi tạo biến đếm theo category
+                const catStats = {};
+                this.data.categories.forEach(c => {
+                    catStats[c.id] = { total: 0, correct: 0, percent: 0, name: c.name };
+                });
+
+                // Chấm điểm
+                this.data.questions.forEach((q, idx) => {
+                    catStats[q.categoryId].total++;
+                    if (this.state.answers[idx] === q.correct) {
+                        catStats[q.categoryId].correct++;
+                        totalCorrect++;
+                    }
+                });
+
+                // Tính % từng mảng
+                Object.keys(catStats).forEach(key => {
+                    catStats[key].percent = catStats[key].total > 0 
+                        ? Math.round((catStats[key].correct / catStats[key].total) * 100) 
+                        : 0;
+                });
+
+                const overallPercent = Math.round((totalCorrect / totalQ) * 100);
+
+                // --- PHÂN TÍCH LOGIC CHUYÊN MÔN & LƯƠNG ---
+                let level = "";
+                let levelDesc = "";
+                let salaryRange = "";
+                let companies = [];
+
+                // Logic Level
+                if (overallPercent < 40) {
+                    level = "Thực tập sinh / Fresher (Cần nỗ lực)";
+                    levelDesc = "Kiến thức nền tảng chưa vững. Cần ôn tập lại các khái niệm cơ bản về cấu trúc dữ liệu và cách hệ thống hoạt động.";
+                    salaryRange = "3,000,000 - 8,000,000";
+                    companies = ["Startup nhỏ", "Công ty Outsourcing quy mô nhỏ (Cần đào tạo thêm)"];
+                } else if (overallPercent >= 40 && overallPercent < 65) {
+                    level = "Junior Developer";
+                    levelDesc = "Có kiến thức nền, có thể tham gia vào dự án thực tế nhưng cần sự hướng dẫn của Senior. Cần đào sâu hơn về kiến trúc và tối ưu hóa.";
+                    salaryRange = "10,000,000 - 18,000,000";
+                    companies = ["FPT Software", "TMA Solutions", "Các công ty Product nội địa vừa"];
+                } else if (overallPercent >= 65 && overallPercent < 85) {
+                    level = "Middle Developer";
+                    levelDesc = "Nắm vững chuyên môn, có khả năng làm việc độc lập và giải quyết các bài toán kỹ thuật phức tạp. Có thể tối ưu hóa code ở mức cơ bản.";
+                    salaryRange = "25,000,000 - 45,000,000";
+                    companies = ["VNG", "Shopee", "Grab (Vị trí thường)", "KMS Technology"];
+                } else {
+                    level = "Senior / Expert";
+                    levelDesc = "Kiến thức sâu rộng, hiểu rõ bản chất hệ thống. Đủ khả năng thiết kế kiến trúc, giải quyết các bài toán scale lớn và dẫn dắt đội ngũ.";
+                    salaryRange = "50,000,000 - 100,000,000+";
+                    companies = ["Google", "Tiktok", "Shopee (Core Team)", "Grab (Core Team)", "Kỳ lân công nghệ"];
+                }
+
+                // Tinh chỉnh theo mảng mạnh nhất
+                let strongestCat = Object.keys(catStats).reduce((a, b) => catStats[a].percent > catStats[b].percent ? a : b);
+                let weakestCat = Object.keys(catStats).reduce((a, b) => catStats[a].percent < catStats[b].percent ? a : b);
+
+                if(overallPercent > 40) {
+                    levelDesc += ` <br><br><b>Điểm mạnh:</b> ${catStats[strongestCat].name}. <b>Cần cải thiện:</b> ${catStats[weakestCat].name}.`;
+                }
+
+                this.analysisData = {
+                    totalQ,
+                    totalCorrect,
+                    overallPercent,
+                    catStats,
+                    level,
+                    levelDesc,
+                    salaryRange,
+                    companies
+                };
+            },
+
+            // --- RENDER RESULTS ---
+            renderResultsDashboard() {
+                const data = this.analysisData;
+
+                // 1. Render Text Data
+                document.getElementById('res-score-number').innerText = `${data.overallPercent}%`;
+                document.getElementById('res-score-text').innerText = `Chính xác ${data.totalCorrect}/${data.totalQ} câu hỏi.`;
+                
+                document.getElementById('res-level').innerText = data.level;
+                document.getElementById('res-level-desc').innerHTML = data.levelDesc;
+                
+                document.getElementById('res-salary').innerText = `${data.salaryRange} VNĐ`;
+                
+                const ulCompanies = document.getElementById('res-companies');
+                ulCompanies.innerHTML = data.companies.map(c => `<li>${c}</li>`).join('');
+
+                // 2. Render Categories Breakdown (Progress bars)
+                const breakdownContainer = document.getElementById('res-categories-breakdown');
+                breakdownContainer.innerHTML = '';
+                
+                Object.values(data.catStats).forEach(cat => {
+                    let colorClass = 'bg-blue-500';
+                    if(cat.percent >= 80) colorClass = 'bg-green-500';
+                    else if(cat.percent <= 40) colorClass = 'bg-red-500';
+
+                    const html = `
+                        <div>
+                            <div class="flex justify-between text-sm mb-1 dark:text-gray-300">
+                                <span>${cat.name}</span>
+                                <span class="font-bold">${cat.percent}% (${cat.correct}/${cat.total})</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="${colorClass} h-2 rounded-full" style="width: ${cat.percent}%"></div>
+                            </div>
+                        </div>
+                    `;
+                    breakdownContainer.insertAdjacentHTML('beforeend', html);
+                });
+
+                // 3. Render Chart
+                this.renderChart();
+
+                // 4. Render Review List (Default 'all')
+                this.filterReview('all');
+            },
+
+            renderChart() {
+                const ctx = document.getElementById('radarChart').getContext('2d');
+                const data = this.analysisData.catStats;
+                
+                const labels = this.data.categories.map(c => c.name.split(' ')[0]); // Lấy từ đầu cho gọn
+                const dataPoints = this.data.categories.map(c => data[c.id].percent);
+
+                const isDark = this.state.theme === 'dark';
+                const gridColor = isDark ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+                const textColor = isDark ? '#a0aec0' : '#4a5568';
+                const themeColor = isDark ? 'rgba(0, 243, 255, 1)' : 'rgba(0, 118, 255, 1)';
+                const themeBg = isDark ? 'rgba(0, 243, 255, 0.2)' : 'rgba(0, 118, 255, 0.2)';
+
+                if (this.chartInstance) {
+                    this.chartInstance.destroy();
+                }
+
+                this.chartInstance = new Chart(ctx, {
+                    type: 'radar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Độ thuần thục (%)',
+                            data: dataPoints,
+                            backgroundColor: themeBg,
+                            borderColor: themeColor,
+                            pointBackgroundColor: themeColor,
+                            pointBorderColor: '#fff',
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: themeColor,
+                            borderWidth: 2,
+                        }]
+                    },
+                    options: {
+                        maintainAspectRatio: false, // Bắt buộc để CSS Container quản lý
+                        scales: {
+                            r: {
+                                angleLines: { color: gridColor },
+                                grid: { color: gridColor },
+                                pointLabels: {
+                                    color: textColor,
+                                    font: { family: 'Inter', size: 12 }
+                                },
+                                ticks: {
+                                    color: textColor,
+                                    backdropColor: 'transparent',
+                                    stepSize: 20,
+                                    max: 100,
+                                    min: 0
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                                backgroundColor: isDark ? 'rgba(0,0,0,0.8)' : 'rgba(255,255,255,0.8)',
+                                titleColor: isDark ? '#fff' : '#000',
+                                bodyColor: isDark ? '#fff' : '#000',
+                                padding: 10,
+                                borderColor: themeColor,
+                                borderWidth: 1
+                            }
+                        }
+                    }
+                });
+            },
+
+            // --- REVIEW SECTION ---
+            filterReview(mode) {
+                this.state.filterMode = mode;
+                
+                // Update tabs UI
+                document.querySelectorAll('.review-tab').forEach(el => {
+                    el.classList.remove('bg-white', 'dark:bg-gray-600', 'shadow', 'text-gray-900', 'dark:text-white');
+                    el.classList.add('text-gray-600', 'dark:text-gray-400');
+                });
+                
+                let activeIndex = 0;
+                if(mode === 'wrong') activeIndex = 1;
+                if(mode === 'correct') activeIndex = 2;
+                
+                const activeTab = document.querySelectorAll('.review-tab')[activeIndex];
+                activeTab.classList.remove('text-gray-600', 'dark:text-gray-400');
+                activeTab.classList.add('bg-white', 'dark:bg-gray-600', 'shadow', 'text-gray-900', 'dark:text-white');
+
+                // Render list
+                const container = document.getElementById('review-list');
+                container.innerHTML = '';
+
+                let count = 0;
+
+                this.data.questions.forEach((q, idx) => {
+                    const userAns = this.state.answers[idx];
+                    const isCorrect = userAns === q.correct;
+                    const isUnanswered = userAns === null;
+
+                    if (mode === 'wrong' && isCorrect) return;
+                    if (mode === 'correct' && !isCorrect) return;
+
+                    count++;
+
+                    let statusBadge = isCorrect 
+                        ? `<span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Chính xác</span>`
+                        : isUnanswered
+                            ? `<span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">Bỏ qua</span>`
+                            : `<span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Sai</span>`;
+
+                    let optionsHtml = q.options.map((opt, oIdx) => {
+                        let classStr = "text-gray-600 dark:text-gray-400";
+                        let icon = "○";
+                        
+                        if (oIdx === q.correct) {
+                            classStr = "text-green-600 dark:text-green-400 font-bold";
+                            icon = "✓";
+                        } else if (oIdx === userAns && !isCorrect) {
+                            classStr = "text-red-600 dark:text-red-400 line-through";
+                            icon = "✗";
+                        } else if (oIdx === userAns && isCorrect) {
+                            // User selected correct answer, already handled above
+                        }
+
+                        return `<div class="${classStr} flex items-start gap-2 mt-1">
+                                    <span class="w-4 inline-block">${icon}</span> 
+                                    <span>${opt}</span>
+                                </div>`;
+                    }).join('');
+
+                    const html = `
+                        <div class="p-4 rounded-lg bg-gray-50 dark:bg-[rgba(0,0,0,0.2)] border ${isCorrect ? 'border-green-200 dark:border-green-900/50' : 'border-red-200 dark:border-red-900/50'}">
+                            <div class="flex justify-between items-start mb-2">
+                                <h4 class="font-bold text-gray-800 dark:text-gray-200"><span class="text-gray-500 mr-2">#${idx+1}</span> ${q.text}</h4>
+                                ${statusBadge}
+                            </div>
+                            <div class="mt-3 text-sm">
+                                ${optionsHtml}
+                            </div>
+                            ${!isCorrect && !isUnanswered ? `<div class="mt-3 text-sm text-blue-600 dark:text-neon-blue bg-blue-50 dark:bg-blue-900/20 p-2 rounded"><b>Giải thích:</b> Đáp án đúng là <b>${q.options[q.correct]}</b>. Hãy ôn tập lại mảng <i>${this.data.categories.find(c=>c.id===q.categoryId).name}</i>.</div>` : ''}
+                        </div>
+                    `;
+                    container.insertAdjacentHTML('beforeend', html);
+                });
+
+                if(count === 0) {
+                    container.innerHTML = `<p class="text-center text-gray-500 italic py-8">Không có dữ liệu phù hợp với bộ lọc này.</p>`;
+                }
+            },
+
+            // --- DATA GENERATION (Tạo 100 câu hỏi mẫu) ---
+            generateMockQuestions(count) {
+                const templates = [
+                    { c: 'algo', t: "Độ phức tạp thời gian trung bình của thuật toán QuickSort là gì?", o: ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"], a: 1 },
+                    { c: 'algo', t: "Cấu trúc dữ liệu nào sử dụng cơ chế LIFO (Last In First Out)?", o: ["Queue", "Tree", "Stack", "Graph"], a: 2 },
+                    { c: 'arch', t: "Trong kiến trúc Microservices, Pattern nào dùng để quản lý giao tiếp phân tán?", o: ["MVC", "Singleton", "API Gateway", "Observer"], a: 2 },
+                    { c: 'arch', t: "Load Balancer có tác dụng chính là gì?", o: ["Bảo mật cơ sở dữ liệu", "Phân phối lưu lượng mạng đều cho các server", "Mã hóa dữ liệu", "Lưu trữ session"], a: 1 },
+                    { c: 'front', t: "Trong React, Hook nào dùng để thực hiện side effects?", o: ["useState", "useContext", "useEffect", "useReducer"], a: 2 },
+                    { c: 'front', t: "CSS Box Model bao gồm những thành phần nào từ trong ra ngoài?", o: ["Content, Padding, Border, Margin", "Content, Margin, Border, Padding", "Padding, Content, Margin, Border", "Margin, Border, Padding, Content"], a: 0 },
+                    { c: 'back', t: "Mã trạng thái HTTP 404 có nghĩa là gì?", o: ["Internal Server Error", "Unauthorized", "Not Found", "Bad Request"], a: 2 },
+                    { c: 'back', t: "RESTful API thường trả về dữ liệu định dạng nào phổ biến nhất?", o: ["XML", "JSON", "HTML", "YAML"], a: 1 },
+                    { c: 'db', t: "Trong SQL, lệnh nào dùng để lấy dữ liệu từ bảng?", o: ["GET", "SELECT", "FETCH", "PULL"], a: 1 },
+                    { c: 'db', t: "ACID properties trong database transaction viết tắt của?", o: ["Atomicity, Consistency, Isolation, Durability", "Active, Control, Insert, Delete", "Async, Callback, Interval, Delay", "All, Count, Index, Drop"], a: 0 },
+                ];
+
+                const generated = [];
+                // Sinh ngẫu nhiên dựa trên template để đủ 100 câu
+                for (let i = 0; i < count; i++) {
+                    // Chọn ngẫu nhiên 1 template
+                    const tmpl = templates[Math.floor(Math.random() * templates.length)];
+                    generated.push({
+                        id: i + 1,
+                        categoryId: tmpl.c,
+                        text: `[Câu ${i+1}] ${tmpl.t}`, // Thêm prefix để thấy nó sinh 100 câu
+                        options: [...tmpl.o], // Clone array
+                        correct: tmpl.a
+                    });
+                }
+                this.data.questions = generated;
+            }
+        };
+
+        // Khởi động ứng dụng khi DOM tải xong
+        document.addEventListener('DOMContentLoaded', () => {
+            app.init();
+        });
+
+    </script>
+</body>
+</html>
