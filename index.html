@@ -262,44 +262,107 @@
 
 
         <!-- ==================== VIEW 2: INTERVIEW ROOM ==================== -->
-        <div id="view-interview" class="view-section hide flex flex-col min-h-[70vh]">
-            <!-- Header bài test -->
-            <div class="mb-6">
-                <div class="flex justify-between items-end mb-2">
+        <div id="view-interview" class="view-section hide flex flex-col xl:flex-row gap-6 min-h-[70vh]">
+            
+            <!-- Left Panel: Main Question Area -->
+            <div class="flex-grow flex flex-col w-full xl:w-[75%] max-w-4xl relative">
+                <!-- Header bài test -->
+                <div class="mb-6 flex flex-col sm:flex-row sm:justify-between items-start sm:items-end gap-2">
                     <span class="font-tech text-sm text-gray-500 dark:text-gray-400 uppercase tracking-widest" id="q-category">Hạng mục: ...</span>
-                    <span class="font-display font-bold text-xl text-neon-purple" id="q-counter">1 / 100</span>
+                    <span class="font-display font-bold text-lg text-neon-purple xl:hidden self-end" id="q-counter-mobile">1 / 100</span>
                 </div>
                 <!-- Progress Bar -->
-                <div class="w-full bg-gray-200 dark:bg-gray-800 h-2 rounded-full overflow-hidden">
-                    <div id="q-progress" class="progress-bar-inner h-full w-0"></div>
+                <div class="w-full bg-gray-200 dark:bg-gray-800 h-2.5 rounded-full overflow-hidden mb-6 shadow-inner">
+                    <div id="q-progress" class="progress-bar-inner h-full w-0 transition-all duration-300 ease-out bg-gradient-to-r from-neon-blue to-neon-purple"></div>
+                </div>
+
+                <!-- Question Area -->
+                <div class="glass-panel flex-grow p-6 md:p-8 lg:p-10 flex flex-col relative rounded-2xl shadow-lg border border-gray-200/50 dark:border-white/10 backdrop-blur-md">
+                    <!-- Flag Badge in Corner -->
+                    <div id="q-flag-badge" class="absolute top-4 right-4 hidden bg-yellow-100 dark:bg-yellow-400/20 text-yellow-700 dark:text-yellow-400 border border-yellow-400/30 px-3 py-1.5 rounded-full text-xs font-bold flex items-center gap-1.5 shadow-sm transform transition-all duration-300">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"></path></svg>
+                        Đang phân vân
+                    </div>
+                    
+                    <h2 id="q-text" class="text-xl md:text-2xl lg:text-3xl lg:leading-[1.6] font-medium leading-relaxed mb-8 dark:text-white mt-4 xl:mt-2 text-gray-800 transition-colors duration-300">Đang tải dữ liệu...</h2>
+                    
+                    <div id="q-options" class="grid grid-cols-1 gap-3 md:gap-4 flex-grow mb-6">
+                        <!-- Render options here via JS -->
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-between items-center bg-white/40 dark:bg-black/20 p-4 rounded-xl border border-gray-200/50 dark:border-white/5 backdrop-blur-sm shadow-sm">
+                    <button id="btn-prev" onclick="app.prevQuestion()" class="w-full sm:w-auto px-6 py-3 rounded-xl border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 shadow-sm transition-all font-medium disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center gap-2 group">
+                        <svg class="w-4 h-4 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                        Quay lại
+                    </button>
+                    
+                    <button id="btn-flag" onclick="app.toggleFlag()" class="w-full sm:w-auto px-6 py-3 rounded-xl border-2 border-yellow-400/50 dark:border-yellow-500/50 text-yellow-700 dark:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-yellow-500/10 font-bold shadow-sm transition-all flex justify-center items-center gap-2 hover:scale-[1.02] active:scale-[0.98]">
+                        <svg class="w-5 h-5 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg>
+                        <span id="btn-flag-text">Đánh dấu Phân vân</span>
+                    </button>
+                    
+                    <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                        <button id="btn-next" onclick="app.nextQuestion()" class="w-full sm:w-auto px-8 py-3 rounded-xl bg-gradient-to-r from-neon-blue to-neon-purple text-white font-bold shadow-lg hover:shadow-[0_0_20px_rgba(0,243,255,0.4)] transition-all hover:-translate-y-0.5 active:translate-y-0 flex justify-center items-center gap-2 group">
+                            Tiếp tục
+                            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                        <button id="btn-finish" onclick="app.finishInterview()" class="hide w-full sm:w-auto px-8 py-3 rounded-xl bg-gradient-to-r from-red-600 to-rose-500 hover:from-red-500 hover:to-rose-400 text-white font-bold shadow-[0_0_15px_rgba(255,0,0,0.4)] transition-all hover:-translate-y-0.5 flex justify-center items-center gap-2 group">
+                            Nộp bài
+                            <svg class="w-4 h-4 transform group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <!-- Question Area -->
-            <div class="glass-panel flex-grow p-6 md:p-10 flex flex-col justify-center">
-                <h2 id="q-text" class="text-2xl md:text-4xl font-medium leading-relaxed mb-10 dark:text-white">Đang tải dữ liệu...</h2>
-                
-                <div id="q-options" class="grid grid-cols-1 gap-4">
-                    <!-- Render options here via JS -->
+            <!-- Right Panel: Navigator Grid -->
+            <!-- Mobile: Toggleable drawer; Desktop: Sticky Sidebar -->
+            <div class="w-full xl:w-[25%] flex flex-col">
+                <div class="glass-panel p-4 flex flex-col xl:sticky xl:top-24 xl:h-[calc(100vh-8rem)] rounded-2xl shadow-lg border border-gray-200/50 dark:border-white/10 z-10 transition-all duration-300">
+                    <div class="flex justify-between items-center mb-4 border-b border-gray-200/60 dark:border-gray-700/60 pb-3 cursor-pointer xl:cursor-default" onclick="if(window.innerWidth < 1280) app.toggleGridMobile()">
+                        <h3 class="font-display font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                            <svg class="w-5 h-5 text-neon-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+                            Danh Sách 100 Câu
+                        </h3>
+                        <span class="font-display font-bold text-lg text-neon-purple hidden xl:block" id="q-counter-desktop">1 / 100</span>
+                        
+                        <!-- Mobile Toggle Button -->
+                        <button id="btn-toggle-grid" class="xl:hidden p-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 transition-colors flex items-center">
+                            <span class="font-bold text-sm mr-2 text-neon-purple" id="q-counter-mobile-toggle">1/100</span>
+                            <svg class="w-5 h-5 transition-transform duration-300" id="icon-toggle-grid" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                    </div>
+                    
+                    <div id="grid-content" class="flex flex-col xl:flex-grow flex-grow-0 overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 xl:!max-h-[1000px] xl:!opacity-100">
+                        <!-- Legend -->
+                        <div class="flex flex-wrap gap-x-3 gap-y-2 mb-4 text-[11px] sm:text-xs font-tech text-gray-600 dark:text-gray-400 justify-center xl:justify-start">
+                            <div class="flex items-center gap-1.5"><div class="w-3 h-3 rounded-sm bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-600"></div> Chưa làm</div>
+                            <div class="flex items-center gap-1.5"><div class="w-3 h-3 rounded-sm bg-green-500/20 border border-green-500 text-green-500 flex items-center justify-center"><svg class="w-2 h-2 opacity-80" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg></div> Đã làm</div>
+                            <div class="flex items-center gap-1.5"><div class="w-3 h-3 rounded-sm bg-neon-blue border border-neon-blue shadow-[0_0_5px_rgba(0,243,255,0.6)]"></div> Đang chọn</div>
+                            <div class="flex items-center gap-1.5"><div class="w-3 h-3 rounded-sm bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 relative"><div class="absolute right-0 top-0 -mt-1 -mr-1 w-2 h-2 rounded-full bg-yellow-400 shadow-[0_0_5px_rgba(250,204,21,1)]"></div></div> Phân vân</div>
+                        </div>
+                        
+                        <style>
+                            .custom-scrollbar::-webkit-scrollbar { width: 5px; }
+                            .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+                            .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(156, 163, 175, 0.4); border-radius: 10px; }
+                            .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(107, 114, 128, 0.6); }
+                        </style>
+                        
+                        <!-- Grid Matrix -->
+                        <div class="flex-grow overflow-y-auto pr-2 pb-4 custom-scrollbar">
+                            <div id="q-nav-grid" class="grid grid-cols-5 sm:grid-cols-10 xl:grid-cols-5 gap-1.5 auto-rows-max pb-2">
+                                <!-- JS generates buttons here -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <!-- Controls -->
-            <div class="mt-8 flex justify-between items-center">
-                <button id="btn-prev" onclick="app.prevQuestion()" class="px-6 py-2 rounded border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition disabled:opacity-50 disabled:cursor-not-allowed">
-                    &#8592; Quay lại
-                </button>
-                <button id="btn-next" onclick="app.nextQuestion()" class="px-8 py-3 rounded bg-gradient-to-r from-neon-blue to-neon-purple text-white font-bold hover:shadow-neon-blue transition">
-                    Tiếp tục &#8594;
-                </button>
-                <button id="btn-finish" onclick="app.finishInterview()" class="hide px-8 py-3 rounded bg-red-600 hover:bg-red-500 text-white font-bold shadow-[0_0_15px_rgba(255,0,0,0.5)] transition">
-                    Hoàn thành & Phân tích
-                </button>
             </div>
         </div>
 
-
         <!-- ==================== VIEW 3: RESULTS & ANALYSIS ==================== -->
+<!-- ==================== VIEW 3: RESULTS & ANALYSIS ==================== -->
         <div id="view-results" class="view-section hide animate-fade-in">
             <div class="text-center mb-10">
                 <h2 class="font-display text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neon-blue to-neon-purple mb-2">BÁO CÁO PHÂN TÍCH NĂNG LỰC</h2>
@@ -403,6 +466,7 @@
                 theme: 'dark',
                 currentQuestion: 0,
                 answers: new Array(100).fill(null), // Lưu index đáp án người dùng chọn
+                flags: new Array(100).fill(false), // Flag trạng thái phân vân
                 timeStart: null,
                 timerInterval: null,
                 filterMode: 'all'
@@ -410,19 +474,21 @@
             
             data: {
                 categories: [
-                    { id: 'algo', name: 'Thuật toán & CTDL', color: '#00f3ff' },
-                    { id: 'arch', name: 'Kiến trúc & System Design', color: '#bc13fe' },
-                    { id: 'front', name: 'Frontend (Trình duyệt, JS lõi, UI)', color: '#00ff66' },
-                    { id: 'back', name: 'Backend (Network, Server, API)', color: '#ff003c' },
-                    { id: 'db', name: 'Cơ sở dữ liệu (SQL/NoSQL)', color: '#ffa500' }
+                    { id: 'c1', name: 'Kiến trúc Frontend, Trình duyệt và Hệ sinh thái React', color: '#00f3ff' },
+                    { id: 'c2', name: 'Lập trình Backend, Môi trường Node.js và Tối ưu hóa API', color: '#bc13fe' },
+                    { id: 'c3', name: 'Thiết kế Hệ thống và Kiến trúc Vi dịch vụ (Microservices)', color: '#00ff66' },
+                    { id: 'c4', name: 'Điện toán Đám mây và Tự động hóa CI/CD', color: '#ff003c' },
+                    { id: 'c5', name: 'An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp', color: '#ffa500' },
+                    { id: 'c6', name: 'Đánh giá Hành vi và Xử lý Tình huống (SJT)', color: '#ffff00' },
+                    { id: 'c7', name: 'Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu', color: '#ff00ff' }
                 ],
                 questions: [] // Sẽ được sinh tự động 100 câu ở hàm init
             },
 
             chartInstance: null,
 
-            init() {
-                this.generateMockQuestions(100);
+            async init() {
+                await this.loadQuestions();
                 this.checkSystemTheme();
                 this.updateView();
             },
@@ -492,9 +558,28 @@
                 const catName = this.data.categories.find(c => c.id === q.categoryId).name;
 
                 // Cập nhật Header
-                document.getElementById('q-counter').innerText = `${idx + 1} / ${total}`;
-                document.getElementById('q-category').innerText = `Hạng mục: ${catName}`;
+                document.getElementById('q-counter-desktop').innerText = `${idx + 1} / ${total}`;
+                document.getElementById('q-counter-mobile').innerText = `${idx + 1} / ${total}`;
+                document.getElementById('q-counter-mobile-toggle').innerText = `${idx + 1} / ${total}`;
+                document.getElementById('q-category').innerText = `${catName}`;
                 document.getElementById('q-progress').style.width = `${((idx + 1) / total) * 100}%`;
+
+                // Flag Badge & Button
+                const isFlagged = this.state.flags[idx];
+                const badge = document.getElementById('q-flag-badge');
+                if(isFlagged) {
+                    badge.classList.remove('hidden');
+                    document.getElementById('btn-flag').classList.add('bg-yellow-50', 'dark:bg-yellow-500/10');
+                    document.getElementById('btn-flag-text').innerText = 'Bỏ Phân vân';
+                } else {
+                    badge.classList.add('hidden');
+                    document.getElementById('btn-flag').classList.remove('bg-yellow-50', 'dark:bg-yellow-500/10');
+                    document.getElementById('btn-flag-text').innerText = 'Đánh dấu Phân vân';
+                }
+                
+                // RENDER GRID
+                this.renderGrid();
+
 
                 // Nội dung câu hỏi
                 document.getElementById('q-text').innerText = q.text;
@@ -531,6 +616,76 @@
 
             selectAnswer(optIndex) {
                 this.state.answers[this.state.currentQuestion] = optIndex;
+                this.renderGrid(); // Update grid state to "Đã làm"
+            },
+            
+            toggleFlag() {
+                const idx = this.state.currentQuestion;
+                this.state.flags[idx] = !this.state.flags[idx];
+                this.renderQuestion(); // Re-render to show/hide badge
+            },
+
+            jumpToQuestion(idx) {
+                this.state.currentQuestion = idx;
+                this.renderQuestion();
+            },
+
+            toggleGridMobile() {
+                const content = document.getElementById('grid-content');
+                const icon = document.getElementById('icon-toggle-grid');
+                if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+                    content.style.maxHeight = '0px';
+                    content.style.opacity = '0';
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    content.style.maxHeight = '1000px';
+                    content.style.opacity = '1';
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            },
+
+            renderGrid() {
+                const grid = document.getElementById('q-nav-grid');
+                if (!grid) return;
+                
+                grid.innerHTML = '';
+                for (let i = 0; i < this.data.questions.length; i++) {
+                    const btn = document.createElement('button');
+                    
+                    btn.className = `w-full aspect-square rounded-md sm:rounded-lg font-tech font-bold text-[10px] sm:text-xs xl:text-sm flex items-center justify-center transition-all duration-200 border relative hover:scale-105 `;
+                    
+                    const isAnswered = this.state.answers[i] !== null;
+                    const isCurrent = i === this.state.currentQuestion;
+                    const isFlagged = this.state.flags[i];
+                    
+                    if (isCurrent) {
+                        btn.className += `bg-neon-blue text-white border-neon-blue shadow-[0_0_8px_rgba(0,243,255,0.6)] z-10 `;
+                    } else if (isAnswered) {
+                        btn.className += `bg-green-500/10 dark:bg-green-500/20 text-green-600 dark:text-green-400 border-green-500/50 hover:bg-green-500/20 `;
+                    } else {
+                        btn.className += `bg-gray-50 dark:bg-gray-800/80 text-gray-500 dark:text-gray-400 border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700 `;
+                    }
+                    
+                    if (isFlagged) {
+                        const dot = document.createElement('div');
+                        dot.className = `absolute right-0 top-0 w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-yellow-400 shadow-[0_0_5px_rgba(250,204,21,1)] transform translate-x-1/3 -translate-y-1/3 z-20`;
+                        btn.appendChild(dot);
+                        
+                        if (!isCurrent && !isAnswered) {
+                            btn.className += `border-yellow-400/50 `;
+                        }
+                    }
+                    
+                    btn.innerHTML += (i + 1);
+                    btn.onclick = () => {
+                        this.jumpToQuestion(i);
+                        if(window.innerWidth < 1280) {
+                            this.toggleGridMobile(); // auto close on mobile
+                        }
+                    };
+                    
+                    grid.appendChild(btn);
+                }
             },
 
             nextQuestion() {
@@ -831,34 +986,25 @@
             },
 
             // --- DATA GENERATION (Tạo 100 câu hỏi mẫu) ---
-            generateMockQuestions(count) {
-                const templates = [
-                    { c: 'algo', t: "Độ phức tạp thời gian trung bình của thuật toán QuickSort là gì?", o: ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"], a: 1 },
-                    { c: 'algo', t: "Cấu trúc dữ liệu nào sử dụng cơ chế LIFO (Last In First Out)?", o: ["Queue", "Tree", "Stack", "Graph"], a: 2 },
-                    { c: 'arch', t: "Trong kiến trúc Microservices, Pattern nào dùng để quản lý giao tiếp phân tán?", o: ["MVC", "Singleton", "API Gateway", "Observer"], a: 2 },
-                    { c: 'arch', t: "Load Balancer có tác dụng chính là gì?", o: ["Bảo mật cơ sở dữ liệu", "Phân phối lưu lượng mạng đều cho các server", "Mã hóa dữ liệu", "Lưu trữ session"], a: 1 },
-                    { c: 'front', t: "Trong React, Hook nào dùng để thực hiện side effects?", o: ["useState", "useContext", "useEffect", "useReducer"], a: 2 },
-                    { c: 'front', t: "CSS Box Model bao gồm những thành phần nào từ trong ra ngoài?", o: ["Content, Padding, Border, Margin", "Content, Margin, Border, Padding", "Padding, Content, Margin, Border", "Margin, Border, Padding, Content"], a: 0 },
-                    { c: 'back', t: "Mã trạng thái HTTP 404 có nghĩa là gì?", o: ["Internal Server Error", "Unauthorized", "Not Found", "Bad Request"], a: 2 },
-                    { c: 'back', t: "RESTful API thường trả về dữ liệu định dạng nào phổ biến nhất?", o: ["XML", "JSON", "HTML", "YAML"], a: 1 },
-                    { c: 'db', t: "Trong SQL, lệnh nào dùng để lấy dữ liệu từ bảng?", o: ["GET", "SELECT", "FETCH", "PULL"], a: 1 },
-                    { c: 'db', t: "ACID properties trong database transaction viết tắt của?", o: ["Atomicity, Consistency, Isolation, Durability", "Active, Control, Insert, Delete", "Async, Callback, Interval, Delay", "All, Count, Index, Drop"], a: 0 },
-                ];
-
-                const generated = [];
-                // Sinh ngẫu nhiên dựa trên template để đủ 100 câu
-                for (let i = 0; i < count; i++) {
-                    // Chọn ngẫu nhiên 1 template
-                    const tmpl = templates[Math.floor(Math.random() * templates.length)];
-                    generated.push({
-                        id: i + 1,
-                        categoryId: tmpl.c,
-                        text: `[Câu ${i+1}] ${tmpl.t}`, // Thêm prefix để thấy nó sinh 100 câu
-                        options: [...tmpl.o], // Clone array
-                        correct: tmpl.a
-                    });
+            async loadQuestions() {
+                try {
+                    const response = await fetch('./questions.json');
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const questionDatabase = await response.json();
+                    
+                    // Nền móng cho việc mở rộng sau này: Lọc theo vị trí hoặc khu vực
+                    // const selectedRole = document.getElementById('role-select')?.value || 'all';
+                    // this.data.questions = questionDatabase.filter(q => q.job_role === selectedRole || q.job_role === 'all');
+                    
+                    // Hiện tại: Gán toàn bộ 100 câu hỏi vào data
+                    this.data.questions = questionDatabase;
+                } catch (error) {
+                    console.error("Lỗi khi tải câu hỏi:", error);
+                    // Có thể xử lý khi lỗi tải JSON hoặc render mock data fallback ở đây
+                    this.data.questions = [];
                 }
-                this.data.questions = generated;
             }
         };
 
