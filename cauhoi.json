@@ -1,0 +1,761 @@
+Kiến trúc Frontend, Trình duyệt và Hệ sinh thái React
+Sự phức tạp của các ứng dụng web một trang (Single-Page Applications - SPA) đòi hỏi các kỹ sư Frontend không chỉ thành thạo về cú pháp mà còn phải thấu hiểu cơ chế hoạt động sâu bên trong (under-the-hood) của trình duyệt và các engine JavaScript. Các công ty công nghệ hàng đầu đặc biệt tập trung vào khả năng tối ưu hóa luồng dữ liệu và chu kỳ kết xuất (rendering cycle) của ứng viên.4
+Số Thứ Tự
+Câu Hỏi Đánh Giá Năng Lực
+Các Lựa Chọn Khả Thi
+Đáp Án
+1
+Trong kiến trúc bộ nhớ JavaScript, kết quả của biểu thức typeof null trả về giá trị nào?
+A) null
+B) undefined
+C) object
+D) boolean
+C
+2
+Tính năng "Closure" (Bao đóng) trong JavaScript cung cấp cơ chế kỹ thuật nào?
+A) Ràng buộc từ khóa this vào một đối tượng cục bộ.
+B) Cho phép một hàm truy cập và ghi nhớ các biến từ phạm vi từ vựng (lexical scope) bên ngoài của nó ngay cả khi hàm ngoài đã thực thi xong.
+C) Chỉ định nghĩa các biến private.
+D) Tiêu hủy phạm vi của hàm khỏi bộ nhớ.
+B
+3
+Phương thức tiêu chuẩn nào được sử dụng để chuyển đổi một chuỗi định dạng JSON (nhận từ API) thành một đối tượng JavaScript có thể thao tác?
+A) JSON.toObject()
+B) JSON.stringify()
+C) JSON.parse()
+D) JSON.convert()
+C
+4
+Theo tiêu chuẩn ES6, đặc tính cốt lõi nào làm cho Arrow Functions khác biệt với hàm truyền thống trong việc xử lý ngữ cảnh?
+A) Chúng sở hữu ngữ cảnh this độc lập.
+B) Chúng có thể được sử dụng làm hàm khởi tạo (constructors).
+C) Chúng không tự liên kết (bind) ngữ cảnh this của chính nó mà kế thừa từ phạm vi bao quanh.
+D) Chúng yêu cầu sử dụng từ khóa function tường minh.
+C
+5
+Vòng lặp sự kiện (Event Loop) của trình duyệt xử lý sự ưu tiên giữa hàng đợi Microtask và Macrotask như thế nào?
+A) Macrotasks luôn được ưu tiên xử lý trước Microtasks để giải phóng bộ nhớ.
+B) Hệ thống xử lý toàn bộ Microtasks (như Promise callbacks) cho đến khi hàng đợi trống trước khi chuyển sang Macrotask tiếp theo.
+C) Microtasks và Macrotasks được xử lý hoàn toàn song song đa luồng.
+D) Hàng đợi được xử lý ngẫu nhiên tùy thuộc vào mức độ tải của CPU.
+B
+6
+Thư viện React.js tối ưu hóa hiệu suất cập nhật giao diện người dùng thông qua cơ chế trừu tượng hóa nào?
+A) Cập nhật trực tiếp mọi thay đổi lên Real DOM.
+B) Sử dụng Shadow DOM để cô lập CSS.
+C) Duy trì một Virtual DOM trong bộ nhớ và áp dụng thuật toán đối chiếu (Diffing).
+D) Tải lại toàn bộ trang web thông qua SSR.
+C
+7
+Khi mục tiêu kiến trúc là thay thế Redux để quản lý các trạng thái phức tạp, phụ thuộc lẫn nhau, Hook nào nên được ưu tiên sử dụng?
+A) useEffect
+B) useMemo
+C) useReducer
+D) useContext
+C
+8
+Tiện ích nào trong React cung cấp khả năng phân tách mã (Code-splitting) nguyên bản để tải các thành phần theo yêu cầu (lazy loading)?
+A) React.memo
+B) React.lazy
+C) React.Suspense
+D) React.split
+B
+9
+Để đảm bảo trình duyệt hoàn tất việc vẽ (paint) giao diện trước khi thực thi một hiệu ứng phụ, ngăn chặn hiện tượng nhấp nháy giao diện (flickering), lập trình viên phải sử dụng Hook nào?
+A) useEffect
+B) useLayoutEffect
+C) useCallback
+D) useRef
+B
+10
+Trong mô hình Uncontrolled Components của React, nguồn dữ liệu gốc (source of truth) được duy trì tại đâu?
+A) Trạng thái (State) của Component.
+B) Redux Store cấp cao nhất.
+C) Bản thân cấu trúc DOM thực tế.
+D) LocalStorage của trình duyệt.
+C
+11
+Kiến trúc Flux áp đặt quy tắc nào để đảm bảo tính nhất quán của dữ liệu trên toàn bộ ứng dụng quy mô lớn?
+A) Luồng dữ liệu hai chiều (Bi-directional).
+B) Luồng dữ liệu một chiều theo thứ tự: Action -> Dispatcher -> Store -> View.
+C) Luồng dữ liệu vòng tròn: View -> Store -> Dispatcher -> Action.
+D) Định tuyến ngang hàng (Peer-to-peer routing) giữa các thành phần.
+B
+12
+Trong cú pháp mở rộng JSX, thuộc tính nào được sử dụng để thay thế cho thuộc tính class của HTML chuẩn nhằm tránh xung đột từ khóa?
+A) class
+B) classType
+C) className
+D) style
+C
+13
+Phương thức vòng đời (Lifecycle method) nào cho phép nhà phát triển chặn một Component cập nhật không cần thiết khi dữ liệu không thực sự thay đổi?
+A) componentDidUpdate
+B) componentWillUnmount
+C) shouldComponentUpdate
+D) getDerivedStateFromProps
+C
+14
+Mặc định, công cụ máy chủ phát triển Webpack (webpack-dev-server) lắng nghe các yêu cầu trên cổng (port) mạng nào?
+A) 3000
+B) 8080
+C) 4200
+D) 5000
+B
+15
+Ngôn ngữ đánh dấu nền tảng nào chịu trách nhiệm định nghĩa cấu trúc phân cấp tĩnh cốt lõi của một ứng dụng Web?
+A) Cascading Style Sheets (CSS)
+B) HyperText Markup Language (HTML)
+C) Extensible Markup Language (XML)
+D) JavaScript (JS)
+B
+Việc phân tích các câu hỏi từ 1 đến 15 bộc lộ một triết lý rõ ràng trong cách các tập đoàn công nghệ lớn đánh giá nhân sự Frontend: sự chuyển dịch từ việc chỉ biết sử dụng công cụ sang việc hiểu thấu đáo cơ chế hoạt động của nền tảng.5 Chẳng hạn, câu hỏi về typeof null trả về object không chỉ là một câu đố mẹo, mà nó kiểm tra nhận thức của lập trình viên về các di sản thiết kế (legacy design flaws) trong bộ máy biên dịch của JavaScript.7 Tương tự, việc nắm vững cơ chế của Bao đóng (Closures) và ngữ cảnh từ vựng (lexical scoping) của Arrow Functions là điều kiện tiên quyết để xây dựng các kiến trúc hướng sự kiện không bị rò rỉ bộ nhớ hoặc mất bối cảnh thực thi khi gọi lại các hàm bất đồng bộ.7
+Hơn thế nữa, sự hiểu biết về Vòng lặp Sự kiện (Event Loop), cụ thể là sự ưu tiên tuyệt đối của Microtask queue so với Macrotask queue, là ranh giới phân định giữa một kỹ sư trung cấp và cao cấp.4 Khi xây dựng các ứng dụng giao dịch tài chính hoặc phát trực tuyến có độ trễ thấp, việc để một Promise nặng chặn luồng xử lý UI có thể dẫn đến trải nghiệm người dùng tồi tệ. Khía cạnh này được củng cố thêm qua các câu hỏi về hệ sinh thái React. Thay vì hỏi cách viết mã React đơn thuần, các nhà tuyển dụng xoáy sâu vào lý do kiến trúc: tại sao Virtual DOM giải quyết được nút thắt cổ chai của thao tác DOM thực, hoặc tại sao useLayoutEffect lại quan trọng hơn useEffect trong việc tính toán tọa độ phần tử trước khi trình duyệt thực hiện quá trình vẽ (paint).8 Sự khác biệt tinh tế này đảm bảo rằng ứng viên có khả năng gỡ lỗi các vấn đề giật lag giao diện ở mức độ phần nghìn giây. Cuối cùng, việc hiểu rõ các mô hình kiến trúc như Flux (với luồng dữ liệu đơn hướng Action -> Dispatcher -> Store -> View) hoặc phân tách mã thông qua React.lazy chứng tỏ khả năng thiết kế ứng dụng có khả năng mở rộng, dễ bảo trì và tối ưu hóa thời gian tải ban đầu (Time to Interactive) cho người dùng toàn cầu.8
+Lập trình Backend, Môi trường Node.js và Tối ưu hóa API
+Tầng phụ trợ (Backend) là xương sống của bất kỳ hệ thống phân tán nào. Đánh giá năng lực tại khu vực này tập trung vào kỹ năng thiết kế API RESTful, quản lý luồng dữ liệu không đồng bộ, và khả năng cấu hình các framework máy chủ để chịu tải cao.6
+Số Thứ Tự
+Câu Hỏi Đánh Giá Năng Lực
+Các Lựa Chọn Khả Thi
+Đáp Án
+16
+Nền tảng Node.js giải quyết bài toán xử lý hàng chục ngàn kết nối đồng thời (C10K problem) dựa trên mô hình kiến trúc cốt lõi nào?
+A) Mô hình đa luồng truyền thống (Multi-threaded) cấp phát luồng cho mỗi yêu cầu.
+B) Kiến trúc hướng sự kiện, đơn luồng (Single-threaded Event-driven) kết hợp non-blocking I/O.
+C) Đa tiến trình song song cô lập (Parallel Processing).
+D) Sử dụng hoàn toàn bộ nhớ cache cục bộ.
+B
+17
+Trong cấu trúc phức tạp của Vòng lặp Sự kiện (Event Loop) Node.js, giai đoạn nào chịu trách nhiệm ưu tiên thực thi các lệnh gọi lại (callbacks) được lên lịch bởi setTimeout và setInterval?
+A) Poll phase.
+B) Check phase.
+C) Timers phase.
+D) Close callbacks phase.
+C
+18
+Giai đoạn 'poll' (bỏ phiếu) trong Event Loop của hệ thống Node.js thực hiện nhiệm vụ chức năng gì?
+A) Tính toán các bộ hẹn giờ đã hết hạn.
+B) Khởi tạo các nhóm luồng (thread pools) cơ sở dữ liệu.
+C) Xử lý các sự kiện mạng đang chờ xử lý và thực thi các I/O callbacks trong hàng đợi của nó.
+D) Thu gom rác bộ nhớ (Garbage collection).
+C
+19
+Kiến trúc phần mềm MERN stack cung cấp một hệ sinh thái đồng nhất từ đầu đến cuối dựa trên các công nghệ nào?
+A) Microsoft Windows, Express.js, Research Unix, Nox.js.
+B) MongoDB, Express.js, ReactJS, Node.js.
+C) MySQL, Express.js, Ruby, Node.js.
+D) MongoDB, E2 Linux, ReactJS, Node.js.
+B
+20
+Trong hệ sinh thái MEAN/MERN, framework Express.js đảm nhận vai trò thiết kế nào?
+A) Hệ quản trị cơ sở dữ liệu phi tập trung.
+B) Trình biên dịch mã máy.
+C) Framework ứng dụng Web hỗ trợ định tuyến (routing) và phần mềm trung gian (middleware).
+D) Thư viện giao diện người dùng.
+C
+21
+Ràng buộc "Stateless" (Vô trạng thái) trong nguyên tắc thiết kế kiến trúc REST API mang ý nghĩa cơ bản gì?
+A) API hoàn toàn mở và không yêu cầu bất kỳ giao thức chứng thực nào.
+B) Máy chủ không lưu trữ bất kỳ trạng thái phiên (session state) nào của client; mỗi yêu cầu phải chứa toàn bộ thông tin cần thiết để xử lý.
+C) Hệ thống không tương tác với hệ quản trị cơ sở dữ liệu.
+D) Dữ liệu phản hồi luôn cố định và không thay đổi.
+B
+22
+Nhóm các thao tác cơ bản trên tài nguyên cơ sở dữ liệu liên tục thường được viết tắt bằng thuật ngữ CRUD, đại diện cho những hành động nào?
+A) Create, Read, Update, Delete.
+B) Compile, Run, Update, Deploy.
+C) Copy, Read, Upload, Download.
+D) Create, Restore, Unpack, Drop.
+A
+23
+Dựa trên chuẩn giao thức HTTP, mã trạng thái (Status Code) nào phản ánh chính xác nhất việc một tài nguyên mới vừa được tạo thành công trên máy chủ?
+A) 200 OK.
+B) 201 Created.
+C) 400 Bad Request.
+D) 204 No Content.
+B
+24
+Phương thức HTTP nào mang tính chất an toàn (safe) và lũy đẳng (idempotent), được thiết kế riêng để truy xuất tài nguyên mà không làm thay đổi trạng thái của máy chủ?
+A) POST.
+B) GET.
+C) PUT.
+D) DELETE.
+B
+25
+Trong framework Spring Boot, sự khác biệt kiến trúc cốt lõi giữa chú thích @Controller và @RestController là gì?
+A) @RestController là sự kết hợp tự động bao gồm cả chức năng của @Controller và @ResponseBody, trả dữ liệu trực tiếp về HTTP response.
+B) @Controller cung cấp hiệu suất truy vấn JSON cao hơn.
+C) @RestController chỉ được sử dụng cho giao tiếp gRPC.
+D) Không có sự khác biệt về luồng biên dịch kỹ thuật.
+A
+26
+Trong mẫu thiết kế kiến trúc phân tầng Model-View-Controller (MVC), thành phần nào đóng vai trò như một bộ não điều phối luồng dữ liệu?
+A) Model.
+B) View.
+C) Controller.
+D) Router.
+C
+27
+Cơ chế Auto-Configuration (Tự động cấu hình) mang tính cách mạng trong Spring Boot nhằm giải quyết điểm nghẽn nào trong chu trình phát triển?
+A) Quản lý cấp phát quyền truy cập mạng cục bộ.
+B) Tự động hóa việc suy luận và cấu hình các bean dựa trên các thư viện classpath đang hiện diện, giảm thiểu mã nồi hơi (boilerplate).
+C) Dọn dẹp bộ nhớ đệm ứng dụng.
+D) Ngăn chặn các cuộc tấn công từ chối dịch vụ.
+B
+28
+Nguyên lý Dependency Injection (Tiêm phụ thuộc) được ứng dụng rộng rãi trong các framework Backend chủ yếu nhằm mục đích gì?
+A) Tăng độ kết dính (tight coupling) giữa các thành phần logic.
+B) Giảm thiểu liên kết cứng (loose coupling), giúp mã nguồn dễ bảo trì, dễ mở rộng và đặc biệt dễ dàng cô lập để Unit Test.
+C) Tối ưu hóa dung lượng lưu trữ cơ sở dữ liệu.
+D) Ngăn chặn các nỗ lực chèn ép mã SQL độc hại.
+B
+29
+Định dạng trao đổi thông điệp (Message Exchange Format) nào đã trở thành tiêu chuẩn thống trị thực tế trong các hệ thống REST APIs hiện đại?
+A) Extensible Markup Language (XML) và JavaScript Object Notation (JSON).
+B) YAML và định dạng tệp CSV.
+C) HyperText Markup Language (HTML) và SOAP.
+D) Chuỗi nhị phân BSON thuần túy.
+A
+30
+Các ứng dụng Offline Web Applications (PWA) đảm bảo tính khả dụng liên tục của nền tảng dựa trên công nghệ cốt lõi nào?
+A) Khôi phục thông qua mạng diện rộng cục bộ độc lập.
+B) Chạy các tệp thực thi phân tán từ các cơ sở dữ liệu quan hệ.
+C) Cơ chế lưu trữ đệm (Cache) cục bộ thông qua Service Workers trên thiết bị người dùng.
+D) Triển khai các thuật toán nén thời gian thực.
+C
+Dữ liệu phân tích từ bộ câu hỏi 16 đến 30 nhấn mạnh sự chuyển dịch sang các mô hình kiến trúc hướng sự kiện và vi dịch vụ phi trạng thái (stateless) trong thiết kế hệ thống phụ trợ. Node.js đã cách mạng hóa cách các máy chủ xử lý I/O thông qua cơ chế Vòng lặp sự kiện đơn luồng (Single-threaded Event Loop), một chủ đề thường xuyên xuất hiện trong các cuộc phỏng vấn.9 Việc thấu hiểu các giai đoạn chi tiết của event loop, chẳng hạn như sự khác biệt giữa Timers phase (thực thi setTimeout) và Poll phase (tính toán thời gian chờ và xử lý I/O callbacks), chứng minh khả năng của kỹ sư trong việc tránh các nút thắt cổ chai làm tắc nghẽn toàn bộ luồng máy chủ duy nhất.11 Khi áp dụng hệ sinh thái MERN stack, việc sử dụng Express.js như một lớp middleware mỏng nhẹ giúp tăng tốc quá trình giao tiếp giữa front-end (React) và cơ sở dữ liệu NoSQL (MongoDB), tạo ra một chuỗi cung ứng dữ liệu bằng một ngôn ngữ JavaScript xuyên suốt.12
+Đồng thời, kiến trúc RESTful tiếp tục là nền tảng giao tiếp cốt lõi. Sự hiểu biết sâu sắc về tính Vô trạng thái (Statelessness) không chỉ là lý thuyết; nó là nguyên tắc cơ bản cho phép các hệ thống mở rộng quy mô theo chiều ngang (horizontal scaling) một cách vô hạn bằng cách triển khai hàng ngàn máy chủ phía sau bộ cân bằng tải mà không cần lo lắng về việc đồng bộ hóa dữ liệu phiên (session data).6 Các quy ước về phương thức HTTP (GET cho tính lũy đẳng, POST để tạo mới) và mã trạng thái (như 201 Created) thiết lập một ngôn ngữ giao tiếp chuẩn mực, dễ dự đoán giữa các vi dịch vụ.6 Song song đó, trong hệ sinh thái Java, các câu hỏi về Spring Boot
+như Auto-Configuration hay @RestController và Dependency Injection đánh giá sự nhạy bén của ứng viên trong việc tận dụng các khuôn mẫu thiết kế (design patterns) nhằm cắt giảm mã nồi hơi (boilerplate code), tăng cường khả năng kiểm thử mô-đun (unit testing) và thúc đẩy tính linh hoạt của phần mềm cấp doanh nghiệp.6
+Thiết kế Hệ thống (System Design) và Kiến trúc Vi dịch vụ (Microservices)
+Đây là ranh giới phân định năng lực giữa một lập trình viên thông thường và một kiến trúc sư phần mềm. Thiết kế hệ thống đánh giá tư duy vĩ mô, khả năng dự báo điểm mù kỹ thuật, và nghệ thuật đưa ra các quyết định nhượng bộ (trade-offs) giữa hiệu năng, chi phí và độ tin cậy.13
+Số Thứ Tự
+Câu Hỏi Đánh Giá Năng Lực
+Các Lựa Chọn Khả Thi
+Đáp Án
+31
+Định nghĩa bao quát và phản ánh chính xác nhất bản chất của kiến trúc Vi dịch vụ (Microservices Architecture)?
+A) Tập hợp các mô-đun phần mềm được triển khai và biên dịch chung trên một máy chủ nguyên khối duy nhất.
+B) Sự phân rã chiến lược một ứng dụng thành các dịch vụ phân tán quy mô nhỏ, ghép nối lỏng lẻo (loosely coupled), định hướng theo nghiệp vụ và có thể triển khai độc lập.
+C) Nhiều ứng dụng giao diện chia sẻ chung một cơ sở dữ liệu tập trung duy nhất.
+D) Nền tảng chia sẻ luồng dữ liệu thông qua hệ thống tệp đĩa vật lý.
+B
+32
+Trong quá trình thiết kế Microservices, mô hình quản trị dữ liệu nào được khuyến nghị (Best Practice) để triệt tiêu các liên kết cứng (tight coupling) giữa các dịch vụ?
+A) Xây dựng một cơ sở dữ liệu nguyên khối lớn chia sẻ cho mọi dịch vụ.
+B) Áp dụng nguyên tắc mỗi vi dịch vụ sở hữu và quản lý một cơ sở dữ liệu độc lập của riêng nó (Database-per-service).
+C) Loại bỏ hoàn toàn cơ sở dữ liệu và chỉ lưu trữ trên RAM.
+D) Yêu cầu mọi dịch vụ phải sử dụng chung một loại cơ sở dữ liệu quan hệ đồng nhất.
+B
+33
+Trong kiến trúc phân tán đa tầng, thành phần API Gateway cung cấp giải pháp cốt lõi nào cho hệ thống?
+A) Đóng vai trò là bản sao lưu (backup) cho các cơ sở dữ liệu lõi.
+B) Đóng vai trò là điểm truy cập duy nhất (Single entry point) cho client, thực hiện định tuyến, tổng hợp dữ liệu, xác thực và giới hạn tỷ lệ trước khi đẩy luồng đến các microservices.
+C) Chuyển đổi mã nguồn của máy khách thành ngôn ngữ máy chủ.
+D) Quản lý vòng đời cấp phát bộ nhớ của hệ điều hành.
+B
+34
+Nút thắt mạng lưới trong đám mây thay đổi liên tục. Chức năng chính của cơ chế Khám phá Dịch vụ (Service Discovery) là gì?
+A) Tự động dò tìm các lỗ hổng mã nguồn trong môi trường CI/CD.
+B) Cho phép các vi dịch vụ tìm kiếm và xác định tự động các địa chỉ mạng (IP/Port) khả dụng của nhau trong một quần thể phân tán không có địa chỉ tĩnh.
+C) Khám phá các khu vực rò rỉ bộ nhớ RAM.
+D) Tìm kiếm và đối chiếu các tệp nhật ký (logs) định kỳ.
+B
+35
+Mẫu thiết kế Ngắt mạch (Circuit Breaker Pattern) đảm bảo khả năng chịu lỗi (fault-tolerance) của hệ thống phân tán thông qua hành vi nào?
+A) Theo dõi tỷ lệ lỗi, và khi đạt ngưỡng, tự động "ngắt mạch" (khóa) các cuộc gọi đến một dịch vụ đang gặp sự cố để ngăn chặn sự cố xếp tầng (cascading failures).
+B) Tự động khởi động lại toàn bộ cụm máy chủ vật lý khi có lỗi xảy ra.
+C) Tạo ra các dữ liệu giả lập ngẫu nhiên cho người dùng.
+D) Yêu cầu người quản trị thay đổi mật khẩu định kỳ để làm mới trạng thái.
+A
+36
+Trong phương pháp luận Thiết kế Hướng Tên miền (Domain-Driven Design - DDD), khái niệm "Bounded Context" (Ngữ cảnh Giới hạn) nhằm mục đích giải quyết vấn đề gì?
+A) Giới hạn không gian bộ nhớ lưu trữ vật lý của các máy chủ đám mây.
+B) Khoanh vùng ranh giới rõ ràng nơi mà một mô hình miền (domain model) và các thuật ngữ nghiệp vụ của nó có ý nghĩa cụ thể và không bị nhập nhằng với các khu vực khác.
+C) Hạn chế lượng người dùng tối đa có thể truy cập hệ thống tại một thời điểm.
+D) Ngăn chặn tuyệt đối việc giao tiếp dữ liệu giữa các dịch vụ.
+B
+37
+Mẫu kiến trúc (Pattern) nào là giải pháp tiêu chuẩn để giải quyết bài toán giao dịch phân tán (Distributed Transactions) trải dài qua nhiều vi dịch vụ mà không sử dụng cơ chế khóa tài nguyên Two-Phase Commit?
+A) Circuit Breaker Pattern.
+B) Saga Pattern, sử dụng chuỗi các giao dịch cục bộ kết hợp với các giao dịch bù đắp (compensating transactions) khi xảy ra lỗi.
+C) Strangler Fig Pattern.
+D) Bulkhead Pattern.
+B
+38
+Định lý CAP (CAP Theorem) - nền tảng của hệ thống phân tán - phát biểu rằng một kiến trúc dữ liệu trên mạng lưới chỉ có thể đồng thời đáp ứng tối đa hai trong ba đặc tính nào?
+A) Consistency (Nhất quán), Availability (Khả dụng), Partition tolerance (Chịu đựng phân vùng).
+B) Concurrency (Đồng thời), Applicability (Khả năng ứng dụng), Performance (Hiệu suất).
+C) Clustering (Phân cụm), Authorization (Ủy quyền), Protection (Bảo vệ).
+D) Consistency (Nhất quán), Accuracy (Độ chính xác), Processing (Xử lý).
+A
+39
+Kỹ thuật Sharding (Phân mảnh theo chiều ngang) cơ sở dữ liệu mang lại lợi ích thiết kế cơ bản nào đối với các ứng dụng quy mô toàn cầu?
+A) Tập trung toàn bộ bảng dữ liệu vào một khối lưu trữ nguyên khối duy nhất.
+B) Phân tán khối lượng dữ liệu khổng lồ qua nhiều máy chủ vật lý (nodes) độc lập để phá vỡ các giới hạn vật lý của một máy chủ cơ sở dữ liệu đơn lẻ.
+C) Tự động xóa các bản ghi không còn giá trị sử dụng.
+D) Rút ngắn thời gian biên dịch mã nguồn giao diện.
+B
+40
+Trong thiết kế cơ sở hạ tầng, sự khác biệt căn bản giữa thuật ngữ Load Balancing (Cân bằng tải) và Failover (Chuyển đổi dự phòng) là gì?
+A) Load Balancing phân phối lưu lượng mạng đang hoạt động liên tục để tối ưu hóa tài nguyên, trong khi Failover là cơ chế chờ sẵn chỉ kích hoạt để chuyển hướng khi một nút mạng gặp sự cố nghiêm trọng.
+B) Load Balancing chỉ được áp dụng độc quyền cho các mạng riêng ảo (VPN).
+C) Failover chịu trách nhiệm nén dữ liệu tĩnh trước khi truyền tải.
+D) Hai thuật ngữ này hoàn toàn đồng nghĩa và có thể hoán đổi cho nhau.
+A
+41
+Mạng Phân phối Nội dung (CDN) là cơ chế bắt buộc để giảm độ trễ (latency) toàn cầu. Nó hoạt động dựa trên nguyên lý kỹ thuật nào?
+A) Viết lại logic nghiệp vụ trên máy chủ gốc bằng ngôn ngữ lập trình cấp thấp.
+B) Lưu trữ bản sao (cache) của các tài nguyên tĩnh tại nhiều máy chủ biên (edge servers) phân bổ theo vị trí địa lý, đảm bảo nội dung được phục vụ từ điểm gần người dùng nhất.
+C) Mã hóa toàn bộ dữ liệu cơ sở dữ liệu truyền trực tiếp sang máy khách.
+D) Tự động dịch tài liệu sang ngôn ngữ địa phương theo thời gian thực.
+B
+42
+Khi đối mặt với việc lựa chọn công nghệ lưu trữ, bối cảnh nào khiến cơ sở dữ liệu NoSQL (như MongoDB, Cassandra) vượt trội hơn CSDL Quan hệ (như PostgreSQL, MySQL)?
+A) Khi hệ thống yêu cầu cấu trúc dữ liệu đa hình, phát triển tính năng cực nhanh (schema-less) và cần khả năng mở rộng ngang (horizontal scaling) dễ dàng để xử lý dữ liệu phi cấu trúc khối lượng lớn.
+B) Khi dữ liệu đòi hỏi sự tuân thủ tuyệt đối chuẩn giao dịch ACID cho các quy trình tài chính, kế toán cốt lõi.
+C) Khi hệ thống phân tích cần thực hiện các phép truy vấn JOIN cực kỳ phức tạp qua hàng chục bảng.
+D) Khi xây dựng một trang blog cá nhân có lượng truy cập thấp.
+A
+43
+Việc áp dụng các hệ thống Message Queues (Hàng đợi thông điệp như Apache Kafka, RabbitMQ) mang lại lợi thế chiến lược nào trong các kiến trúc hướng sự kiện?
+A) Buộc các máy chủ phải đồng bộ hóa đồng hồ hệ thống tuyệt đối.
+B) Tạo sự ngắt kết nối không đồng bộ (asynchronous decoupling) giữa dịch vụ sản xuất (Producer) và dịch vụ tiêu thụ (Consumer), hấp thụ các cú sốc lưu lượng (traffic spikes) hiệu quả.
+C) Xây dựng một cơ sở dữ liệu đồ thị phức tạp.
+D) Chuyển đổi mã nguồn ngôn ngữ tĩnh thành ngôn ngữ động.
+B
+44
+Cơ chế Rate Limiting (Giới hạn tỷ lệ) thường được cấu hình tại API Gateway đóng vai trò phòng vệ nào?
+A) Tối đa hóa băng thông cho một nhóm người dùng đặc quyền.
+B) Giới hạn nghiêm ngặt số lượng yêu cầu mà một địa chỉ IP hoặc định danh máy khách có thể thực hiện trong một khoảng thời gian (ví dụ: Token Bucket algorithm), nhằm ngăn chặn tấn công DDoS và cạn kiệt tài nguyên.
+C) Tính toán trực tiếp chi phí máy chủ mạng.
+D) Theo dõi thời gian thực các tệp tin cấu hình bộ định tuyến.
+B
+45
+Kỹ thuật "Data Partitioning" (Phân vùng dữ liệu) xử lý nút thắt cổ chai nào trong các hệ thống lưu trữ quy mô lớn?
+A) Tự động sao chép mã nguồn lưu trữ trên môi trường đám mây độc lập.
+B) Chia nhỏ các bảng cơ sở dữ liệu khổng lồ thành các phần quản lý được (về logic hoặc vật lý), giúp thu hẹp phạm vi quét dữ liệu (table scans) và cải thiện tốc độ truy vấn/bảo trì.
+C) Thu hồi quyền kiểm soát truy cập từ các ứng dụng lỗi thời.
+D) Áp dụng các thuật toán nén giải thuật phức tạp lên dữ liệu âm thanh.
+B
+Việc trả lời đúng các câu hỏi từ 31 đến 45 thể hiện khả năng nắm bắt bức tranh toàn cảnh (big picture) của các kiến trúc sư phần mềm. Việc thiết kế các hệ thống phân tán không đơn thuần là phân tách một khối mã lớn (Monolith) thành nhiều mảnh nhỏ. Bản chất của Microservices là giải quyết các vấn đề liên quan đến quy mô tổ chức và sự tự chủ trong triển khai.14 Khi chia nhỏ cơ sở dữ liệu theo mẫu Database-per-service, các ranh giới dịch vụ được thiết lập rõ ràng, nhưng hệ lụy là việc quản lý các giao dịch kinh doanh vượt qua nhiều dịch vụ trở nên cực kỳ phức tạp. Đây là lúc ứng viên cần chứng minh sự thấu hiểu về Saga Pattern – một cơ chế phân rã một giao dịch lớn thành các giao dịch cục bộ liên tiếp, sử dụng các sự kiện (events) để kích hoạt, và có các quy trình bù đắp (compensating logic) để hoàn tác dữ liệu nếu một khâu bị lỗi, thay thế hoàn toàn cho cơ chế khóa đồng bộ Two-Phase Commit vốn gây nghẽn cổ chai.6
+Khả năng chịu lỗi (Resilience) cũng là một chủ đề không thể bỏ qua. Mẫu Circuit Breaker hoạt động như một công tắc điện, chủ động ngắt kết nối tới các dịch vụ đang suy thoái để ngăn chặn hiệu ứng domino làm sập toàn bộ kiến trúc.15 Tương tự, kiến thức về định lý CAP (Consistency, Availability, Partition tolerance) là kim chỉ nam cho mọi quyết định lựa chọn cơ sở dữ liệu. Bất kỳ nhà thiết kế nào cũng phải hiểu rằng trong môi trường phân tán nơi phân chia mạng (Partition) là điều hiển nhiên, họ phải đưa ra quyết định đánh đổi giữa việc luôn trả về dữ liệu mới nhất (Nhất quán) nhưng có thể bị từ chối phục vụ, hoặc luôn phục vụ truy vấn (Khả dụng) nhưng dữ liệu có thể bị cũ (Eventual Consistency).13 Cấu trúc này được củng cố bằng việc áp dụng các Message Queues như Kafka để tạo đệm hấp thụ các đợt lưu lượng truy cập bùng nổ, cũng như áp dụng phân mảnh (Sharding) và chia vùng dữ liệu (Partitioning) nhằm đẩy lùi các rào cản vật lý về năng lực lưu trữ và tính toán của một nút máy chủ đơn lẻ.6
+Điện toán Đám mây (Cloud Computing) và Tự động hóa CI/CD
+Các nhà cung cấp đám mây như AWS, Azure và Google Cloud đã dân chủ hóa quyền truy cập vào cơ sở hạ tầng vô hạn. Tuy nhiên, khai thác năng lực này đòi hỏi sự thông thạo về văn hóa DevOps, vận hành hạ tầng bằng mã lệnh và tối ưu hóa đường ống phân phối phần mềm.16
+Số Thứ Tự
+Câu Hỏi Đánh Giá Năng Lực
+Các Lựa Chọn Khả Thi
+Đáp Án
+46
+Dịch vụ đám mây nào của AWS cung cấp tính năng cốt lõi giúp tự động điều chỉnh số lượng phiên bản máy chủ tính toán (instances) dựa trên sự dao động thực tế của lưu lượng truy cập?
+A) AWS Lambda.
+B) Amazon EC2 Auto Scaling.
+C) AWS Elastic Beanstalk.
+D) Amazon Route 53.
+B
+47
+Mô hình kiến trúc Điện toán Không máy chủ (Serverless Architecture, ví dụ: AWS Lambda) mang lại đặc tính cách mạng nào cho vòng đời phát triển phần mềm?
+A) Yêu cầu lập trình viên phải trực tiếp giám sát cấu hình bảo mật hạt nhân (kernel) của hệ điều hành ảo hóa.
+B) Chuyển hoàn toàn gánh nặng cấp phát và bảo trì máy chủ cho nhà cung cấp đám mây; khách hàng chỉ trả chi phí chính xác trên từng phần nghìn giây mã lệnh được thực thi.
+C) Thời gian phản hồi mạng luôn luôn bằng không do bỏ qua mọi giao thức định tuyến.
+D) Giới hạn môi trường chỉ hỗ trợ biên dịch ngôn ngữ C++.
+B
+48
+Dịch vụ Amazon S3, xương sống lưu trữ của nhiều tập đoàn lớn, được thiết kế chủ yếu dựa trên mô hình lưu trữ khái niệm nào?
+A) Block storage (Lưu trữ khối lượng truyền thống).
+B) Relational Database (Cơ sở dữ liệu dạng bảng quan hệ).
+C) Object storage (Lưu trữ đối tượng, bao gồm dữ liệu, siêu dữ liệu metadata, và mã định danh duy nhất).
+D) In-memory cache (Bộ đệm trên RAM).
+C
+49
+Khái niệm "Infrastructure as Code" (IaC) - Hạ tầng dưới dạng mã - trong triết lý vận hành DevOps định nghĩa quá trình nào?
+A) Cung cấp và quản lý kiến trúc cơ sở hạ tầng mạng lưới thông qua các tập lệnh định dạng khai báo (ví dụ Terraform) thay vì thao tác cấu hình thủ công qua giao diện người dùng.
+B) Chế tạo các bộ phận linh kiện phần cứng đặc biệt để biên dịch mã tối ưu.
+C) Sử dụng mã nguồn để tự động tạo ra các bài kiểm thử đơn vị nội bộ.
+D) Mã hóa độc quyền mã nguồn phần mềm tránh dịch ngược.
+A
+50
+Thuật ngữ "CI" (Continuous Integration - Tích hợp Liên tục) trong chu trình CI/CD tập trung giải quyết rủi ro kỹ thuật nào?
+A) Thay thế toàn bộ hệ thống quản trị rủi ro mạng nội bộ.
+B) Tự động hóa quá trình tích hợp mã thường xuyên của nhiều lập trình viên vào một kho lưu trữ chung, tự động xây dựng (build) và kiểm thử (test) để phát hiện sớm các xung đột và lỗi hồi quy.
+C) Phân phối trực tiếp các bản cập nhật đến tay mọi người dùng cuối mà không cần phê duyệt.
+D) Cập nhật tự động các tài liệu hướng dẫn sử dụng API.
+B
+51
+Sự khác biệt cốt lõi về bản chất kỹ thuật giữa Docker Image và Docker Container là gì?
+A) Hoàn toàn không có sự khác biệt về mặt cấu trúc hệ thống tệp.
+B) Container bao gồm một hệ điều hành khách (Guest OS) hoàn chỉnh như máy ảo, trong khi Image thì không.
+C) Docker Image là một tập tin khuôn mẫu tĩnh, bất biến bao gồm mã nguồn và các tệp phụ thuộc; trong khi Container là bản thể (instance) động, đang chạy và thực thi của Image đó.
+D) Kích thước lưu trữ của Container luôn luôn nhẹ hơn dung lượng của Image tương ứng.
+C
+52
+Mục đích thiết kế chính của hệ sinh thái nguồn mở Kubernetes (K8s) là gì?
+A) Khai thác và phân tích trực quan hóa dữ liệu Big Data thời gian thực.
+B) Cung cấp nền tảng tự động hóa quá trình triển khai, mở rộng quy mô, và điều phối (orchestration) vòng đời hoạt động phức tạp của các ứng dụng được container hóa xuyên suốt các cụm máy chủ vật lý.
+C) Hoạt động như một trình biên dịch và gỡ lỗi riêng biệt cho ngôn ngữ Java.
+D) Cung cấp công cụ thiết kế giao diện đồ họa cho trình duyệt web.
+B
+53
+Chiến lược triển khai Blue-Green Deployment được ưu tiên áp dụng trong các hệ thống đòi hỏi độ sẵn sàng cao nhằm giải quyết kịch bản nào?
+A) Tối đa hóa giới hạn băng thông truy xuất dữ liệu trong mạng cục bộ nội bộ.
+B) Đảm bảo quá trình cập nhật phiên bản phần mềm mới diễn ra với mức độ thời gian chết (downtime) bằng 0 bằng cách duy trì hai môi trường song song, đồng thời cung cấp khả năng khôi phục (rollback) ngay lập tức khi phát hiện rủi ro.
+C) Cân bằng tải tĩnh phân bổ luồng dữ liệu theo bộ đệm địa lý.
+D) Nén dung lượng lưu trữ phân mảnh của các luồng video đa phương tiện.
+B
+54
+Hệ thống Git thúc đẩy quy trình kiểm soát phiên bản và cộng tác phần mềm thông qua cơ chế phi tập trung nào?
+A) Lưu trữ mọi phiên bản tạm thời dưới dạng tệp văn bản nháp trên máy chủ cục bộ duy nhất.
+B) Cung cấp hệ thống quản lý phiên bản phân tán (Distributed Version Control) mạnh mẽ với cơ chế phân nhánh (Branching) cô lập, và rà soát mã (Code Review) thông qua các Yêu cầu hợp nhất (Pull Requests).
+C) Cho phép điều khiển luồng lệnh máy chủ từ xa trực tiếp qua chuẩn giao thức bảo mật SSH.
+D) Quản lý việc soạn thảo văn bản trực tuyến đồng thời.
+B
+55
+Công cụ giám sát Prometheus đóng vai trò then chốt nào trong hệ sinh thái hạ tầng Cloud-native hiện đại?
+A) Cung cấp dịch vụ định tuyến Hàng đợi Thông điệp phân tán.
+B) Chạy các thuật toán học máy phân tích ngôn ngữ mạng lõi.
+C) Cung cấp hệ thống cảnh báo và theo dõi số liệu (Monitoring & Alerting) mạnh mẽ, thu thập dữ liệu theo mô hình kéo (pull model) và lưu trữ bằng cơ sở dữ liệu chuỗi thời gian (time-series database) hiệu năng cao.
+D) Cấu hình các bộ lọc gói tin phần cứng cho tường lửa ảo.
+C
+56
+Tư duy thiết kế "Hạ tầng Bất biến" (Immutable Infrastructure) áp đặt nguyên tắc vận hành khắt khe nào?
+A) Các quản trị viên được phép cấp quyền thay đổi cấu hình mã lệnh trực tiếp tự do trong thời gian máy chủ đang chạy (runtime).
+B) Nghiêm cấm mọi hành vi vá lỗi (patching) hoặc cấu hình thủ công trực tiếp trên một máy chủ đang hoạt động; mọi sự thay đổi phải được thực hiện bằng cách thay thế toàn bộ bằng một máy chủ/container mới được xây dựng từ khuôn mẫu chuẩn.
+C) Máy chủ vật lý bị ngắt kết nối hoàn toàn khỏi mạng lưới internet công cộng để đảm bảo bảo mật.
+D) Tuyệt đối không được phép cập nhật bất kỳ phiên bản phần mềm gốc nào.
+B
+57
+Lớp kiến trúc Service Mesh (ví dụ: Istio) giải quyết các bài toán phức tạp nào trong mô hình mạng lưới Microservices?
+A) Xử lý việc thu thập và phân mảnh các tệp log ứng dụng lỗi thời.
+B) Đảm nhận quá trình tự động hóa xây dựng mã nguồn từ Git.
+C) Tạo ra một lớp cơ sở hạ tầng chuyên biệt, tách biệt khỏi mã ứng dụng, để xử lý vô hình các logic liên lạc phức tạp, mã hóa mTLS, quản lý lưu lượng và khả năng đo lường (observability) giữa các dịch vụ.
+D) Hoạt động như một cơ sở dữ liệu đồ thị phi tuyến tính.
+C
+58
+Mô hình dịch vụ điện toán đám mây PaaS (Platform as a Service) giải phóng các nhà phát triển bằng cách cung cấp cấp độ trừu tượng hóa nào?
+A) Giao toàn quyền quản trị sâu sát ở cấp độ máy ảo và tùy biến hạt nhân hệ điều hành phần cứng.
+B) Cung cấp một môi trường tích hợp sẵn bao gồm hệ điều hành, máy chủ web trung gian và các bộ công cụ phần mềm (runtimes), cho phép lập trình viên tập trung triển khai ứng dụng mà không cần cấu hình hạ tầng mạng.
+C) Cung cấp các gói ứng dụng phần mềm dịch vụ hoàn chỉnh sẵn sàng sử dụng cho người dùng cuối (như CRM).
+D) Tạo ra một mạng lưới đám mây cục bộ phi tập trung (edge nodes).
+B
+59
+Rủi ro an ninh mạng mang tên "Tấn công Chuỗi Cung ứng" (Supply Chain Attack) trong đường ống CI/CD ám chỉ kịch bản hiểm họa nào?
+A) Mất điện diện rộng hoặc thảm họa vật lý tại trung tâm dữ liệu cung cấp máy chủ gốc.
+B) Hành vi xâm nhập tinh vi nơi kẻ tấn công khai thác quyền truy cập thông qua việc chèn lén lút mã độc vào các thư viện mã nguồn mở bên thứ ba hoặc xâm phạm công cụ CI/CD, từ đó lây nhiễm vào toàn bộ mạng lưới doanh nghiệp.
+C) Sao chép bất hợp pháp bản quyền hình ảnh thiết kế UI của công ty đối thủ.
+D) Xảy ra tình trạng đứt cáp viễn thông làm nghẽn cổ chai băng thông.
+B
+60
+Triết lý "Shift Left" (Dịch trái) trong tư duy quy trình DevSecOps và kiểm thử phần mềm mang hàm ý chiến lược gì?
+A) Đưa các trung tâm máy chủ vật lý di dời sang các khu vực có chi phí điện năng thấp hơn ở bán cầu Tây.
+B) Chuyển dịch các hoạt động kiểm thử hiệu năng, chất lượng mã và quét lỗ hổng bảo mật diễn ra càng sớm càng tốt (bên trái) trong vòng đời phát triển phần mềm (SDLC), thay vì chờ đến khâu đánh giá cuối cùng trước khi phát hành.
+C) Phân bổ ngân sách tối đa hóa cho giai đoạn hậu mãi phần mềm.
+D) Thiết kế giao diện quản trị theo luồng từ trái sang phải cho thuận mắt người dùng.
+B
+Nhóm câu hỏi 46 đến 60 đánh giá trình độ làm chủ môi trường điện toán đám mây và vòng đời phân phối phần mềm liên tục. Sự ra đời của AWS, Azure và các nền tảng tương đương đã biến các tài nguyên phần cứng (như CPU, RAM, ổ đĩa lưu trữ) thành các đối tượng có thể cấp phát động thông qua API.16 Hiểu rõ sức mạnh của EC2 Auto Scaling trong việc duy trì hiệu suất dưới tải trọng lớn, kết hợp với các kiến trúc vươn tới tương lai như Serverless (Lambda), chứng minh ứng viên có khả năng kiến tạo các hệ thống vận hành với chi phí biên tối thiểu, chỉ trả tiền cho những chu kỳ xung nhịp CPU thực sự tạo ra giá trị.17
+Khía cạnh vận hành (Ops) đang chứng kiến sự trỗi dậy mạnh mẽ của triết lý DevOps, đặc biệt là khái niệm Infrastructure as Code (IaC) thông qua Terraform hoặc AWS CloudFormation. IaC tiêu diệt hoàn toàn sự cố "Configuration Drift" (Sự trôi dạt cấu hình) – căn bệnh trầm kha khi cấu hình máy chủ môi trường thử nghiệm khác biệt so với môi trường thực tế, gây ra lỗi triển khai.18 Song hành cùng IaC là kỷ nguyên của container hóa với Docker và Kubernetes. Việc phân biệt rõ ràng giữa Docker Image (bản thiết kế bất biến) và Docker Container (bản thể đang hoạt động) là khái niệm vỡ lòng.6 Mở rộng lên quy mô cụm, Kubernetes thực hiện chức năng "Orchestration" – điều phối sự phân bổ, tự phục hồi (self-healing), và mở rộng quy mô tự động cho hàng vạn container, biến việc quản lý trung tâm dữ liệu trở nên trong suốt.18
+Tối ưu hóa đường ống phân phối CI/CD là điều kiện quyết định vận tốc đổi mới (innovation velocity) của tập đoàn. Các kỹ sư phải nắm bắt các mô hình triển khai không gián đoạn (Zero-downtime deployments) như Blue-Green Deployment, nơi mạng lưới router tinh vi chuyển hướng luồng dữ liệu sang một môi trường mới hoàn toàn cách ly, loại bỏ hoàn toàn sự sợ hãi mỗi khi nâng cấp phần mềm.18 Đặc biệt, sự xuất hiện của các khái niệm như Service Mesh (Istio) và Immutable Infrastructure định hình một kiến trúc mạng vi dịch vụ không thể bị xâm phạm từ bên trong, trong khi chiến lược "Shift Left" (Dịch trái) tiết kiệm hàng triệu USD bằng cách phát hiện và chặn đứng mã độc bảo mật ngay từ giai đoạn lập trình cục bộ thay vì để lọt ra môi trường sản xuất.18
+An ninh Mạng (Cybersecurity) và Đạo đức Nghề nghiệp
+Với các đạo luật bảo vệ quyền riêng tư nghiêm ngặt như GDPR hay HIPAA, lỗ hổng bảo mật có thể xóa sổ hàng tỷ USD vốn hóa thị trường của một tập đoàn. Câu hỏi đánh giá trong lĩnh vực này bám sát tiêu chuẩn phòng thủ OWASP Top 10 và các quy chuẩn đạo đức kỹ thuật quốc tế.24
+Số Thứ Tự
+Câu Hỏi Đánh Giá Năng Lực
+Các Lựa Chọn Khả Thi
+Đáp Án
+61
+Tam giác CIA - mô hình tham chiếu cốt lõi định hình mọi chính sách an toàn thông tin - là chữ viết tắt của ba thành tố nền tảng nào?
+A) Compliance, Investigation, Access.
+B) Confidentiality (Tính Bảo mật), Integrity (Tính Toàn vẹn), Availability (Tính Khả dụng).
+C) Control, Isolation, Authentication.
+D) Connectivity, Inspection, Authorization.
+B
+62
+Xác thực Đa yếu tố (MFA) được thiết kế và triển khai diện rộng nhằm đạt được mục tiêu bảo mật tối thượng nào?
+A) Giảm thiểu tối đa thời gian đăng nhập cho người dùng thường xuyên.
+B) Tăng cường rào cản bảo mật chiều sâu bằng cách yêu cầu kết hợp nhiều phương pháp xác minh độc lập (Mật khẩu, Thiết bị sở hữu, Sinh trắc học).
+C) Đơn giản hóa toàn bộ quá trình cấp phát lại thông tin khôi phục mật khẩu.
+D) Tối ưu hóa băng thông truyền tải gói tin xác thực mạng.
+B
+63
+Trong việc bảo vệ các luồng dữ liệu số, chức năng chính yếu của kỹ thuật Mã hóa (Encryption) là gì?
+A) Nén các tệp tin dữ liệu dung lượng lớn để tiết kiệm không gian lưu trữ đĩa cứng.
+B) Tăng tốc quá trình truyền tải luồng chia sẻ trên các mạng nội bộ.
+C) Biến đổi thông tin rõ (plaintext) thành định dạng bản mã (ciphertext) hoàn toàn không thể đọc hiểu được nếu người truy cập thiếu khóa giải mã tương ứng.
+D) Xây dựng màng chắn vật lý chống lại các sự cố chập cháy phần cứng.
+C
+64
+Thuật toán bảo mật r RSA - xương sống của các giao thức giao dịch điện tử - được phân loại vào nhóm chuẩn mã hóa nào sau đây?
+A) Hash Functions (Hàm băm một chiều).
+B) Symmetric Key Algorithm (Mã hóa khóa đối xứng).
+C) Public Key Encryption Algorithm (Mã hóa khóa công khai / Mã hóa bất đối xứng).
+D) Khung giao thức Digital Certificates.
+C
+65
+Nguyên tắc Đặc quyền Tối thiểu (Principle of Least Privilege - PoLP) thiết lập rào chắn vận hành hệ thống thông qua việc áp dụng quy tắc nào?
+A) Cấp cho người dùng đặc quyền kiểm soát toàn hệ thống nhưng chỉ trong giới hạn thời gian 24 giờ liên tục.
+B) Bắt buộc mọi mật khẩu quản trị phải được mã hóa ba lớp theo chuẩn quân đội.
+C) Giới hạn quyền truy cập tài nguyên của mỗi người dùng/tiến trình ở mức độ tối thiểu vừa đủ để họ thực thi được chức năng công việc hợp lệ của mình.
+D) Mặc định từ chối toàn bộ kết nối đi ra mạng bên ngoài.
+C
+66
+Căn cứ theo bảng xếp hạng OWASP Top 10, lỗ hổng định danh Injection (Chèn ép mã, ví dụ SQL Injection) phát sinh từ căn nguyên kỹ thuật nào?
+A) Khả năng mở rộng bộ nhớ đệm của máy chủ bị giới hạn.
+B) Luồng dữ liệu đầu vào từ người dùng không được kiểm chứng (untrusted data) được gửi trực tiếp đến một bộ thông dịch (interpreter) dưới định dạng một phần của lệnh mã hóa hoặc truy vấn động.
+C) Độ trễ kết nối mạng vượt quá ngưỡng timeout cho phép.
+D) Chiều dài mật khẩu hệ thống quản trị quá ngắn.
+B
+67
+Nhóm lỗ hổng Broken Authentication (Xác thực kém an toàn) mở ra cơ hội cho tin tặc thực hiện những hành vi tàn phá nào?
+A) Lén lút thực thi các đoạn mã nhúng quảng cáo độc hại trên trình duyệt người dùng.
+B) Tạo lỗ hổng trên tường lửa vật lý để theo dõi lưu lượng mạng.
+C) Đánh cắp, đoán nhận thông tin xác thực, hoặc xâm phạm phiên hoạt động (session keys/tokens) để chiếm đoạt và giả mạo hoàn toàn danh tính của người dùng hợp lệ.
+D) Giải mã trực tiếp các tệp tin lưu trữ dữ liệu nội bộ của hệ điều hành.
+C
+68
+Phương thức khai thác của lỗ hổng Cross-Site Scripting (XSS) đe dọa hệ thống sinh thái người dùng web bằng cách nào?
+A) Đánh lừa máy chủ thực thi các lệnh truy vấn xóa bảng cơ sở dữ liệu trái phép.
+B) Bơm và thực thi các tệp lệnh độc hại (như JavaScript) thẳng vào giao diện trình duyệt của người dùng hợp lệ nhằm đánh cắp phiên cookie hoặc điều hướng trái phép.
+C) Tạo hàng triệu kết nối làm quá tải bộ định tuyến mạng biên.
+D) Trực tiếp lây nhiễm vi-rút xóa tệp tin trên phân vùng đĩa cứng máy chủ.
+B
+69
+Chữ ký số (Digital Signature) đóng vai trò pháp lý và kỹ thuật quan trọng nào trong chu trình bảo mật thông điệp mã hóa?
+A) Lưu trữ cấu trúc phân tầng các thông tin xác thực bảo mật.
+B) Tự động nén luồng thông điệp để giảm thời gian lan truyền mạng.
+C) Xác thực không thể chối cãi nguồn gốc (Authenticity) của người gửi dữ liệu và đảm bảo tuyệt đối tính toàn vẹn (Integrity) rằng thông điệp chưa bị thay đổi trên đường truyền.
+D) Thiết lập tường lửa tự động ngăn ngừa sự cố tấn công từ chối dịch vụ.
+C
+70
+Khắc phục rủi ro nguy hiểm "Sử dụng Thành phần với Lỗ hổng đã biết" (Vulnerable and Outdated Components) yêu cầu quy trình bảo mật khắt khe nào?
+A) Tắt toàn bộ hệ thống quét tệp nhật ký (log) định kỳ để tránh cảnh báo giả.
+B) Thiết lập chu trình thường xuyên cập nhật, rà soát và tích hợp các công cụ kiểm định tự động (Software Composition Analysis) để vá các lỗ hổng của thư viện mã nguồn mở bên thứ ba.
+C) Ngừng hoàn toàn mọi nỗ lực sử dụng các thành phần mã nguồn mở trên internet.
+D) Mã hóa thủ công địa chỉ IP tĩnh của cụm máy chủ cơ sở dữ liệu.
+B
+71
+Dựa trên bộ quy chuẩn Đạo đức Kỹ sư Phần mềm quốc tế (ACM/IEEE), trong trường hợp có sự xung đột, kỹ sư phải hành động nhất quán với ưu tiên hàng đầu dành cho đối tượng nào?
+A) Ban giám đốc và cổ đông của công ty đầu tư.
+B) Sự an toàn, sức khỏe và phúc lợi của người sử dụng và công chúng (Public interest).
+C) Nhu cầu cá nhân về tiến bộ học thuật và bản quyền sáng chế.
+D) Tập thể đồng nghiệp trong nhóm phát triển dự án công ty.
+B
+72
+Hành động nào sau đây bị coi là vi phạm nghiêm trọng các nguyên tắc tính liêm chính chuyên môn của một chuyên gia phần mềm?
+A) Thúc đẩy và khuyến khích việc cải tiến quy trình kiểm thử phần mềm liên tục.
+B) Đồng thuận và cố tình phát hành một sản phẩm phần mềm (đặc biệt trong lĩnh vực an toàn sinh mạng) dù biết rõ nó vẫn chứa lỗi hệ thống nghiêm trọng hoặc thiếu tính năng bảo mật tối thiểu.
+C) Từ chối việc làm việc ngoài giờ không lương liên tục nhiều tháng.
+D) Dũng cảm báo cáo hành vi ăn cắp mã nguồn phi đạo đức của đồng nghiệp.
+B
+73
+Định nghĩa chuẩn xác nhất về Xung đột Lợi ích (Conflict of Interest) trong thực hành kỹ thuật chuyên nghiệp?
+A) Khi nhân viên kỹ thuật phải làm thêm giờ mà không nhận được mức lương tương xứng với năng lực.
+B) Khi kỹ sư sở hữu những lợi ích hoặc khoản đầu tư cá nhân chồng chéo có nguy cơ làm suy yếu tính khách quan, sự minh bạch và khả năng đánh giá công bằng trong phán quyết nghề nghiệp dành cho công ty.
+C) Khi các nhóm phát triển không thể thống nhất được ngôn ngữ lập trình chung cho dự án hệ thống.
+D) Tình trạng đứt gãy giao tiếp kéo dài giữa ban quản lý cấp cao và nhân sự kỹ thuật.
+B
+74
+Khi đối mặt trực diện với tình huống mâu thuẫn khốc liệt giữa An toàn công cộng và mục tiêu cắt giảm Chi phí doanh nghiệp, kỹ sư tuân thủ đạo đức phải ưu tiên hành động nào?
+A) Luôn luôn tuân theo các chỉ đạo hạ chi phí của ban giám đốc để bảo vệ công việc.
+B) Xác định sự an toàn của hệ thống và rủi ro sinh mạng con người luôn phải đặt cao hơn các yếu tố lợi nhuận thương mại.
+C) Phớt lờ mọi cảnh báo an toàn từ các cảm biến và tiếp tục tập trung viết mã để kịp tiến độ.
+D) Đẩy toàn bộ trách nhiệm phân tích rủi ro an toàn cho nhóm chuyên viên kiểm thử.
+B
+75
+Thuật ngữ Whistleblowing (Thổi còi) trong quy tắc ứng xử nơi làm việc diễn tả hành động có trách nhiệm nào?
+A) Lãnh đạo phong trào kêu gọi thành lập công đoàn độc lập tại môi trường làm việc.
+B) Việc một nhân viên dũng cảm báo cáo hoặc tiết lộ các bằng chứng về vấn đề đạo đức, rủi ro an toàn hoặc hành vi phi pháp nghiêm trọng nội bộ cho các bộ phận có thẩm quyền để kịp thời đưa ra các biện pháp chấn chỉnh, ngăn ngừa thảm họa.
+C) Hành vi ẩn danh chỉ trích các phàn nàn của người dùng trên diễn đàn trực tuyến.
+D) Tự ý cấp quyền quản trị viên phụ hệ thống cho bên kiểm toán thứ ba không qua phê duyệt.
+B
+Hệ thống bảo mật mạng và đạo đức kỹ sư định hình không chỉ ranh giới kỹ thuật mà còn là sự sống còn của doanh nghiệp. Tam giác CIA (Confidentiality, Integrity, Availability) là kim chỉ nam cho mọi quyết định kiến trúc, đòi hỏi sự kết hợp nhuần nhuyễn của mã hóa (như thuật toán RSA cấu thành nên hạ tầng khóa công khai PKI) và các nguyên lý ủy quyền như Đặc quyền Tối thiểu (Principle of Least Privilege).24 Các tập đoàn kiểm tra khắt khe mức độ am hiểu về OWASP Top 10 của ứng viên. Kỹ sư phải hiểu rằng Injection (chẳng hạn như SQLi) không phải là lỗi cơ sở dữ liệu, mà là lỗi thao tác chuỗi khi truy vấn động thiếu việc kiểm tra dữ liệu đầu vào (untrusted data).26 Cách duy nhất để chặn đứng Injection hoàn toàn ở cấp độ kiến trúc là sử dụng Parameterized Queries (Câu lệnh tham số hóa). Tương tự, Cross-Site Scripting (XSS) phơi bày thảm họa của việc render trực tiếp luồng dữ liệu thô từ cơ sở dữ liệu lên Document Object Model (DOM) của trình duyệt, đe dọa đánh cắp hàng vạn phiên Cookie người dùng chỉ bằng một đoạn mã nhúng.26 Kỷ nguyên DevOps hiện đại yêu cầu bảo mật không chỉ giới hạn ở mã ứng dụng, mà còn ở chuỗi cung ứng mã nguồn mở (Supply Chain Attacks) nơi các mô-đun Node.js hoặc thư viện Python bên ngoài có thể bị nhiễm mã độc tống tiền.26
+Vượt lên trên các rào cản kỹ thuật là những bộ nguyên tắc đạo đức nghề nghiệp, được quy chuẩn bởi các tổ chức uy tín như ACM và IEEE.29 Một kỹ sư ưu tú phải có năng lực đánh giá các tình huống tiến thoái lưỡng nan (Ethical Dilemmas). Phớt lờ việc kiểm thử độ bền hệ thống chỉ để kịp ngày ra mắt (Go-live date), hoặc phớt lờ các xung đột lợi ích (Conflict of Interest) trong việc ưu tiên nhà cung cấp phần cứng đều vi phạm nguyên tắc tối cao: "Lợi ích của công chúng và an toàn xã hội là bất khả xâm phạm".25 Hành động "Thổi còi" (Whistleblowing) tuy chứa đựng rủi ro cá nhân to lớn, nhưng lại được đánh giá là một trong những chuẩn mực trách nhiệm chuyên môn vĩ đại nhất nhằm bảo vệ sự liêm chính của hệ sinh thái công nghệ, ngăn ngừa các hệ lụy mang tính thảm họa ở diện rộng.31
+Đánh giá Hành vi và Xử lý Tình huống (Situational Judgement - SJT)
+Phương pháp phỏng vấn tại Google (GCA) và Amazon (16 Leadership Principles) chứng minh rằng: khả năng hòa nhập văn hóa, quản trị rủi ro và làm việc nhóm thường định đoạt sự thành bại của dự án hơn là năng lực lập trình thuần túy. Bài kiểm tra đánh giá tình huống (SJT) đo lường khả năng phản ứng trong thời gian thực thông qua lăng kính của phương pháp STAR (Situation, Task, Action, Result).32
+Số Thứ Tự
+Câu Hỏi Đánh Giá Năng Lực (Tình huống Mô phỏng)
+Các Lựa Chọn Phản Ứng Khả Thi
+Đáp Án
+76
+[Amazon LP: Customer Obsession] Khách hàng VIP khiếu nại gay gắt rằng gói cấu hình máy chủ xử lý dữ liệu ưu tiên 24 giờ của họ đã bị chậm trễ 48 giờ. Nguyên nhân hoàn toàn xuất phát từ nền tảng trung gian bảo trì. Bạn xử lý thế nào?
+A) Đề nghị khách hàng bình tĩnh chờ đợi và liên hệ lại sau khi bạn kết thúc cuộc họp giao ban nội bộ.
+B) Nhanh chóng đổ toàn bộ lỗi và trách nhiệm pháp lý cho nhà cung cấp nền tảng trung gian để bảo vệ uy tín công ty.
+C) Thể hiện sự thấu cảm xin lỗi, chủ động trích xuất mã ID lỗi, cung cấp bản cập nhật trạng thái trong vòng 1 giờ, hoàn trả 100% chi phí ưu tiên, và thiết lập luồng theo dõi tự động để nền tảng trung gian không lặp lại lỗi.
+D) Ghi chú ticket lỗi trên hệ thống và chuyển thẳng cho đội kỹ thuật phần cứng.
+C
+77
+[Amazon LP: Frugality] Kiểm tra kiến trúc hệ thống, bạn phát hiện cơ chế cung cấp hạ tầng cloud của nhóm hiện tại cực kỳ lãng phí (thiết lập sai cấp phát tự động), tốn kém hàng ngàn USD chi phí truy xuất nhàn rỗi mỗi tuần.
+A) Tránh vượt quyền, kiên nhẫn chờ yêu cầu tối ưu hóa cấu trúc từ Giám đốc dự án.
+B) Tự ý can thiệp đóng băng và ngắt kết nối các API mà bạn cho là không quan trọng để tiết kiệm ngân sách lập tức.
+C) Chủ động thu thập các số liệu truy xuất mạng định lượng, soạn thảo đề xuất kiến trúc cắt giảm lãng phí bằng hệ thống lưu trữ cache Redis, và trình bày giải pháp tối ưu dòng tiền với quản lý cấp cao.
+D) Lờ đi vì tập đoàn lớn có ngân sách hạ tầng dư dả.
+C
+78
+Đóng vai trò Quản lý Đội ngũ (Team Lead), một kỹ sư tài năng kiệt xuất mới được bạn đào tạo 6 tháng mong muốn được thăng chức và thuyên chuyển sang một nhóm lõi khác. Điều này sẽ khiến nhóm hiện tại của bạn suy yếu đi đáng kể.
+A) Viện lý do quy định hợp đồng để từ chối, giữ kỹ sư lại nhằm đảm bảo nhóm của bạn hoàn thành chỉ tiêu KPI cuối năm.
+B) Hỗ trợ đầy đủ nguyện vọng thăng tiến của nhân viên, tư vấn lộ trình sự nghiệp và giúp họ chuẩn bị các kỹ năng liên chức năng để quá trình chuyển đổi bộ phận thành công nhất.
+C) Cảnh báo nhân viên rằng họ quá non kinh nghiệm và chưa hiểu rõ tính khắc nghiệt của nhóm lõi.
+D) Tước bỏ dần các trọng trách dự án quan trọng của nhân viên đó để họ tự chán nản.
+B
+79
+[Google GCA: Prioritization] Bạn nhận thông báo khẩn cấp phải hoàn thành bàn giao song song hai dự án nền tảng có thời hạn hoàn thành (deadlines) trùng lặp hoàn toàn vào thứ Sáu tuần này, nguồn lực kỹ thuật hiện tại là không đủ.
+A) Chấp nhận đánh đổi sức khỏe, làm việc 24/24 giờ để cố gắng hoàn thành cả hai dự án bằng mọi giá.
+B) Chọn thực hiện dự án có công nghệ thú vị hoặc dễ xử lý hơn và mặc kệ dự án còn lại.
+C) Tự động cắt xén bớt các kịch bản kiểm thử bảo mật (Test Cases) để ép tiến độ mã hóa cho kịp ngày giao hàng.
+D) Lập tức phân tích mức độ tác động kinh doanh (Business Impact), tái thương lượng và phân loại lại ưu tiên phát hành từng phần với các bên liên quan (Stakeholders) dựa trên nguồn lực thực tế, duy trì sự minh bạch tiến độ.
+D
+80
+Bạn vô tình phát hiện ra rằng một đồng nghiệp cấp ngang hàng đã trình bày và nhận vơ toàn bộ ý tưởng cấu trúc thuật toán tối ưu hóa do chính bạn thiết kế trong cuộc họp với ban giám đốc.
+A) Nổi giận và tố cáo trực diện hành vi đạo văn ngay giữa cuộc họp có ban giám đốc.
+B) Im lặng chịu đựng, sinh ra thái độ thù địch thụ động và quyết định không chia sẻ bất kỳ mã nguồn nào với người đó nữa.
+C) Chủ động tiếp cận đồng nghiệp ở không gian riêng tư, điềm tĩnh bày tỏ sự quan ngại dựa trên các bằng chứng commit mã nguồn khách quan, và yêu cầu thiết lập rõ ràng ranh giới tín nhiệm quyền tác giả cho các dự án tới.
+D) Bí mật chèn các dòng mã lỗi vào dự án của đồng nghiệp để hạ thấp uy tín của họ.
+C
+81
+Ngay trước thềm cuộc kiểm toán định kỳ, quản lý trực tiếp gây sức ép yêu cầu bạn phải chỉnh sửa (fudge) một số log báo cáo sự cố nhằm làm đẹp các chỉ số đáp ứng hệ thống (SLA) của bộ phận.
+A) Tuân thủ thực hiện lệnh cấp trên ngay lập tức để giữ hòa khí và đảm bảo báo cáo đánh giá cuối năm suôn sẻ.
+B) Thực hiện hành vi thao túng dữ liệu nhưng bí mật sao lưu email làm bằng chứng tống tiền quản lý về sau.
+C) Kiên quyết từ chối một cách chuyên nghiệp, giải thích rõ rủi ro tàn phá về mặt minh bạch pháp lý và niềm tin nội bộ dài hạn, đồng thời đề xuất giải pháp cải thiện chỉ số SLA thực tế dựa trên dữ liệu thật ở chu kỳ sau.
+D) Chuyển hướng yêu cầu phi đạo đức này sang cho một kỹ sư thử việc mới vào làm thực hiện thay.
+C
+82
+[Pressure Management] Ban lãnh đạo đột ngột đẩy sớm lịch trình ra mắt một tính năng tài chính then chốt. Thời gian hoàn thiện chỉ còn vỏn vẹn 24 giờ thay vì một tuần như kế hoạch ban đầu.
+A) Phản ứng tiêu cực, cho rằng điều này là vô lý và dọa xin nghỉ việc nếu không dời lại thời hạn.
+B) Chia cắt lập tức tính năng thành các mô-đun vi mô nhỏ nhất, ủy quyền trách nhiệm chéo tường minh cho từng thành viên tinh nhuệ, và tập trung tuyệt đối vào mức sản phẩm khả dụng tối thiểu (MVP) thay vì các tính năng râu ria.
+C) Tự cô lập bản thân, đóng cửa phòng làm việc và ôm trọn toàn bộ khối lượng mã hóa một mình để đảm bảo tốc độ.
+D) Tắt tính năng kiểm tra tự động mã nguồn (Linters) để đẩy nhanh tốc độ gõ phím.
+B
+83
+Hai tiếng sau khi hệ thống giao dịch đưa vào sản xuất (Deploy to Prod), bạn phát hiện chính đoạn mã cấu hình mạng của mình chứa một sai sót logic tinh vi khiến một số gói tin bị rớt chập chờn.
+A) Kín đáo che đậy đi bằng những bản vá tạm bợ và hy vọng không có khách hàng nào tạo khiếu nại.
+B) Đổ lỗi cho tài liệu cấu trúc thư viện mã nguồn mở đã lỗi thời gây hiểu nhầm.
+C) Trực tiếp thừa nhận lỗi ("Own it") trên kênh thông tin chung lập tức, thiết lập phiên khôi phục mã (rollback), và soạn thảo bản đánh giá sự cố chi tiết kèm biện pháp kiểm thử tự động ngăn chặn tái diễn lỗi tương tự ở tương lai.
+D) Gửi email xin lỗi nhưng không có hành động khắc phục cụ thể nào đi kèm.
+C
+84
+Một lập trình viên cấp dưới thường ngày rất xuất sắc bỗng nhiên sa sút hiệu suất nghiêm trọng, liên tục nộp mã trễ hạn và tỏ ra thờ ơ trong các cuộc họp giao ban Agile hằng ngày (Daily Stand-up).
+A) Cảnh cáo kỷ luật nghiêm khắc và đe dọa đưa vào danh sách xem xét sa thải (PIP) nếu không cải thiện trong 3 ngày.
+B) Vì áp lực dự án, bạn quyết định thức đêm tự tay lập trình thay luôn các phần công việc được giao của họ cho nhanh.
+C) Thiết lập một buổi trò chuyện 1-1 không phán xét, sử dụng sự thấu cảm sâu sắc để lắng nghe các rào cản cá nhân/công việc hiện tại của họ, và hợp tác định hình một nhịp độ làm việc mới hỗ trợ họ lấy lại phong độ.
+D) Đưa vấn đề năng suất kém của cá nhân này ra mổ xẻ phê bình công khai trước toàn thể đội ngũ.
+C
+85
+[Mental Flexibility] Tập đoàn ra quyết định đột ngột: chuyển đổi triệt để kiến trúc hệ thống hiện tại từ mô hình nguyên khối MVC cổ điển sang nền tảng Microservices hoàn toàn mới ngay giữa lúc dự án cốt lõi của bạn đang ở giai đoạn nước rút.
+A) Tổ chức các nhóm kháng cự ngầm, liên tục phàn nàn và chê bai quyết định của ban lãnh đạo trên các diễn đàn nội bộ.
+B) Nhanh chóng dập tắt sự phản kháng tự nhiên, chủ động chìm đắm nghiên cứu tài liệu kiến trúc mới, tự đào tạo nâng cao kỹ năng, hỗ trợ ổn định tâm lý các đồng nghiệp bị sốc và tiên phong thiết lập bản phác thảo di chuyển hệ thống (migration roadmap) an toàn.
+C) Gói gọn mã nguồn hiện tại, từ chối tham gia vào quá trình học hỏi công nghệ mới và tìm kiếm dự án khác.
+D) Thụ động chờ đợi ban giám đốc cung cấp các khóa đào tạo cầm tay chỉ việc chi tiết từng bước.
+B
+86
+Do sức ép khủng khiếp của thị trường, có luồng ý kiến hối thúc nhóm bỏ qua toàn bộ công đoạn viết Unit Tests và Integration Tests để đẩy nhanh thời gian phát hành tính năng (Time to Market).
+A) Nhượng bộ hoàn toàn trước áp lực kinh doanh, bỏ qua khâu kiểm thử và cứ chạy lệnh đẩy mã (Push to Prod) mù quáng.
+B) Ký giấy cam kết suông rằng sẽ bổ sung các bài kiểm thử đầy đủ vào tuần tới để xoa dịu rủi ro đánh giá QA hiện tại.
+C) Đứng vững truyền đạt bằng chứng khách quan về thảm họa tài chính của Nợ Kỹ thuật (Technical Debt) khi phát hành mã chưa kiểm thử, từ đó thương lượng giảm bớt quy mô (scope) của tính năng để vừa đáp ứng hạn chót vừa bảo vệ tuyệt đối quy chuẩn chất lượng mã.
+D) Thủ thuật viết các đoạn mã kiểm thử giả (Dummy tests) để đánh lừa hệ thống báo cáo bao phủ mã (Code Coverage).
+C
+87
+[Google GCA: Influence without Authority] Bạn xác định được một cấu trúc luồng định tuyến API tốn kém và muốn tái thiết kế nền tảng, nhưng bạn hoàn toàn không có quyền hạn quản lý trực tiếp để ra lệnh cho các kỹ sư cấp cao ở phòng ban khác thực thi sự thay đổi.
+A) Trình báo vượt cấp lên Giám đốc điều hành để mượn quyền lực ép buộc các kỹ sư kia phải phục tùng mệnh lệnh thiết kế của mình.
+B) Tự thiết kế một bản Chứng minh Khái niệm (Proof of Concept) thu nhỏ chạy trên dữ liệu thực tế cho thấy sự cải thiện hiệu suất rõ rệt, tổ chức buổi trình bày chia sẻ tầm nhìn kiến trúc chung để thuyết phục họ bằng tính ưu việt của giải pháp thay vì mệnh lệnh hành chính.
+C) Đề xuất hối lộ tiền thưởng cá nhân cho bất kỳ ai làm theo cấu trúc của mình.
+D) Liên tục gửi email phàn nàn và spam hệ thống thông báo hằng ngày cho đến khi họ chịu nhượng bộ.
+B
+88
+Một đối tác doanh nghiệp cực kỳ phẫn nộ gọi điện xỉa xói và đe dọa kiện đòi bồi thường hợp đồng phần mềm khổng lồ do hệ thống máy chủ cung cấp bị ngập lụt truy vấn (DDoS) ngừng hoạt động suốt 4 giờ đồng hồ.
+A) Lập tức ngắt máy dập điện thoại, chuyển số của họ vào danh sách chặn liên lạc của tổng đài để tránh áp lực tinh thần.
+B) Ứng dụng kỹ năng lắng nghe thấu cảm tĩnh tại, không cắt ngang sự bùng nổ cảm xúc, sau đó chuyên nghiệp xác thực rõ sự cố hệ thống khách quan, tuyệt đối không tham gia vào vòng xoáy leo thang tranh cãi, và nhẹ nhàng điều hướng cuộc gọi sang đề xuất các gói bồi thường/phục hồi thảm họa cụ thể.
+C) Đấu khẩu lớn tiếng, lập luận sắc bén vạch ra những lỗi vi phạm điều khoản người dùng từ phía chính bản thân khách hàng gây ra.
+D) Sợ hãi và lập tức trả ngay khoản tiền đền bù trực tiếp khổng lồ mà không cần thông qua sự kiểm duyệt pháp lý của công ty.
+B
+89
+Khi bạn xây dựng thành công một nền tảng thuật toán gợi ý tin tức ảnh hưởng tới hành vi của hàng triệu người dùng, nhưng chợt nhận ra qua phân tích chéo rằng nó đang hình thành một hiệu ứng bong bóng lọc (Filter Bubble) và thiên kiến xã hội (Social Bias) cực đoan sau thời gian dài.
+A) Hoàn toàn không bận tâm, coi như chức năng thuật toán cốt lõi đã đạt KPIs nhấp chuột (Click-through rate) hoàn hảo do giám đốc đề ra.
+B) Kích hoạt cơ chế dừng hệ thống hoặc giảm trọng số rủi ro khẩn cấp, tiến hành phân tích sâu rộng (Dive Deep) truy nguyên nguồn gốc, mời chuyên gia xã hội học tham vấn đa chiều, và dũng cảm thiết kế lại bộ tham số cân bằng luồng thông tin gợi ý bất chấp việc có thể làm giảm sự chú ý bề mặt của người dùng.
+C) Bí mật thủ tiêu các báo cáo phân tích rủi ro dài hạn đó để bảo vệ danh tiếng của kiến trúc sư trưởng.
+D) Chỉ tạo ra một vài bản vá lỗi giao diện bề ngoài để lừa dối dư luận xã hội.
+B
+90
+[Googliness: Navigating Negative Culture] Bạn mới gia nhập một đội ngũ phát triển dự án di sản (legacy) nơi hầu hết các kỹ sư lâu năm tỏ ra rệu rã, mệt mỏi và liên tục dành thời gian nghỉ trưa để chỉ trích mọi chiến lược của ban lãnh đạo công ty.
+A) Nhanh chóng hùa theo các lời phàn nàn và nói xấu công ty để nhanh chóng được nhóm "ma cũ" chấp nhận và coi là một phần của đội.
+B) Tự xây bức tường tâm lý, cô lập bản thân hoàn toàn, cắm tai nghe làm việc một mình để không bị lây nhiễm độc hại.
+C) Đặt các câu hỏi mở sắc bén nhưng mang tính xây dựng nhằm làm rõ căn nguyên sự bất mãn kỹ thuật ẩn sâu, kiên định duy trì thái độ trung lập chuyên nghiệp, và nỗ lực dẫn dắt động lực nhóm dần hướng tới sự tích cực thông qua việc ăn mừng những chiến thắng thiết kế (quick wins) nhỏ nhưng ý nghĩa trong nội bộ mã nguồn.
+D) Biến mình thành người truyền giáo, hô hào khẩu hiệu và ép buộc mọi người phải vui vẻ tích cực ngay lập tức.
+C
+Hàng rào thứ sáu trong bất kỳ quy trình tuyển dụng công nghệ nào cũng đặt trọng tâm tuyệt đối vào trí tuệ cảm xúc (Emotional Intelligence) và cấu trúc ứng xử văn hóa thông qua Bộ câu hỏi Phán đoán Tình huống (Situational Judgment Tests - SJT). Dữ liệu ngành cho thấy năng lực kỹ thuật xuất sắc không thể bù đắp cho sự yếu kém trong giao tiếp hoặc xu hướng thiết lập các rào cản phòng thủ tâm lý.33 Trả lời các câu hỏi này đòi hỏi việc thấm nhuần mô hình phản hồi STAR (Situation, Task, Action, Result), trong đó ứng viên phải ưu tiên giải pháp minh bạch, định hướng hành động (Bias for Action) và đặt lợi ích toàn cục của nền tảng lên trên cái tôi cá nhân.37
+Lấy ví dụ về các tình huống phản ánh "Customer Obsession" (Ám ảnh Khách hàng) của Amazon. Đứng trước một sự cố do bên thứ ba, phản ứng đổ lỗi là bản năng tự nhiên nhất, nhưng lại là điểm đánh trượt chí mạng.32 Một kỹ sư cao cấp phải thể hiện tinh thần "Ownership" (Làm chủ) tuyệt đối – họ tiếp nhận khiếu nại, trực tiếp theo dõi nhật ký mạng (logs), bồi thường thỏa đáng, và quan trọng nhất là kiến trúc lại quy trình theo dõi hệ thống để triệt tiêu lỗi tái diễn trong tương lai.39 Đối với việc quản lý thời hạn (Deadlines) dưới áp lực khốc liệt, sự hoảng loạn hoặc thỏa hiệp với việc giảm sút chất lượng mã (điển hình là bỏ qua Unit Tests) luôn là giải pháp sai lầm dẫn đến gia tăng rủi ro Nợ Kỹ thuật (Technical Debt) khổng lồ.33 Giải pháp được mong đợi ở các kỹ sư là kỹ năng "Divide and Conquer" (Chia để trị), minh bạch hóa tình trạng khẩn cấp với các bên liên quan, bảo vệ vững chắc các tiêu chuẩn kiểm thử cốt lõi, và thu gọn phạm vi phát hành (Scope reduction) để bàn giao thành công mức sản phẩm khả dụng tối thiểu (MVP).33
+Khía cạnh "Googliness" của Google lại tìm kiếm khả năng Lãnh đạo không dùng Quyền lực (Influence without Authority). Trong mô hình phân cấp phẳng, để thuyết phục các kỹ sư cấp cao đổi mới tư duy kiến trúc, người ta không dùng mệnh lệnh hành chính mà bằng cách thiết lập các bản Chứng minh Khái niệm (Proof of Concept) được phân tích bởi dữ liệu rõ ràng (Data-driven consensus).36 Cuối cùng, văn hóa "Blameless" (Phi đổ lỗi) khẳng định tầm quan trọng của việc nhận lỗi ngay lập tức khi phát hành mã gây sập hệ thống (Production Outage). Che giấu lỗi lầm là vi phạm tính toàn vẹn (Integrity) nặng nề nhất; thay vào đó, khả năng thực thi nhanh một tiến trình Rollback và cung cấp báo cáo hậu kiểm (Post-mortem) chi tiết là thước đo định hình nhân cách và sự trưởng thành của một lập trình viên đích thực.33
+Tư duy Logic, Phân tích Ngôn ngữ và Số liệu Dữ liệu
+Bước cuối cùng để định lượng năng lực trí tuệ thuần túy (Fluid Intelligence) của kỹ sư phần mềm là vượt qua bài kiểm tra năng lực nhận thức trừu tượng (Aptitude & Cognitive Tests). Không liên quan đến một ngôn ngữ lập trình cụ thể nào, các bài test này mô phỏng cường độ xử lý phân loại tập hợp dữ liệu và đánh giá giới hạn tư duy không gian của não bộ.42
+Số Thứ Tự
+Câu Hỏi Đánh Giá Năng Lực (Tư duy Trừu tượng & Logic)
+Các Lựa Chọn Khả Thi
+Đáp Án
+91
+Dựa trên quy luật phân phối chuỗi số học, hãy xác định giá trị tiếp theo hoàn thiện chuỗi dữ liệu sau: 2, 4, 8, 16, ___?
+A) 24
+B) 32
+C) 20
+D) 64
+B
+92
+Phát hiện bước nhảy thuật toán tĩnh để điền giá trị thích hợp lấp đầy khoảng trống của chuỗi thời gian phân đoạn sau: 7, 14, 21, ___, 35?
+A) 25
+B) 28
+C) 30
+D) 24
+B
+93
+Một thuật toán định tuyến robot mô phỏng các mốc di chuyển trên lưới tọa độ: Khởi đầu di chuyển 10 mét thẳng về hướng Đông, rẽ góc 90 độ đi 10 mét về phía Bắc, sau đó lại rẽ góc 90 độ đi 10 mét thẳng về phía Tây. Vị trí cuối cùng của thuật toán robot này so với tọa độ (0,0) điểm khởi đầu là ở đâu?
+A) Quay trở lại đúng tọa độ tại vị trí xuất phát.
+B) Nằm cách 10 mét chính xác về hướng Bắc so với điểm xuất phát.
+C) Nằm cách 10 mét về phía Đông so với điểm xuất phát.
+D) Ở một tọa độ ngẫu nhiên không thể tính toán.
+B
+94
+Diễn giải logic phả hệ mạng lưới sau: Bố của một người đàn ông bí ẩn chính là chú/bác ruột (uncle) của tôi. Phân giải cấu trúc cây phả hệ, vậy tôi có mối quan hệ định danh là gì đối với người đàn ông đó?
+A) Anh/chị/em họ (Cousin) cùng thế hệ.
+B) Cháu trai/cháu gái.
+C) Cha ruột.
+D) Bạn bè không chung huyết thống.
+A
+95
+Bẻ khóa thuật toán ánh xạ mật mã cơ bản: Nếu luồng dữ liệu chuỗi ký tự "GIRL" được ánh xạ mã hóa tịnh tiến thành chuỗi "HJSM", thì đầu vào chuỗi "BOY" sẽ xuất ra kết quả đã mã hóa nào?
+A) APX
+B) CPZ
+C) DQA
+D) AQZ
+B
+96
+Cho cấu trúc cây điều kiện so sánh bất đẳng thức hệ thống: Biết biểu thức A lớn hơn B, B lớn hơn C, và C lớn hơn D (A > B > C > D). Phát biểu suy luận logic nào sau đây dựa trên cấu trúc trên là chắc chắn đúng 100% trong mọi trường hợp?
+A) Giá trị D lớn hơn giá trị A.
+B) Giá trị A lớn hơn giá trị D.
+C) Giá trị C lớn hơn giá trị A.
+D) Giá trị B hoàn toàn bằng giá trị D.
+B
+97
+Xác thực tính đầy đủ của siêu dữ liệu đầu vào: Lập trình viên có thể kết luận chắc chắn giá trị biến  hay không nếu hệ thống chỉ cung cấp hai mệnh đề thông tin độc lập: Mệnh đề (1)  và Mệnh đề (2) ?
+A) Chỉ dùng dữ liệu từ Mệnh đề 1 là đủ để chứng minh.
+B) Chỉ dùng dữ liệu từ Mệnh đề 2 là đủ để chứng minh.
+C) Bắt buộc phải kết hợp bộ nhớ cả hai mệnh đề mới đủ để chứng minh.
+D) Mỗi mệnh đề cung cấp đều tự thỏa mãn chứng minh độc lập bài toán này.
+D
+98
+[Variable Isolation] Bài toán quản lý phân bổ tài nguyên ẩn: Một nhà quyên góp đưa cho người ăn mày 10 đồng xu vàng. Sau đó, người ăn mày quyết định trả lại 7 đồng xu vàng cho nhà quyên góp. Hỏi người ăn mày hiện tại đang có tổng số chính xác bao nhiêu đồng xu?
+A) 17 đồng.
+B) 3 đồng.
+C) 10 đồng.
+D) Không thể xác định chính xác bằng toán học do thiếu biến số điều kiện ban đầu.
+D
+99
+Đánh giá tính hợp lệ của phân loại tập hợp (Venn Diagrams) bằng Tam đoạn luận: Cho hai tiền đề dữ liệu: (1) Tất cả các con chó đều thuộc phân lớp động vật. (2) Một số loài thuộc phân lớp động vật là thú cưng. Máy tính có thể kết luận rạch ròi mệnh đề "Tất cả thú cưng là chó" không?
+A) Có, suy luận hoàn toàn hợp lệ.
+B) Không, kết luận sai lệch logic tập hợp giao nhau.
+C) Chắc chắn đúng phân nửa xác suất.
+D) Không có cơ sở để xử lý lệnh này.
+B
+100
+[Odd One Out / Clustering] Phân loại đối tượng bất thường (Clustering) dựa trên đặc tính: Phần tử dữ liệu nào dưới đây không thuộc cùng chung một nhóm thuộc tính phân loại hệ thống sinh học tự nhiên với ba phần tử còn lại: Apple, Banana, Carrot, Mango?
+A) Apple
+B) Banana
+C) Carrot (Do là rễ/rau củ, không thuộc bộ phận trái cây mang hạt sinh sản).
+D) Mango
+C
+Hàng rào đánh giá cuối cùng sử dụng các bài kiểm tra logic định lượng (Numerical/Logical Reasoning) của các nhà xuất bản bài thi uy tín như SHL hay Kenexa.43 Mặc dù các kỹ sư thường tự hỏi tại sao họ phải giải các câu đố dãy số hoặc suy luận không gian khi công việc hàng ngày là viết mã React hay Java, nhưng khoa học tâm lý học nhận thức đã chứng minh tính tương quan mạnh mẽ. Tốc độ nhận diện chính xác các khoảng trống thuật toán phân đoạn (như cấp số cộng hoặc chuỗi nhị phân ) mô phỏng trực tiếp tốc độ não bộ xử lý và phân tích các tệp nhật ký khổng lồ (Log analysis patterns) để tìm ra điểm bất thường.42 Khi giải mã các tập hợp Venn qua bài toán Tam đoạn luận logic hoặc quan hệ cây phả hệ (Blood Relations), hệ thần kinh đang thực thi các thao tác tương đương với việc lập trình các truy vấn nối bảng (JOINs) đệ quy trong SQL hoặc tối ưu hóa thiết kế lược đồ trong cơ sở dữ liệu đồ thị (Graph Databases) nhằm ngăn chặn hiện tượng truy vấn dư thừa hoặc NullPointerException chết người.42
+Thêm vào đó, việc phát hiện các phần tử ngoại lai (Odd One Out - như nhận diện Carrot nằm ngoài tập hợp trái cây) không chỉ đơn thuần là phân tích ngôn ngữ. Đây là cốt lõi của khả năng gom cụm đối tượng (Object Clustering) và hướng đối tượng (OOP). Nó đánh giá xem ứng viên có khả năng phân định ranh giới trách nhiệm (Separation of Concerns) của các mô-đun trong một hệ thống Microservices khổng lồ hay không.42 Đáng chú ý nhất, trong các bài kiểm tra về Tính Đầy đủ của Dữ liệu (Data Sufficiency), việc xác định xem có thể đưa ra đáp án mà không cần tính toán toàn bộ phương trình phản ánh kỹ năng "Fail-fast" (Dừng sớm) tinh tế. Trong thế giới xử lý dữ liệu lớn (Big Data) hạn hẹp về tài nguyên tính toán, khả năng đưa ra phán quyết "không thể xác định" do thiếu các biến điều kiện ẩn (như câu hỏi số 98 về số lượng đồng xu ban đầu) ngăn chặn hệ thống khỏi việc tiêu tốn năng lượng CPU vào các vòng lặp vô tận do dữ liệu rác (Garbage Data) đưa vào đầu ống dẫn truyền.42
+Việc vượt qua hệ thống 100 câu hỏi rào chắn nhiều lớp này không chỉ là thước đo của việc thuộc lòng các hướng dẫn sử dụng thư viện công nghệ. Nó yêu cầu một bộ kỹ năng phân tích hoàn chỉnh, kết hợp hài hòa giữa sự thông tuệ về vi kiến trúc máy tính, kỹ năng điều phối hệ thống mạng toàn cầu, và một bộ la bàn đạo đức vững chắc để dẫn dắt các dự án mang tầm ảnh hưởng xã hội sâu rộng.
+
