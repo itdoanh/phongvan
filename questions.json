@@ -1541,7 +1541,7 @@
     "job_role": "all",
     "location": "all",
     "categoryId": "c7",
-    "text": "Xác thực tính đầy đủ của siêu dữ liệu đầu vào: Lập trình viên có thể kết luận chắc chắn giá trị biến  hay không nếu hệ thống chỉ cung cấp hai mệnh đề thông tin độc lập: Mệnh đề (1)  và Mệnh đề (2) ?",
+    "text": "Xác thực tính đầy đủ của siêu dữ liệu đầu vào: Lập trình viên có thể kết luận chắc chắn giá trị biến $x > 5$ hay không nếu hệ thống chỉ cung cấp hai mệnh đề thông tin độc lập: Mệnh đề (1) $x + 3 > 8$ và Mệnh đề (2) $x - 2 > 3$?",
     "options": [
       "Chỉ dùng dữ liệu từ Mệnh đề 1 là đủ để chứng minh.",
       "Chỉ dùng dữ liệu từ Mệnh đề 2 là đủ để chứng minh.",
